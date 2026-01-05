@@ -1,0 +1,635 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/dechri
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 94
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 203
+    content: "\e]0;dechri@debian:~\e\\\e]7;file://debian/home/dechri\e\\\e[?2004h\e]0;dechri@debian: ~\a\e[01;32mdechri@debian\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 2676
+    content: s
+  - delay: 449
+    content: u
+  - delay: 380
+    content: d
+  - delay: 298
+    content: o
+  - delay: 617
+    content: ' '
+  - delay: 202
+    content: m
+  - delay: 143
+    content: a
+  - delay: 210
+    content: r
+  - delay: 364
+    content: i
+  - delay: 141
+    content: a
+  - delay: 192
+    content: d
+  - delay: 379
+    content: b
+  - delay: 399
+    content: ' '
+  - delay: 713
+    content: '-'
+  - delay: 343
+    content: u
+  - delay: 274
+    content: ' '
+  - delay: 335
+    content: r
+  - delay: 255
+    content: o
+  - delay: 874
+    content: o
+  - delay: 566
+    content: t
+  - delay: 748
+    content: ' '
+  - delay: 778
+    content: '-'
+  - delay: 1596
+    content: p
+  - delay: 3952
+    content: "\r\n\e[?2004l\r"
+  - delay: 7
+    content: '[sudo] password for dechri: '
+  - delay: 2559
+    content: "\r\n"
+  - delay: 35
+    content: 'Enter password: '
+  - delay: 1985
+    content: "\r\n"
+  - delay: 7
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 36\r\nServer version: 10.11.14-MariaDB-0+deb12u2 Debian 12\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 13572
+    content: c
+  - delay: 198
+    content: r
+  - delay: 186
+    content: e
+  - delay: 106
+    content: a
+  - delay: 174
+    content: t
+  - delay: 562
+    content: e
+  - delay: 286
+    content: ' '
+  - delay: 521
+    content: d
+  - delay: 171
+    content: a
+  - delay: 135
+    content: t
+  - delay: 118
+    content: a
+  - delay: 185
+    content: b
+  - delay: 81
+    content: a
+  - delay: 197
+    content: s
+  - delay: 157
+    content: e
+  - delay: 6464
+    content: ;
+  - delay: 611
+    content: "\r\e[34G\e[K"
+  - delay: 337
+    content: ' '
+  - delay: 737
+    content: s
+  - delay: 167
+    content: i
+  - delay: 96
+    content: s
+  - delay: 192
+    content: t
+  - delay: 146
+    content: e
+  - delay: 299
+    content: m
+  - delay: 239
+    content: ' '
+  - delay: 3284
+    content: E
+  - delay: 1725
+    content: '-'
+  - delay: 1471
+    content: C
+  - delay: 529
+    content: o
+  - delay: 324
+    content: m
+  - delay: 153
+    content: m
+  - delay: 677
+    content: e
+  - delay: 206
+    content: r
+  - delay: 191
+    content: e
+  - delay: 2375
+    content: "\r\e[50G\e[K"
+  - delay: 411
+    content: c
+  - delay: 157
+    content: e
+  - delay: 2274
+    content: ;
+  - delay: 280
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'E-Commerce' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 3826
+    content: c
+  - delay: 220
+    content: r
+  - delay: 874
+    content: e
+  - delay: 208
+    content: a
+  - delay: 373
+    content: t
+  - delay: 187
+    content: e
+  - delay: 248
+    content: ' '
+  - delay: 227
+    content: d
+  - delay: 237
+    content: a
+  - delay: 369
+    content: t
+  - delay: 245
+    content: a
+  - delay: 404
+    content: b
+  - delay: 154
+    content: a
+  - delay: 200
+    content: s
+  - delay: 142
+    content: e
+  - delay: 438
+    content: ' '
+  - delay: 3118
+    content: s
+  - delay: 643
+    content: o
+  - delay: 838
+    content: "\r\e[36G\e[K"
+  - delay: 683
+    content: i
+  - delay: 177
+    content: s
+  - delay: 219
+    content: t
+  - delay: 353
+    content: e
+  - delay: 615
+    content: m
+  - delay: 197
+    content: ' '
+  - delay: 748
+    content: e
+  - delay: 691
+    content: '-'
+  - delay: 1723
+    content: c
+  - delay: 276
+    content: o
+  - delay: 249
+    content: m
+  - delay: 2450
+    content: m
+  - delay: 475
+    content: e
+  - delay: 295
+    content: r
+  - delay: 223
+    content: c
+  - delay: 155
+    content: e
+  - delay: 843
+    content: ;
+  - delay: 263
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'e-commerce' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 40007
+    content: "CREATE DATABASE sistem_e_commerce;\r\n\e(B\e[0;1mQuery OK, 1 row affected (0.000 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 2767
+    content: u
+  - delay: 143
+    content: s
+  - delay: 211
+    content: e
+  - delay: 288
+    content: ' '
+  - delay: 2428
+    content: s
+  - delay: 3857
+    content: "\r\e[23G\e[K"
+  - delay: 500
+    content: "\r\e[22G"
+  - delay: 30
+    content: "\r\e[21G\e[K"
+  - delay: 30
+    content: "\r\e[20G\e[K"
+  - delay: 30
+    content: "\r\e[19G\e[K"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 29
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 1605
+    content: "USE sistem_e_commerce;\r\n\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 22081
+    content: "CREATE TABLE pelanggan (\r\n    ->     id_pelanggan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_pelanggan VARCHAR(100),\r\n    ->     email VARCHAR(100),\r\n    ->     alamat TEXT\r\n    -> );\r\n\e(B\e[0;1mQuery OK, 0 rows affected (0.004 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 41861
+    content: "CREATE TABLE pesanan (\r\n    ->     id_pesanan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_pelanggan INT,\r\n    ->     tanggal_pesanan DATE,\r\n    ->     total DECIMAL(10,2),\r\n    ->     FOREIGN KEY (id_pelanggan) REFERENCES pelanggan(id_pelanggan)\r\n    -> );\r\n"
+  - delay: 5
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0.005 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 47151
+    content: "CREATE TABLE produk (\r\n    ->     id_produk INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_produk VARCHAR(100),\r\n    ->     deskripsi TEXT,\r\n    ->     harga DECIMAL(10,2),\r\n    ->     stok INT\r\n    -> );\r\n\e(B\e[0;1mQuery OK, 0 rows affected (0.004 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 52269
+    content: "INSERT INTO produk (nama_produk, deskripsi, harga, stok) VALUES\r\n    -> ('Hijab Voal Polos', 'Hijab voal bahan lembut, nyaman dipakai sehari-hari', 35000, 50), \b\r\n    -> ('Gamis Muslimah Soft', 'Gamis muslimah warna pastel, cocok untuk acara formal', 150000 \b, 20),\r\n    -> ('Tunik Wanita', 'Tunik wanita lengan panjang bahan katun', 85000, 30),\r\n    -> ('Pashmina Ceruty', 'Pashmina ceruty babydoll ringan dan jatuh', 40000, 40),\r\n    -> ('Mukena Travel', 'Mukena travel ringan dan praktis dibawa', 120000, 15);\r\n\e(B\e[0;1mQuery OK, 5 rows affected (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 55926
+    content: "INSERT INTO pelanggan (nama_pelanggan, email, alamat) VALUES\r\n    -> ('Aisyah Putri', 'aisyah.putri@gmail.com', 'Jakarta Selatan'),\r\n    -> ('Zahra Amalia', 'zahra.amalia@gmail.com', 'Bandung'),\r\n    -> ('Nabila Rahma', 'nabila.rahma@gmail.com', 'Depok'),\r\n    -> ('Siti Khadijah', 'sitikhadijah@gmail.com', 'Bogor'),\r\n    -> ('Annisa Fauziah', 'annisa.f@gmail.com', 'Tangerang')"
+  - delay: 2595
+    content: "\r\e[60G\e[K"
+  - delay: 332
+    content: ','
+  - delay: 3233
+    content: "\r\e[60G\e[K"
+  - delay: 1331
+    content: )
+  - delay: 974
+    content: ','
+  - delay: 2920
+    content: "\r\e[61G\e[K"
+  - delay: 491
+    content: ;
+  - delay: 751
+    content: "\r\n\e(B\e[0;1mQuery OK, 5 rows affected (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 61667
+    content: i
+  - delay: 198
+    content: 'n'
+  - delay: 197
+    content: s
+  - delay: 770
+    content: "\r\e[32G\e[K"
+  - delay: 277
+    content: "\r\e[31G\e[K"
+  - delay: 243
+    content: "\r\e[30G\e[K"
+  - delay: 8238
+    content: i
+  - delay: 1007
+    content: "\r\e[30G\e[K"
+  - delay: 424
+    content: I
+  - delay: 203
+    content: 'N'
+  - delay: 1337
+    content: S
+  - delay: 162
+    content: E
+  - delay: 191
+    content: R
+  - delay: 217
+    content: T
+  - delay: 430
+    content: ' '
+  - delay: 849
+    content: i
+  - delay: 199
+    content: 'n'
+  - delay: 246
+    content: t
+  - delay: 435
+    content: o
+  - delay: 792
+    content: "\r\e[40G\e[K"
+  - delay: 177
+    content: "\r\e[39G\e[K"
+  - delay: 152
+    content: "\r\e[38G\e[K"
+  - delay: 131
+    content: "\r\e[37G\e[K"
+  - delay: 152
+    content: "\r\e[36G"
+  - delay: 132
+    content: "\r\e[35G\e[K"
+  - delay: 130
+    content: "\r\e[34G\e[K"
+  - delay: 140
+    content: "\r\e[33G\e[K"
+  - delay: 135
+    content: "\r\e[32G\e[K"
+  - delay: 146
+    content: "\r\e[31G\e[K"
+  - delay: 147
+    content: "\r\e[30G\e[K"
+  - delay: 3152
+    content: "INSERT INTO pesanan (id_pelanggan, tanggal_pesanan, total) VALUES \b\r\n    -> (1, '2025-01-01', 185000),\r\n    -> (2, '2025-01-02', 35000),\r\n    -> (3, '2025-01-03', 120000),\r\n    -> (4, '2025-01-04', 235000),\r\n    -> (5, '2025-01-05', 40000);\r\n\e(B\e[0;1mQuery OK, 5 rows affected (0.002 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 7256
+    content: S
+  - delay: 645
+    content: e
+  - delay: 693
+    content: l
+  - delay: 121
+    content: e
+  - delay: 252
+    content: c
+  - delay: 212
+    content: t
+  - delay: 243
+    content: ' '
+  - delay: 855
+    content: '*'
+  - delay: 487
+    content: ' '
+  - delay: 361
+    content: f
+  - delay: 329
+    content: r
+  - delay: 192
+    content: o
+  - delay: 251
+    content: m
+  - delay: 182
+    content: ' '
+  - delay: 1592
+    content: p
+  - delay: 573
+    content: r
+  - delay: 212
+    content: o
+  - delay: 242
+    content: d
+  - delay: 167
+    content: u
+  - delay: 206
+    content: k
+  - delay: 1248
+    content: ;
+  - delay: 4405
+    content: "\r\n+-----------+---------------------+-------------------------------------------------------+-----------+------+\r\n| id_produk | nama_produk         | deskripsi                                             | harga     | stok |\r\n+-----------+---------------------+-------------------------------------------------------+-----------+------+\r\n|         1 | Hijab Voal Polos    | Hijab voal bahan lembut, nyaman dipakai sehari-hari   |  35000.00 |   50 |\r\n|         2 | Gamis Muslimah Soft | Gamis muslimah warna pastel, cocok untuk acara formal | 150000.00 |   20 |\r\n|         3 | Tunik Wanita        | Tunik wanita lengan panjang bahan katun               |  85000.00 |   30 |\r\n|         4 | Pashmina Ceruty     | Pashmina ceruty babydoll ringan dan jatuh             |  40000.00 |   40 |\r\n|         5 | Mukena Travel       | Mukena travel ringan dan praktis dibawa               | 120000.00 |   15 |\r\n+-----------+---------------------+-------------------------------------------------------+-----------+------+\r\n\e(B\e[0;1m5 rows in set (0.000 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 12348
+    content: s
+  - delay: 142
+    content: e
+  - delay: 610
+    content: l
+  - delay: 143
+    content: e
+  - delay: 222
+    content: c
+  - delay: 237
+    content: t
+  - delay: 711
+    content: ' '
+  - delay: 874
+    content: '*'
+  - delay: 600
+    content: ' '
+  - delay: 266
+    content: f
+  - delay: 130
+    content: r
+  - delay: 360
+    content: o
+  - delay: 233
+    content: m
+  - delay: 196
+    content: ' '
+  - delay: 2520
+    content: p
+  - delay: 152
+    content: e
+  - delay: 560
+    content: s
+  - delay: 162
+    content: a
+  - delay: 229
+    content: 'n'
+  - delay: 155
+    content: a
+  - delay: 343
+    content: 'n'
+  - delay: 902
+    content: ;
+  - delay: 569
+    content: "\r\n+------------+--------------+-----------------+-----------+\r\n| id_pesanan | id_pelanggan | tanggal_pesanan | total     |\r\n+------------+--------------+-----------------+-----------+\r\n|          1 |            1 | 2025-01-01      | 185000.00 |\r\n|          2 |            2 | 2025-01-02      |  35000.00 |\r\n|          3 |            3 | 2025-01-03      | 120000.00 |\r\n|          4 |            4 | 2025-01-04      | 235000.00 |\r\n|          5 |            5 | 2025-01-05      |  40000.00 |\r\n+------------+--------------+-----------------+-----------+\r\n\e(B\e[0;1m5 rows in set (0.000 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 2824
+    content: s
+  - delay: 147
+    content: e
+  - delay: 378
+    content: l
+  - delay: 319
+    content: e
+  - delay: 242
+    content: c
+  - delay: 187
+    content: t
+  - delay: 273
+    content: ' '
+  - delay: 1430
+    content: '*'
+  - delay: 628
+    content: ' '
+  - delay: 510
+    content: f
+  - delay: 155
+    content: r
+  - delay: 324
+    content: o
+  - delay: 222
+    content: m
+  - delay: 203
+    content: ' '
+  - delay: 5416
+    content: p
+  - delay: 682
+    content: e
+  - delay: 448
+    content: l
+  - delay: 168
+    content: a
+  - delay: 105
+    content: 'n'
+  - delay: 188
+    content: g
+  - delay: 126
+    content: g
+  - delay: 131
+    content: a
+  - delay: 182
+    content: 'n'
+  - delay: 980
+    content: ;
+  - delay: 427
+    content: "\r\n+--------------+----------------+------------------------+-----------------+\r\n| id_pelanggan | nama_pelanggan | email                  | alamat          |\r\n+--------------+----------------+------------------------+-----------------+\r\n|            1 | Aisyah Putri   | aisyah.putri@gmail.com | Jakarta Selatan |\r\n|            2 | Zahra Amalia   | zahra.amalia@gmail.com | Bandung         |\r\n|            3 | Nabila Rahma   | nabila.rahma@gmail.com | Depok           |\r\n|            4 | Siti Khadijah  | sitikhadijah@gmail.com | Bogor           |\r\n|            5 | Annisa Fauziah | annisa.f@gmail.com     | Tangerang       |\r\n+--------------+----------------+------------------------+-----------------+\r\n\e(B\e[0;1m5 rows in set (0.000 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_e_commerce]> "
+  - delay: 14604
+    content: s
+  - delay: 172
+    content: h
+  - delay: 1164
+    content: o
+  - delay: 140
+    content: w
+  - delay: 217
+    content: ' '
+  - delay: 1006
+    content: d
+  - delay: 264
+    content: a
+  - delay: 542
+    content: t
+  - delay: 148
+    content: a
+  - delay: 7726
+    content: "\r\e[38G\e[K"
+  - delay: 269
+    content: "\r\e[37G\e[K"
+  - delay: 500
+    content: "\r\e[36G\e[K"
+  - delay: 30
+    content: "\r\e[35G\e[K"
+  - delay: 31
+    content: "\r\e[34G"
+  - delay: 29
+    content: "\r\e[33G\e[K"
+  - delay: 237
+    content: "\r\e[32G\e[K"
+  - delay: 202
+    content: "\r\e[31G\e[K"
+  - delay: 180
+    content: "\r\e[30G\e[K"
+  - delay: 72342
+    content: e
+  - delay: 242
+    content: x
+  - delay: 303
+    content: i
+  - delay: 288
+    content: t
+  - delay: 2708
+    content: "\r\n\e(B\e[0;1mBye\r\n\e(B\e[m\e]0;dechri@debian:~\e\\\e]7;file://debian/home/dechri\e\\\e[?2004h\e]0;dechri@debian: ~\a\e[01;32mdechri@debian\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 1645
+    content: "\e[?2004l\r\r\nlogout\r\n"
