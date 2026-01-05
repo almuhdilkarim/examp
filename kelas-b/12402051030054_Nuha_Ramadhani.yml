@@ -1,0 +1,675 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/nuhaaaa
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1575
+    content: "\e[?2004h\e]0;root@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR: /home/nuhaaaa\aroot@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR:/home/nuhaaaa# "
+  - delay: 3957
+    content: m
+  - delay: 391
+    content: 'y'
+  - delay: 644
+    content: s
+  - delay: 331
+    content: q
+  - delay: 117
+    content: l
+  - delay: 301
+    content: "\r\n\e[?2004l\r"
+  - delay: 51
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 35\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n"
+  - delay: 5
+    content: "\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 14684
+    content: c
+  - delay: 255
+    content: r
+  - delay: 121
+    content: e
+  - delay: 492
+    content: a
+  - delay: 235
+    content: t
+  - delay: 154
+    content: e
+  - delay: 183
+    content: ' '
+  - delay: 349
+    content: d
+  - delay: 129
+    content: a
+  - delay: 160
+    content: t
+  - delay: 137
+    content: a
+  - delay: 149
+    content: b
+  - delay: 53
+    content: a
+  - delay: 258
+    content: s
+  - delay: 267
+    content: e
+  - delay: 351
+    content: ' '
+  - delay: 9348
+    content: h
+  - delay: 402
+    content: o
+  - delay: 368
+    content: t
+  - delay: 154
+    content: e
+  - delay: 19646
+    content: l
+  - delay: 3519
+    content: "\r\e[39G\e[K"
+  - delay: 166
+    content: "\r\e[38G\e[K"
+  - delay: 135
+    content: "\r\e[37G\e[K"
+  - delay: 145
+    content: "\r\e[36G\e[K"
+  - delay: 152
+    content: "\r\e[35G\e[K"
+  - delay: 532
+    content: s
+  - delay: 178
+    content: i
+  - delay: 85
+    content: s
+  - delay: 247
+    content: t
+  - delay: 187
+    content: e
+  - delay: 218
+    content: m
+  - delay: 208
+    content: ' '
+  - delay: 281
+    content: h
+  - delay: 302
+    content: o
+  - delay: 325
+    content: t
+  - delay: 150
+    content: e
+  - delay: 663
+    content: l
+  - delay: 1225
+    content: ;
+  - delay: 629
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hotel' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 29765
+    content: c
+  - delay: 237
+    content: r
+  - delay: 69
+    content: e
+  - delay: 311
+    content: a
+  - delay: 554
+    content: t
+  - delay: 171
+    content: e
+  - delay: 3283
+    content: ' '
+  - delay: 579
+    content: d
+  - delay: 100
+    content: a
+  - delay: 214
+    content: t
+  - delay: 99
+    content: a
+  - delay: 390
+    content: b
+  - delay: 86
+    content: a
+  - delay: 334
+    content: s
+  - delay: 270
+    content: e
+  - delay: 330
+    content: ' '
+  - delay: 295
+    content: s
+  - delay: 191
+    content: i
+  - delay: 85
+    content: s
+  - delay: 244
+    content: t
+  - delay: 196
+    content: e
+  - delay: 278
+    content: m
+  - delay: 502
+    content: _
+  - delay: 823
+    content: h
+  - delay: 296
+    content: o
+  - delay: 322
+    content: t
+  - delay: 127
+    content: e
+  - delay: 320
+    content: l
+  - delay: 304
+    content: ;
+  - delay: 1183
+    content: "\r\n"
+  - delay: 5
+    content: "\e(B\e[0;1mQuery OK, 1 row affected (0,005 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 4481
+    content: u
+  - delay: 177
+    content: s
+  - delay: 194
+    content: e
+  - delay: 570
+    content: ' '
+  - delay: 1455
+    content: s
+  - delay: 1538
+    content: i
+  - delay: 163
+    content: s
+  - delay: 209
+    content: t
+  - delay: 239
+    content: e
+  - delay: 197
+    content: m
+  - delay: 632
+    content: _
+  - delay: 604
+    content: h
+  - delay: 305
+    content: o
+  - delay: 359
+    content: t
+  - delay: 129
+    content: e
+  - delay: 379
+    content: l
+  - delay: 328
+    content: ;
+  - delay: 1247
+    content: "\r\n"
+  - delay: 13
+    content: "\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 20367
+    content: "CREATE TABLE Tamu (\r\n    ->     id_tamu INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama VARCHAR(100) NOT NULL,\r\n    ->     email VARCHAR(100),\r\n    ->     no_telepon VARCHAR(20)\r\n    -> );"
+  - delay: 32775
+    content: "\r\n"
+  - delay: 25
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,025 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 99028
+    content: "INSERT INTO Tamu (nama, email, no_telepon) VALUES\r\n    -> ('Ahmad Fauzi', 'ahmad@example.com', '081234567890'),\r\n    -> ('Siti Nurhaliza', 'siti@example.com', '081298765432'),\r\n    -> ('Budi Santoso', 'budi@example.com', '081345678901'),"
+  - delay: 2535
+    content: "\r\n    -> "
+  - delay: 41359
+    content: (
+  - delay: 2019
+    content: ''''
+  - delay: 54571
+    content: L
+  - delay: 285
+    content: i
+  - delay: 171
+    content: a
+  - delay: 315
+    content: ' '
+  - delay: 395
+    content: A
+  - delay: 588
+    content: m
+  - delay: 127
+    content: a
+  - delay: 135
+    content: l
+  - delay: 225
+    content: i
+  - delay: 75
+    content: a
+  - delay: 1603
+    content: ''''
+  - delay: 473
+    content: ','
+  - delay: 831
+    content: ' '
+  - delay: 689
+    content: ''''
+  - delay: 2657
+    content: l
+  - delay: 237
+    content: i
+  - delay: 123
+    content: a
+  - delay: 2477
+    content: '@'
+  - delay: 5205
+    content: e
+  - delay: 1562
+    content: x
+  - delay: 21330
+    content: a
+  - delay: 184
+    content: m
+  - delay: 310
+    content: p
+  - delay: 25363
+    content: l
+  - delay: 416
+    content: e
+  - delay: 2028
+    content: ','
+  - delay: 737
+    content: "\r\e[35G\e[K"
+  - delay: 494
+    content: .
+  - delay: 349
+    content: c
+  - delay: 188
+    content: o
+  - delay: 359
+    content: m
+  - delay: 1152
+    content: ''''
+  - delay: 530
+    content: ','
+  - delay: 480
+    content: ' '
+  - delay: 696
+    content: ''''
+  - delay: 9082
+    content: '0'
+  - delay: 356
+    content: '8'
+  - delay: 2533
+    content: '1'
+  - delay: 237
+    content: '2'
+  - delay: 184
+    content: '2'
+  - delay: 2220
+    content: '3'
+  - delay: 158
+    content: '3'
+  - delay: 2344
+    content: '4'
+  - delay: 193
+    content: '4'
+  - delay: 841
+    content: '5'
+  - delay: 166
+    content: '5'
+  - delay: 342
+    content: '6'
+  - delay: 6461
+    content: ''''
+  - delay: 1298
+    content: )
+  - delay: 2435
+    content: ','
+  - delay: 3428
+    content: "\r\n    -> "
+  - delay: 12577
+    content: '(''Rian Pratama'', ''rian@example.com'', ''081334455667'');'
+  - delay: 2399
+    content: "\r\n"
+  - delay: 15
+    content: "\e(B\e[0;1mQuery OK, 5 rows affected (0,015 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 25350
+    content: "CREATE TABLE Kamar (\r\n    ->     id_kamar INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nomor_kamar VARCHAR(10) NOT NULL,\r\n    ->     tipe_kamar VARCHAR(50),\r\n    ->     harga_per_malam DECIMAL(10,2),\r\n    ->     status"
+  - delay: 2142
+    content: ' '
+  - delay: 2441
+    content: V
+  - delay: 119
+    content: A
+  - delay: 181
+    content: R
+  - delay: 389
+    content: C
+  - delay: 264
+    content: H
+  - delay: 154
+    content: A
+  - delay: 203
+    content: R
+  - delay: 1516
+    content: (
+  - delay: 4181
+    content: '1'
+  - delay: 189
+    content: '9'
+  - delay: 182
+    content: '9'
+  - delay: 696
+    content: "\r\e[29G\e[K"
+  - delay: 172
+    content: "\r\e[28G\e[K"
+  - delay: 725
+    content: '0'
+  - delay: 188
+    content: '0'
+  - delay: 399
+    content: )
+  - delay: 11537
+    content: "\r\n    -> "
+  - delay: 1715
+    content: )
+  - delay: 802
+    content: ;
+  - delay: 1971
+    content: "\r\n"
+  - delay: 10
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,010 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 44230
+    content: "INSERT INTO Kamar (nomor_kamar, tipe_kamar, harga_per_ma \blam, status) VALUES"
+  - delay: 3218
+    content: "\r\n    -> "
+  - delay: 22640
+    content: "('101', 'Single', 250000, 'tersedia'),\r\n    -> ('102', 'Double', 400000, 'tersedia'),\r\n    -> ('103', 'Suite', 750000, 'tersedia'),\r\n    -> ('104', 'Double', 400000, 'tersedia'),\r\n    -> ('105', 'Single', 250000, 'tersedia');"
+  - delay: 9672
+    content: "\r\n\e(B\e[0;1mQuery OK, 5 rows affected (0,002 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 21607
+    content: "CREATE TABLE Reservasi (\r\n    ->     id_reservasi INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_tamu INT,\r\n    ->     id_kamar INT,\r\n    ->     tanggal_checkin DATE,\r\n    ->     tanggal_checkout DATE,\r\n    ->     FOREIGN KEY (id_tamu) REFERENCES Tamu(id_tamu),\r\n    ->     FOREIGN KEY (id_kamar) REFERENCES Kamar(id_kamar)\r\n    -> );"
+  - delay: 4052
+    content: "\r\n"
+  - delay: 16
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,015 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 22443
+    content: "INSERT INTO Reservasi (id_tamu, id_kamar, tanggal_checki \bn, tanggal_checkout) VALUES\r\n    -> (1, 1, '2026-01-10', '2026-01-12'),\r\n    -> (2, 2, '2026-01-11', '2026-01-15'),\r\n    -> (3, 3, '2026-01-09', '2026-01-14'),\r\n    -> (4, 4, '2026-01-12', '2026-01-13'),\r\n    -> (5, 5, '2026-01-10', '2026-01-11');"
+  - delay: 7852
+    content: "\r\n\e(B\e[0;1mQuery OK, 5 rows affected (0,003 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 5  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 5488
+    content: S
+  - delay: 386
+    content: E
+  - delay: 193
+    content: L
+  - delay: 146
+    content: E
+  - delay: 844
+    content: C
+  - delay: 205
+    content: T
+  - delay: 321
+    content: ' '
+  - delay: 461
+    content: '*'
+  - delay: 427
+    content: ' '
+  - delay: 266
+    content: F
+  - delay: 307
+    content: R
+  - delay: 96
+    content: O
+  - delay: 278
+    content: M
+  - delay: 265
+    content: ' '
+  - delay: 12863
+    content: T
+  - delay: 168
+    content: A
+  - delay: 600
+    content: M
+  - delay: 263
+    content: U
+  - delay: 592
+    content: ;
+  - delay: 1681
+    content: "\r\e[43G\e[K"
+  - delay: 179
+    content: "\r\e[42G\e[K"
+  - delay: 178
+    content: "\r\e[41G\e[K"
+  - delay: 371
+    content: "\r\e[40G\e[K"
+  - delay: 1072
+    content: a
+  - delay: 165
+    content: m
+  - delay: 281
+    content: u
+  - delay: 1331
+    content: ;
+  - delay: 310
+    content: "\r\n+---------+----------------+-------------------+--------------+\r\n| id_tamu | nama           | email             | no_telepon   |\r\n+---------+----------------+-------------------+--------------+\r\n|       1 | Ahmad Fauzi    | ahmad@example.com | 081234567890 |\r\n|       2 | Siti Nurhaliza | siti@example.com  | 081298765432 |\r\n|       3 | Budi Santoso   | budi@example.com  | 081345678901 |\r\n|       4 | Lia Amalia     | lia@example.com   | 081223344556 |\r\n|       5 | Rian Pratama   | rian@example.com  | 081334455667 |\r\n+---------+----------------+-------------------+--------------+\r\n\e(B\e[0;1m5 rows in set (0,002 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 1781
+    content: s
+  - delay: 186
+    content: e
+  - delay: 936
+    content: l
+  - delay: 182
+    content: e
+  - delay: 679
+    content: c
+  - delay: 141
+    content: t
+  - delay: 474
+    content: ' '
+  - delay: 1133
+    content: '*'
+  - delay: 345
+    content: ' '
+  - delay: 293
+    content: f
+  - delay: 255
+    content: r
+  - delay: 133
+    content: o
+  - delay: 264
+    content: m
+  - delay: 241
+    content: ' '
+  - delay: 783
+    content: K
+  - delay: 667
+    content: a
+  - delay: 183
+    content: m
+  - delay: 117
+    content: a
+  - delay: 269
+    content: r
+  - delay: 1061
+    content: ;
+  - delay: 2673
+    content: "\r\n+----------+-------------+------------+-----------------+----------+\r\n| id_kamar | nomor_kamar | tipe_kamar | harga_per_malam | status   |\r\n+----------+-------------+------------+-----------------+----------+\r\n|        1 | 101         | Single     |       250000.00 | tersedia |\r\n|        2 | 102         | Double     |       400000.00 | tersedia |\r\n|        3 | 103         | Suite      |       750000.00 | tersedia |\r\n|        4 | 104         | Double     |       400000.00 | tersedia |\r\n|        5 | 105         | Single     |       250000.00 | tersedia |\r\n+----------+-------------+------------+-----------------+----------+\r\n\e(B\e[0;1m5 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 1267
+    content: s
+  - delay: 201
+    content: e
+  - delay: 524
+    content: l
+  - delay: 122
+    content: e
+  - delay: 385
+    content: c
+  - delay: 166
+    content: t
+  - delay: 662
+    content: ' '
+  - delay: 529
+    content: '*'
+  - delay: 423
+    content: ' '
+  - delay: 405
+    content: f
+  - delay: 317
+    content: r
+  - delay: 167
+    content: o
+  - delay: 556
+    content: m
+  - delay: 382
+    content: ' '
+  - delay: 8588
+    content: R
+  - delay: 492
+    content: e
+  - delay: 176
+    content: s
+  - delay: 128
+    content: e
+  - delay: 309
+    content: r
+  - delay: 454
+    content: v
+  - delay: 86
+    content: a
+  - delay: 290
+    content: s
+  - delay: 58
+    content: i
+  - delay: 16975
+    content: ;
+  - delay: 862
+    content: "\r\n+--------------+---------+----------+-----------------+------------------+\r\n| id_reservasi | id_tamu | id_kamar | tanggal_checkin | tanggal_checkout |\r\n+--------------+---------+----------+-----------------+------------------+\r\n|            1 |       1 |        1 | 2026-01-10      | 2026-01-12       |\r\n|            2 |       2 |        2 | 2026-01-11      | 2026-01-15       |\r\n|            3 |       3 |        3 | 2026-01-09      | 2026-01-14       |\r\n|            4 |       4 |        4 | 2026-01-12      | 2026-01-13       |\r\n|            5 |       5 |        5 | 2026-01-10      | 2026-01-11       |\r\n+--------------+---------+----------+-----------------+------------------+\r\n\e(B\e[0;1m5 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_hotel]> "
+  - delay: 4494
+    content: e
+  - delay: 1896
+    content: x
+  - delay: 183
+    content: i
+  - delay: 488
+    content: t
+  - delay: 3696
+    content: "\r\n"
+  - delay: 36
+    content: "\e(B\e[0;1mBye\r\n"
+  - delay: 5
+    content: "\e(B\e[m"
+  - delay: 15
+    content: "\e[?2004h\e]0;root@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR: /home/nuhaaaa\aroot@nuhaaaa-VivoBook-14-ASUS-Laptop-X407UAR:/home/nuhaaaa# "
+  - delay: 2018
+    content: l
+  - delay: 201
+    content: o
+  - delay: 379
+    content: g
+  - delay: 5100
+    content: o
+  - delay: 360
+    content: u
+  - delay: 239
+    content: t
+  - delay: 1167
+    content: "\r\n\e[?2004l\r"
