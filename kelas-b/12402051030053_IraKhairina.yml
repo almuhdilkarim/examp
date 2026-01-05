@@ -1,0 +1,2049 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/irabukanirak
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1852
+    content: "\e]0;irabukanirak@BlackAcer:~\e\\\e]7;file://BlackAcer/home/irabukanirak\e\\\e[?2004h\e]0;irabukanirak@BlackAcer: ~\a\e[01;32mirabukanirak@BlackAcer\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 1007
+    content: s
+  - delay: 56
+    content: u
+  - delay: 130
+    content: d
+  - delay: 14
+    content: o
+  - delay: 218
+    content: ' '
+  - delay: 94
+    content: s
+  - delay: 69
+    content: u
+  - delay: 363
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r"
+  - delay: 60
+    content: '[sudo] password for irabukanirak: '
+  - delay: 701
+    content: '*'
+  - delay: 190
+    content: '*'
+  - delay: 132
+    content: '*'
+  - delay: 321
+    content: '*'
+  - delay: 227
+    content: '*'
+  - delay: 266
+    content: '*'
+  - delay: 335
+    content: '*'
+  - delay: 257
+    content: '*'
+  - delay: 185
+    content: '*'
+  - delay: 177
+    content: '*'
+  - delay: 206
+    content: "\b \b\b \b\b \b\b \b\b \b\b \b\b \b\b \b\b \b\b \b\r\n"
+  - delay: 162
+    content: "\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 1199
+    content: m
+  - delay: 240
+    content: 'y'
+  - delay: 583
+    content: s
+  - delay: 620
+    content: l
+  - delay: 394
+    content: "\b\e[K"
+  - delay: 123
+    content: q
+  - delay: 393
+    content: l
+  - delay: 679
+    content: ' '
+  - delay: 437
+    content: '-'
+  - delay: 397
+    content: u
+  - delay: 213
+    content: ' '
+  - delay: 487
+    content: r
+  - delay: 46
+    content: o
+  - delay: 118
+    content: o
+  - delay: 94
+    content: t
+  - delay: 381
+    content: ' '
+  - delay: 471
+    content: '-'
+  - delay: 187
+    content: p
+  - delay: 636
+    content: "\r\n\e[?2004l\r"
+  - delay: 17
+    content: 'Enter password: '
+  - delay: 6171
+    content: "\r\n"
+  - delay: 20
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 5\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n"
+  - delay: 11
+    content: "\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 3156
+    content: c
+  - delay: 232
+    content: r
+  - delay: 89
+    content: e
+  - delay: 366
+    content: a
+  - delay: 133
+    content: t
+  - delay: 139
+    content: e
+  - delay: 617
+    content: ' '
+  - delay: 89
+    content: d
+  - delay: 88
+    content: a
+  - delay: 101
+    content: t
+  - delay: 70
+    content: a
+  - delay: 139
+    content: a
+  - delay: 88
+    content: s
+  - delay: 345
+    content: "\r\e[31G\e[K"
+  - delay: 91
+    content: "\r\e[30G\e[K"
+  - delay: 531
+    content: b
+  - delay: 49
+    content: a
+  - delay: 107
+    content: s
+  - delay: 182
+    content: e
+  - delay: 223
+    content: ' '
+  - delay: 10039
+    content: s
+  - delay: 150
+    content: s
+  - delay: 503
+    content: "\r\e[36G\e[K"
+  - delay: 592
+    content: i
+  - delay: 69
+    content: s
+  - delay: 748
+    content: t
+  - delay: 158
+    content: e
+  - delay: 252
+    content: ','
+  - delay: 642
+    content: "\r\e[40G\e[K"
+  - delay: 359
+    content: m
+  - delay: 721
+    content: _
+  - delay: 579
+    content: a
+  - delay: 462
+    content: 'n'
+  - delay: 298
+    content: t
+  - delay: 154
+    content: r
+  - delay: 77
+    content: e
+  - delay: 259
+    content: a
+  - delay: 167
+    content: 'n'
+  - delay: 658
+    content: "\r\e[48G\e[K"
+  - delay: 140
+    content: "\r\e[47G\e[K"
+  - delay: 391
+    content: "\r\e[46G\e[K"
+  - delay: 283
+    content: i
+  - delay: 116
+    content: a
+  - delay: 526
+    content: 'n'
+  - delay: 762
+    content: _
+  - delay: 746
+    content: p
+  - delay: 70
+    content: a
+  - delay: 117
+    content: s
+  - delay: 104
+    content: i
+  - delay: 306
+    content: e
+  - delay: 77
+    content: 'n'
+  - delay: 942
+    content: ;
+  - delay: 7745
+    content: "\r\n"
+  - delay: 6
+    content: "\e(B\e[0;1mQuery OK, 1 row affected (0,006 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 1111
+    content: u
+  - delay: 81
+    content: s
+  - delay: 204
+    content: e
+  - delay: 1355
+    content: ' '
+  - delay: 417
+    content: s
+  - delay: 81
+    content: i
+  - delay: 82
+    content: s
+  - delay: 195
+    content: t
+  - delay: 153
+    content: e
+  - delay: 181
+    content: m
+  - delay: 684
+    content: _
+  - delay: 467
+    content: a
+  - delay: 55
+    content: 'n'
+  - delay: 287
+    content: t
+  - delay: 110
+    content: r
+  - delay: 99
+    content: i
+  - delay: 190
+    content: a
+  - delay: 724
+    content: 'n'
+  - delay: 669
+    content: _
+  - delay: 525
+    content: p
+  - delay: 91
+    content: a
+  - delay: 113
+    content: s
+  - delay: 65
+    content: i
+  - delay: 160
+    content: e
+  - delay: 108
+    content: 'n'
+  - delay: 599
+    content: ;
+  - delay: 892
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 51909
+    content: CREATE TABLE pasien (
+  - delay: 449
+    content: "\r\n    -> "
+  - delay: 2761
+    content: i
+  - delay: 95
+    content: d
+  - delay: 938
+    content: _
+  - delay: 1028
+    content: p
+  - delay: 45
+    content: a
+  - delay: 122
+    content: s
+  - delay: 78
+    content: i
+  - delay: 212
+    content: e
+  - delay: 105
+    content: 'n'
+  - delay: 1200
+    content: ' '
+  - delay: 403
+    content: I
+  - delay: 132
+    content: 'N'
+  - delay: 348
+    content: R
+  - delay: 693
+    content: "\r\e[20G\e[K"
+  - delay: 308
+    content: T
+  - delay: 234
+    content: ' '
+  - delay: 5169
+    content: A
+  - delay: 35
+    content: U
+  - delay: 210
+    content: T
+  - delay: 239
+    content: O
+  - delay: 626
+    content: _
+  - delay: 488
+    content: I
+  - delay: 221
+    content: 'N'
+  - delay: 283
+    content: R
+  - delay: 148
+    content: E
+  - delay: 326
+    content: "\r\e[30G\e[K"
+  - delay: 112
+    content: "\r\e[29G\e[K"
+  - delay: 378
+    content: C
+  - delay: 241
+    content: R
+  - delay: 117
+    content: E
+  - delay: 93
+    content: M
+  - delay: 66
+    content: E
+  - delay: 83
+    content: 'N'
+  - delay: 316
+    content: T
+  - delay: 1249
+    content: ' '
+  - delay: 455
+    content: P
+  - delay: 222
+    content: R
+  - delay: 87
+    content: I
+  - delay: 198
+    content: M
+  - delay: 69
+    content: A
+  - delay: 246
+    content: R
+  - delay: 72
+    content: 'Y'
+  - delay: 220
+    content: ' '
+  - delay: 473
+    content: K
+  - delay: 111
+    content: E
+  - delay: 149
+    content: 'Y'
+  - delay: 694
+    content: .
+  - delay: 372
+    content: "\r\e[48G\e[K"
+  - delay: 467
+    content: ','
+  - delay: 2771
+    content: "\r\n    -> "
+  - delay: 4628
+    content: 'N'
+  - delay: 65
+    content: A
+  - delay: 77
+    content: M
+  - delay: 63
+    content: A
+  - delay: 757
+    content: "\r\e[11G\e[K"
+  - delay: 139
+    content: "\r\e[10G\e[K"
+  - delay: 128
+    content: "\r\e[9G\e[K"
+  - delay: 99
+    content: "\r\e[8G\e[K"
+  - delay: 105
+    content: "\a"
+  - delay: 418
+    content: 'n'
+  - delay: 91
+    content: a
+  - delay: 77
+    content: m
+  - delay: 485
+    content: a
+  - delay: 629
+    content: _
+  - delay: 564
+    content: p
+  - delay: 64
+    content: a
+  - delay: 196
+    content: s
+  - delay: 74
+    content: i
+  - delay: 188
+    content: e
+  - delay: 111
+    content: 'n'
+  - delay: 1078
+    content: ' '
+  - delay: 1101
+    content: V
+  - delay: 169
+    content: A
+  - delay: 71
+    content: R
+  - delay: 226
+    content: C
+  - delay: 230
+    content: H
+  - delay: 93
+    content: A
+  - delay: 142
+    content: R
+  - delay: 836
+    content: (
+  - delay: 522
+    content: '1'
+  - delay: 115
+    content: '0'
+  - delay: 111
+    content: '0'
+  - delay: 900
+    content: )
+  - delay: 335
+    content: ' '
+  - delay: 241
+    content: 'N'
+  - delay: 163
+    content: O
+  - delay: 297
+    content: T
+  - delay: 255
+    content: ' '
+  - delay: 259
+    content: 'N'
+  - delay: 276
+    content: U
+  - delay: 305
+    content: L
+  - delay: 134
+    content: L
+  - delay: 2525
+    content: ','
+  - delay: 979
+    content: "\r\n    -> "
+  - delay: 2993
+    content: j
+  - delay: 69
+    content: e
+  - delay: 104
+    content: 'n'
+  - delay: 505
+    content: i
+  - delay: 118
+    content: s
+  - delay: 918
+    content: _
+  - delay: 619
+    content: k
+  - delay: 95
+    content: e
+  - delay: 60
+    content: l
+  - delay: 250
+    content: a
+  - delay: 328
+    content: "\r\e[17G\e[K"
+  - delay: 214
+    content: "\r\e[16G\e[K"
+  - delay: 502
+    content: "\r\e[15G\e[K"
+  - delay: 30
+    content: "\r\e[14G\e[K"
+  - delay: 32
+    content: "\r\e[13G\e[K"
+  - delay: 31
+    content: "\r\e[12G\e[K"
+  - delay: 29
+    content: "\r\e[11G\e[K"
+  - delay: 30
+    content: "\r\e[10G\e[K"
+  - delay: 32
+    content: "\r\e[9G\e[K"
+  - delay: 390
+    content: "\r\e[8G\e[K"
+  - delay: 456
+    content: "\a"
+  - delay: 7588
+    content: j
+  - delay: 85
+    content: e
+  - delay: 78
+    content: 'n'
+  - delay: 162
+    content: i
+  - delay: 111
+    content: s
+  - delay: 1629
+    content: _
+  - delay: 544
+    content: k
+  - delay: 65
+    content: e
+  - delay: 86
+    content: l
+  - delay: 141
+    content: a
+  - delay: 691
+    content: m
+  - delay: 141
+    content: i
+  - delay: 121
+    content: 'n'
+  - delay: 856
+    content: ' '
+  - delay: 2930
+    content: E
+  - delay: 598
+    content: 'n'
+  - delay: 776
+    content: "\r\e[23G\e[K"
+  - delay: 347
+    content: 'N'
+  - delay: 178
+    content: U
+  - delay: 250
+    content: M
+  - delay: 1035
+    content: (
+  - delay: 873
+    content: ''''
+  - delay: 1440
+    content: L
+  - delay: 440
+    content: ''''
+  - delay: 1104
+    content: ','
+  - delay: 153
+    content: ' '
+  - delay: 372
+    content: ''''
+  - delay: 384
+    content: P
+  - delay: 384
+    content: ''''
+  - delay: 1353
+    content: )
+  - delay: 911
+    content: ','
+  - delay: 3604
+    content: "\r\e[36G\e[K"
+  - delay: 687
+    content: ' '
+  - delay: 215
+    content: 'N'
+  - delay: 123
+    content: O
+  - delay: 1039
+    content: T
+  - delay: 58
+    content: ' '
+  - delay: 153
+    content: 'N'
+  - delay: 148
+    content: U
+  - delay: 202
+    content: L
+  - delay: 164
+    content: L
+  - delay: 709
+    content: ','
+  - delay: 5776
+    content: "\r\n    -> "
+  - delay: 1105
+    content: T
+  - delay: 156
+    content: a
+  - delay: 140
+    content: 'n'
+  - delay: 308
+    content: g
+  - delay: 115
+    content: g
+  - delay: 322
+    content: "\r\e[12G\e[K"
+  - delay: 216
+    content: "\r\e[11G\e[K"
+  - delay: 197
+    content: "\r\e[10G\e[K"
+  - delay: 107
+    content: "\r\e[9G\e[K"
+  - delay: 99
+    content: "\r\e[8G\e[K"
+  - delay: 247
+    content: "\a"
+  - delay: 644
+    content: t
+  - delay: 73
+    content: a
+  - delay: 159
+    content: 'n'
+  - delay: 309
+    content: g
+  - delay: 97
+    content: g
+  - delay: 172
+    content: a
+  - delay: 281
+    content: l
+  - delay: 469
+    content: _
+  - delay: 541
+    content: l
+  - delay: 88
+    content: a
+  - delay: 186
+    content: h
+  - delay: 100
+    content: i
+  - delay: 215
+    content: r
+  - delay: 1188
+    content: ' '
+  - delay: 4534
+    content: D
+  - delay: 73
+    content: A
+  - delay: 100
+    content: T
+  - delay: 174
+    content: E
+  - delay: 841
+    content: ','
+  - delay: 5140
+    content: "\r\n    -> "
+  - delay: 1103
+    content: 'N'
+  - delay: 150
+    content: o
+  - delay: 740
+    content: "\r\e[9G\e[K"
+  - delay: 133
+    content: "\r\e[8G\e[K"
+  - delay: 683
+    content: 'n'
+  - delay: 158
+    content: o
+  - delay: 869
+    content: _
+  - delay: 547
+    content: h
+  - delay: 643
+    content: a
+  - delay: 98
+    content: 'n'
+  - delay: 190
+    content: d
+  - delay: 75
+    content: p
+  - delay: 239
+    content: h
+  - delay: 182
+    content: o
+  - delay: 359
+    content: 'n'
+  - delay: 69
+    content: e
+  - delay: 2339
+    content: ' '
+  - delay: 489
+    content: V
+  - delay: 153
+    content: A
+  - delay: 111
+    content: R
+  - delay: 162
+    content: C
+  - delay: 202
+    content: H
+  - delay: 83
+    content: A
+  - delay: 199
+    content: R
+  - delay: 1078
+    content: (
+  - delay: 2804
+    content: '2'
+  - delay: 70
+    content: '0'
+  - delay: 810
+    content: )
+  - delay: 3992
+    content: "\r\n    -> "
+  - delay: 1158
+    content: )
+  - delay: 1215
+    content: ;
+  - delay: 275
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,020 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 11465
+    content: CREATE TABLE dokter (
+  - delay: 926
+    content: "\r\n    -> "
+  - delay: 5862
+    content: 'id_dokter INT AUTO_INCREMENT PRIMARY KEY,'
+  - delay: 1108
+    content: "\r\n    -> "
+  - delay: 6074
+    content: 'nama_dokter VARCHAR(100) NOT NULL,'
+  - delay: 1930
+    content: "\r\n    -> "
+  - delay: 7021
+    content: spesialis VARCHAR(50) NOT NULL
+  - delay: 3486
+    content: "\r\n    -> "
+  - delay: 831
+    content: )
+  - delay: 438
+    content: ;
+  - delay: 599
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,021 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 8856
+    content: CREATE TABLE antrian (
+  - delay: 803
+    content: "\r\n    -> "
+  - delay: 8446
+    content: 'id_antrian INT AUTO_INCREMENT PRIMARY KEY,'
+  - delay: 1159
+    content: "\r\n    -> "
+  - delay: 5586
+    content: 'id_pasien INT NOT NULL,'
+  - delay: 1297
+    content: "\r\n    -> "
+  - delay: 7502
+    content: 'id_dokter INT NOT NULL,'
+  - delay: 2891
+    content: "\r\n    -> "
+  - delay: 5514
+    content: 'nomor_antrian INT NOT NULL,'
+  - delay: 891
+    content: "\r\n    -> "
+  - delay: 5118
+    content: 'tanggal_kunjungan DATE NOT NULL,'
+  - delay: 1126
+    content: "\r\n    -> "
+  - delay: 6751
+    content: 'status ENUM(''Menunggu'', ''Dipanggil'', ''Selesai'') NOT NULL,'
+  - delay: 1174
+    content: "\r\n    -> "
+  - delay: 11024
+    content: "FOREIGN KEY (id_pasien) REFERENCES pasien(id_pasien),\r\n    ->     FOREIGN KEY (id_dokter) REFERENCES dokter(id_dokter)"
+  - delay: 2101
+    content: "\r\n    -> "
+  - delay: 1243
+    content: )
+  - delay: 897
+    content: ;
+  - delay: 292
+    content: "\r\n"
+  - delay: 29
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,028 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 16809
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, \b tanggal_lahir, no_hp) VALUES"
+  - delay: 1055
+    content: "\r\n    -> "
+  - delay: 5627
+    content: '(''Andi Saputra'', ''L'', ''1999-03-21'', ''081234567890''),'
+  - delay: 1153
+    content: "\r\n    -> "
+  - delay: 5583
+    content: '(''Siti Aminah'', ''P'', ''2001-07-15'', ''082345678901''),'
+  - delay: 691
+    content: "\r\n    -> "
+  - delay: 7214
+    content: '(''Budi Pratama'', ''L'', ''1996-11-02'', ''083456789012'');'
+  - delay: 1980
+    content: "\r\n"
+  - delay: 57
+    content: "ERROR 1054 (42S22): Unknown column 'no_hp' in 'INSERT INTO'\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 13880
+    content: "\r\e[34GINSERT INTO pasien (nama_pasien, jenis_kelamin, \r tanggal_lahir, no_hp) VALUES ('Andi Saputra', 'L', '1999-03-21', '081234567890' \r), ('Siti Aminah', 'P', '2001-07-15', '082345678901'), ('Budi Pratama', 'L', '19 \r96-11-02', '083456789012');"
+  - delay: 146
+    content: "\r\e[3A\e[34G('Budi Pratama', 'L', '1996-11-02', '0834567890 \e[81G\r12');\e[K\r\n\e[K\r\n\e[K\e[2A\e[6G"
+  - delay: 173
+    content: "\r\e[A\e[36GSiti Aminah', 'P', '2001-07-15', '082\r\n1'),\e[K"
+  - delay: 1095
+    content: "\r\e[A\e[36GBudi Pratama', 'L', '1996-11-02', '08\r\n12');"
+  - delay: 4801
+    content: "\r12')\e[K"
+  - delay: 368
+    content: "\r12'\e[K"
+  - delay: 500
+    content: "\r12\e[K"
+  - delay: 30
+    content: "\r1\e[K"
+  - delay: 32
+    content: "\r\e[K"
+  - delay: 30
+    content: "\e[A\e[80G\e[K\r\n\e[K\e[A\e[80G"
+  - delay: 32
+    content: "\r\e[79G\e[K"
+  - delay: 29
+    content: "\r\e[78G\e[K"
+  - delay: 31
+    content: "\r\e[77G\e[K"
+  - delay: 33
+    content: "\r\e[76G\e[K"
+  - delay: 28
+    content: "\r\e[75G\e[K"
+  - delay: 29
+    content: "\r\e[74G\e[K"
+  - delay: 31
+    content: "\r\e[73G\e[K"
+  - delay: 30
+    content: "\r\e[72G\e[K"
+  - delay: 33
+    content: "\r\e[71G\e[K"
+  - delay: 28
+    content: "\r\e[70G\e[K"
+  - delay: 30
+    content: "\r\e[69G"
+  - delay: 30
+    content: "\r\e[68G\e[K"
+  - delay: 31
+    content: "\r\e[67G\e[K"
+  - delay: 30
+    content: "\r\e[66G\e[K"
+  - delay: 29
+    content: "\r\e[65G\e[K"
+  - delay: 32
+    content: "\r\e[64G\e[K"
+  - delay: 30
+    content: "\r\e[63G\e[K"
+  - delay: 30
+    content: "\r\e[62G\e[K"
+  - delay: 30
+    content: "\r\e[61G\e[K"
+  - delay: 31
+    content: "\r\e[60G\e[K"
+  - delay: 30
+    content: "\r\e[59G\e[K"
+  - delay: 29
+    content: "\r\e[58G\e[K"
+  - delay: 30
+    content: "\r\e[57G\e[K"
+  - delay: 32
+    content: "\r\e[56G\e[K"
+  - delay: 29
+    content: "\r\e[55G"
+  - delay: 32
+    content: "\r\e[54G\e[K"
+  - delay: 30
+    content: "\r\e[53G\e[K"
+  - delay: 31
+    content: "\r\e[52G\e[K"
+  - delay: 30
+    content: "\r\e[51G\e[K"
+  - delay: 31
+    content: "\r\e[50G"
+  - delay: 1581
+    content: "\r\e[34GINSERT INTO pasien (nama_pasien, jenis_kelamin, \r tanggal_lahir, no_hp) VALUES ('Andi Saputra', 'L', '1999-03-21', '081234567890' \r), ('Siti Aminah', 'P', '2001-07-15', '082345678901'), ('Budi Pratama', 'L', '19 \r96-11-02', '083456789012');"
+  - delay: 174
+    content: "\r\e[3A\e[34G\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3A\e[34G"
+  - delay: 3793
+    content: "\r\nMariaDB [sistem_antrian_pasien]> "
+  - delay: 9881
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, \b tanggal_lahir, no_hp) VALUES"
+  - delay: 939
+    content: "\b"
+  - delay: 256
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 164
+    content: "\b"
+  - delay: 135
+    content: "\b"
+  - delay: 243
+    content: "\b"
+  - delay: 852
+    content: "\r\e[21G\e[1@Ap\b"
+  - delay: 70
+    content: "\r\e[22G\e[1@Np\b"
+  - delay: 1790
+    content: "\r\e[22G\e[Pp\b"
+  - delay: 2743
+    content: "\r\e[21G\e[Pp\b"
+  - delay: 4110
+    content: p
+  - delay: 2935
+    content: "\r\n[1]+  Stopped                 mysql -u root -p\r\n\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 2350
+    content: mysql -u root -p
+  - delay: 2120
+    content: "\b\e[K"
+  - delay: 2173
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 29
+    content: "\b\e[K"
+  - delay: 31
+    content: "\b\e[K"
+  - delay: 30
+    content: "\b\e[K"
+  - delay: 30
+    content: "\b\e[K"
+  - delay: 31
+    content: "\b\e[K"
+  - delay: 32
+    content: "\b\e[K"
+  - delay: 30
+    content: "\b\e[K"
+  - delay: 30
+    content: "\b\e[K"
+  - delay: 31
+    content: "\b\e[K"
+  - delay: 31
+    content: "\b\e[K"
+  - delay: 29
+    content: "\b\e[K"
+  - delay: 32
+    content: "\b\e[K"
+  - delay: 3088
+    content: "\b\e[K"
+  - delay: 499
+    content: "\a"
+  - delay: 34
+    content: "\a"
+  - delay: 27
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 560
+    content: "\r\n\e[?2004l\r\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 2874
+    content: S
+  - delay: 52
+    content: U
+  - delay: 159
+    content: D
+  - delay: 528
+    content: "\b\e[K"
+  - delay: 111
+    content: "\b\e[K"
+  - delay: 125
+    content: "\b\e[K"
+  - delay: 230
+    content: "\a"
+  - delay: 596
+    content: m
+  - delay: 238
+    content: 'y'
+  - delay: 644
+    content: s
+  - delay: 265
+    content: q
+  - delay: 113
+    content: l
+  - delay: 1043
+    content: ' '
+  - delay: 336
+    content: '-'
+  - delay: 221
+    content: u
+  - delay: 866
+    content: ' '
+  - delay: 249
+    content: r
+  - delay: 71
+    content: o
+  - delay: 119
+    content: o
+  - delay: 568
+    content: t
+  - delay: 238
+    content: ' '
+  - delay: 495
+    content: '-'
+  - delay: 272
+    content: p
+  - delay: 350
+    content: "\r\n\e[?2004l\r"
+  - delay: 23
+    content: 'Enter password: '
+  - delay: 5738
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 6\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 1295
+    content: u
+  - delay: 77
+    content: s
+  - delay: 226
+    content: e
+  - delay: 1383
+    content: ' '
+  - delay: 1006
+    content: s
+  - delay: 32
+    content: i
+  - delay: 100
+    content: s
+  - delay: 210
+    content: r
+  - delay: 597
+    content: "\r\e[26G\e[K"
+  - delay: 662
+    content: t
+  - delay: 116
+    content: e
+  - delay: 163
+    content: m
+  - delay: 691
+    content: _
+  - delay: 467
+    content: a
+  - delay: 55
+    content: 'n'
+  - delay: 263
+    content: t
+  - delay: 135
+    content: r
+  - delay: 646
+    content: i
+  - delay: 96
+    content: a
+  - delay: 94
+    content: 'n'
+  - delay: 703
+    content: _
+  - delay: 564
+    content: p
+  - delay: 65
+    content: a
+  - delay: 140
+    content: s
+  - delay: 75
+    content: i
+  - delay: 645
+    content: e
+  - delay: 93
+    content: 'n'
+  - delay: 640
+    content: ;
+  - delay: 585
+    content: "\r\n"
+  - delay: 8
+    content: "Reading table information for completion of table and column names\r\nYou can turn off this feature to get a quicker startup with -A\r\n\r\n\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 9160
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, \b tanggal_lahir, no_hp) VALUES"
+  - delay: 2763
+    content: "\r\e[29G\e[K"
+  - delay: 158
+    content: "\r\e[28G\e[K"
+  - delay: 2572
+    content: "\r\n    -> "
+  - delay: 1689
+    content: "\r\n    -> "
+  - delay: 1042
+    content: ;
+  - delay: 225
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALU' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 2827
+    content: i
+  - delay: 160
+    content: 'n'
+  - delay: 897
+    content: s
+  - delay: 195
+    content: e
+  - delay: 160
+    content: r
+  - delay: 95
+    content: ' '
+  - delay: 204
+    content: i
+  - delay: 370
+    content: "\r\e[40G\e[K"
+  - delay: 109
+    content: "\r\e[39G"
+  - delay: 542
+    content: t
+  - delay: 35
+    content: ' '
+  - delay: 261
+    content: 'n'
+  - delay: 588
+    content: "\r\e[41G\e[K"
+  - delay: 328
+    content: i
+  - delay: 339
+    content: 'n'
+  - delay: 563
+    content: t
+  - delay: 55
+    content: o
+  - delay: 372
+    content: ' '
+  - delay: 406
+    content: p
+  - delay: 73
+    content: a
+  - delay: 77
+    content: s
+  - delay: 68
+    content: i
+  - delay: 177
+    content: a
+  - delay: 102
+    content: 'n'
+  - delay: 581
+    content: "\r\e[51G\e[K"
+  - delay: 102
+    content: "\r\e[50G\e[K"
+  - delay: 361
+    content: e
+  - delay: 65
+    content: 'n'
+  - delay: 692
+    content: ' '
+  - delay: 874
+    content: (
+  - delay: 17645
+    content: "nama_pasien, jenis_kelamin, \b tanggal_lahir,"
+  - delay: 1665
+    content: ' '
+  - delay: 340
+    content: 'n'
+  - delay: 167
+    content: o
+  - delay: 718
+    content: _
+  - delay: 457
+    content: h
+  - delay: 64
+    content: a
+  - delay: 98
+    content: 'n'
+  - delay: 157
+    content: d
+  - delay: 107
+    content: p
+  - delay: 242
+    content: h
+  - delay: 131
+    content: o
+  - delay: 180
+    content: e
+  - delay: 526
+    content: "\r\e[27G\e[K"
+  - delay: 483
+    content: 'n'
+  - delay: 53
+    content: e
+  - delay: 5068
+    content: "\r\n    -> "
+  - delay: 1137
+    content: ;
+  - delay: 166
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 1771
+    content: i
+  - delay: 172
+    content: 'n'
+  - delay: 156
+    content: s
+  - delay: 428
+    content: e
+  - delay: 776
+    content: r
+  - delay: 186
+    content: t
+  - delay: 370
+    content: ' '
+  - delay: 214
+    content: i
+  - delay: 164
+    content: 'n'
+  - delay: 155
+    content: t
+  - delay: 262
+    content: o
+  - delay: 367
+    content: ' '
+  - delay: 2986
+    content: m
+  - delay: 106
+    content: a
+  - delay: 680
+    content: "\r\e[47G\e[K"
+  - delay: 112
+    content: "\r\e[46G\e[K"
+  - delay: 1397
+    content: p
+  - delay: 73
+    content: a
+  - delay: 226
+    content: i
+  - delay: 528
+    content: "\r\e[48G\e[K"
+  - delay: 211
+    content: s
+  - delay: 117
+    content: i
+  - delay: 122
+    content: e
+  - delay: 103
+    content: 'n'
+  - delay: 5838
+    content: ' '
+  - delay: 747
+    content: (
+  - delay: 7236
+    content: 'n'
+  - delay: 72
+    content: a
+  - delay: 94
+    content: m
+  - delay: 62
+    content: a
+  - delay: 853
+    content: ','
+  - delay: 152
+    content: ' '
+  - delay: 745
+    content: "\r\e[59G"
+  - delay: 123
+    content: "\r\e[58G\e[K"
+  - delay: 670
+    content: _
+  - delay: 513
+    content: p
+  - delay: 67
+    content: a
+  - delay: 127
+    content: s
+  - delay: 34
+    content: i
+  - delay: 234
+    content: e
+  - delay: 79
+    content: 'n'
+  - delay: 723
+    content: ','
+  - delay: 141
+    content: ' '
+  - delay: 360
+    content: j
+  - delay: 51
+    content: e
+  - delay: 92
+    content: 'n'
+  - delay: 119
+    content: i
+  - delay: 128
+    content: s
+  - delay: 903
+    content: _
+  - delay: 363
+    content: k
+  - delay: 100
+    content: e
+  - delay: 107
+    content: l
+  - delay: 548
+    content: a
+  - delay: 80
+    content: m
+  - delay: 175
+    content: i
+  - delay: 156
+    content: 'n'
+  - delay: 882
+    content: ", \b"
+  - delay: 140
+    content: ' '
+  - delay: 2909
+    content: t
+  - delay: 106
+    content: a
+  - delay: 143
+    content: 'n'
+  - delay: 86
+    content: 'n'
+  - delay: 186
+    content: g
+  - delay: 101
+    content: g
+  - delay: 735
+    content: "\r\e[7G\e[K"
+  - delay: 198
+    content: "\r\e[6G\e[K"
+  - delay: 2231
+    content: "\r\n    -> "
+  - delay: 1114
+    content: "\r\n    -> "
+  - delay: 5640
+    content: ;
+  - delay: 146
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 3965
+    content: i
+  - delay: 581
+    content: 'n'
+  - delay: 169
+    content: s
+  - delay: 378
+    content: "\r\e[36G\e[K"
+  - delay: 128
+    content: "\r\e[35G\e[K"
+  - delay: 167
+    content: "\r\e[34G\e[K"
+  - delay: 592
+    content: I
+  - delay: 204
+    content: 'N'
+  - delay: 282
+    content: S
+  - delay: 197
+    content: E
+  - delay: 923
+    content: R
+  - delay: 145
+    content: T
+  - delay: 102
+    content: ' '
+  - delay: 165
+    content: I
+  - delay: 201
+    content: 'N'
+  - delay: 474
+    content: T
+  - delay: 778
+    content: O
+  - delay: 215
+    content: ' '
+  - delay: 657
+    content: p
+  - delay: 105
+    content: a
+  - delay: 143
+    content: i
+  - delay: 573
+    content: "\r\e[48G\e[K"
+  - delay: 160
+    content: s
+  - delay: 78
+    content: i
+  - delay: 194
+    content: e
+  - delay: 461
+    content: ' '
+  - delay: 298
+    content: "\r\e[51G"
+  - delay: 636
+    content: 'n'
+  - delay: 138
+    content: ' '
+  - delay: 731
+    content: (
+  - delay: 4455
+    content: 'n'
+  - delay: 89
+    content: a
+  - delay: 104
+    content: m
+  - delay: 69
+    content: a
+  - delay: 764
+    content: _
+  - delay: 644
+    content: p
+  - delay: 65
+    content: a
+  - delay: 206
+    content: s
+  - delay: 446
+    content: i
+  - delay: 76
+    content: e
+  - delay: 1122
+    content: "\r\e[63G\e[K"
+  - delay: 821
+    content: e
+  - delay: 51
+    content: 'n'
+  - delay: 549
+    content: ','
+  - delay: 151
+    content: ' '
+  - delay: 985
+    content: j
+  - delay: 44
+    content: e
+  - delay: 111
+    content: 'n'
+  - delay: 115
+    content: i
+  - delay: 537
+    content: s
+  - delay: 476
+    content: _
+  - delay: 593
+    content: k
+  - delay: 53
+    content: e
+  - delay: 108
+    content: l
+  - delay: 195
+    content: a
+  - delay: 49
+    content: m
+  - delay: 193
+    content: i
+  - delay: 175
+    content: 'n'
+  - delay: 441
+    content: ", \b"
+  - delay: 154
+    content: ' '
+  - delay: 2742
+    content: t
+  - delay: 705
+    content: a
+  - delay: 59
+    content: 'n'
+  - delay: 6846
+    content: g
+  - delay: 121
+    content: g
+  - delay: 282
+    content: a
+  - delay: 249
+    content: l
+  - delay: 579
+    content: _
+  - delay: 578
+    content: l
+  - delay: 119
+    content: a
+  - delay: 189
+    content: h
+  - delay: 193
+    content: i
+  - delay: 163
+    content: r
+  - delay: 553
+    content: ','
+  - delay: 173
+    content: ' '
+  - delay: 11340
+    content: 'n'
+  - delay: 116
+    content: o
+  - delay: 977
+    content: _
+  - delay: 724
+    content: h
+  - delay: 105
+    content: a
+  - delay: 98
+    content: 'n'
+  - delay: 226
+    content: d
+  - delay: 509
+    content: p
+  - delay: 310
+    content: h
+  - delay: 179
+    content: o
+  - delay: 177
+    content: 'n'
+  - delay: 90
+    content: e
+  - delay: 1232
+    content: )
+  - delay: 1669
+    content: ' '
+  - delay: 430
+    content: v
+  - delay: 128
+    content: a
+  - delay: 289
+    content: l
+  - delay: 594
+    content: "\r\e[33G\e[K"
+  - delay: 152
+    content: "\r\e[32G\e[K"
+  - delay: 3551
+    content: "\r\n    -> "
+  - delay: 2131
+    content: ;
+  - delay: 183
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'v' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 11196
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, \b tanggal_lahir, no_hp) VALUES"
+  - delay: 4961
+    content: "\b"
+  - delay: 493
+    content: "\b"
+  - delay: 211
+    content: "\b"
+  - delay: 245
+    content: "\b"
+  - delay: 234
+    content: "\b"
+  - delay: 774
+    content: "\b"
+  - delay: 491
+    content: "\b"
+  - delay: 387
+    content: "\b"
+  - delay: 3031
+    content: )
+  - delay: 1191
+    content: "\r\e[22G\e[P \b"
+  - delay: 1900
+    content: "\r\e[22G\e[1@a \b"
+  - delay: 1240
+    content: "\r\e[23G\e[1@n \b"
+  - delay: 887
+    content: ' '
+  - delay: 500
+    content: V
+  - delay: 33
+    content: A
+  - delay: 29
+    content: L
+  - delay: 31
+    content: U
+  - delay: 30
+    content: E
+  - delay: 31
+    content: S
+  - delay: 30
+    content: "\a"
+  - delay: 29
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 32
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 29
+    content: "\a"
+  - delay: 118
+    content: "\a"
+  - delay: 154
+    content: "\a"
+  - delay: 125
+    content: "\a"
+  - delay: 129
+    content: "\a"
+  - delay: 105
+    content: "\a"
+  - delay: 126
+    content: "\a"
+  - delay: 115
+    content: "\a"
+  - delay: 106
+    content: "\a"
+  - delay: 110
+    content: "\a"
+  - delay: 99
+    content: "\a"
+  - delay: 6655
+    content: "\a"
+  - delay: 287
+    content: "\a"
+  - delay: 527
+    content: "\r\e[30G\e[K"
+  - delay: 3506
+    content: "\r\n    -> "
+  - delay: 845
+    content: ;
+  - delay: 168
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUE' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 3671
+    content: e
+  - delay: 272
+    content: x
+  - delay: 123
+    content: i
+  - delay: 483
+    content: t
+  - delay: 821
+    content: "\r\n"
+  - delay: 18
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 5037
+    content: s
+  - delay: 37
+    content: u
+  - delay: 1443
+    content: d
+  - delay: 53
+    content: o
+  - delay: 12333
+    content: ' '
+  - delay: 197
+    content: m
+  - delay: 141
+    content: m
+  - delay: 499
+    content: 'y'
+  - delay: 260
+    content: "\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 237
+    content: "\b\e[K"
+  - delay: 1216
+    content: "\b\e[K"
+  - delay: 112
+    content: "\b\e[K"
+  - delay: 113
+    content: "\b\e[K"
+  - delay: 192
+    content: "\b\e[K"
+  - delay: 539
+    content: "\b\e[K"
+  - delay: 434
+    content: m
+  - delay: 561
+    content: 'y'
+  - delay: 1095
+    content: s
+  - delay: 281
+    content: q
+  - delay: 190
+    content: l
+  - delay: 418
+    content: ' '
+  - delay: 307
+    content: '-'
+  - delay: 276
+    content: u
+  - delay: 494
+    content: ' '
+  - delay: 245
+    content: r
+  - delay: 65
+    content: o
+  - delay: 107
+    content: o
+  - delay: 91
+    content: t
+  - delay: 447
+    content: ' '
+  - delay: 621
+    content: '-'
+  - delay: 174
+    content: p
+  - delay: 2019
+    content: "\r\n\e[?2004l\r"
+  - delay: 24
+    content: 'Enter password: '
+  - delay: 6713
+    content: "\r\n"
+  - delay: 25
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 7\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 1296
+    content: u
+  - delay: 80
+    content: s
+  - delay: 227
+    content: e
+  - delay: 722
+    content: ' '
+  - delay: 708
+    content: s
+  - delay: 71
+    content: i
+  - delay: 94
+    content: s
+  - delay: 196
+    content: t
+  - delay: 141
+    content: e
+  - delay: 224
+    content: m
+  - delay: 771
+    content: _
+  - delay: 492
+    content: a
+  - delay: 89
+    content: 'n'
+  - delay: 264
+    content: t
+  - delay: 144
+    content: r
+  - delay: 197
+    content: i
+  - delay: 176
+    content: a
+  - delay: 97
+    content: 'n'
+  - delay: 741
+    content: _
+  - delay: 598
+    content: p
+  - delay: 73
+    content: a
+  - delay: 124
+    content: s
+  - delay: 68
+    content: i
+  - delay: 282
+    content: e
+  - delay: 103
+    content: 'n'
+  - delay: 1140
+    content: ;
+  - delay: 186
+    content: "\r\n"
+  - delay: 6
+    content: "Reading table information for completion of table and column names\r\nYou can turn off this feature to get a quicker startup with -A\r\n\r\n\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 21111
+    content: e
+  - delay: 13282
+    content: "\r\e[34G\e[K"
+  - delay: 6399
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, \b tanggal_lahir, no_handphone) VALUES"
+  - delay: 1023
+    content: "\r\n    -> "
+  - delay: 6908
+    content: '(''Andi Saputra'', ''L'', ''1999-03-21'', ''081234567890''),'
+  - delay: 2352
+    content: "\r\n    -> "
+  - delay: 4987
+    content: '(''Siti Aminah'', ''P'', ''2001-07-15'', ''082345678901''),'
+  - delay: 1118
+    content: "\r\e[58G\e[K"
+  - delay: 382
+    content: ;
+  - delay: 661
+    content: "\r\n"
+  - delay: 12
+    content: "\e(B\e[0;1mQuery OK, 2 rows affected (0,011 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 11674
+    content: "INSERT INTO dokter (nama_dokter, spesialis) VAL \bUES"
+  - delay: 1713
+    content: "\r\n    -> "
+  - delay: 5533
+    content: '(''Dr. Rina Wijaya'', ''Umum''),'
+  - delay: 780
+    content: "\r\n    -> "
+  - delay: 5040
+    content: '(''Dr. Ahmad Fauzi'', ''Gigi'');'
+  - delay: 674
+    content: "\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,003 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 2683
+    content: s
+  - delay: 276
+    content: e
+  - delay: 23
+    content: l
+  - delay: 115
+    content: e
+  - delay: 675
+    content: c
+  - delay: 69
+    content: t
+  - delay: 368
+    content: ' '
+  - delay: 643
+    content: '*'
+  - delay: 348
+    content: ' '
+  - delay: 305
+    content: f
+  - delay: 201
+    content: r
+  - delay: 28
+    content: o
+  - delay: 150
+    content: m
+  - delay: 184
+    content: ' '
+  - delay: 1079
+    content: p
+  - delay: 64
+    content: a
+  - delay: 555
+    content: s
+  - delay: 122
+    content: u
+  - delay: 133
+    content: e
+  - delay: 416
+    content: "\r\e[52G\e[K"
+  - delay: 104
+    content: "\r\e[51G\e[K"
+  - delay: 389
+    content: i
+  - delay: 100
+    content: e
+  - delay: 125
+    content: 'n'
+  - delay: 653
+    content: ;
+  - delay: 321
+    content: "\r\n"
+  - delay: 5
+    content: "+-----------+--------------+---------------+---------------+--------------+\r\n| id_pasien | nama_pasien  | jenis_kelamin | tanggal_lahir | no_handphone |\r\n+-----------+--------------+---------------+---------------+--------------+\r\n|         1 | Andi Saputra | L             | 1999-03-21    | 081234567890 |\r\n|         2 | Siti Aminah  | P             | 2001-07-15    | 082345678901 |\r\n+-----------+--------------+---------------+---------------+--------------+\r\n\e(B\e[0;1m2 rows in set (0,004 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 1303
+    content: s
+  - delay: 193
+    content: e
+  - delay: 35
+    content: l
+  - delay: 77
+    content: e
+  - delay: 364
+    content: c
+  - delay: 94
+    content: t
+  - delay: 230
+    content: ' '
+  - delay: 970
+    content: '*'
+  - delay: 420
+    content: ' '
+  - delay: 190
+    content: f
+  - delay: 209
+    content: r
+  - delay: 45
+    content: o
+  - delay: 158
+    content: m
+  - delay: 256
+    content: ' '
+  - delay: 341
+    content: d
+  - delay: 127
+    content: o
+  - delay: 165
+    content: k
+  - delay: 401
+    content: t
+  - delay: 63
+    content: e
+  - delay: 177
+    content: r
+  - delay: 554
+    content: ;
+  - delay: 1284
+    content: "\r\n+-----------+-----------------+-----------+\r\n| id_dokter | nama_dokter     | spesialis |\r\n+-----------+-----------------+-----------+\r\n|         1 | Dr. Rina Wijaya | Umum      |\r\n|         2 | Dr. Ahmad Fauzi | Gigi      |\r\n+-----------+-----------------+-----------+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_antrian_pasien]> "
+  - delay: 9610
+    content: e
+  - delay: 348
+    content: x
+  - delay: 89
+    content: i
+  - delay: 372
+    content: t
+  - delay: 1131
+    content: "\r\n"
+  - delay: 17
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 334
+    content: e
+  - delay: 318
+    content: x
+  - delay: 90
+    content: i
+  - delay: 252
+    content: t
+  - delay: 442
+    content: "\r\n\e[?2004l\rexit\r\nThere are stopped jobs.\r\n\e[?2004h\e]0;root@BlackAcer: /home/irabukanirak\aroot@BlackAcer:/home/irabukanirak# "
+  - delay: 1710
+    content: l
+  - delay: 830
+    content: "\b\e[K"
+  - delay: 492
+    content: e
+  - delay: 436
+    content: x
+  - delay: 58
+    content: i
+  - delay: 245
+    content: t
+  - delay: 1537
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 11
+    content: "\e]0;irabukanirak@BlackAcer:~\e\\"
+  - delay: 7
+    content: "\e]7;file://BlackAcer/home/irabukanirak\e\\\e[?2004h\e]0;irabukanirak@BlackAcer: ~\a\e[01;32mirabukanirak@BlackAcer\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 644
+    content: l
+  - delay: 187
+    content: o
+  - delay: 362
+    content: g
+  - delay: 1277
+    content: o
+  - delay: 264
+    content: u
+  - delay: 788
+    content: t
+  - delay: 615
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r"
