@@ -1,0 +1,1115 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/rafly
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 167
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 43
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 623
+    content: "\e]3008;start=829f6ce7-db2a-4899-8a09-b594b722f670;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=816bcf07-35cc-4449-b26b-d84e0b2f2eb5;pid=6105;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(1)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:17:20\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 2354
+    content: m
+  - delay: 68
+    content: a
+  - delay: 1236
+    content: r
+  - delay: 167
+    content: i
+  - delay: 236
+    content: a
+  - delay: 153
+    content: d
+  - delay: 450
+    content: b
+  - delay: 1046
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=89a353df-e3f0-4238-8495-fc81f64f23de;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=816bcf07-35cc-4449-b26b-d84e0b2f2eb5;pid=6105;type=command;cwd=/home/rafly\e\\"
+  - delay: 49
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 9\r\nServer version: 12.1.2-MariaDB Arch Linux\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[m\e[?1034hMariaDB [(none)]> "
+  - delay: 746
+    content: >-
+      insert into data_warga (nama, alamat, tanggal_lahir) values ('michael',
+      'jl.pondok aren no 5', '1998-12-05');
+  - delay: 1744
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cuse sistem_data_warga;\e[K"
+  - delay: 790
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[7Pshow databases;"
+  - delay: 573
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\binsert into data_warga (nama, alamat, tanggal_lahir) values ('michael', 'jl.pondok aren no 5', 1998-12-05');"
+  - delay: 764
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b'1998-12-05');"
+  - delay: 298
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b1998-12-05'); "
+  - delay: 241
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b'1998-12-05');"
+  - delay: 211
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b1998-12-05'); "
+  - delay: 192
+    content: "\b\e[K"
+  - delay: 156
+    content: ' '
+  - delay: 152
+    content: "\b\e[K"
+  - delay: 173
+    content: ' '
+  - delay: 151
+    content: "\b\b\b\b\e[2P);"
+  - delay: 152
+    content: "\b\b'); "
+  - delay: 355
+    content: "\b\e[K"
+  - delay: 184
+    content: ' '
+  - delay: 332
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b ibrahim', 'jl.pondok aren no 5', 1998-12-05');"
+  - delay: 190
+    content: ' '
+  - delay: 133
+    content: "\b\e[K"
+  - delay: 155
+    content: ' '
+  - delay: 171
+    content: "\b\e[K"
+  - delay: 147
+    content: ' '
+  - delay: 304
+    content: "\b\e[K"
+  - delay: 142
+    content: ' '
+  - delay: 306
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Ccreate database sistem_pendataan_warga; use sistem_pendataan_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), \r alamat varchar(100), tanggal_lahir date); "
+  - delay: 147
+    content: "\e[A\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cdrop database toko_ahong;\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 600
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Ccreate database sistem_pendataan_warga; use sistem_pendataan_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), \r alamat varchar(100), tanggal_lahir date); "
+  - delay: 639
+    content: "\b"
+  - delay: 578
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\r"
+  - delay: 40
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 157
+    content: "\b"
+  - delay: 213
+    content: "\b"
+  - delay: 192
+    content: "\b"
+  - delay: 629
+    content: "\e[C"
+  - delay: 1797
+    content: "\b_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), a\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 987
+    content: "\b"
+  - delay: 571
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 502
+    content: "\e[C"
+  - delay: 253
+    content: "\e[C"
+  - delay: 180
+    content: "\e[C"
+  - delay: 197
+    content: "\e[C"
+  - delay: 453
+    content: "\e[C"
+  - delay: 1255
+    content: "\b"
+  - delay: 570
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 191
+    content: "\b"
+  - delay: 201
+    content: "\b"
+  - delay: 851
+    content: "\bdataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), al\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 369
+    content: "\bdataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), ala\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 305
+    content: "\bdataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), alam\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 748
+    content: "\b"
+  - delay: 630
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 306
+    content: "\b"
+  - delay: 610
+    content: "\b_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), alama\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 742
+    content: "\b"
+  - delay: 570
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 562
+    content: "\e[C"
+  - delay: 284
+    content: "\e[C"
+  - delay: 759
+    content: "\bdataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), alamat\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 174
+    content: "\bdataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), alamat \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1177
+    content: "\bdataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(100), alamat v\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 974
+    content: "\r\n\r\r\nERROR 1007 (HY000): Can't create database 'sistem_dataa_warga'; database exists\r\n\a\e(B\e[0;7m\e(B\e[m\e(B\e[0;1mDatabase changed\r\n"
+  - delay: 7
+    content: "\e(B\e[m\e(B\e[0;1mQuery OK, 0 rows affected (0.007 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_dataa_warga]> "
+  - delay: 6849
+    content: "create database sistem_dataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(10\r00), alamat varchar(100), tanggal_lahir date); "
+  - delay: 1860
+    content: "\b"
+  - delay: 571
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\r"
+  - delay: 40
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 374
+    content: "\b"
+  - delay: 571
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 2561
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 366
+    content: "\a"
+  - delay: 422
+    content: "\a"
+  - delay: 775
+    content: "create database sistem_dataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(10\r00), alamat varchar(100), tanggal_lahir date); "
+  - delay: 574
+    content: "\b"
+  - delay: 604
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\r"
+  - delay: 40
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 801
+    content: "\b"
+  - delay: 466
+    content: "\b"
+  - delay: 572
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 6359
+    content: "\e[C"
+  - delay: 599
+    content: "\e[C"
+  - delay: 42
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 417
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[28Pinsert into data_warga (nama, alamat, tanggal_lahir) values ('michael', 'jl.pondok aren no 5', '1998-12-05');\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 568
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cuse sistem_data_warga;\e[K"
+  - delay: 400
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[7Pshow databases;"
+  - delay: 436
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\buse sistem_data_warga;"
+  - delay: 200
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\binsert into data_warga (nama, alamat, tanggal_lahir) values ('michael', 'jl.pondok aren no 5', '1998-12-05');"
+  - delay: 176
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Ccreate database sistem_dataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(10\r00), alamat varchar(100), tanggal_lahir date); "
+  - delay: 148
+    content: "\e[A\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 161
+    content: "\a"
+  - delay: 171
+    content: "\a"
+  - delay: 167
+    content: "\a"
+  - delay: 181
+    content: "\a"
+  - delay: 341
+    content: "create database sistem_dataa_warga; use sistem_dataa_warga; create table data_warga (id_no int primary key auto_increment, nama varchar(10\r00), alamat varchar(100), tanggal_lahir date); "
+  - delay: 376
+    content: "\e[A\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[28Pinsert into data_warga (nama, alamat, tanggal_lahir) values ('michael', 'jl.pondok aren no 5', '1998-12-05');\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 251
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cuse sistem_data_warga;\e[K"
+  - delay: 384
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\binsert into data_warga (nama, alamat, tanggal_lahir) values ('michael', 'jl.pondok aren no 5', '1998-12-05');"
+  - delay: 1068
+    content: "\r\n\e(B\e[0;1mQuery OK, 1 row affected (0.003 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_dataa_warga]> "
+  - delay: 3419
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e]3008;end=89a353df-e3f0-4238-8495-fc81f64f23de;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=829f6ce7-db2a-4899-8a09-b594b722f670;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=816bcf07-35cc-4449-b26b-d84e0b2f2eb5;pid=6105;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(2)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:18:43\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 1153
+    content: "\e[?2004l\r\r\nlogout\r\n"
