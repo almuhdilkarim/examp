@@ -1,0 +1,1504 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\ASUS
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 64
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 32
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 926
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e[7;1H\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 200
+    content: 'PS C:\Users\ASUS> '
+  - delay: 3688
+    content: "\e[93mm"
+  - delay: 15
+    content: "\e[m"
+  - delay: 140
+    content: "\e[93m\bma"
+  - delay: 16
+    content: "\e[m"
+  - delay: 172
+    content: "\e[?25l\e[93m\e[7;19Hmar\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 609
+    content: "\e[?25l\e[93m\e[7;19Hmari\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 156
+    content: "\e[?25l\e[93m\e[7;19Hmaria\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 359
+    content: "\e[?25l\e[93m\e[7;19Hmariad\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 577
+    content: "\e[?25l\e[93m\e[7;19Hmariadb\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 468
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 750
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[m-\e[?25h"
+  - delay: 640
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 1843
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 578
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mr\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mro\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mroo\e[?25h"
+  - delay: 281
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mroot\e[?25h"
+  - delay: 609
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mroot \e[?25h"
+  - delay: 515
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mroot -\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[93m\e[7;19Hmariadb \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 906
+    content: "\r\n"
+  - delay: 15
+    content: Enter pa
+  - delay: 16
+    content: 'ssword: '
+  - delay: 2031
+    content: '*'
+  - delay: 406
+    content: '*'
+  - delay: 297
+    content: '*'
+  - delay: 312
+    content: '*'
+  - delay: 203
+    content: '*'
+  - delay: 298
+    content: '*'
+  - delay: 406
+    content: '*'
+  - delay: 140
+    content: '*'
+  - delay: 156
+    content: '*'
+  - delay: 797
+    content: '*'
+  - delay: 219
+    content: '*'
+  - delay: 2593
+    content: "\r\n"
+  - delay: 63
+    content: "\e[?25lWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\nYour MariaDB connection id is 6\r\nServer version: 11.8.3-MariaDB mariadb.org binary distribution\e[13;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[16;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[19;1HMariaDB [(none)]> \e[?25h"
+  - delay: 2811
+    content: c
+  - delay: 188
+    content: r
+  - delay: 173
+    content: e
+  - delay: 124
+    content: a
+  - delay: 218
+    content: t
+  - delay: 141
+    content: e
+  - delay: 749
+    content: ' '
+  - delay: 282
+    content: t
+  - delay: 125
+    content: a
+  - delay: 219
+    content: b
+  - delay: 452
+    content: l
+  - delay: 141
+    content: e
+  - delay: 843
+    content: ' '
+  - delay: 1453
+    content: "\b \b"
+  - delay: 438
+    content: "\e[?25l\e[19;26H     \e[19;26H\e[?25h"
+  - delay: 172
+    content: "\b \b"
+  - delay: 374
+    content: "\e[?25l\e[19;19H      \e[19;19H\e[?25h"
+  - delay: 4499
+    content: c
+  - delay: 375
+    content: r
+  - delay: 172
+    content: e
+  - delay: 266
+    content: a
+  - delay: 281
+    content: t
+  - delay: 125
+    content: e
+  - delay: 531
+    content: ' '
+  - delay: 390
+    content: d
+  - delay: 93
+    content: a
+  - delay: 156
+    content: t
+  - delay: 63
+    content: a
+  - delay: 703
+    content: b
+  - delay: 125
+    content: a
+  - delay: 390
+    content: s
+  - delay: 94
+    content: e
+  - delay: 2187
+    content: ' '
+  - delay: 531
+    content: k
+  - delay: 110
+    content: a
+  - delay: 234
+    content: s
+  - delay: 984
+    content: '-'
+  - delay: 656
+    content: R
+  - delay: 1000
+    content: "\e[?25l\e[19;35H     \e[19;35H\e[?25h"
+  - delay: 984
+    content: k
+  - delay: 141
+    content: a
+  - delay: 218
+    content: s
+  - delay: 719
+    content: '-'
+  - delay: 1546
+    content: "\e[?25l\e[19;35H    \e[19;35H\e[?25h"
+  - delay: 969
+    content: _
+  - delay: 1593
+    content: "\b \b"
+  - delay: 594
+    content: k
+  - delay: 94
+    content: a
+  - delay: 203
+    content: s
+  - delay: 687
+    content: _
+  - delay: 719
+    content: r
+  - delay: 171
+    content: e
+  - delay: 172
+    content: s
+  - delay: 313
+    content: t
+  - delay: 390
+    content: o
+  - delay: 313
+    content: r
+  - delay: 125
+    content: a
+  - delay: 593
+    content: 'n'
+  - delay: 2781
+    content: ;
+  - delay: 1359
+    content: "\r\nERROR 1007 (HY000): Can't create database 'kas_restoran'; database exists\r\nMariaDB [(none)]> "
+  - delay: 17975
+    content: CREATE DATABASE kas_restoran;
+  - delay: 796
+    content: "\r\nERROR 1007 (HY000): Can't create database 'kas_restoran'; database exists\r\nMariaDB [(none)]> "
+  - delay: 30656
+    content: u
+  - delay: 109
+    content: s
+  - delay: 219
+    content: e
+  - delay: 703
+    content: ' '
+  - delay: 594
+    content: r
+  - delay: 203
+    content: e
+  - delay: 125
+    content: s
+  - delay: 1968
+    content: "\e[?25l\e[25;23H   \e[25;23H\e[?25h"
+  - delay: 703
+    content: k
+  - delay: 141
+    content: a
+  - delay: 218
+    content: s
+  - delay: 1110
+    content: _
+  - delay: 781
+    content: r
+  - delay: 187
+    content: e
+  - delay: 126
+    content: s
+  - delay: 233
+    content: t
+  - delay: 391
+    content: o
+  - delay: 297
+    content: r
+  - delay: 125
+    content: a
+  - delay: 266
+    content: 'n'
+  - delay: 249
+    content: t
+  - delay: 2828
+    content: "\e[?25l\e[25;23H\e[13X\e[?25h"
+  - delay: 1499
+    content: k
+  - delay: 78
+    content: a
+  - delay: 188
+    content: s
+  - delay: 812
+    content: _
+  - delay: 703
+    content: r
+  - delay: 141
+    content: a
+  - delay: 250
+    content: s
+  - delay: 1125
+    content: t
+  - delay: 390
+    content: i
+  - delay: 390
+    content: r
+  - delay: 125
+    content: a
+  - delay: 703
+    content: "\e[?25l\e[25;23H\e[11X\e[?25h"
+  - delay: 953
+    content: k
+  - delay: 110
+    content: a
+  - delay: 203
+    content: s
+  - delay: 1156
+    content: _
+  - delay: 781
+    content: r
+  - delay: 203
+    content: e
+  - delay: 328
+    content: s
+  - delay: 312
+    content: t
+  - delay: 375
+    content: o
+  - delay: 328
+    content: r
+  - delay: 125
+    content: a
+  - delay: 313
+    content: 'n'
+  - delay: 1421
+    content: ;
+  - delay: 219
+    content: "\r\nDatabase changed\r\nMariaDB [kas_restoran]> "
+  - delay: 14442
+    content: CREATE TABLE karyawan (
+  - delay: 1000
+    content: "\r\n    -> "
+  - delay: 9011
+    content: id_karyawan INT AUTO_INCREMENT PRIMARY KEY
+  - delay: 1796
+    content: ','
+  - delay: 1047
+    content: "\r\n    -> "
+  - delay: 8178
+    content: 'nama_karyawan VARCHAR(100),'
+  - delay: 18658
+    content: "\r\n    -> "
+  - delay: 859
+    content: 'jabatan ENUM(''kasir'',''manager'',''pelayan''),'
+  - delay: 1437
+    content: "\r\n    -> "
+  - delay: 8505
+    content: no_hp VARCHAR(15)
+  - delay: 4265
+    content: )
+  - delay: 1140
+    content: ;
+  - delay: 828
+    content: "\r\n"
+  - delay: 258
+    content: "Query OK, 0 rows affected (0.271 sec)\r\n"
+  - delay: 22
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 1593
+    content: s
+  - delay: 172
+    content: h
+  - delay: 219
+    content: o
+  - delay: 219
+    content: w
+  - delay: 625
+    content: t
+  - delay: 171
+    content: a
+  - delay: 188
+    content: b
+  - delay: 437
+    content: l
+  - delay: 344
+    content: e
+  - delay: 157
+    content: s
+  - delay: 1015
+    content: "\e[?25l\e[32;25H\e[10X\e[?25h"
+  - delay: 624
+    content: s
+  - delay: 172
+    content: h
+  - delay: 422
+    content: o
+  - delay: 187
+    content: w
+  - delay: 250
+    content: ' '
+  - delay: 516
+    content: t
+  - delay: 125
+    content: a
+  - delay: 281
+    content: b
+  - delay: 391
+    content: l
+  - delay: 327
+    content: e
+  - delay: 141
+    content: s
+  - delay: 828
+    content: ;
+  - delay: 578
+    content: "\r\n+------------------------+\r\n| Tables_in_kas_restoran |\r\n+------------------------+\r\n| karyawan               |\r\n+------------------------+\r\n1 row in set (0.001 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 10714
+    content: CREATE TABLE menu (
+  - delay: 5100
+    content: "\r"
+  - delay: 12
+    content: "\n    ->\e[1C"
+  - delay: 6461
+    content: ' id_menu INT AUTO_INCREMENT PRIMARY KEY,'
+  - delay: 1152
+    content: "\r"
+  - delay: 19
+    content: "\n    ->\e[1C"
+  - delay: 9848
+    content: ' nama_menu VARCHAR(100),'
+  - delay: 1518
+    content: "\r"
+  - delay: 13
+    content: "\n    ->\e[1C"
+  - delay: 13993
+    content: 'jenis_menu ENUM(''makanan'',''minuman''),'
+  - delay: 1154
+    content: "\r"
+  - delay: 18
+    content: "\n    ->\e[1C"
+  - delay: 8885
+    content: ' harga DECIMAL(10,2)'
+  - delay: 2765
+    content: )
+  - delay: 1219
+    content: ;
+  - delay: 790
+    content: "\r"
+  - delay: 22
+    content: |+
+
+  - delay: 253
+    content: "Query OK, 0 rows affected (0.275 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 1374
+    content: s
+  - delay: 313
+    content: h
+  - delay: 203
+    content: o
+  - delay: 265
+    content: w
+  - delay: 219
+    content: ' '
+  - delay: 328
+    content: t
+  - delay: 141
+    content: a
+  - delay: 140
+    content: b
+  - delay: 391
+    content: l
+  - delay: 312
+    content: e
+  - delay: 141
+    content: s
+  - delay: 750
+    content: ;
+  - delay: 183
+    content: "\r\n+------------------------+\r\n| Tables_in_kas_restoran |\r\n+------------------------+\r\n| karyawan               |\r\n| menu                   |\r\n+------------------------+\r\n2 rows in set (0.001 sec)\r\n"
+  - delay: 16
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 15314
+    content: CREATE TABLE transaksi (
+  - delay: 785
+    content: "\r"
+  - delay: 11
+    content: "\n    ->\e[1C"
+  - delay: 8034
+    content: ' id_transaksi INT AUTO_INCREMENT PRIMARY KEY,'
+  - delay: 883
+    content: "\r"
+  - delay: 24
+    content: "\n    ->\e[1C"
+  - delay: 6721
+    content: ' tanggal DATE,'
+  - delay: 965
+    content: "\r"
+  - delay: 18
+    content: "\n    ->\e[1C"
+  - delay: 9938
+    content: 'total_bayar DECIMAL(10,2),'
+  - delay: 3914
+    content: "\r"
+  - delay: 22
+    content: "\n    ->\e[1C"
+  - delay: 7509
+    content: ' id_karyawan INT,'
+  - delay: 1425
+    content: "\r"
+  - delay: 12
+    content: "\n    ->\e[1C"
+  - delay: 7879
+    content: ' FOREIGN KEY (id_karyawan) REFERENCES karyawan(id_karyawa'
+  - delay: 14
+    content: "\r\n\e[31;64Han)"
+  - delay: 2890
+    content: )
+  - delay: 1750
+    content: ;
+  - delay: 975
+    content: "\r"
+  - delay: 9
+    content: |+
+
+  - delay: 205
+    content: "Query OK, 0 rows affected (0.213 sec)\r\n"
+  - delay: 14
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 7274
+    content: s
+  - delay: 312
+    content: h
+  - delay: 329
+    content: o
+  - delay: 172
+    content: w
+  - delay: 203
+    content: ' '
+  - delay: 437
+    content: t
+  - delay: 125
+    content: a
+  - delay: 156
+    content: b
+  - delay: 423
+    content: l
+  - delay: 342
+    content: e
+  - delay: 140
+    content: s
+  - delay: 1359
+    content: ;
+  - delay: 264
+    content: "\r\n+------------------------+\r\n| Tables_in_kas_restoran |\r\n+------------------------+\r\n| karyawan               |\r\n| menu                   |\r\n| transaksi              |\r\n+------------------------+\r\n3 rows in set (0.002 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 18182
+    content: CREATE TABLE pengeluaran (
+  - delay: 682
+    content: "\r"
+  - delay: 21
+    content: "\n    ->\e[1C"
+  - delay: 8295
+    content: ' id_pengeluaran INT AUTO_INCREMENT PRIMARY KEY,'
+  - delay: 863
+    content: "\r"
+  - delay: 11
+    content: "\n    ->\e[1C"
+  - delay: 7891
+    content: ' tanggal DATE,'
+  - delay: 812
+    content: "\r"
+  - delay: 16
+    content: "\n    ->\e[1C"
+  - delay: 7533
+    content: ' keterangan VARCHAR(200),'
+  - delay: 774
+    content: "\r"
+  - delay: 23
+    content: "\n    ->\e[1C"
+  - delay: 9196
+    content: 'jumlah DECIMAL(10,2)'
+  - delay: 2906
+    content: )
+  - delay: 1343
+    content: ;
+  - delay: 215
+    content: "\r"
+  - delay: 20
+    content: |+
+
+  - delay: 227
+    content: "Query OK, 0 rows affected (0.247 sec)\r\n"
+  - delay: 22
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 1609
+    content: s
+  - delay: 171
+    content: h
+  - delay: 407
+    content: o
+  - delay: 156
+    content: w
+  - delay: 218
+    content: ' '
+  - delay: 391
+    content: t
+  - delay: 125
+    content: a
+  - delay: 141
+    content: b
+  - delay: 406
+    content: l
+  - delay: 312
+    content: e
+  - delay: 125
+    content: s
+  - delay: 2328
+    content: ;
+  - delay: 2048
+    content: "\r\n+------------------------+\r\n| Tables_in_kas_restoran |\r\n+------------------------+\r\n| karyawan               |\r\n| menu                   |\r\n| pengeluaran            |\r\n| transaksi              |\r\n+------------------------+\r\n4 rows in set (0.001 sec)\r\n"
+  - delay: 8
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 14765
+    content: 'INSERT INTO menu (nama_menu, jenis_menu,'
+  - delay: 15
+    content: "\r\n\e[31;64H, harga) VALUES"
+  - delay: 1540
+    content: "\r"
+  - delay: 22
+    content: "\n    ->\e[1C"
+  - delay: 6677
+    content: '(''Nasi Goreng'', ''makanan'', 20000),'
+  - delay: 742
+    content: "\r"
+  - delay: 23
+    content: "\n    ->\e[1C"
+  - delay: 7906
+    content: '(''Ayam Bakar'', ''makanan'', 25000),'
+  - delay: 739
+    content: "\r"
+  - delay: 11
+    content: "\n    ->\e[1C"
+  - delay: 7921
+    content: '(''Es Teh'', ''minuman'', 5000);'
+  - delay: 1545
+    content: "\r"
+  - delay: 17
+    content: |+
+
+  - delay: 73
+    content: "Query OK, 3 rows affected (0.089 sec)\r\nRecords: 3  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 20
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 1421
+    content: s
+  - delay: 156
+    content: h
+  - delay: 469
+    content: o
+  - delay: 219
+    content: w
+  - delay: 218
+    content: ' '
+  - delay: 469
+    content: t
+  - delay: 110
+    content: a
+  - delay: 156
+    content: b
+  - delay: 390
+    content: l
+  - delay: 313
+    content: e
+  - delay: 125
+    content: s
+  - delay: 1374
+    content: ;
+  - delay: 232
+    content: "\r\n+------------------------+\r\n| Tables_in_kas_restoran |\r\n+------------------------+\r\n| karyawan               |\r\n| menu                   |\r\n| pengeluaran            |\r\n| transaksi              |\r\n+------------------------+\r\n4 rows in set (0.001 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 3671
+    content: s
+  - delay: 235
+    content: e
+  - delay: 78
+    content: l
+  - delay: 156
+    content: e
+  - delay: 328
+    content: c
+  - delay: 157
+    content: t
+  - delay: 578
+    content: ' '
+  - delay: 1452
+    content: '*'
+  - delay: 516
+    content: ' '
+  - delay: 344
+    content: f
+  - delay: 577
+    content: r
+  - delay: 235
+    content: o
+  - delay: 500
+    content: m
+  - delay: 218
+    content: ' '
+  - delay: 281
+    content: t
+  - delay: 140
+    content: a
+  - delay: 156
+    content: b
+  - delay: 1188
+    content: "\e[?25l\e[32;39H   \e[32;39H\e[?25h"
+  - delay: 1702
+    content: m
+  - delay: 141
+    content: e
+  - delay: 140
+    content: 'n'
+  - delay: 172
+    content: u
+  - delay: 891
+    content: ;
+  - delay: 202
+    content: "\r\n+---------+-------------+------------+----------+\r\n| id_menu | nama_menu   | jenis_menu | harga    |\r\n+---------+-------------+------------+----------+\r\n|       1 | Nasi Goreng | makanan    | 20000.00 |\r\n|       2 | Ayam Bakar  | makanan    | 25000.00 |\r\n|       3 | Es Teh      | minuman    |  5000.00 |\r\n+---------+-------------+------------+----------+\r\n3 rows in set (0.001 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 87714
+    content: i
+  - delay: 187
+    content: 'n'
+  - delay: 469
+    content: s
+  - delay: 328
+    content: r
+  - delay: 891
+    content: "\e[?25l\e[32;25H    \e[32;25H\e[?25h"
+  - delay: 718
+    content: i
+  - delay: 234
+    content: 'n'
+  - delay: 156
+    content: s
+  - delay: 203
+    content: e
+  - delay: 157
+    content: r
+  - delay: 1546
+    content: ' '
+  - delay: 391
+    content: i
+  - delay: 156
+    content: 'n'
+  - delay: 203
+    content: t
+  - delay: 218
+    content: o
+  - delay: 641
+    content: ' '
+  - delay: 750
+    content: k
+  - delay: 140
+    content: a
+  - delay: 204
+    content: r
+  - delay: 1327
+    content: 'y'
+  - delay: 110
+    content: a
+  - delay: 234
+    content: w
+  - delay: 125
+    content: a
+  - delay: 390
+    content: 'n'
+  - delay: 532
+    content: ' '
+  - delay: 10518
+    content: '(nama_karyawan, jaba'
+  - delay: 14
+    content: "\r\n\e[31;64Hatan, no_hp)"
+  - delay: 2000
+    content: ' '
+  - delay: 329
+    content: v
+  - delay: 139
+    content: a
+  - delay: 282
+    content: l
+  - delay: 249
+    content: u
+  - delay: 282
+    content: e
+  - delay: 125
+    content: s
+  - delay: 1223
+    content: "\r"
+  - delay: 11
+    content: "\n    ->\e[1C"
+  - delay: 11022
+    content: '(''Andi'', ''kasir'', ''08123456789'');'
+  - delay: 4848
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check \r\n\e[31;64H the manual that corresponds to your MariaDB server version for t\r\n\e[31;64Hthe right syntax to use near 'inser into karyawan (nama_karyawan,\r\n\e[31;64H, jabatan, no_hp) values\r\n('Andi', 'kasir', ...' at line 1"
+  - delay: 7
+    content: "\r\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 11868
+    content: 'inser into karyawan (nama_karyawan, jaba'
+  - delay: 17
+    content: "\r\n\e[31;64Hatan, no_hp) values"
+  - delay: 1154
+    content: "\r"
+  - delay: 18
+    content: "\n    ->\e[1C"
+  - delay: 12903
+    content: ' (''Andi'', ''kasir'', ''08123456789'')'
+  - delay: 1766
+    content: ','
+  - delay: 765
+    content: "\r"
+  - delay: 16
+    content: "\n    ->\e[1C"
+  - delay: 2187
+    content: (
+  - delay: 2312
+    content: ''''
+  - delay: 969
+    content: ' '
+  - delay: 1561
+    content: "\b \b"
+  - delay: 703
+    content: 'n'
+  - delay: 94
+    content: a
+  - delay: 141
+    content: 'n'
+  - delay: 62
+    content: a
+  - delay: 844
+    content: ''''
+  - delay: 1187
+    content: ','
+  - delay: 265
+    content: ' '
+  - delay: 860
+    content: ''''
+  - delay: 3421
+    content: c
+  - delay: 359
+    content: h
+  - delay: 125
+    content: a
+  - delay: 219
+    content: f
+  - delay: 1046
+    content: ''''
+  - delay: 859
+    content: ','
+  - delay: 297
+    content: ' '
+  - delay: 813
+    content: ''''
+  - delay: 1062
+    content: '0'
+  - delay: 437
+    content: '8'
+  - delay: 219
+    content: '9'
+  - delay: 359
+    content: '7'
+  - delay: 250
+    content: '6'
+  - delay: 251
+    content: '5'
+  - delay: 280
+    content: '4'
+  - delay: 266
+    content: '3'
+  - delay: 265
+    content: '2'
+  - delay: 422
+    content: '9'
+  - delay: 719
+    content: '2'
+  - delay: 187
+    content: '1'
+  - delay: 1859
+    content: ''''
+  - delay: 2218
+    content: )
+  - delay: 859
+    content: ','
+  - delay: 4390
+    content: "\e[?25l\e[32;25H\e[16X\e[?25h"
+  - delay: 3124
+    content: ''''
+  - delay: 1500
+    content: '0'
+  - delay: 250
+    content: '8'
+  - delay: 172
+    content: '9'
+  - delay: 1094
+    content: '7'
+  - delay: 234
+    content: '6'
+  - delay: 171
+    content: '5'
+  - delay: 1000
+    content: '5'
+  - delay: 375
+    content: '4'
+  - delay: 109
+    content: '3'
+  - delay: 563
+    content: '2'
+  - delay: 219
+    content: '1'
+  - delay: 609
+    content: '8'
+  - delay: 1015
+    content: ''''
+  - delay: 2484
+    content: _
+  - delay: 1999
+    content: "\e[?25l\e[32;25H\e[15X\e[?25h"
+  - delay: 1234
+    content: ''''
+  - delay: 1983
+    content: '0'
+  - delay: 204
+    content: '9'
+  - delay: 1655
+    content: "\e[?25l\e[32;25H   \e[32;25H\e[?25h"
+  - delay: 922
+    content: ''''
+  - delay: 391
+    content: '0'
+  - delay: 296
+    content: '8'
+  - delay: 172
+    content: '9'
+  - delay: 266
+    content: '7'
+  - delay: 234
+    content: '6'
+  - delay: 219
+    content: '5'
+  - delay: 234
+    content: '4'
+  - delay: 281
+    content: '3'
+  - delay: 438
+    content: '9'
+  - delay: 234
+    content: '2'
+  - delay: 1359
+    content: '4'
+  - delay: 328
+    content: '1'
+  - delay: 875
+    content: ''''
+  - delay: 1749
+    content: )
+  - delay: 1531
+    content: ;
+  - delay: 446
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check \r\n\e[31;64H the manual that corresponds to your MariaDB server version for t\r\n\e[31;64Hthe right syntax to use near 'inser into karyawan (nama_karyawan,\r\n\e[31;64H, jabatan, no_hp) values\r\n ('Andi', 'kasir',...' at line 1"
+  - delay: 20
+    content: "\r\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 42901
+    content: INSERT INTO karyawan ...
+  - delay: 1562
+    content: "\e[?25l\e[32;46H   \e[32;46H\e[?25h"
+  - delay: 13312
+    content: '(nama_karyawan, jab'
+  - delay: 19
+    content: "\r\n\e[31;64Hbatan, no_hp) VALUES"
+  - delay: 1812
+    content: "\r"
+  - delay: 15
+    content: "\n    ->\e[1C"
+  - delay: 8173
+    content: '(''Andi'', ''kasir'', ''08123456789'')'
+  - delay: 1313
+    content: ','
+  - delay: 682
+    content: "\r"
+  - delay: 20
+    content: "\n    ->\e[1C"
+  - delay: 9280
+    content: '(''nana'', ''chaf'', ''089765439241'');'
+  - delay: 1201
+    content: "\r"
+  - delay: 18
+    content: |+
+
+  - delay: 57
+    content: "ERROR 1265 (01000): Data truncated for column 'jabatan' at row 2\e[32;64H"
+  - delay: 21
+    content: "\r\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 15484
+    content: 'INSERT INTO karyawan (nama_karyawan, jab'
+  - delay: 22
+    content: "\r\n\e[31;64Hbatan, no_hp) VALUES"
+  - delay: 1229
+    content: "\r"
+  - delay: 20
+    content: "\n    ->\e[1C"
+  - delay: 8467
+    content: ' (''Andi'', ''kasir'', ''08123456789''),'
+  - delay: 1275
+    content: "\r"
+  - delay: 22
+    content: "\n    ->\e[1C"
+  - delay: 8373
+    content: '(''nana'', ''chaf'', ''089765439241'');'
+  - delay: 1031
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 16
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 265
+    content: "\b"
+  - delay: 469
+    content: "\e[1C"
+  - delay: 656
+    content: "\e[?25l\e[32;8H('nana', f', '089765439241');     \e[32;17H\e[?25h"
+  - delay: 1312
+    content: "\e[?25l\e[32;8H('nana', cf', '089765439241');\e[32;18H\e[?25h"
+  - delay: 469
+    content: "\e[?25l\e[32;8H('nana', chf', '089765439241');\e[32;19H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e[32;8H('nana', chef', '089765439241');\e[32;20H\e[?25h"
+  - delay: 1079
+    content: "\e[1C"
+  - delay: 499
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 16
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 188
+    content: "\e[1C"
+  - delay: 187
+    content: "\e[1C"
+  - delay: 188
+    content: "\e[1C"
+  - delay: 219
+    content: "\e[1C"
+  - delay: 375
+    content: "\e[1C"
+  - delay: 635
+    content: "\r"
+  - delay: 21
+    content: "\n    '>\e[1C"
+  - delay: 14200
+    content: ' (''nana'', chef'', ''089765439241'')'
+  - delay: 4186
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 15
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 203
+    content: "\b"
+  - delay: 187
+    content: "\b"
+  - delay: 7327
+    content: "\e[1C"
+  - delay: 500
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 15
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 250
+    content: "\e[1C"
+  - delay: 172
+    content: "\e[1C"
+  - delay: 219
+    content: "\e[1C"
+  - delay: 188
+    content: "\e[1C"
+  - delay: 187
+    content: "\e[1C"
+  - delay: 812
+    content: ;
+  - delay: 372
+    content: "\r"
+  - delay: 19
+    content: |+
+
+  - delay: 7
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check \r\n\e[31;64H the manual that corresponds to your MariaDB server version for t\r\n\e[31;64Hthe right syntax to use near '', '089765439241');\r\n ('nana', chef', '089765439241')' at line 3"
+  - delay: 7
+    content: "\r\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 5878
+    content: 'INSERT INTO karyawan (nama_karyawan, jab'
+  - delay: 12
+    content: "\r\n\e[31;64Hbatan, no_hp) VALUES"
+  - delay: 2391
+    content: "\r"
+  - delay: 15
+    content: "\n    ->\e[1C"
+  - delay: 6467
+    content: '(''Andi'', ''kasir'', ''08123456789''),'
+  - delay: 7876
+    content: "\r"
+  - delay: 13
+    content: "\n    ->\e[1C"
+  - delay: 1047
+    content: ' (''nana'', chef'', ''089765439241'')'
+  - delay: 2000
+    content: ','
+  - delay: 2874
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 16
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 15
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 500
+    content: "\e[1C"
+  - delay: 328
+    content: "\e[1C"
+  - delay: 828
+    content: "\e[?25l\e[32;8H ('nana', 'chef', '089765439241'),\e[32;19H\e[?25h"
+  - delay: 1578
+    content: "\b"
+  - delay: 812
+    content: "\e[?25l\e[32;8H ('nana','chef', '089765439241'),  \e[32;17H\e[?25h"
+  - delay: 1531
+    content: "\e[?25l\e[32;8H ('nana', 'chef', '089765439241'),\e[32;18H\e[?25h"
+  - delay: 688
+    content: "\e[1C"
+  - delay: 499
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 187
+    content: "\e[1C"
+  - delay: 188
+    content: "\e[1C"
+  - delay: 172
+    content: "\e[1C"
+  - delay: 187
+    content: "\e[1C"
+  - delay: 500
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 157
+    content: "\e[1C"
+  - delay: 187
+    content: "\e[1C"
+  - delay: 172
+    content: "\e[1C"
+  - delay: 188
+    content: "\e[1C"
+  - delay: 499
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 1562
+    content: "\e[?25l\e[32;26H\e[16X\e[?25h"
+  - delay: 2281
+    content: (
+  - delay: 890
+    content: "\b \b"
+  - delay: 969
+    content: ;
+  - delay: 625
+    content: "\b \b"
+  - delay: 328
+    content: ''''
+  - delay: 1031
+    content: '0'
+  - delay: 312
+    content: '8'
+  - delay: 250
+    content: '7'
+  - delay: 266
+    content: '6'
+  - delay: 234
+    content: '5'
+  - delay: 219
+    content: '4'
+  - delay: 297
+    content: '3'
+  - delay: 234
+    content: '2'
+  - delay: 281
+    content: '1'
+  - delay: 312
+    content: '9'
+  - delay: 204
+    content: '0'
+  - delay: 1437
+    content: ''''
+  - delay: 2952
+    content: )
+  - delay: 1031
+    content: ;
+  - delay: 225
+    content: "\r"
+  - delay: 10
+    content: |+
+
+  - delay: 35
+    content: "ERROR 1265 (01000): Data truncated for column 'jabatan' at row 2\e[32;64H"
+  - delay: 12
+    content: "\r\nMariaDB [kas_restoran]>\e[1C"
+  - delay: 2178
+    content: e
+  - delay: 203
+    content: x
+  - delay: 296
+    content: i
+  - delay: 282
+    content: t
+  - delay: 1647
+    content: "\r\nBye"
+  - delay: 7
+    content: "\r\n"
+  - delay: 16
+    content: 'PS C:\Users\ASUS> '
+  - delay: 1422
+    content: "\e[93me"
+  - delay: 15
+    content: "\e[m"
+  - delay: 188
+    content: "\e[93m\bex"
+  - delay: 15
+    content: "\e[m"
+  - delay: 344
+    content: "\e[?25l\e[93m\e[32;19Hexi\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 250
+    content: "\e[?25l\e[92m\e[32;19Hexit\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 6546
+    content: "\r\n"
