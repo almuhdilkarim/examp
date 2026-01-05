@@ -1,0 +1,1669 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\pc
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 637
+    content: "\e[?9001h\e[?1004h"
+  - delay: 92
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 155
+    content: 'PS C:\Users\pc> '
+  - delay: 1495
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93mm\e[?25h"
+  - delay: 303
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 128
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;17Hmys\e[?25h"
+  - delay: 273
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;17Hmysq\e[?25h"
+  - delay: 138
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;17Hmysql\e[?25h"
+  - delay: 380
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;17Hmysql \e[?25h"
+  - delay: 786
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;17Hmysql \e[37m-\e[?25h"
+  - delay: 257
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;17Hmysql \e[90m-u\e[?25h"
+  - delay: 233
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[?25h"
+  - delay: 136
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mr\e[?25h"
+  - delay: 140
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mro\e[?25h"
+  - delay: 120
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mroo\e[?25h"
+  - delay: 187
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mroot\e[?25h"
+  - delay: 177
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mroot \e[?25h"
+  - delay: 307
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mroot -\e[?25h"
+  - delay: 201
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;17Hmysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 611
+    content: "\e[m"
+  - delay: 20
+    content: "\r\n"
+  - delay: 32
+    content: E
+  - delay: 14
+    content: 'nter password: '
+  - delay: 625
+    content: '*'
+  - delay: 290
+    content: '*'
+  - delay: 175
+    content: '*'
+  - delay: 231
+    content: '*'
+  - delay: 277
+    content: '*'
+  - delay: 123
+    content: '*'
+  - delay: 118
+    content: '*'
+  - delay: 154
+    content: '*'
+  - delay: 186
+    content: '*'
+  - delay: 388
+    content: '*'
+  - delay: 174
+    content: '*'
+  - delay: 614
+    content: "\r\n"
+  - delay: 62
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 20
+    content: "\e[?25l\r\nYour MariaDB connection id is 32\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 2703
+    content: c
+  - delay: 253
+    content: r
+  - delay: 256
+    content: e
+  - delay: 127
+    content: a
+  - delay: 161
+    content: t
+  - delay: 151
+    content: e
+  - delay: 209
+    content: ' '
+  - delay: 310
+    content: d
+  - delay: 83
+    content: a
+  - delay: 116
+    content: t
+  - delay: 114
+    content: a
+  - delay: 131
+    content: b
+  - delay: 104
+    content: a
+  - delay: 216
+    content: s
+  - delay: 193
+    content: e
+  - delay: 435
+    content: ' '
+  - delay: 654
+    content: a
+  - delay: 195
+    content: 'n'
+  - delay: 214
+    content: g
+  - delay: 132
+    content: g
+  - delay: 230
+    content: o
+  - delay: 242
+    content: t
+  - delay: 81
+    content: a
+  - delay: 5500
+    content: ' '
+  - delay: 229
+    content: k
+  - delay: 171
+    content: o
+  - delay: 150
+    content: p
+  - delay: 130
+    content: e
+  - delay: 189
+    content: r
+  - delay: 130
+    content: a
+  - delay: 201
+    content: s
+  - delay: 115
+    content: i
+  - delay: 1276
+    content: ;
+  - delay: 1062
+    content: "\b \b"
+  - delay: 596
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 36
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 235
+    content: "\b \b"
+  - delay: 148
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 760
+    content: _
+  - delay: 347
+    content: k
+  - delay: 174
+    content: o
+  - delay: 152
+    content: p
+  - delay: 125
+    content: e
+  - delay: 197
+    content: r
+  - delay: 137
+    content: a
+  - delay: 219
+    content: s
+  - delay: 129
+    content: i
+  - delay: 1803
+    content: ;
+  - delay: 363
+    content: "\r\n"
+  - delay: 12
+    content: "ERROR 1007 (HY000): Can't create database 'anggota_koperasi'; database exists\r\nMariaDB [(none)]> "
+  - delay: 6462
+    content: u
+  - delay: 123
+    content: s
+  - delay: 235
+    content: e
+  - delay: 1825
+    content: ' '
+  - delay: 350
+    content: d
+  - delay: 77
+    content: a
+  - delay: 113
+    content: t
+  - delay: 92
+    content: a
+  - delay: 140
+    content: b
+  - delay: 75
+    content: a
+  - delay: 223
+    content: s
+  - delay: 241
+    content: e
+  - delay: 494
+    content: ' '
+  - delay: 917
+    content: a
+  - delay: 128
+    content: 'n'
+  - delay: 234
+    content: g
+  - delay: 138
+    content: g
+  - delay: 453
+    content: "\b \b"
+  - delay: 590
+    content: "\b \b"
+  - delay: 36
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 36
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 39
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 448
+    content: a
+  - delay: 175
+    content: 'n'
+  - delay: 216
+    content: g
+  - delay: 110
+    content: g
+  - delay: 241
+    content: o
+  - delay: 268
+    content: t
+  - delay: 159
+    content: a
+  - delay: 1085
+    content: _
+  - delay: 574
+    content: k
+  - delay: 196
+    content: o
+  - delay: 172
+    content: p
+  - delay: 110
+    content: e
+  - delay: 179
+    content: r
+  - delay: 134
+    content: a
+  - delay: 212
+    content: s
+  - delay: 127
+    content: i
+  - delay: 1141
+    content: ;
+  - delay: 360
+    content: "\r\n"
+  - delay: 24
+    content: "Database changed\r\nMariaDB [anggota_koperasi]> "
+  - delay: 3604
+    content: "CREATE TABLE anggota (\r\n"
+  - delay: 20
+    content: "    ->     id_anggota INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_anggota VARCHAR(100),\r\n    ->     alamat VARCHAR(100)\r\n    -> );"
+  - delay: 4218
+    content: "\r\n"
+  - delay: 21
+    content: "ERROR 1050 (42S01): Table 'anggota' already exists\r\nMariaDB [anggota_koperasi]> "
+  - delay: 3876
+    content: s
+  - delay: 231
+    content: e
+  - delay: 81
+    content: l
+  - delay: 164
+    content: e
+  - delay: 158
+    content: c
+  - delay: 215
+    content: t
+  - delay: 1034
+    content: ' '
+  - delay: 543
+    content: '*'
+  - delay: 305
+    content: ' '
+  - delay: 110
+    content: f
+  - delay: 192
+    content: r
+  - delay: 77
+    content: o
+  - delay: 227
+    content: m
+  - delay: 170
+    content: ' '
+  - delay: 127
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 203
+    content: g
+  - delay: 121
+    content: g
+  - delay: 205
+    content: o
+  - delay: 252
+    content: t
+  - delay: 182
+    content: a
+  - delay: 440
+    content: ;
+  - delay: 203
+    content: "\r\n"
+  - delay: 19
+    content: "\e[?25lEmpty set (0.019 sec)\e[29;1HMariaDB [anggota_koperasi]> \e[?25h"
+  - delay: 21801
+    content: "INSERT INTO anggota (nama_anggota, alamat, no_hp, tanggal_daftar) VALUES\r\n    -> ('Andi Saputra', 'Jl. Melati No. 10', '081234567890', '2025-01-10'),\r\n    -> ('Siti Aminah', 'Jl. Mawar No. 5', '081298765432', '2025-02-01'),\r\n    -> ('Budi Santoso', 'Jl. Kenanga No. 7', '082112223333', '2025-03-12'),\r\n    -> ('Rina Lestari', 'Jl. Anggrek No. 3', '085677889900', '2025-04-20'),\r"
+  - delay: 18
+    content: |2-
+
+          -> ('Ahmad Fauzi', 'Jl. Dahlia No. 9', '081355566677', '2025-05-15');
+  - delay: 1248
+    content: "\r\n"
+  - delay: 13
+    content: "Query OK, 5 rows affected (0.013 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 12029
+    content: "CREATE TABLE jenis_simpanan (\r\n    ->     id_simpanan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_simpanan VARCHAR(50)\r"
+  - delay: 10
+    content: |2-
+
+          -> );
+  - delay: 1856
+    content: "\r\n"
+  - delay: 10
+    content: "Query OK, 0 rows affected (0.010 sec)\r\n\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 14790
+    content: "INSERT INTO jenis_simpanan (nama_simpanan) VALUES\r\n    -> ('Simpanan Pokok'),\r\n    -> ('Simpanan Wajib'),\r"
+  - delay: 10
+    content: |2-
+
+          -> ('Simpanan Sukarela');
+  - delay: 1146
+    content: "\r\nQuery OK, 3 rows affected (0.004 sec)\r\nRecords: 3  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 21
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 10674
+    content: "CREATE TABLE transaksi_simpanan (\r\n    ->     id_transaksi INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_anggota INT,\r\n    ->     id_simpanan INT,\r\n    ->     tanggal DATE,\r\n    ->     jumlah INT,\r\n    ->     FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota),\r\n    ->     FOREIGN KEY (id_simpanan) REFERENCES jenis_simpanan(id_simpanan)\r"
+  - delay: 20
+    content: |2-
+
+          -> )
+  - delay: 1320
+    content: ;
+  - delay: 704
+    content: "\r\n"
+  - delay: 12
+    content: "Query OK, 0 rows affected (0.012 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 10294
+    content: "INSERT INTO transaksi_simpanan (id_anggota, id_simpanan, tanggal, jumlah) VALUES\r\n    -> (1, 1, '2025-01-10', 500000),\r\n    -> (1, 2, '2025-02-10', 100000),\r\n    -> (2, 1, '2025-02-01', 500000),\r\n    -> (3, 3, '2025-03-15', 200000),\r"
+  - delay: 12
+    content: |2-
+
+          -> (4, 2, '2025-04-25', 100000);
+  - delay: 4540
+    content: "\r\nQuery OK, 5 rows affected (0.004 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 16
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 4475
+    content: s
+  - delay: 253
+    content: e
+  - delay: 234
+    content: l
+  - delay: 430
+    content: e
+  - delay: 158
+    content: c
+  - delay: 271
+    content: t
+  - delay: 1153
+    content: ' '
+  - delay: 520
+    content: '*'
+  - delay: 307
+    content: ' '
+  - delay: 137
+    content: f
+  - delay: 175
+    content: r
+  - delay: 115
+    content: o
+  - delay: 252
+    content: m
+  - delay: 1819
+    content: ' '
+  - delay: 4356
+    content: a
+  - delay: 155
+    content: 'n'
+  - delay: 250
+    content: g
+  - delay: 135
+    content: g
+  - delay: 240
+    content: o
+  - delay: 273
+    content: t
+  - delay: 170
+    content: a
+  - delay: 474
+    content: ;
+  - delay: 327
+    content: "\r\n"
+  - delay: 5
+    content: "+------------+--------------+-------------------+--------------+----------------+\r\n| id_anggota | nama_anggota | alamat            | no_hp        | tanggal_daftar |\r\n+------------+--------------+-------------------+--------------+----------------+\r\n|          1 | Andi Saputra | Jl. Melati No. 10 | 081234567890 | 2025-01-10     |\r\n|          2 | Siti Aminah  | Jl. Mawar No. 5   | 081298765432 | 2025-02-01     |\r\n|          3 | Budi Santoso | Jl. Kenanga No. 7 | 082112223333 | 2025-03-12     |\r\n|          4 | Rina Lestari | Jl. Anggrek No. 3 | 085677889900 | 2025-04-20     |\r\n|          5 | Ahmad Fauzi  | Jl. Dahlia No. 9  | 081355566677 | 2025-05-15     |\r\n+------------+--------------+-------------------+--------------+----------------+\r\n5 rows in set (0.003 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 3456
+    content: s
+  - delay: 362
+    content: e
+  - delay: 181
+    content: l
+  - delay: 102
+    content: e
+  - delay: 222
+    content: c
+  - delay: 229
+    content: t
+  - delay: 642
+    content: ' '
+  - delay: 373
+    content: '*'
+  - delay: 553
+    content: ' '
+  - delay: 171
+    content: f
+  - delay: 182
+    content: r
+  - delay: 92
+    content: o
+  - delay: 270
+    content: m
+  - delay: 602
+    content: ' '
+  - delay: 9986
+    content: j
+  - delay: 114
+    content: e
+  - delay: 123
+    content: 'n'
+  - delay: 213
+    content: i
+  - delay: 123
+    content: s
+  - delay: 448
+    content: _
+  - delay: 410
+    content: s
+  - delay: 111
+    content: i
+  - delay: 218
+    content: m
+  - delay: 612
+    content: p
+  - delay: 102
+    content: a
+  - delay: 193
+    content: 'n'
+  - delay: 90
+    content: a
+  - delay: 119
+    content: 'n'
+  - delay: 610
+    content: ;
+  - delay: 1623
+    content: "\r\n+-------------+-------------------+\r\n| id_simpanan | nama_simpanan     |\r\n+-------------+-------------------+\r\n|           1 | Simpanan Pokok    |\r\n|           2 | Simpanan Wajib    |\r\n|           3 | Simpanan Sukarela |\r\n+-------------+-------------------+\r\n3 rows in set (0.001 sec)\r\n\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 1288
+    content: s
+  - delay: 231
+    content: e
+  - delay: 94
+    content: l
+  - delay: 111
+    content: e
+  - delay: 203
+    content: c
+  - delay: 219
+    content: t
+  - delay: 922
+    content: ' '
+  - delay: 1104
+    content: '&'
+  - delay: 529
+    content: "\b \b"
+  - delay: 645
+    content: '*'
+  - delay: 588
+    content: ' '
+  - delay: 306
+    content: f
+  - delay: 183
+    content: r
+  - delay: 106
+    content: o
+  - delay: 216
+    content: m
+  - delay: 426
+    content: ' '
+  - delay: 5616
+    content: t
+  - delay: 189
+    content: r
+  - delay: 91
+    content: a
+  - delay: 164
+    content: 'n'
+  - delay: 132
+    content: s
+  - delay: 178
+    content: a
+  - delay: 128
+    content: k
+  - delay: 107
+    content: s
+  - delay: 183
+    content: i
+  - delay: 643
+    content: _
+  - delay: 260
+    content: s
+  - delay: 129
+    content: i
+  - delay: 180
+    content: m
+  - delay: 222
+    content: p
+  - delay: 131
+    content: a
+  - delay: 153
+    content: 'n'
+  - delay: 82
+    content: a
+  - delay: 129
+    content: 'n'
+  - delay: 711
+    content: ;
+  - delay: 315
+    content: "\r\n+--------------+------------+-------------+------------+--------+\r\n| id_transaksi | id_anggota | id_simpanan | tanggal    | jumlah |\r\n+--------------+------------+-------------+------------+--------+\r\n|            1 |          1 |           1 | 2025-01-10 | 500000 |\r\n|            2 |          1 |           2 | 2025-02-10 | 100000 |\r\n|\e[3C         3 |          2 |           1 | 2025-02-01 | 500000 |\r\n|            4 |          3 |           3 | 2025-03-15 | 200000 |\r\n|            5 |          4 |           2 | 2025-04-25 | 100000 |\r\n+--------------+------------+-------------+------------+--------+\r\n5 rows in set (0.001 sec)\r\n"
+  - delay: 8
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 49240
+    content: u
+  - delay: 237
+    content: p
+  - delay: 320
+    content: d
+  - delay: 77
+    content: a
+  - delay: 115
+    content: t
+  - delay: 160
+    content: e
+  - delay: 5042
+    content: ' '
+  - delay: 2885
+    content: a
+  - delay: 144
+    content: 'n'
+  - delay: 248
+    content: g
+  - delay: 136
+    content: g
+  - delay: 225
+    content: o
+  - delay: 289
+    content: t
+  - delay: 161
+    content: a
+  - delay: 1946
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 253
+    content: s
+  - delay: 215
+    content: e
+  - delay: 124
+    content: t
+  - delay: 2720
+    content: ' '
+  - delay: 201
+    content: 'n'
+  - delay: 74
+    content: a
+  - delay: 119
+    content: m
+  - delay: 88
+    content: a
+  - delay: 430
+    content: _
+  - delay: 267
+    content: a
+  - delay: 175
+    content: 'n'
+  - delay: 240
+    content: g
+  - delay: 122
+    content: g
+  - delay: 217
+    content: o
+  - delay: 266
+    content: t
+  - delay: 131
+    content: a
+  - delay: 3911
+    content: ' '
+  - delay: 408
+    content: '='
+  - delay: 784
+    content: ' '
+  - delay: 473
+    content: ''''
+  - delay: 3090
+    content: R
+  - delay: 362
+    content: e
+  - delay: 750
+    content: i
+  - delay: 234
+    content: l
+  - delay: 236
+    content: o
+  - delay: 2603
+    content: ''''
+  - delay: 2623
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 704
+    content: w
+  - delay: 174
+    content: h
+  - delay: 114
+    content: e
+  - delay: 125
+    content: r
+  - delay: 177
+    content: e
+  - delay: 1955
+    content: ' '
+  - delay: 5526
+    content: i
+  - delay: 216
+    content: d
+  - delay: 862
+    content: _
+  - delay: 357
+    content: a
+  - delay: 184
+    content: 'n'
+  - delay: 213
+    content: g
+  - delay: 127
+    content: g
+  - delay: 220
+    content: o
+  - delay: 258
+    content: t
+  - delay: 143
+    content: a
+  - delay: 2582
+    content: ' '
+  - delay: 356
+    content: '='
+  - delay: 910
+    content: ' '
+  - delay: 185
+    content: '1'
+  - delay: 217
+    content: ;
+  - delay: 346
+    content: "\r\n"
+  - delay: 12
+    content: "Query OK, 1 row affected (0.011 sec)\r\nRows matched: 1  Changed: 1  Warnings: 0\r\n"
+  - delay: 7
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 2208
+    content: u
+  - delay: 232
+    content: p
+  - delay: 322
+    content: d
+  - delay: 79
+    content: a
+  - delay: 122
+    content: t
+  - delay: 191
+    content: e
+  - delay: 293
+    content: ' '
+  - delay: 112
+    content: a
+  - delay: 135
+    content: 'n'
+  - delay: 198
+    content: g
+  - delay: 127
+    content: g
+  - delay: 241
+    content: o
+  - delay: 281
+    content: t
+  - delay: 170
+    content: a
+  - delay: 1399
+    content: "\r\n"
+  - delay: 10
+    content: '    -> '
+  - delay: 197
+    content: s
+  - delay: 232
+    content: e
+  - delay: 189
+    content: t
+  - delay: 650
+    content: ' '
+  - delay: 228
+    content: 'n'
+  - delay: 87
+    content: a
+  - delay: 109
+    content: m
+  - delay: 94
+    content: a
+  - delay: 395
+    content: _
+  - delay: 313
+    content: a
+  - delay: 139
+    content: 'n'
+  - delay: 197
+    content: g
+  - delay: 121
+    content: g
+  - delay: 212
+    content: o
+  - delay: 234
+    content: t
+  - delay: 150
+    content: a
+  - delay: 699
+    content: ' '
+  - delay: 364
+    content: '='
+  - delay: 682
+    content: ' '
+  - delay: 329
+    content: ''''
+  - delay: 2868
+    content: K
+  - delay: 309
+    content: i
+  - delay: 180
+    content: r
+  - delay: 199
+    content: e
+  - delay: 454
+    content: l
+  - delay: 481
+    content: l
+  - delay: 1480
+    content: ''''
+  - delay: 1906
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 693
+    content: w
+  - delay: 138
+    content: h
+  - delay: 156
+    content: e
+  - delay: 132
+    content: r
+  - delay: 179
+    content: e
+  - delay: 626
+    content: ' '
+  - delay: 304
+    content: i
+  - delay: 135
+    content: d
+  - delay: 459
+    content: _
+  - delay: 499
+    content: a
+  - delay: 278
+    content: 'n'
+  - delay: 231
+    content: g
+  - delay: 117
+    content: g
+  - delay: 238
+    content: o
+  - delay: 281
+    content: t
+  - delay: 189
+    content: a
+  - delay: 1125
+    content: ' '
+  - delay: 398
+    content: '='
+  - delay: 967
+    content: ' '
+  - delay: 254
+    content: '2'
+  - delay: 284
+    content: ;
+  - delay: 1639
+    content: "\r\nQuery OK, 1 row affected (0.002 sec)\r\nRows matched: 1  Changed: 1  Warnings: 0\r\n"
+  - delay: 10
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 2158
+    content: u
+  - delay: 218
+    content: p
+  - delay: 303
+    content: d
+  - delay: 71
+    content: a
+  - delay: 141
+    content: t
+  - delay: 204
+    content: e
+  - delay: 1269
+    content: ' '
+  - delay: 110
+    content: a
+  - delay: 179
+    content: 'n'
+  - delay: 211
+    content: g
+  - delay: 125
+    content: g
+  - delay: 226
+    content: o
+  - delay: 254
+    content: t
+  - delay: 164
+    content: a
+  - delay: 784
+    content: "\r\n"
+  - delay: 11
+    content: '    -> '
+  - delay: 183
+    content: s
+  - delay: 204
+    content: e
+  - delay: 166
+    content: t
+  - delay: 924
+    content: ' '
+  - delay: 213
+    content: 'n'
+  - delay: 73
+    content: a
+  - delay: 119
+    content: m
+  - delay: 78
+    content: a
+  - delay: 387
+    content: _
+  - delay: 243
+    content: a
+  - delay: 162
+    content: 'n'
+  - delay: 218
+    content: g
+  - delay: 122
+    content: g
+  - delay: 225
+    content: o
+  - delay: 254
+    content: t
+  - delay: 146
+    content: a
+  - delay: 1456
+    content: ' '
+  - delay: 450
+    content: '='
+  - delay: 771
+    content: ' '
+  - delay: 532
+    content: ''''
+  - delay: 2234
+    content: R
+  - delay: 266
+    content: e
+  - delay: 298
+    content: i
+  - delay: 83
+    content: s
+  - delay: 238
+    content: e
+  - delay: 765
+    content: ''''
+  - delay: 952
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 411
+    content: w
+  - delay: 146
+    content: h
+  - delay: 179
+    content: e
+  - delay: 128
+    content: r
+  - delay: 190
+    content: e
+  - delay: 1164
+    content: ' '
+  - delay: 315
+    content: i
+  - delay: 93
+    content: d
+  - delay: 452
+    content: _
+  - delay: 199
+    content: a
+  - delay: 195
+    content: 'n'
+  - delay: 221
+    content: g
+  - delay: 130
+    content: g
+  - delay: 210
+    content: o
+  - delay: 235
+    content: t
+  - delay: 173
+    content: a
+  - delay: 623
+    content: ' '
+  - delay: 368
+    content: '='
+  - delay: 421
+    content: '3'
+  - delay: 247
+    content: ;
+  - delay: 327
+    content: "\r\nQuery OK, 1 row affected (0.001 sec)\r\nRows matched: 1  Changed: 1  Warnings: 0\r\n"
+  - delay: 11
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 908
+    content: u
+  - delay: 193
+    content: p
+  - delay: 319
+    content: d
+  - delay: 47
+    content: a
+  - delay: 149
+    content: t
+  - delay: 155
+    content: e
+  - delay: 498
+    content: ' '
+  - delay: 115
+    content: a
+  - delay: 165
+    content: 'n'
+  - delay: 214
+    content: g
+  - delay: 134
+    content: g
+  - delay: 209
+    content: o
+  - delay: 234
+    content: t
+  - delay: 154
+    content: a
+  - delay: 910
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 148
+    content: s
+  - delay: 212
+    content: e
+  - delay: 132
+    content: t
+  - delay: 222
+    content: ' '
+  - delay: 183
+    content: 'n'
+  - delay: 70
+    content: a
+  - delay: 109
+    content: m
+  - delay: 93
+    content: a
+  - delay: 434
+    content: _
+  - delay: 345
+    content: a
+  - delay: 227
+    content: 'n'
+  - delay: 210
+    content: g
+  - delay: 116
+    content: g
+  - delay: 210
+    content: o
+  - delay: 274
+    content: t
+  - delay: 162
+    content: a
+  - delay: 2166
+    content: ' '
+  - delay: 338
+    content: '='
+  - delay: 847
+    content: ' '
+  - delay: 469
+    content: ''''
+  - delay: 901
+    content: R
+  - delay: 251
+    content: e
+  - delay: 331
+    content: l
+  - delay: 214
+    content: o
+  - delay: 91
+    content: a
+  - delay: 225
+    content: f
+  - delay: 1693
+    content: ''''
+  - delay: 453
+    content: "\r\n"
+  - delay: 16
+    content: '    -> '
+  - delay: 544
+    content: w
+  - delay: 394
+    content: h
+  - delay: 166
+    content: e
+  - delay: 116
+    content: r
+  - delay: 147
+    content: e
+  - delay: 452
+    content: ' '
+  - delay: 421
+    content: o
+  - delay: 562
+    content: "\b \b"
+  - delay: 298
+    content: i
+  - delay: 117
+    content: d
+  - delay: 572
+    content: _
+  - delay: 347
+    content: a
+  - delay: 179
+    content: 'n'
+  - delay: 232
+    content: g
+  - delay: 134
+    content: g
+  - delay: 228
+    content: o
+  - delay: 269
+    content: t
+  - delay: 145
+    content: a
+  - delay: 1375
+    content: ' '
+  - delay: 392
+    content: '='
+  - delay: 3555
+    content: ' '
+  - delay: 327
+    content: '4'
+  - delay: 214
+    content: ;
+  - delay: 1152
+    content: "\r\nQuery OK, 1 row affected (0.003 sec)\r\nRows matched: 1  Changed: 1  Warnings: 0\r\n"
+  - delay: 9
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 1533
+    content: u
+  - delay: 232
+    content: p
+  - delay: 313
+    content: d
+  - delay: 54
+    content: a
+  - delay: 161
+    content: t
+  - delay: 157
+    content: e
+  - delay: 314
+    content: ' '
+  - delay: 146
+    content: a
+  - delay: 150
+    content: 'n'
+  - delay: 207
+    content: g
+  - delay: 132
+    content: g
+  - delay: 231
+    content: o
+  - delay: 228
+    content: t
+  - delay: 154
+    content: a
+  - delay: 814
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 343
+    content: s
+  - delay: 212
+    content: e
+  - delay: 139
+    content: t
+  - delay: 749
+    content: ' '
+  - delay: 290
+    content: 'n'
+  - delay: 75
+    content: a
+  - delay: 126
+    content: m
+  - delay: 104
+    content: a
+  - delay: 548
+    content: _
+  - delay: 211
+    content: a
+  - delay: 157
+    content: 'n'
+  - delay: 220
+    content: g
+  - delay: 119
+    content: g
+  - delay: 237
+    content: o
+  - delay: 245
+    content: t
+  - delay: 146
+    content: a
+  - delay: 1048
+    content: ' '
+  - delay: 361
+    content: '='
+  - delay: 806
+    content: ' '
+  - delay: 500
+    content: ''''
+  - delay: 1272
+    content: C
+  - delay: 640
+    content: h
+  - delay: 82
+    content: a
+  - delay: 219
+    content: s
+  - delay: 225
+    content: e
+  - delay: 629
+    content: ''''
+  - delay: 366
+    content: "\r\n"
+  - delay: 12
+    content: '    -> '
+  - delay: 607
+    content: w
+  - delay: 154
+    content: h
+  - delay: 112
+    content: e
+  - delay: 127
+    content: r
+  - delay: 169
+    content: e
+  - delay: 1206
+    content: ' '
+  - delay: 305
+    content: i
+  - delay: 98
+    content: d
+  - delay: 580
+    content: _
+  - delay: 1170
+    content: a
+  - delay: 159
+    content: 'n'
+  - delay: 240
+    content: g
+  - delay: 133
+    content: g
+  - delay: 237
+    content: o
+  - delay: 256
+    content: t
+  - delay: 140
+    content: a
+  - delay: 537
+    content: ' '
+  - delay: 333
+    content: '='
+  - delay: 549
+    content: ' '
+  - delay: 148
+    content: '5'
+  - delay: 201
+    content: ;
+  - delay: 270
+    content: "\r\nQuery OK, 1 row affected (0.002 sec)\r\nRows matched: 1  Changed: 1  Warnings: 0\r\n"
+  - delay: 12
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 1668
+    content: s
+  - delay: 205
+    content: e
+  - delay: 140
+    content: l
+  - delay: 125
+    content: e
+  - delay: 185
+    content: c
+  - delay: 210
+    content: t
+  - delay: 424
+    content: ' '
+  - delay: 508
+    content: '*'
+  - delay: 312
+    content: ' '
+  - delay: 92
+    content: f
+  - delay: 195
+    content: r
+  - delay: 102
+    content: o
+  - delay: 241
+    content: m
+  - delay: 1012
+    content: ' '
+  - delay: 291
+    content: a
+  - delay: 132
+    content: 'n'
+  - delay: 280
+    content: g
+  - delay: 132
+    content: g
+  - delay: 267
+    content: o
+  - delay: 249
+    content: t
+  - delay: 169
+    content: a
+  - delay: 338
+    content: ;
+  - delay: 283
+    content: "\r\n+------------+--------------+-------------------+--------------+----------------+\r\n| id_anggota | nama_anggota | alamat            | no_hp        | tanggal_daftar |\r\n+------------+--------------+-------------------+--------------+----------------+\r\n|          1 | Reilo        | Jl. Melati No. 10 | 081234567890 | 2025-01-10     |\r\n|          2 | Kirell       | Jl. Mawar No. 5   | 081298765432 | 2025-02-01     |\r\n|          3 | Reise        | Jl. Kenanga No. 7 | 082112223333 | 2025-03-12     |\r\n|          4 | Reloaf       | Jl. Anggrek No. 3 | 085677889900 | 2025-04-20     |\r\n|          5 | Chase        | Jl. Dahlia No. 9  | 081355566677 | 2025-05-15     |\r\n+------------+--------------+-------------------+--------------+----------------+\r\n5 rows in set (0.001 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 25179
+    content: s
+  - delay: 215
+    content: e
+  - delay: 122
+    content: l
+  - delay: 100
+    content: e
+  - delay: 237
+    content: c
+  - delay: 213
+    content: t
+  - delay: 616
+    content: ' '
+  - delay: 460
+    content: '*'
+  - delay: 291
+    content: ' '
+  - delay: 119
+    content: f
+  - delay: 169
+    content: r
+  - delay: 81
+    content: o
+  - delay: 214
+    content: m
+  - delay: 236
+    content: ' '
+  - delay: 391
+    content: t
+  - delay: 141
+    content: r
+  - delay: 104
+    content: a
+  - delay: 145
+    content: 'n'
+  - delay: 121
+    content: s
+  - delay: 188
+    content: a
+  - delay: 127
+    content: k
+  - delay: 144
+    content: s
+  - delay: 162
+    content: i
+  - delay: 1143
+    content: _
+  - delay: 4571
+    content: s
+  - delay: 157
+    content: i
+  - delay: 175
+    content: m
+  - delay: 222
+    content: p
+  - delay: 84
+    content: a
+  - delay: 168
+    content: 'n'
+  - delay: 66
+    content: a
+  - delay: 126
+    content: 'n'
+  - delay: 356
+    content: ;
+  - delay: 941
+    content: "\r\n+--------------+------------+-------------+------------+--------+\r\n| id_transaksi | id_anggota | id_simpanan | tanggal    | jumlah |\r\n+--------------+------------+-------------+------------+--------+\r\n|            1 |          1 |           1 | 2025-01-10 | 500000 |\r\n|            2 |          1 |           2 | 2025-02-10 | 100000 |\r\n|            3 |          2 |           1 | 2025-02-01 | 500000 |\r\n|            4 |          3 |           3 | 2025-03-15 | 200000 |\r\n|            5 |          4 |           2 | 2025-04-25 | 100000 |\r\n+--------------+------------+-------------+------------+--------+\r\n5 rows in set (0.000 sec)\r\n\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 2547
+    content: s
+  - delay: 245
+    content: e
+  - delay: 105
+    content: l
+  - delay: 124
+    content: e
+  - delay: 185
+    content: c
+  - delay: 205
+    content: t
+  - delay: 383
+    content: ' '
+  - delay: 157
+    content: s
+  - delay: 137
+    content: u
+  - delay: 205
+    content: m
+  - delay: 354
+    content: (
+  - delay: 2320
+    content: j
+  - delay: 199
+    content: u
+  - delay: 243
+    content: m
+  - delay: 244
+    content: l
+  - delay: 105
+    content: a
+  - delay: 226
+    content: h
+  - delay: 843
+    content: )
+  - delay: 7451
+    content: ' '
+  - delay: 138
+    content: a
+  - delay: 282
+    content: s
+  - delay: 428
+    content: ' '
+  - delay: 358
+    content: t
+  - delay: 117
+    content: o
+  - delay: 178
+    content: t
+  - delay: 364
+    content: a
+  - delay: 178
+    content: l
+  - delay: 560
+    content: "\r\n"
+  - delay: 16
+    content: '    -> '
+  - delay: 274
+    content: f
+  - delay: 206
+    content: r
+  - delay: 105
+    content: o
+  - delay: 252
+    content: m
+  - delay: 620
+    content: ' '
+  - delay: 348
+    content: t
+  - delay: 149
+    content: r
+  - delay: 80
+    content: a
+  - delay: 170
+    content: 'n'
+  - delay: 77
+    content: s
+  - delay: 178
+    content: a
+  - delay: 122
+    content: k
+  - delay: 104
+    content: s
+  - delay: 181
+    content: i
+  - delay: 784
+    content: _
+  - delay: 238
+    content: s
+  - delay: 152
+    content: i
+  - delay: 236
+    content: m
+  - delay: 349
+    content: p
+  - delay: 123
+    content: a
+  - delay: 140
+    content: 'n'
+  - delay: 82
+    content: a
+  - delay: 114
+    content: 'n'
+  - delay: 382
+    content: ;
+  - delay: 264
+    content: "\r\n"
+  - delay: 8
+    content: "+---------+\r\n| total   |\r\n+---------+\r\n| 1400000 |\r\n+---------+\r\n1 row in set (0.008 sec)\r\n\nMariaDB [anggota_koperasi]>\e[1C"
+  - delay: 11729
+    content: e
+  - delay: 361
+    content: x
+  - delay: 151
+    content: i
+  - delay: 248
+    content: t
+  - delay: 2181
+    content: "\r\nBye"
+  - delay: 17
+    content: "\r\n"
+  - delay: 33
+    content: 'PS C:\Users\pc> '
+  - delay: 1062
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93mr\e[?25h"
+  - delay: 686
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\b \b\e[?25h"
+  - delay: 144
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93me\e[?25h"
+  - delay: 277
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\bex\e[?25h"
+  - delay: 213
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[30;17Hexi\e[?25h"
+  - delay: 180
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[30;17Hexit\e[?25h"
+  - delay: 552
+    content: "\e[m"
+  - delay: 9
+    content: "\r\n"
