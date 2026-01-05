@@ -1,0 +1,605 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/lunaa
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 238
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 912
+    content: "\e[?2004h\e]0;root@lunaa-Lenovo-V14-G4-AMN: /home/lunaa\aroot@lunaa-Lenovo-V14-G4-AMN:/home/lunaa# "
+  - delay: 4520
+    content: m
+  - delay: 280
+    content: 'y'
+  - delay: 459
+    content: s
+  - delay: 295
+    content: q
+  - delay: 271
+    content: l
+  - delay: 998
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "Welcome to the MySQL monitor.  Commands end with ; or \\g.\r\nYour MySQL connection id is 11\r\nServer version: 8.0.44-0ubuntu0.24.04.2 (Ubuntu)\r\n\r\nCopyright (c) 2000, 2025, Oracle and/or its affiliates.\r\n\r\nOracle is a registered trademark of Oracle Corporation and/or its\r\naffiliates. Other names may be trademarks of their respective\r\nowners.\r\n\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\nmysql> "
+  - delay: 28971
+    content: C
+  - delay: 266
+    content: R
+  - delay: 226
+    content: E
+  - delay: 8469
+    content: A
+  - delay: 170
+    content: T
+  - delay: 175
+    content: E
+  - delay: 281
+    content: ' '
+  - delay: 418
+    content: D
+  - delay: 171
+    content: A
+  - delay: 108
+    content: T
+  - delay: 156
+    content: A
+  - delay: 225
+    content: B
+  - delay: 120
+    content: A
+  - delay: 251
+    content: S
+  - delay: 266
+    content: E
+  - delay: 9627
+    content: ' '
+  - delay: 278
+    content: S
+  - delay: 224
+    content: I
+  - delay: 110
+    content: S
+  - delay: 226
+    content: T
+  - delay: 185
+    content: E
+  - delay: 296
+    content: M
+  - delay: 265
+    content: ' '
+  - delay: 30995
+    content: "\r\e[30G"
+  - delay: 1711
+    content: _
+  - delay: 3819
+    content: R
+  - delay: 153
+    content: E
+  - delay: 278
+    content: 'N'
+  - delay: 294
+    content: T
+  - delay: 146
+    content: A
+  - delay: 571
+    content: L
+  - delay: 858
+    content: _
+  - delay: 776
+    content: K
+  - delay: 270
+    content: E
+  - delay: 179
+    content: 'N'
+  - delay: 1405
+    content: D
+  - delay: 126
+    content: A
+  - delay: 220
+    content: R
+  - delay: 120
+    content: A
+  - delay: 171
+    content: A
+  - delay: 783
+    content: 'N'
+  - delay: 1327
+    content: ;
+  - delay: 1059
+    content: "\r\n"
+  - delay: 47
+    content: "Query OK, 1 row affected (0,05 sec)\r\n\r\nmysql> "
+  - delay: 163891
+    content: C
+  - delay: 245
+    content: R
+  - delay: 812
+    content: "\r\e[9G\e[K"
+  - delay: 617
+    content: "\r\e[8G\e[K"
+  - delay: 541
+    content: S
+  - delay: 315
+    content: H
+  - delay: 212
+    content: O
+  - delay: 160
+    content: W
+  - delay: 310
+    content: ' '
+  - delay: 421
+    content: D
+  - delay: 161
+    content: A
+  - delay: 109
+    content: T
+  - delay: 121
+    content: A
+  - delay: 336
+    content: A
+  - delay: 1107
+    content: "\r\e[17G\e[K"
+  - delay: 436
+    content: B
+  - delay: 100
+    content: A
+  - delay: 266
+    content: S
+  - delay: 221
+    content: E
+  - delay: 230
+    content: S
+  - delay: 2392
+    content: ;
+  - delay: 1059
+    content: "\r\n+-------------------------+\r\n| Database                |\r\n+-------------------------+\r\n| REKOMENDASI_FILM        |\r\n| SISTEM_RENTAL_KENDARAAN |\r\n| eprints                 |\r\n| information_schema      |\r\n| mysql                   |\r\n| opendocman              |\r\n| performance_schema      |\r\n| reponuna                |\r\n| sys                     |\r\n| toko                    |\r\n+-------------------------+\r\n10 rows in set (0,00 sec)\r\n\r\nmysql> "
+  - delay: 4883
+    content: U
+  - delay: 205
+    content: S
+  - delay: 251
+    content: E
+  - delay: 646
+    content: ' '
+  - delay: 1621
+    content: D
+  - delay: 240
+    content: I
+  - delay: 99
+    content: D
+  - delay: 1152
+    content: "\r\e[14G\e[K"
+  - delay: 431
+    content: "\r\e[13G\e[K"
+  - delay: 423
+    content: "\r\e[12G\e[K"
+  - delay: 946
+    content: S
+  - delay: 205
+    content: I
+  - delay: 110
+    content: S
+  - delay: 201
+    content: T
+  - delay: 225
+    content: E
+  - delay: 156
+    content: M
+  - delay: 1032
+    content: _
+  - delay: 522
+    content: R
+  - delay: 256
+    content: E
+  - delay: 527
+    content: B
+  - delay: 1076
+    content: "\r\e[21G\e[K"
+  - delay: 381
+    content: 'N'
+  - delay: 306
+    content: T
+  - delay: 331
+    content: A
+  - delay: 181
+    content: L
+  - delay: 530
+    content: _
+  - delay: 452
+    content: K
+  - delay: 140
+    content: E
+  - delay: 175
+    content: 'N'
+  - delay: 326
+    content: D
+  - delay: 140
+    content: A
+  - delay: 131
+    content: R
+  - delay: 131
+    content: A
+  - delay: 160
+    content: A
+  - delay: 240
+    content: 'N'
+  - delay: 1099
+    content: ;
+  - delay: 2575
+    content: "\r\n"
+  - delay: 6
+    content: "Database changed\r\nmysql> "
+  - delay: 38915
+    content: "CREATE TABLE kendaraan (\r\n    ->     id_kendaraan INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     nomor_polisi VARCHAR(15) UNIQUE NOT NULL,\r\n    ->     merk VARCHAR(50) NOT NULL,\r\n    ->     model VARCHAR(50) NOT NULL,\r\n    ->     tahun YEAR NOT NULL,\r\n    ->     jenis ENUM('mobil', 'motor') NOT NULL,\r\n    ->     harga_sewa_perhari DECIMAL(10,2) NOT NULL,\r\n    ->     status ENUM('tersedia', 'disewa') DEFAULT 'tersedia'\r\n    -> );\r\n"
+  - delay: 88
+    content: "Query OK, 0 rows affected (0,09 sec)\r\n\r\nmysql> "
+  - delay: 25109
+    content: "CREATE TABLE pelanggan (\r\n    ->     id_pelanggan INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     nama VARCHAR(100) NOT NULL,\r\n    ->     nik VARCHAR(16) UNIQUE NOT NULL,\r\n    ->     nomor_sim VARCHAR(20) NOT NULL,\r\n    ->     telepon VARCHAR(20) NOT NULL,\r\n    ->     alamat TEXT\r\n    -> "
+  - delay: 3399
+    content: )
+  - delay: 1604
+    content: ;
+  - delay: 1693
+    content: "\r\n"
+  - delay: 95
+    content: "Query OK, 0 rows affected (0,10 sec)\r\n\r\nmysql> "
+  - delay: 11374
+    content: "CREATE TABLE transaksi (\r\n    ->     id_transaksi INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     id_kendaraan INT NOT NULL,\r\n    ->     id_pelanggan INT NOT NULL,\r\n    ->     tanggal_sewa DATE NOT NULL,\r\n    ->     tanggal_kembali DATE NOT NULL,\r\n    ->     durasi_hari INT NOT NULL,\r\n    ->     total_bayar DECIMAL(10,2) NOT NULL,\r\n    ->     status ENUM('berlangsung', 'selesai') DEFAULT 'berlangsung',\r\n    ->     FOREIGN KEY (id_kendaraan) REFERENCES kendaraan(id_kendaraan),\r\n    ->     FOREIGN KEY (id_pelanggan) REFERENCES pelanggan(id_pelanggan)\r\n    -> );\r\n"
+  - delay: 102
+    content: "Query OK, 0 rows affected (0,10 sec)\r\n\r\nmysql> "
+  - delay: 18418
+    content: "INSERT INTO kendaraan (nomor_polisi, merk, model, tahun, jenis, harga_sewa_perhari, status) VALUES\r\n    -> ('B 1234 ABC', 'Toyota', 'Avanza', 2022, 'mobil', 350000, 'tersedia'),\r\n    -> ('B 5678 DEF', 'Honda', 'Jazz', 2023, 'mobil', 400000, 'tersedia'),\r\n    -> ('B 9012 GHI', 'Toyota', 'Fortuner', 2023, 'mobil', 750000, 'disewa'),\r\n    -> ('B 3456 JKL', 'Honda', 'PCX', 2023, 'motor', 150000, 'tersedia'),\r\n    -> ('B 7890 MNO', 'Yamaha', 'NMAX', 2022, 'motor', 140000, 'disewa');"
+  - delay: 5452
+    content: "\r\n"
+  - delay: 16
+    content: "Query OK, 5 rows affected (0,02 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n\r\nmysql> "
+  - delay: 9854
+    content: "INSERT INTO pelanggan (nama, nik, nomor_sim, telepon, alamat) VALUES\r\n    -> ('Ahmad Fauzi', '3171012801900001', 'SIM1234567890', '081234567890', 'Jl. Sudirman No. 100, Jakarta'),\r\n    -> ('Siti Rahmawati', '3275025612920002', 'SIM2345678901', '082345678901', 'Jl. Asia Afrika No. 50, Bandung'),\r\n    -> ('Budi Santoso', '3374031503880003', 'SIM3456789012', '083456789012', 'Jl. Pemuda No. 25, Semarang'),\r\n    -> ('Dewi Lestari', '3578041204950004', 'SIM4567890123', '084567890123', 'Jl. Tunjungan No. 75, Surabaya'),\r\n    -> ('Rudi Hartono', '3471022009870005', 'SIM5678901234', '085678901234', 'Jl. Malioboro No. 15, Yogyakarta');"
+  - delay: 1552
+    content: "\r\n"
+  - delay: 22
+    content: "Query OK, 5 rows affected (0,02 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n\r\nmysql> "
+  - delay: 27324
+    content: "INSERT INTO transaksi (id_kendaraan, id_pelanggan, tanggal_sewa, tanggal_kembali, durasi_hari, total_bayar, status) VALUES\r\n    -> (3, 1, '2024-12-25', '2024-12-30', 5, 3750000, 'berlangsung'),\r\n    -> (4, 2, '2024-12-28', '2024-12-29', 1, 150000, 'selesai'),\r\n    -> (1, 3, '2024-12-20', '2024-12-23', 3, 1050000, 'selesai'),\r\n    -> (5, 4, '2024-12-26', '2024-12-31', 5, 700000, 'berlangsung'),\r\n    -> (2, 5, '2024-12-22', '2024-12-24', 2, 800000, 'selesai');"
+  - delay: 1119
+    content: "\r\n"
+  - delay: 16
+    content: "Query OK, 5 rows affected (0,01 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n\r\nmysql> "
+  - delay: 17623
+    content: S
+  - delay: 190
+    content: H
+  - delay: 200
+    content: O
+  - delay: 144
+    content: W
+  - delay: 187
+    content: ' '
+  - delay: 451
+    content: T
+  - delay: 160
+    content: A
+  - delay: 140
+    content: B
+  - delay: 252
+    content: L
+  - delay: 181
+    content: E
+  - delay: 283
+    content: S
+  - delay: 793
+    content: ;
+  - delay: 320
+    content: "\r\n+-----------------------------------+\r\n| Tables_in_SISTEM_RENTAL_KENDARAAN |\r\n+-----------------------------------+\r\n| kendaraan                         |\r\n| pelanggan                         |\r\n| transaksi                         |\r\n+-----------------------------------+\r\n3 rows in set (0,00 sec)\r\n\r\nmysql> "
+  - delay: 2596
+    content: S
+  - delay: 231
+    content: E
+  - delay: 426
+    content: L
+  - delay: 216
+    content: E
+  - delay: 882
+    content: C
+  - delay: 191
+    content: T
+  - delay: 1111
+    content: '*'
+  - delay: 437
+    content: F
+  - delay: 300
+    content: R
+  - delay: 170
+    content: O
+  - delay: 270
+    content: M
+  - delay: 250
+    content: ' '
+  - delay: 1859
+    content: k
+  - delay: 185
+    content: e
+  - delay: 211
+    content: 'n'
+  - delay: 305
+    content: d
+  - delay: 586
+    content: a
+  - delay: 180
+    content: r
+  - delay: 211
+    content: a
+  - delay: 200
+    content: a
+  - delay: 311
+    content: 'n'
+  - delay: 2639
+    content: ;
+  - delay: 457
+    content: "\r\n+--------------+--------------+--------+----------+-------+-------+--------------------+----------+\r\n| id_kendaraan | nomor_polisi | merk   | model    | tahun | jenis | harga_sewa_perhari | status   |\r\n+--------------+--------------+--------+----------+-------+-------+--------------------+----------+\r\n|            1 | B 1234 ABC   | Toyota | Avanza   |  2022 | mobil |          350000.00 | tersedia |\r\n|            2 | B 5678 DEF   | Honda  | Jazz     |  2023 | mobil |          400000.00 | tersedia |\r\n|            3 | B 9012 GHI   | Toyota | Fortuner |  2023 | mobil |          750000.00 | disewa   |\r\n|            4 | B 3456 JKL   | Honda  | PCX      |  2023 | motor |          150000.00 | tersedia |\r\n|            5 | B 7890 MNO   | Yamaha | NMAX     |  2022 | motor |          140000.00 | disewa   |\r\n+--------------+--------------+--------+----------+-------+-------+--------------------+----------+\r\n5 rows in set (0,00 sec)\r\n\r\nmysql> "
+  - delay: 1438
+    content: S
+  - delay: 265
+    content: E
+  - delay: 158
+    content: L
+  - delay: 118
+    content: E
+  - delay: 269
+    content: C
+  - delay: 191
+    content: T
+  - delay: 1042
+    content: '*'
+  - delay: 572
+    content: F
+  - delay: 273
+    content: R
+  - delay: 186
+    content: O
+  - delay: 365
+    content: M
+  - delay: 1059
+    content: ' '
+  - delay: 1667
+    content: p
+  - delay: 187
+    content: e
+  - delay: 199
+    content: l
+  - delay: 255
+    content: a
+  - delay: 171
+    content: 'n'
+  - delay: 241
+    content: g
+  - delay: 145
+    content: g
+  - delay: 154
+    content: a
+  - delay: 190
+    content: 'n'
+  - delay: 1448
+    content: ;
+  - delay: 1011
+    content: "\r\n+--------------+----------------+------------------+---------------+--------------+----------------------------------+\r\n| id_pelanggan | nama           | nik              | nomor_sim     | telepon      | alamat                           |\r\n+--------------+----------------+------------------+---------------+--------------+----------------------------------+\r\n|            1 | Ahmad Fauzi    | 3171012801900001 | SIM1234567890 | 081234567890 | Jl. Sudirman No. 100, Jakarta    |\r\n|            2 | Siti Rahmawati | 3275025612920002 | SIM2345678901 | 082345678901 | Jl. Asia Afrika No. 50, Bandung  |\r\n|            3 | Budi Santoso   | 3374031503880003 | SIM3456789012 | 083456789012 | Jl. Pemuda No. 25, Semarang      |\r\n|            4 | Dewi Lestari   | 3578041204950004 | SIM4567890123 | 084567890123 | Jl. Tunjungan No. 75, Surabaya   |\r\n|            5 | Rudi Hartono   | 3471022009870005 | SIM5678901234 | 085678901234 | Jl. Malioboro No. 15, Yogyakarta |\r\n+--------------+----------------+------------------+---------------+--------------+----------------------------------+\r\n5 rows in set (0,00 sec)\r\n\r\nmysql> "
+  - delay: 2595
+    content: S
+  - delay: 224
+    content: E
+  - delay: 200
+    content: L
+  - delay: 115
+    content: E
+  - delay: 337
+    content: C
+  - delay: 194
+    content: T
+  - delay: 898
+    content: '*'
+  - delay: 2087
+    content: f
+  - delay: 186
+    content: r
+  - delay: 856
+    content: "\r\e[16G\e[K"
+  - delay: 307
+    content: "\r\e[15G\e[K"
+  - delay: 760
+    content: F
+  - delay: 303
+    content: R
+  - delay: 228
+    content: O
+  - delay: 281
+    content: M
+  - delay: 3220
+    content: ' '
+  - delay: 744
+    content: T
+  - delay: 185
+    content: r
+  - delay: 490
+    content: a
+  - delay: 195
+    content: 'n'
+  - delay: 1008
+    content: "\r\e[23G\e[K"
+  - delay: 214
+    content: "\r\e[22G\e[K"
+  - delay: 177
+    content: "\r\e[21G\e[K"
+  - delay: 193
+    content: "\r\e[20G\e[K"
+  - delay: 974
+    content: t
+  - delay: 190
+    content: r
+  - delay: 228
+    content: a
+  - delay: 228
+    content: 'n'
+  - delay: 153
+    content: s
+  - delay: 237
+    content: a
+  - delay: 254
+    content: k
+  - delay: 123
+    content: s
+  - delay: 157
+    content: i
+  - delay: 953
+    content: ;
+  - delay: 1644
+    content: "\r\n+--------------+--------------+--------------+--------------+-----------------+-------------+-------------+-------------+\r\n| id_transaksi | id_kendaraan | id_pelanggan | tanggal_sewa | tanggal_kembali | durasi_hari | total_bayar | status      |\r\n+--------------+--------------+--------------+--------------+-----------------+-------------+-------------+-------------+\r\n|            1 |            3 |            1 | 2024-12-25   | 2024-12-30      |           5 |  3750000.00 | berlangsung |\r\n|            2 |            4 |            2 | 2024-12-28   | 2024-12-29      |           1 |   150000.00 | selesai     |\r\n|            3 |            1 |            3 | 2024-12-20   | 2024-12-23      |           3 |  1050000.00 | selesai     |\r\n|            4 |            5 |            4 | 2024-12-26   | 2024-12-31      |           5 |   700000.00 | berlangsung |\r\n|            5 |            2 |            5 | 2024-12-22   | 2024-12-24      |           2 |   800000.00 | selesai     |\r\n+--------------+--------------+--------------+--------------+-----------------+-------------+-------------+-------------+\r\n5 rows in set (0,00 sec)\r\n\r\nmysql> "
+  - delay: 79958
+    content: l
+  - delay: 192
+    content: o
+  - delay: 469
+    content: g
+  - delay: 669
+    content: o
+  - delay: 318
+    content: u
+  - delay: 291
+    content: t
+  - delay: 1413
+    content: "\r\n    -> "
+  - delay: 2381
+    content: ;
+  - delay: 280
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'logout' at line 1\r\n\amysql> "
+  - delay: 1606
+    content: e
+  - delay: 341
+    content: x
+  - delay: 194
+    content: i
+  - delay: 301
+    content: t
+  - delay: 777
+    content: "\r\n"
+  - delay: 19
+    content: "Bye\r\n\e[?2004h\e]0;root@lunaa-Lenovo-V14-G4-AMN: /home/lunaa\aroot@lunaa-Lenovo-V14-G4-AMN:/home/lunaa# "
+  - delay: 3374
+    content: l
+  - delay: 214
+    content: o
+  - delay: 461
+    content: g
+  - delay: 306
+    content: o
+  - delay: 295
+    content: u
+  - delay: 271
+    content: t
+  - delay: 803
+    content: "\r\n\e[?2004l\r"
