@@ -1,0 +1,2115 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/adzani
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 83
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 466
+    content: "bash: #: command not found\r\n"
+  - delay: 76
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=610728fa-01f0-46a6-bffc-be10c87514f1;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(1)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:08:31\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 662
+    content: ' exit'
+  - delay: 336
+    content: "\b\b\b\b./test1.sh"
+  - delay: 874
+    content: "\r\n\e[?2004l\r"
+  - delay: 18
+    content: "\e]3008;start=ba5d4cc9-3c69-4243-a528-c0f225779dbf;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\\e]3008;start=ba5d4cc9-3c69-4243-a528-c0f225779dbf;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\=== 2NF/3NF DATABASE BUILDER (MANUAL MODE) ===\r\nFitur: No Auto-ID, Manual PK, Custom Normalization\r\nNama Database: "
+  - delay: 2970
+    content: p
+  - delay: 87
+    content: e
+  - delay: 134
+    content: l
+  - delay: 98
+    content: a
+  - delay: 143
+    content: t
+  - delay: 101
+    content: i
+  - delay: 179
+    content: h
+  - delay: 151
+    content: a
+  - delay: 98
+    content: 'n'
+  - delay: 195
+    content: "\r\n"
+  - delay: 7
+    content: "==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 1544
+    content: p
+  - delay: 293
+    content: s
+  - delay: 284
+    content: "\b \b"
+  - delay: 99
+    content: e
+  - delay: 174
+    content: s
+  - delay: 210
+    content: e
+  - delay: 133
+    content: r
+  - delay: 128
+    content: t
+  - delay: 144
+    content: a
+  - delay: 154
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1332
+    content: i
+  - delay: 140
+    content: d
+  - delay: 347
+    content: _
+  - delay: 708
+    content: p
+  - delay: 158
+    content: e
+  - delay: 179
+    content: s
+  - delay: 146
+    content: e
+  - delay: 167
+    content: t
+  - delay: 204
+    content: a
+  - delay: 598
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 121
+    content: r
+  - delay: 159
+    content: t
+  - delay: 120
+    content: a
+  - delay: 252
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 538
+    content: i
+  - delay: 501
+    content: 'n'
+  - delay: 137
+    content: t
+  - delay: 822
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1663
+    content: '2'
+  - delay: 362
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2596
+    content: 'n'
+  - delay: 170
+    content: a
+  - delay: 70
+    content: m
+  - delay: 70
+    content: a
+  - delay: 529
+    content: _
+  - delay: 333
+    content: l
+  - delay: 301
+    content: e
+  - delay: 135
+    content: 'n'
+  - delay: 114
+    content: g
+  - delay: 126
+    content: k
+  - delay: 108
+    content: a
+  - delay: 130
+    content: p
+  - delay: 1436
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 466
+    content: v
+  - delay: 70
+    content: a
+  - delay: 130
+    content: r
+  - delay: 239
+    content: c
+  - delay: 137
+    content: h
+  - delay: 109
+    content: a
+  - delay: 34
+    content: r
+  - delay: 984
+    content: (
+  - delay: 201
+    content: '1'
+  - delay: 139
+    content: '0'
+  - delay: 145
+    content: '0'
+  - delay: 188
+    content: )
+  - delay: 1389
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 247
+    content: 'n'
+  - delay: 180
+    content: o
+  - delay: 120
+    content: t
+  - delay: 211
+    content: ' '
+  - delay: 36
+    content: 'n'
+  - delay: 135
+    content: u
+  - delay: 213
+    content: l
+  - delay: 151
+    content: l
+  - delay: 320
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 3143
+    content: e
+  - delay: 96
+    content: m
+  - delay: 133
+    content: a
+  - delay: 141
+    content: i
+  - delay: 198
+    content: l
+  - delay: 1669
+    content: ' '
+  - delay: 176
+    content: v
+  - delay: 120
+    content: a
+  - delay: 343
+    content: "\b \b"
+  - delay: 155
+    content: "\b \b"
+  - delay: 185
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 177
+    content: v
+  - delay: 73
+    content: a
+  - delay: 134
+    content: r
+  - delay: 173
+    content: c
+  - delay: 118
+    content: h
+  - delay: 85
+    content: a
+  - delay: 60
+    content: r
+  - delay: 306
+    content: (
+  - delay: 210
+    content: '1'
+  - delay: 118
+    content: '0'
+  - delay: 130
+    content: '0'
+  - delay: 165
+    content: )
+  - delay: 147
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1753
+    content: 'n'
+  - delay: 145
+    content: o
+  - delay: 166
+    content: t
+  - delay: 172
+    content: ' '
+  - delay: 21
+    content: 'n'
+  - delay: 144
+    content: u
+  - delay: 193
+    content: l
+  - delay: 172
+    content: l
+  - delay: 392
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2484
+    content: t
+  - delay: 190
+    content: g
+  - delay: 123
+    content: l
+  - delay: 347
+    content: _
+  - delay: 183
+    content: d
+  - delay: 109
+    content: a
+  - delay: 333
+    content: f
+  - delay: 258
+    content: t
+  - delay: 133
+    content: a
+  - delay: 89
+    content: r
+  - delay: 411
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 456
+    content: d
+  - delay: 102
+    content: a
+  - delay: 145
+    content: t
+  - delay: 135
+    content: e
+  - delay: 358
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 174
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1701
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 1224
+    content: "\r\n------------------------------------------\r\nInsert data ke 'peserta'? (y/n): "
+  - delay: 1048
+    content: 'y'
+  - delay: 222
+    content: "\r\n>> Masukkan Data:\r\n   Isi 'id_peserta' (Ketik NULL jika ini Auto Increment): "
+  - delay: 1098
+    content: r
+  - delay: 97
+    content: i
+  - delay: 98
+    content: a
+  - delay: 265
+    content: 'n'
+  - delay: 163
+    content: d
+  - delay: 898
+    content: "\b \b"
+  - delay: 333
+    content: "\r\n   Isi 'nama_lengkap' (Ketik NULL jika ini Auto Increment): "
+  - delay: 3675
+    content: "^C\r\n\e]3008;end=ba5d4cc9-3c69-4243-a528-c0f225779dbf;exit=interrupt;signal=3\e\\"
+  - delay: 8
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=2c2cca08-d65a-4263-b845-5fe8248139b8;exit=interrupt;signal=3\e\\"
+  - delay: 6
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(2)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:09:29\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 477
+    content: ' ./test1.sh'
+  - delay: 809
+    content: "\r\n\e[?2004l\r"
+  - delay: 15
+    content: "\e]3008;start=24a9e5cf-b167-41fc-bf2f-6ad19c3116ab;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\\e]3008;start=24a9e5cf-b167-41fc-bf2f-6ad19c3116ab;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\=== 2NF/3NF DATABASE BUILDER (MANUAL MODE) ===\r\nFitur: No Auto-ID, Manual PK, Custom Normalization\r\nNama Database: "
+  - delay: 1195
+    content: p
+  - delay: 221
+    content: e
+  - delay: 214
+    content: "\b \b"
+  - delay: 452
+    content: e
+  - delay: 64
+    content: l
+  - delay: 116
+    content: a
+  - delay: 133
+    content: t
+  - delay: 64
+    content: i
+  - delay: 206
+    content: h
+  - delay: 94
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 398
+    content: "\r\n"
+  - delay: 9
+    content: "==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 1870
+    content: p
+  - delay: 104
+    content: e
+  - delay: 477
+    content: s
+  - delay: 143
+    content: e
+  - delay: 104
+    content: r
+  - delay: 115
+    content: t
+  - delay: 142
+    content: a
+  - delay: 121
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1569
+    content: i
+  - delay: 101
+    content: d
+  - delay: 267
+    content: _
+  - delay: 405
+    content: p
+  - delay: 78
+    content: e
+  - delay: 148
+    content: s
+  - delay: 153
+    content: e
+  - delay: 244
+    content: t
+  - delay: 554
+    content: "\b \b"
+  - delay: 71
+    content: r
+  - delay: 162
+    content: t
+  - delay: 107
+    content: a
+  - delay: 125
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 439
+    content: i
+  - delay: 157
+    content: 'n'
+  - delay: 82
+    content: t
+  - delay: 1921
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1141
+    content: '2'
+  - delay: 165
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1993
+    content: 'n'
+  - delay: 90
+    content: a
+  - delay: 407
+    content: m
+  - delay: 145
+    content: a
+  - delay: 532
+    content: _
+  - delay: 257
+    content: l
+  - delay: 119
+    content: e
+  - delay: 119
+    content: m
+  - delay: 378
+    content: "\b \b"
+  - delay: 211
+    content: 'n'
+  - delay: 109
+    content: g
+  - delay: 140
+    content: k
+  - delay: 87
+    content: a
+  - delay: 115
+    content: p
+  - delay: 2037
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 422
+    content: a
+  - delay: 575
+    content: "\b \b"
+  - delay: 94
+    content: v
+  - delay: 61
+    content: a
+  - delay: 133
+    content: r
+  - delay: 187
+    content: c
+  - delay: 96
+    content: h
+  - delay: 119
+    content: a
+  - delay: 73
+    content: r
+  - delay: 368
+    content: (
+  - delay: 199
+    content: '1'
+  - delay: 317
+    content: '0'
+  - delay: 159
+    content: '0'
+  - delay: 203
+    content: )
+  - delay: 1045
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 817
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 578
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 3106
+    content: "^C\r\n\e]3008;end=24a9e5cf-b167-41fc-bf2f-6ad19c3116ab;exit=interrupt;signal=3\e\\"
+  - delay: 28
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=5ebe505a-f9fd-43de-bd7e-c4e8290af6f6;exit=interrupt;signal=3\e\\"
+  - delay: 22
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(3)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:10:00\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 476
+    content: ' ./test1.sh'
+  - delay: 506
+    content: "\r\n\e[?2004l\r"
+  - delay: 54
+    content: "\e]3008;start=fea44a8a-27e8-43a7-b440-1e74a8a7a8d7;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\\e]3008;start=fea44a8a-27e8-43a7-b440-1e74a8a7a8d7;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\"
+  - delay: 5
+    content: "=== 2NF/3NF DATABASE BUILDER (MANUAL MODE) ===\r\nFitur: No Auto-ID, Manual PK, Custom Normalization\r\nNama Database: "
+  - delay: 963
+    content: p
+  - delay: 326
+    content: e
+  - delay: 89
+    content: l
+  - delay: 121
+    content: a
+  - delay: 119
+    content: t
+  - delay: 70
+    content: i
+  - delay: 207
+    content: h
+  - delay: 102
+    content: a
+  - delay: 125
+    content: 'n'
+  - delay: 147
+    content: "\r\n"
+  - delay: 7
+    content: "==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 3541
+    content: i
+  - delay: 117
+    content: d
+  - delay: 294
+    content: _
+  - delay: 311
+    content: p
+  - delay: 96
+    content: e
+  - delay: 168
+    content: s
+  - delay: 174
+    content: e
+  - delay: 223
+    content: t
+  - delay: 182
+    content: a
+  - delay: 163
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1576
+    content: i
+  - delay: 156
+    content: 'n'
+  - delay: 888
+    content: "\b \b"
+  - delay: 215
+    content: "\b \b"
+  - delay: 1217
+    content: "^C\r\n\e]3008;end=fea44a8a-27e8-43a7-b440-1e74a8a7a8d7;exit=interrupt;signal=3\e\\"
+  - delay: 6
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=ecb4e351-62ed-4470-a10b-d0e703d42e2b;exit=interrupt;signal=3\e\\"
+  - delay: 5
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(4)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:10:12\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 215
+    content: ' ./test1.sh'
+  - delay: 369
+    content: "\r\n\e[?2004l\r"
+  - delay: 41
+    content: "\e]3008;start=075e4871-970f-4354-a5c7-df7393985f48;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\\e]3008;start=075e4871-970f-4354-a5c7-df7393985f48;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\=== 2NF/3NF DATABASE BUILDER (MANUAL MODE) ===\r\nFitur: No Auto-ID, Manual PK, Custom Normalization\r\nNama Database: "
+  - delay: 840
+    content: i
+  - delay: 137
+    content: 'n'
+  - delay: 125
+    content: t
+  - delay: 407
+    content: "\b \b"
+  - delay: 152
+    content: "\b \b"
+  - delay: 115
+    content: "\b \b"
+  - delay: 397
+    content: p
+  - delay: 136
+    content: e
+  - delay: 76
+    content: l
+  - delay: 96
+    content: a
+  - delay: 110
+    content: t
+  - delay: 65
+    content: i
+  - delay: 220
+    content: h
+  - delay: 150
+    content: a
+  - delay: 73
+    content: 'n'
+  - delay: 210
+    content: "\r\n"
+  - delay: 6
+    content: "==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 1695
+    content: p
+  - delay: 144
+    content: e
+  - delay: 189
+    content: s
+  - delay: 251
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 129
+    content: "\b \b"
+  - delay: 428
+    content: p
+  - delay: 88
+    content: e
+  - delay: 167
+    content: s
+  - delay: 138
+    content: e
+  - delay: 79
+    content: r
+  - delay: 180
+    content: t
+  - delay: 94
+    content: a
+  - delay: 128
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 3027
+    content: i
+  - delay: 92
+    content: d
+  - delay: 267
+    content: _
+  - delay: 362
+    content: p
+  - delay: 126
+    content: e
+  - delay: 160
+    content: s
+  - delay: 165
+    content: e
+  - delay: 64
+    content: r
+  - delay: 153
+    content: t
+  - delay: 107
+    content: a
+  - delay: 452
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 310
+    content: i
+  - delay: 150
+    content: 'n'
+  - delay: 101
+    content: t
+  - delay: 937
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 749
+    content: '2'
+  - delay: 394
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2553
+    content: e
+  - delay: 126
+    content: m
+  - delay: 131
+    content: a
+  - delay: 110
+    content: i
+  - delay: 182
+    content: l
+  - delay: 2586
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 143
+    content: "\b \b"
+  - delay: 125
+    content: "\b \b"
+  - delay: 544
+    content: 'n'
+  - delay: 162
+    content: a
+  - delay: 35
+    content: m
+  - delay: 114
+    content: a
+  - delay: 421
+    content: _
+  - delay: 488
+    content: l
+  - delay: 118
+    content: e
+  - delay: 100
+    content: 'n'
+  - delay: 126
+    content: g
+  - delay: 132
+    content: k
+  - delay: 112
+    content: a
+  - delay: 128
+    content: p
+  - delay: 714
+    content: "\b \b"
+  - delay: 499
+    content: "\b \b"
+  - delay: 26
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 51
+    content: "\b \b\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 203
+    content: 'n'
+  - delay: 119
+    content: a
+  - delay: 79
+    content: m
+  - delay: 78
+    content: a
+  - delay: 495
+    content: _
+  - delay: 200
+    content: l
+  - delay: 178
+    content: e
+  - delay: 103
+    content: 'n'
+  - delay: 218
+    content: g
+  - delay: 94
+    content: k
+  - delay: 179
+    content: a
+  - delay: 50
+    content: p
+  - delay: 747
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 521
+    content: v
+  - delay: 146
+    content: a
+  - delay: 85
+    content: r
+  - delay: 204
+    content: c
+  - delay: 127
+    content: h
+  - delay: 113
+    content: a
+  - delay: 23
+    content: r
+  - delay: 248
+    content: (
+  - delay: 307
+    content: '1'
+  - delay: 118
+    content: '0'
+  - delay: 142
+    content: '0'
+  - delay: 158
+    content: )
+  - delay: 169
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 729
+    content: 'n'
+  - delay: 152
+    content: o
+  - delay: 105
+    content: t
+  - delay: 191
+    content: 'n'
+  - delay: 25
+    content: ' '
+  - delay: 140
+    content: u
+  - delay: 179
+    content: l
+  - delay: 271
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 149
+    content: "\b \b"
+  - delay: 116
+    content: "\b \b"
+  - delay: 111
+    content: ' '
+  - delay: 84
+    content: 'n'
+  - delay: 138
+    content: u
+  - delay: 182
+    content: l
+  - delay: 140
+    content: l
+  - delay: 189
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 965
+    content: t
+  - delay: 165
+    content: a
+  - delay: 304
+    content: "\b \b"
+  - delay: 192
+    content: "\b \b"
+  - delay: 462
+    content: e
+  - delay: 95
+    content: m
+  - delay: 159
+    content: a
+  - delay: 136
+    content: i
+  - delay: 167
+    content: l
+  - delay: 558
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 474
+    content: v
+  - delay: 92
+    content: a
+  - delay: 121
+    content: r
+  - delay: 415
+    content: c
+  - delay: 367
+    content: h
+  - delay: 203
+    content: r
+  - delay: 461
+    content: "\b \b"
+  - delay: 89
+    content: a
+  - delay: 70
+    content: r
+  - delay: 440
+    content: '*'
+  - delay: 347
+    content: "\b \b"
+  - delay: 166
+    content: (
+  - delay: 217
+    content: '1'
+  - delay: 118
+    content: '0'
+  - delay: 139
+    content: '0'
+  - delay: 182
+    content: )
+  - delay: 1823
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 220
+    content: 'n'
+  - delay: 126
+    content: u
+  - delay: 346
+    content: "\b \b"
+  - delay: 153
+    content: "\b \b"
+  - delay: 148
+    content: u
+  - delay: 191
+    content: 'n'
+  - delay: 172
+    content: i
+  - delay: 317
+    content: q
+  - delay: 229
+    content: u
+  - delay: 139
+    content: e
+  - delay: 186
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2302
+    content: t
+  - delay: 118
+    content: a
+  - delay: 83
+    content: 'n'
+  - delay: 103
+    content: g
+  - delay: 166
+    content: g
+  - delay: 153
+    content: a
+  - delay: 261
+    content: "\b \b"
+  - delay: 163
+    content: "\b \b"
+  - delay: 143
+    content: "\b \b"
+  - delay: 128
+    content: "\b \b"
+  - delay: 144
+    content: "\b \b"
+  - delay: 108
+    content: g
+  - delay: 99
+    content: l
+  - delay: 420
+    content: _
+  - delay: 271
+    content: d
+  - delay: 74
+    content: a
+  - delay: 173
+    content: f
+  - delay: 221
+    content: t
+  - delay: 81
+    content: a
+  - delay: 81
+    content: r
+  - delay: 340
+    content: ' '
+  - delay: 753
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 495
+    content: d
+  - delay: 79
+    content: a
+  - delay: 166
+    content: t
+  - delay: 135
+    content: e
+  - delay: 129
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1064
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 677
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 1098
+    content: "\r\n"
+  - delay: 5
+    content: "------------------------------------------\r\nInsert data ke 'peserta'? (y/n): "
+  - delay: 972
+    content: 'y'
+  - delay: 195
+    content: "\r\n>> Masukkan Data:\r\n   Isi 'id_peserta' (Ketik NULL jika ini Auto Increment): "
+  - delay: 1145
+    content: r
+  - delay: 130
+    content: i
+  - delay: 101
+    content: a
+  - delay: 397
+    content: "\b \b"
+  - delay: 166
+    content: "\b \b"
+  - delay: 183
+    content: "\b \b"
+  - delay: 213
+    content: "\r\n   Isi 'nama_lengkap' (Ketik NULL jika ini Auto Increment): "
+  - delay: 10939
+    content: "^C\r\n\e]3008;end=075e4871-970f-4354-a5c7-df7393985f48;exit=interrupt;signal=3\e\\"
+  - delay: 23
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=d98053a2-a7f7-4d47-a1d3-f2bacdbb71a5;exit=interrupt;signal=3\e\\"
+  - delay: 18
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(5)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:11:22\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 423
+    content: ' ./test1.sh'
+  - delay: 625
+    content: "\r\n\e[?2004l\r"
+  - delay: 51
+    content: "\e]3008;start=226d863d-53f8-47db-8b90-78474f42aa51;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\\e]3008;start=226d863d-53f8-47db-8b90-78474f42aa51;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=command;cwd=/home/adzani\e\\"
+  - delay: 6
+    content: "=== 2NF/3NF DATABASE BUILDER (MANUAL MODE) ===\r\nFitur: No Auto-ID, Manual PK, Custom Normalization\r\nNama Database: "
+  - delay: 1500
+    content: p
+  - delay: 102
+    content: e
+  - delay: 166
+    content: s
+  - delay: 131
+    content: e
+  - delay: 87
+    content: r
+  - delay: 696
+    content: "\b \b"
+  - delay: 159
+    content: "\b \b"
+  - delay: 161
+    content: "\b \b"
+  - delay: 131
+    content: "\b \b"
+  - delay: 130
+    content: "\b \b"
+  - delay: 617
+    content: p
+  - delay: 41
+    content: e
+  - delay: 434
+    content: l
+  - delay: 108
+    content: a
+  - delay: 111
+    content: t
+  - delay: 102
+    content: i
+  - delay: 195
+    content: h
+  - delay: 121
+    content: a
+  - delay: 89
+    content: 'n'
+  - delay: 190
+    content: "\r\n"
+  - delay: 10
+    content: "==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 6434
+    content: p
+  - delay: 108
+    content: e
+  - delay: 173
+    content: s
+  - delay: 235
+    content: e
+  - delay: 108
+    content: r
+  - delay: 166
+    content: t
+  - delay: 149
+    content: a
+  - delay: 1365
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1246
+    content: i
+  - delay: 103
+    content: d
+  - delay: 245
+    content: _
+  - delay: 300
+    content: p
+  - delay: 85
+    content: e
+  - delay: 157
+    content: s
+  - delay: 168
+    content: e
+  - delay: 53
+    content: r
+  - delay: 186
+    content: t
+  - delay: 120
+    content: a
+  - delay: 143
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 685
+    content: i
+  - delay: 146
+    content: 'n'
+  - delay: 117
+    content: t
+  - delay: 144
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 835
+    content: '2'
+  - delay: 289
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 783
+    content: 'n'
+  - delay: 59
+    content: a
+  - delay: 123
+    content: m
+  - delay: 71
+    content: a
+  - delay: 257
+    content: P
+  - delay: 533
+    content: "\b \b"
+  - delay: 206
+    content: _
+  - delay: 268
+    content: l
+  - delay: 112
+    content: e
+  - delay: 147
+    content: 'n'
+  - delay: 128
+    content: g
+  - delay: 100
+    content: k
+  - delay: 143
+    content: a
+  - delay: 66
+    content: p
+  - delay: 195
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 345
+    content: v
+  - delay: 102
+    content: a
+  - delay: 99
+    content: r
+  - delay: 384
+    content: c
+  - delay: 164
+    content: a
+  - delay: 509
+    content: "\b \b"
+  - delay: 222
+    content: h
+  - delay: 85
+    content: a
+  - delay: 64
+    content: r
+  - delay: 255
+    content: (
+  - delay: 216
+    content: '1'
+  - delay: 103
+    content: '0'
+  - delay: 158
+    content: '0'
+  - delay: 196
+    content: '0'
+  - delay: 658
+    content: "\b \b"
+  - delay: 434
+    content: )
+  - delay: 188
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1125
+    content: 'n'
+  - delay: 164
+    content: o
+  - delay: 132
+    content: t
+  - delay: 224
+    content: ' n'
+  - delay: 193
+    content: u
+  - delay: 247
+    content: l
+  - delay: 130
+    content: l
+  - delay: 199
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1333
+    content: e
+  - delay: 109
+    content: m
+  - delay: 100
+    content: a
+  - delay: 115
+    content: i
+  - delay: 165
+    content: l
+  - delay: 430
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 630
+    content: v
+  - delay: 99
+    content: a
+  - delay: 101
+    content: r
+  - delay: 165
+    content: c
+  - delay: 110
+    content: h
+  - delay: 88
+    content: a
+  - delay: 53
+    content: r
+  - delay: 256
+    content: (
+  - delay: 201
+    content: '1'
+  - delay: 106
+    content: '0'
+  - delay: 171
+    content: )
+  - delay: 583
+    content: "\b \b"
+  - delay: 187
+    content: '0'
+  - delay: 328
+    content: )
+  - delay: 527
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1145
+    content: u
+  - delay: 122
+    content: 'n'
+  - delay: 151
+    content: q
+  - delay: 18
+    content: i
+  - delay: 774
+    content: "\b \b"
+  - delay: 117
+    content: "\b \b"
+  - delay: 197
+    content: i
+  - delay: 365
+    content: q
+  - delay: 106
+    content: u
+  - delay: 145
+    content: e
+  - delay: 953
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 899
+    content: t
+  - delay: 172
+    content: g
+  - delay: 83
+    content: l
+  - delay: 321
+    content: _
+  - delay: 217
+    content: d
+  - delay: 94
+    content: a
+  - delay: 135
+    content: f
+  - delay: 209
+    content: t
+  - delay: 132
+    content: a
+  - delay: 92
+    content: r
+  - delay: 1613
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 473
+    content: d
+  - delay: 114
+    content: a
+  - delay: 138
+    content: t
+  - delay: 104
+    content: e
+  - delay: 136
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 833
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2288
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 1234
+    content: "\r\n"
+  - delay: 5
+    content: "------------------------------------------\r\nInsert data ke 'peserta'? (y/n): "
+  - delay: 695
+    content: 'y'
+  - delay: 359
+    content: "\r\n>> Masukkan Data:\r\n   Isi 'id_peserta' (Ketik NULL jika ini Auto Increment): "
+  - delay: 921
+    content: 'n'
+  - delay: 144
+    content: u
+  - delay: 186
+    content: l
+  - delay: 139
+    content: l
+  - delay: 159
+    content: "\r\n   Isi 'nama_lengkap' (Ketik NULL jika ini Auto Increment): "
+  - delay: 2304
+    content: i
+  - delay: 137
+    content: k
+  - delay: 275
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 151
+    content: r
+  - delay: 186
+    content: a
+  - delay: 125
+    content: 'n'
+  - delay: 542
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 166
+    content: i
+  - delay: 191
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 224
+    content: "\r\n   Isi 'email' (Ketik NULL jika ini Auto Increment): "
+  - delay: 1391
+    content: r
+  - delay: 113
+    content: i
+  - delay: 90
+    content: a
+  - delay: 81
+    content: 'n'
+  - delay: 753
+    content: '#'
+  - delay: 328
+    content: g
+  - delay: 333
+    content: "\b \b"
+  - delay: 121
+    content: "\b \b"
+  - delay: 176
+    content: '@'
+  - delay: 225
+    content: g
+  - delay: 96
+    content: m
+  - delay: 131
+    content: a
+  - delay: 65
+    content: i
+  - delay: 177
+    content: l
+  - delay: 880
+    content: .
+  - delay: 141
+    content: c
+  - delay: 86
+    content: o
+  - delay: 160
+    content: m
+  - delay: 536
+    content: "\r\n   Isi 'tgl_daftar' (Ketik NULL jika ini Auto Increment): "
+  - delay: 2576
+    content: '2'
+  - delay: 112
+    content: '0'
+  - delay: 104
+    content: '2'
+  - delay: 124
+    content: '0'
+  - delay: 583
+    content: "\b \b"
+  - delay: 204
+    content: '4'
+  - delay: 410
+    content: "\b \b"
+  - delay: 137
+    content: '5'
+  - delay: 529
+    content: '-'
+  - delay: 181
+    content: '2'
+  - delay: 300
+    content: "\b \b"
+  - delay: 181
+    content: '1'
+  - delay: 104
+    content: '2'
+  - delay: 387
+    content: '-'
+  - delay: 466
+    content: '0'
+  - delay: 695
+    content: '5'
+  - delay: 1086
+    content: "\r\n------------------------------------------\r\nInsert data ke 'peserta'? (y/n): "
+  - delay: 742
+    content: 'n'
+  - delay: 269
+    content: "\r\n==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 2087
+    content: p
+  - delay: 121
+    content: e
+  - delay: 517
+    content: 'n'
+  - delay: 203
+    content: g
+  - delay: 183
+    content: a
+  - delay: 89
+    content: j
+  - delay: 121
+    content: a
+  - delay: 83
+    content: r
+  - delay: 591
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 687
+    content: i
+  - delay: 110
+    content: d
+  - delay: 207
+    content: _
+  - delay: 246
+    content: p
+  - delay: 159
+    content: e
+  - delay: 71
+    content: 'n'
+  - delay: 163
+    content: g
+  - delay: 144
+    content: a
+  - delay: 122
+    content: j
+  - delay: 65
+    content: a
+  - delay: 81
+    content: r
+  - delay: 556
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 222
+    content: i
+  - delay: 161
+    content: 'n'
+  - delay: 98
+    content: t
+  - delay: 1245
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1177
+    content: '2'
+  - delay: 485
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2077
+    content: 'n'
+  - delay: 119
+    content: a
+  - delay: 105
+    content: m
+  - delay: 81
+    content: a
+  - delay: 686
+    content: _
+  - delay: 195
+    content: p
+  - delay: 222
+    content: e
+  - delay: 88
+    content: 'n'
+  - delay: 192
+    content: g
+  - delay: 149
+    content: a
+  - delay: 110
+    content: j
+  - delay: 93
+    content: a
+  - delay: 78
+    content: r
+  - delay: 253
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 588
+    content: v
+  - delay: 141
+    content: a
+  - delay: 239
+    content: r
+  - delay: 160
+    content: c
+  - delay: 97
+    content: h
+  - delay: 94
+    content: a
+  - delay: 44
+    content: r
+  - delay: 228
+    content: (
+  - delay: 232
+    content: '1'
+  - delay: 144
+    content: '0'
+  - delay: 158
+    content: '0'
+  - delay: 197
+    content: )
+  - delay: 612
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 235
+    content: 'n'
+  - delay: 158
+    content: o
+  - delay: 97
+    content: t
+  - delay: 183
+    content: ' '
+  - delay: 29
+    content: 'n'
+  - delay: 151
+    content: u
+  - delay: 194
+    content: l
+  - delay: 148
+    content: l
+  - delay: 579
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 583
+    content: k
+  - delay: 97
+    content: e
+  - delay: 227
+    content: a
+  - delay: 113
+    content: h
+  - delay: 205
+    content: l
+  - delay: 159
+    content: i
+  - delay: 127
+    content: a
+  - delay: 133
+    content: 'n'
+  - delay: 1546
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 194
+    content: v
+  - delay: 90
+    content: a
+  - delay: 130
+    content: r
+  - delay: 197
+    content: c
+  - delay: 123
+    content: h
+  - delay: 69
+    content: a
+  - delay: 79
+    content: r
+  - delay: 307
+    content: (
+  - delay: 288
+    content: '1'
+  - delay: 135
+    content: '0'
+  - delay: 165
+    content: '0'
+  - delay: 235
+    content: )
+  - delay: 2265
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1118
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1930
+    content: b
+  - delay: 170
+    content: i
+  - delay: 481
+    content: o
+  - delay: 265
+    content: _
+  - delay: 226
+    content: t
+  - delay: 306
+    content: "\b \b"
+  - delay: 131
+    content: s
+  - delay: 273
+    content: 'n'
+  - delay: 96
+    content: g
+  - delay: 141
+    content: k
+  - delay: 108
+    content: a
+  - delay: 102
+    content: t
+  - delay: 694
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 8100
+    content: t
+  - delay: 182
+    content: e
+  - delay: 173
+    content: x
+  - delay: 188
+    content: t
+  - delay: 161
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1098
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 1315
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 697
+    content: "\r\n------------------------------------------\r\nInsert data ke 'pengajar'? (y/n): "
+  - delay: 1142
+    content: 'y'
+  - delay: 516
+    content: "\r\n>> Masukkan Data:\r\n   Isi 'id_pengajar' (Ketik NULL jika ini Auto Increment): "
+  - delay: 2092
+    content: b
+  - delay: 157
+    content: u
+  - delay: 130
+    content: d
+  - delay: 112
+    content: o
+  - delay: 1129
+    content: "\b \b"
+  - delay: 229
+    content: i
+  - delay: 207
+    content: ' '
+  - delay: 485
+    content: "\b \b"
+  - delay: 701
+    content: "\r\n   Isi 'nama_pengajar' (Ketik NULL jika ini Auto Increment): "
+  - delay: 768
+    content: w
+  - delay: 190
+    content: e
+  - delay: 144
+    content: b
+  - delay: 744
+    content: "\r\n   Isi 'keahlian' (Ketik NULL jika ini Auto Increment): "
+  - delay: 616
+    content: p
+  - delay: 156
+    content: r
+  - delay: 133
+    content: a
+  - delay: 98
+    content: k
+  - delay: 136
+    content: t
+  - delay: 571
+    content: i
+  - delay: 138
+    content: s
+  - delay: 121
+    content: i
+  - delay: 200
+    content: ' '
+  - delay: 153
+    content: i
+  - delay: 116
+    content: t
+  - delay: 1591
+    content: "\r\n   Isi 'bio_sngkat' (Ketik NULL jika ini Auto Increment): "
+  - delay: 9229
+    content: a
+  - delay: 159
+    content: 'n'
+  - delay: 248
+    content: j
+  - delay: 155
+    content: a
+  - delay: 236
+    content: 'y'
+  - delay: 708
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 148
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 130
+    content: "\b \b"
+  - delay: 718
+    content: m
+  - delay: 148
+    content: a
+  - delay: 82
+    content: 'n'
+  - delay: 109
+    content: t
+  - delay: 110
+    content: a
+  - delay: 108
+    content: p
+  - delay: 1230
+    content: "\r\n------------------------------------------\r\nInsert data ke 'pengajar'? (y/n): "
+  - delay: 1036
+    content: 'n'
+  - delay: 358
+    content: "\r\n==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 5945
+    content: k
+  - delay: 146
+    content: u
+  - delay: 135
+    content: r
+  - delay: 95
+    content: u
+  - delay: 93
+    content: s
+  - delay: 492
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 170
+    content: s
+  - delay: 138
+    content: u
+  - delay: 161
+    content: s
+  - delay: 1065
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 365
+    content: i
+  - delay: 130
+    content: d
+  - delay: 1588
+    content: _
+  - delay: 825
+    content: k
+  - delay: 145
+    content: u
+  - delay: 127
+    content: r
+  - delay: 186
+    content: s
+  - delay: 122
+    content: u
+  - delay: 105
+    content: s
+  - delay: 505
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 381
+    content: i
+  - delay: 165
+    content: 'n'
+  - delay: 66
+    content: t
+  - delay: 1362
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 492
+    content: '2'
+  - delay: 655
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 745
+    content: j
+  - delay: 225
+    content: u
+  - delay: 110
+    content: d
+  - delay: 91
+    content: u
+  - delay: 910
+    content: l
+  - delay: 2376
+    content: _
+  - delay: 251
+    content: k
+  - delay: 200
+    content: u
+  - delay: 104
+    content: r
+  - delay: 118
+    content: s
+  - delay: 128
+    content: u
+  - delay: 85
+    content: s
+  - delay: 706
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 912
+    content: v
+  - delay: 109
+    content: a
+  - delay: 80
+    content: r
+  - delay: 192
+    content: c
+  - delay: 41
+    content: h
+  - delay: 395
+    content: a
+  - delay: 73
+    content: r
+  - delay: 362
+    content: (
+  - delay: 985
+    content: '1'
+  - delay: 306
+    content: '5'
+  - delay: 172
+    content: '5'
+  - delay: 445
+    content: )
+  - delay: 301
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 1511
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 402
+    content: d
+  - delay: 133
+    content: e
+  - delay: 172
+    content: s
+  - delay: 81
+    content: k
+  - delay: 166
+    content: r
+  - delay: 107
+    content: i
+  - delay: 133
+    content: p
+  - delay: 146
+    content: s
+  - delay: 129
+    content: i
+  - delay: 172
+    content: ' '
+  - delay: 2192
+    content: "\r\n   -> Tipe Data (cth: INT, VARCHAR(100), DATE): "
+  - delay: 127
+    content: t
+  - delay: 54
+    content: e
+  - delay: 186
+    content: x
+  - delay: 198
+    content: t
+  - delay: 321
+    content: "\r\n      Constraint Opsional:\r\n      1. Kosong (Biasa)\r\n      2. PRIMARY KEY AUTO_INCREMENT (Buat ID otomatis)\r\n      3. PRIMARY KEY (Buat NIM, ISBN, Kode)\r\n      4. NOT NULL / UNIQUE\r\n      5. Custom Sendiri\r\n      Pilih atau Ketik Manual (Enter utk kosong): "
+  - delay: 883
+    content: d
+  - delay: 152
+    content: u
+  - delay: 121
+    content: r
+  - delay: 95
+    content: a
+  - delay: 109
+    content: s
+  - delay: 127
+    content: i
+  - delay: 660
+    content: "\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 331
+    content: i
+  - delay: 154
+    content: 'n'
+  - delay: 93
+    content: t
+  - delay: 776
+    content: "\b \b"
+  - delay: 189
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 6414
+    content: "\r\n>> Setup Relasi / Foreign Key (Ketik 'stop' jika selesai)\r\n   ----------------------\r\n   -> Kolom di tabel INI yg jadi FK (cth: nip): "
+  - delay: 4410
+    content: "\r\n"
+  - delay: 6
+    content: "------------------------------------------\r\nInsert data ke 'kursus'? (y/n): "
+  - delay: 1080
+    content: 'y'
+  - delay: 2264
+    content: "\r\n>> Masukkan Data:\r\n   Isi 'id_kursus' (Ketik NULL jika ini Auto Increment): "
+  - delay: 1745
+    content: m
+  - delay: 95
+    content: a
+  - delay: 77
+    content: s
+  - delay: 193
+    content: t
+  - delay: 109
+    content: e
+  - delay: 86
+    content: r
+  - delay: 136
+    content: i
+  - delay: 200
+    content: 'n'
+  - delay: 549
+    content: "\b \b"
+  - delay: 156
+    content: "\b \b"
+  - delay: 136
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 135
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 122
+    content: "\b \b"
+  - delay: 130
+    content: "\b \b"
+  - delay: 387
+    content: 'n'
+  - delay: 186
+    content: u
+  - delay: 176
+    content: l
+  - delay: 149
+    content: l
+  - delay: 181
+    content: "\r\n   Isi 'judul_kursus' (Ketik NULL jika ini Auto Increment): "
+  - delay: 1036
+    content: m
+  - delay: 133
+    content: a
+  - delay: 208
+    content: s
+  - delay: 197
+    content: t
+  - delay: 117
+    content: e
+  - delay: 97
+    content: r
+  - delay: 130
+    content: i
+  - delay: 175
+    content: 'n'
+  - delay: 107
+    content: g
+  - delay: 215
+    content: "\r\n   Isi 'deskripsi' (Ketik NULL jika ini Auto Increment): "
+  - delay: 645
+    content: e
+  - delay: 145
+    content: b
+  - delay: 240
+    content: "\b \b"
+  - delay: 139
+    content: "\b \b"
+  - delay: 197
+    content: b
+  - delay: 139
+    content: e
+  - delay: 99
+    content: l
+  - delay: 152
+    content: a
+  - delay: 32
+    content: j
+  - delay: 152
+    content: a
+  - delay: 79
+    content: r
+  - delay: 189
+    content: "\r\n------------------------------------------\r\nInsert data ke 'kursus'? (y/n): "
+  - delay: 1090
+    content: '2'
+  - delay: 117
+    content: '0'
+  - delay: 464
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 488
+    content: 'n'
+  - delay: 1181
+    content: "\r\n==========================================\r\nMEMBUAT TABEL BARU\r\nNama Tabel (Enter kosong untuk SELESAI bikin tabel): "
+  - delay: 2958
+    content: p
+  - delay: 116
+    content: e
+  - delay: 249
+    content: 'n'
+  - delay: 120
+    content: d
+  - delay: 165
+    content: a
+  - delay: 146
+    content: f
+  - delay: 207
+    content: t
+  - delay: 105
+    content: a
+  - delay: 343
+    content: "\b \b"
+  - delay: 98
+    content: t
+  - delay: 717
+    content: "\b \b"
+  - delay: 199
+    content: "\b \b"
+  - delay: 813
+    content: t
+  - delay: 144
+    content: a
+  - delay: 126
+    content: r
+  - delay: 165
+    content: a
+  - delay: 195
+    content: 'n'
+  - delay: 510
+    content: "\r\n>> Definisikan Kolom & Key (Ketik 'stop' di Nama Kolom jika selesai)\r\n   ----------------------\r\n   -> Nama Kolom: "
+  - delay: 2345
+    content: i
+  - delay: 114
+    content: d
+  - delay: 219
+    content: _
+  - delay: 215
+    content: p
+  - delay: 135
+    content: e
+  - delay: 161
+    content: 'n'
+  - delay: 100
+    content: d
+  - delay: 195
+    content: a
+  - delay: 64
+    content: f
+  - delay: 648
+    content: "\b \b"
+  - delay: 227
+    content: 'n'
+  - delay: 825
+    content: "\b \b"
+  - delay: 165
+    content: "\b \b"
+  - delay: 566
+    content: "\b \b"
+  - delay: 494
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 29
+    content: "\b \b"
+  - delay: 4395
+    content: "^C\r\n\e]3008;end=226d863d-53f8-47db-8b90-78474f42aa51;exit=interrupt;signal=3\e\\"
+  - delay: 27
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=8fbe653a-ebde-4494-aff8-b1df7d0f4b6d;exit=interrupt;signal=3\e\\"
+  - delay: 10
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(6)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:15:09\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 7943
+    content: "^C\e[?2004l\r\e[?2004h\e[?2004l\r\r\n\e]3008;end=9090bda4-0137-4613-9585-01c56d3df8d6;exit=interrupt;signal=3\e\\"
+  - delay: 28
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]3008;end=ccbe9799-182c-44b6-8a90-6cd3a39c648e;exit=interrupt;signal=3\e\\"
+  - delay: 11
+    content: "\e]3008;start=92e96448-a333-48ac-827a-02575fc445f5;machineid=3f47c1f6b2e9499a96c73902ef48dc41;user=root;hostname=lunetta;bootid=7afd9e83-a76c-4fa7-9d2a-83bca05c26c7;pid=37496;type=shell;cwd=/home/adzani\e\\\e]0;root@lunetta:/home/adzani\a\e[?2004h\e[38;5;196m(6)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:15:17\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/adzani\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 1764
+    content: "\e[?2004l\r\r\nlogout\r\n"
