@@ -1,0 +1,343 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\LENOVO
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 686
+    content: "\e[?9001h\e[?1004h"
+  - delay: 105
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 141
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 3654
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93mm\e[?25h"
+  - delay: 191
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 151
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;21Hmys\e[?25h"
+  - delay: 285
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;21Hmysq\e[?25h"
+  - delay: 289
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmysql\e[?25h"
+  - delay: 599
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;21Hmysql \e[?25h"
+  - delay: 878
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;21Hmysql \e[37m-\e[?25h"
+  - delay: 371
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;21Hmysql \e[90m-u\e[?25h"
+  - delay: 531
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[?25h"
+  - delay: 361
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mr\e[?25h"
+  - delay: 236
+    content: "\e[m\e[?25l"
+  - delay: 27
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mro\e[?25h"
+  - delay: 139
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroo\e[?25h"
+  - delay: 128
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot\e[?25h"
+  - delay: 190
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot \e[?25h"
+  - delay: 928
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot -\e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 1448
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 54
+    content: E
+  - delay: 9
+    content: 'nter password: '
+  - delay: 1170
+    content: '*'
+  - delay: 113
+    content: '*'
+  - delay: 197
+    content: '*'
+  - delay: 224
+    content: '*'
+  - delay: 312
+    content: "\r\n"
+  - delay: 157
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 15
+    content: "\r\n"
+  - delay: 28
+    content: "Your MariaDB connection id is 4\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\r\n"
+  - delay: 20
+    content: "\e[?25l\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 201928
+    content: "CREATE DATABASE sistem_santri;\r\n"
+  - delay: 10
+    content: "\e[?25lQuery OK, 1 row affected (0.009 sec)\e[19;1HMariaDB [(none)]> USE sistem_santri;\r\n\e[?25h"
+  - delay: 16
+    content: "Database changed\r\nMariaDB [sistem_santri]> "
+  - delay: 18892
+    content: "CREATE TABLE santri (\r\n"
+  - delay: 8
+    content: "    ->   id_santri INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->   nama_santri VARCHAR(100) NOT NULL,\r\n    ->   jenis_kelamin CHAR(1) NOT NULL,\r\n    ->   asal_daerah VARCHAR(100),\r\n    ->   tahun_masuk YEAR NOT NULL,\r\n    ->   status VARCHAR(20) DEFAULT 'Aktif'\r\n    -> );\r\n"
+  - delay: 31
+    content: "Query OK, 0 rows affected (0.038 sec)\r\n"
+  - delay: 17
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 18368
+    content: "CREATE TABLE ustadz (\r\n    ->   id_ustadz INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->   nama_ustadz VARCHAR(100) NOT NULL,\r\n    ->   bidang VARCHAR(50) NOT NULL\r\n    -> );\r"
+  - delay: 12
+    content: "\nQuery OK, 0 rows affected (0.011 sec)\r\n\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 23249
+    content: "CREATE TABLE kelas (\r\n    ->   id_kelas INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->   nama_kelas VARCHAR(50) NOT NULL,\r\n    ->   tingkat VARCHAR(50) NOT NULL,\r\n    ->   id_ustadz INT NOT NULL,\r\n    ->   FOREIGN KEY (id_ustadz) REFERENCES ustadz(id_ustadz)\r\n    -> );\r"
+  - delay: 8
+    content: |+
+
+  - delay: 18
+    content: "Query OK, 0 rows affected (0.026 sec)\r\n"
+  - delay: 14
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 10339
+    content: "CREATE TABLE pelajaran (\r\n    ->   id_pelajaran INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->   nama_pelajaran VARCHAR(100) NOT NULL,\r\n    ->   kategori VARCHAR(50) NOT NULL\r\n    -> );\r"
+  - delay: 20
+    content: "\nQuery OK, 0 rows affected (0.019 sec)\r\n\n"
+  - delay: 14
+    content: 'MariaDB [sistem_santri]> '
+  - delay: 10362
+    content: "CREATE TABLE santri_kelas (\r\n    ->   id_santri INT NOT NULL,\r\n    ->   id_kelas INT NOT NULL,\r\n    ->   PRIMARY KEY (id_santri, id_kelas),\r\n    ->   FOREIGN KEY (id_santri) REFERENCES santri(id_santri),\r\n    ->   FOREIGN KEY (id_kelas) REFERENCES kelas(id_kelas)\r\n    -> );\r"
+  - delay: 11
+    content: |+
+
+  - delay: 7
+    content: "Query OK, 0 rows affected (0.017 sec)\r\n"
+  - delay: 9
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 11895
+    content: "INSERT INTO santri (nama_santri, jenis_kelamin, asal_daerah, tahun_masuk)\r\n    -> VALUES\r\n    -> ('Ahmad', 'L', 'Bogor', 2023),\r\n    -> ('Aisyah', 'P', 'Depok', 2024);\r"
+  - delay: 19
+    content: "\nQuery OK, 2 rows affected (0.018 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n\nMariaDB [sistem_santri]>\r\nMariaDB [sistem_santri]> INSERT INTO ustadz (nama_ustadz, bidang)\r\n    -> VALUES\r\n    -> ('Ustadz Ali', 'Tahfidz'),\r\n    -> ('Ustadz Hasan', 'Fiqh');\r\nQuery OK, 2 rows affected (0.002 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n\nMariaDB [sistem_santri]>\r\nMariaDB [sistem_santri]> INSERT INTO kelas (nama_kelas, tingkat, id_ustadz)\r\n    -> VALUES\r\n    -> ('Kelas A', 'Dasar', 1),\r\n    -> ('Kelas B', 'Lanjutan', 2);\r\nQuery OK, 2 rows affected (0.002 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n\nMariaDB [sistem_santri]>\r\nMariaDB [sistem_santri]> INSERT INTO pelajaran (nama_pelajaran, kategori)\r\n    -> VALUES\r\n    -> ('Al-Qur’an', 'Tahfidz'),\r\n    -> ('Fikih', 'Keagamaan');\r\nQuery OK, 2 rows affected (0.002 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n\nMariaDB [sistem_santri]>\r\nMariaDB [sistem_santri]> INSERT INTO santri_kelas (id_santri, id_kelas)\r\n    -> VALUES\r\n    -> (1, 1),\r\n    -> (2, 2);\r\nQuery OK, 2 rows affected (0.002 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 5
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 17655
+    content: SELECT * FROM santri;
+  - delay: 3444
+    content: "\r\n"
+  - delay: 16
+    content: "+-----------+-------------+---------------+-------------+-------------+--------+\r\n| id_santri | nama_santri | jenis_kelamin | asal_daerah | tahun_masuk | status |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n|         1 | Ahmad       | L             | Bogor       |        2023 | Aktif  |\r\n|\e[2C       2 | Aisyah      | P             | Depok       |        2024 | Aktif  |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n2 rows in set (0.016 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 8696
+    content: "SELECT * FROM santri\r\n    -> WHERE tahun_masuk = 2024;\r"
+  - delay: 10
+    content: "\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n| id_santri | nama_santri | jenis_kelamin | asal_daerah | tahun_masuk | status |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n|         2 | Aisyah      | P             | Depok       |        2024 | Aktif  |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n1 row in set (0.011 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 8887
+    content: "SELECT * FROM santri\r\n    -> WHERE status = 'Aktif';\r"
+  - delay: 12
+    content: "\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n| id_santri | nama_santri | jenis_kelamin | asal_daerah | tahun_masuk | status |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n|         1 | Ahmad       | L             | Bogor       |        2023 | Aktif  |\r\n|         2 | Aisyah      | P             | Depok       |        2024 | Aktif  |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n2 rows in set (0.011 sec)\r\n"
+  - delay: 6
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 6889
+    content: "SELECT * FROM santri\r\n    -> WHERE asal_daerah IN ('Bogor', 'Depok');\r"
+  - delay: 12
+    content: "\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n| id_santri | nama_santri | jenis_kelamin | asal_daerah | tahun_masuk | status |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n|         1 | Ahmad       | L             | Bogor       |        2023 | Aktif  |\r\n|         2 | Aisyah      | P             | Depok       |        2024 | Aktif  |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n2 rows in set (0.011 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 6777
+    content: "SELECT * FROM santri\r\n    -> WHERE nama_santri LIKE 'A%';\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n| id_santri | nama_santri | jenis_kelamin | asal_daerah | tahun_masuk | status |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n|         1 | Ahmad       | L             | Bogor       |        2023 | Aktif  |\r\n|         2 | Aisyah      | P             | Depok       |        2024 | Aktif  |\r\n+-----------+-------------+---------------+-------------+-------------+--------+\r\n2 rows in set (0.001 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sistem_santri]>\e[1C"
+  - delay: 63437
+    content: e
+  - delay: 602
+    content: x
+  - delay: 666
+    content: i
+  - delay: 336
+    content: t
+  - delay: 827
+    content: "\r\nBye"
+  - delay: 13
+    content: "\r\n"
+  - delay: 144
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 1297
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93me\e[?25h"
+  - delay: 306
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\bex\e[?25h"
+  - delay: 153
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[30;21Hexi\e[?25h"
+  - delay: 259
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[30;21Hexit\e[?25h"
+  - delay: 2363
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[30;21H    \e[30;21H\e[?25h"
+  - delay: 7075
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93me\e[?25h"
+  - delay: 875
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\bex\e[?25h"
+  - delay: 118
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[30;21Hexi\e[?25h"
+  - delay: 264
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[30;21Hexit\e[?25h"
+  - delay: 874
+    content: "\e[m"
+  - delay: 17
+    content: "\r\n"
