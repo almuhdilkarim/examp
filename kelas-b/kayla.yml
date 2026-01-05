@@ -1,0 +1,521 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/kayla
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 238
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1088
+    content: "\e]0;kayla@kayla:~\e\\\e]7;file://kayla/home/kayla\e\\\e[?2004h\e]0;kayla@kayla: ~\a\e[01;32mkayla@kayla\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 8942
+    content: m
+  - delay: 356
+    content: 'y'
+  - delay: 250
+    content: s
+  - delay: 261
+    content: q
+  - delay: 568
+    content: l
+  - delay: 431
+    content: ' '
+  - delay: 1478
+    content: _
+  - delay: 1038
+    content: u
+  - delay: 477
+    content: ' '
+  - delay: 653
+    content: "\b\e[K"
+  - delay: 160
+    content: "\b\e[K"
+  - delay: 144
+    content: "\b\e[K"
+  - delay: 1243
+    content: '-'
+  - delay: 598
+    content: ' '
+  - delay: 688
+    content: "\b\e[K"
+  - delay: 1136
+    content: u
+  - delay: 617
+    content: ' '
+  - delay: 653
+    content: r
+  - delay: 452
+    content: o
+  - delay: 133
+    content: o
+  - delay: 322
+    content: t
+  - delay: 1303
+    content: ' '
+  - delay: 759
+    content: '-'
+  - delay: 561
+    content: p
+  - delay: 1301
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r"
+  - delay: 9
+    content: 'Enter password: '
+  - delay: 6074
+    content: "\r\n"
+  - delay: 76
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 5\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 2051
+    content: u
+  - delay: 105
+    content: s
+  - delay: 256
+    content: e
+  - delay: 451
+    content: ' '
+  - delay: 692
+    content: d
+  - delay: 140
+    content: a
+  - delay: 116
+    content: t
+  - delay: 207
+    content: a
+  - delay: 164
+    content: b
+  - delay: 101
+    content: a
+  - delay: 261
+    content: s
+  - delay: 234
+    content: e
+  - delay: 918
+    content: "\r\e[30G\e[K"
+  - delay: 150
+    content: "\r\e[29G\e[K"
+  - delay: 120
+    content: "\r\e[28G\e[K"
+  - delay: 111
+    content: "\r\e[27G\e[K"
+  - delay: 125
+    content: "\r\e[26G\e[K"
+  - delay: 111
+    content: "\r\e[25G\e[K"
+  - delay: 100
+    content: "\r\e[24G\e[K"
+  - delay: 120
+    content: "\r\e[23G\e[K"
+  - delay: 106
+    content: "\r\e[22G"
+  - delay: 136
+    content: "\r\e[21G\e[K"
+  - delay: 121
+    content: "\r\e[20G\e[K"
+  - delay: 170
+    content: "\r\e[19G\e[K"
+  - delay: 1744
+    content: U
+  - delay: 190
+    content: S
+  - delay: 341
+    content: E
+  - delay: 432
+    content: ' '
+  - delay: 706
+    content: D
+  - delay: 106
+    content: A
+  - delay: 145
+    content: T
+  - delay: 223
+    content: A
+  - delay: 146
+    content: B
+  - delay: 1180
+    content: A
+  - delay: 211
+    content: S
+  - delay: 230
+    content: E
+  - delay: 597
+    content: ' '
+  - delay: 1446
+    content: S
+  - delay: 180
+    content: U
+  - delay: 140
+    content: S
+  - delay: 170
+    content: T
+  - delay: 134
+    content: E
+  - delay: 441
+    content: M
+  - delay: 797
+    content: "\r\e[37G\e[K"
+  - delay: 161
+    content: "\r\e[36G\e[K"
+  - delay: 146
+    content: "\r\e[35G\e[K"
+  - delay: 267
+    content: "\r\e[34G\e[K"
+  - delay: 239
+    content: "\r\e[33G\e[K"
+  - delay: 691
+    content: I
+  - delay: 217
+    content: S
+  - delay: 180
+    content: T
+  - delay: 174
+    content: E
+  - delay: 717
+    content: M
+  - delay: 814
+    content: _
+  - delay: 1036
+    content: T
+  - delay: 562
+    content: I
+  - delay: 1174
+    content: C
+  - delay: 395
+    content: K
+  - delay: 221
+    content: E
+  - delay: 205
+    content: T
+  - delay: 361
+    content: I
+  - delay: 277
+    content: 'N'
+  - delay: 247
+    content: G
+  - delay: 3444
+    content: ':'
+  - delay: 1367
+    content: "\r\e[48G\e[K"
+  - delay: 1270
+    content: ;
+  - delay: 90
+    content: ' '
+  - delay: 2305
+    content: "\r\nERROR 1049 (42000): Unknown database 'DATABASE'\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 24148
+    content: CREATE DATABASE sistem_tiket_simpel;
+  - delay: 2103
+    content: "\r\e[54G\e[K"
+  - delay: 194
+    content: "\r\e[53G\e[K"
+  - delay: 145
+    content: "\r\e[52G\e[K"
+  - delay: 133
+    content: "\r\e[51G\e[K"
+  - delay: 127
+    content: "\r\e[50G\e[K"
+  - delay: 125
+    content: "\r\e[49G\e[K"
+  - delay: 120
+    content: "\r\e[48G\e[K"
+  - delay: 196
+    content: "\r\e[47G\e[K"
+  - delay: 1955
+    content: ':'
+  - delay: 933
+    content: "\r\e[47G\e[K"
+  - delay: 397
+    content: ;
+  - delay: 767
+    content: "\r\n\e(B\e[0;1mQuery OK, 1 row affected (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 4745
+    content: U
+  - delay: 140
+    content: S
+  - delay: 236
+    content: E
+  - delay: 110
+    content: ' '
+  - delay: 17098
+    content: USE sistem_tiket
+  - delay: 3363
+    content: "\r\e[38G\e[K"
+  - delay: 171
+    content: "\r\e[37G\e[K"
+  - delay: 126
+    content: "\r\e[36G\e[K"
+  - delay: 125
+    content: "\r\e[35G\e[K"
+  - delay: 104
+    content: "\r\e[34G\e[K"
+  - delay: 110
+    content: "\r\e[33G\e[K"
+  - delay: 116
+    content: "\r\e[32G\e[K"
+  - delay: 125
+    content: "\r\e[31G\e[K"
+  - delay: 117
+    content: "\r\e[30G\e[K"
+  - delay: 110
+    content: "\r\e[29G\e[K"
+  - delay: 116
+    content: "\r\e[28G\e[K"
+  - delay: 120
+    content: "\r\e[27G\e[K"
+  - delay: 115
+    content: "\r\e[26G"
+  - delay: 124
+    content: "\r\e[25G\e[K"
+  - delay: 111
+    content: "\r\e[24G\e[K"
+  - delay: 7336
+    content: "\r\e[23G\e[K"
+  - delay: 445
+    content: "\r\e[22G"
+  - delay: 456
+    content: ' '
+  - delay: 6347
+    content: sistem_tiket;
+  - delay: 1964
+    content: "\r\n"
+  - delay: 44
+    content: "\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 13366
+    content: C
+  - delay: 349
+    content: R
+  - delay: 221
+    content: E
+  - delay: 186
+    content: A
+  - delay: 191
+    content: 'Y'
+  - delay: 222
+    content: E
+  - delay: 483
+    content: "\r\e[30G\e[K"
+  - delay: 144
+    content: "\r\e[29G\e[K"
+  - delay: 683
+    content: T
+  - delay: 160
+    content: E
+  - delay: 388
+    content: ' '
+  - delay: 411
+    content: T
+  - delay: 252
+    content: A
+  - delay: 169
+    content: B
+  - delay: 297
+    content: L
+  - delay: 186
+    content: E
+  - delay: 1471
+    content: ' '
+  - delay: 42470
+    content: "CREATE TABLE users (\r\n    ->     id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     nama VARCHAR(50),\r\n    ->     role ENUM('customer', 'admin'"
+  - delay: 5204
+    content: "\r\n    -> "
+  - delay: 17037
+    content: E
+  - delay: 357
+    content: X
+  - delay: 246
+    content: I
+  - delay: 271
+    content: T
+  - delay: 1560
+    content: ;
+  - delay: 87
+    content: ' '
+  - delay: 746
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE users (\r\n    id INT PRIMARY KEY AUTO_INCREMENT,\r\n    nama VARCHAR(...' at line 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 14251
+    content: CREATE TABLE users
+  - delay: 2028
+    content: "\r\n    -> "
+  - delay: 14024
+    content: "id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     ->     nama VARCHAR(50),\r\n    ->     ->     role ENUM('customer', 'admin'\r\n    ->     -> EXIT; \r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     nama VARCHAR(50),\r\n    ->     ro...' at line 2\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 48952
+    content: "CREATE TABLE users (\r\n    ->     id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     nama VARCHAR(50),\r\n    ->     role ENUM('customer', 'admin')\r\n    -> );"
+  - delay: 1579
+    content: "\r\n"
+  - delay: 25
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,024 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 81825
+    content: "CREATE TABLE tickets (\r\n    ->     id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     judul VARCHAR(100),\r\n    ->     isi_masalah TEXT,\r\n    ->     status ENUM('baru', 'diproses', 'selesai') DEFAULT 'baru',\r\n    ->     user_id INT,\r\n    ->     FOREIGN KEY (user_id) REFERENCES users(id)\r\n    -> );"
+  - delay: 1680
+    content: "\r\n"
+  - delay: 24
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,024 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 19821
+    content: "CREATE TABLE replies (\r\n    ->     id INT PRIMARY KEY AUTO_INCREMENT,\r\n    ->     ticket_id INT,\r\n    ->     user_id INT,\r\n    ->     pesan TEXT,\r\n    ->     FOREIGN KEY (ticket_id) REFERENCES tickets(id),\r\n    ->     FOREIGN KEY (user_id) REFERENCES users(id)\r\n    -> );"
+  - delay: 1342
+    content: "\r\n"
+  - delay: 19
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,018 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 47362
+    content: "INSERT INTO users (nama, role) VALUES \r\n    -> ('Kayla Admin', 'admin'),\r\n    -> ('Budi Customer', 'customer');"
+  - delay: 4552
+    content: "\r\n"
+  - delay: 70
+    content: "\e(B\e[0;1mQuery OK, 2 rows affected (0,069 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 14281
+    content: "INSERT INTO replies (ticket_id, user_id, pesan) VALUES \r\n    -> (1, 1, 'Halo Budi, tim kami sedang mengecek server. Mohon tunggu ya.');"
+  - delay: 8004
+    content: "\r\nERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistem_tiket`.`replies`, CONSTRAINT `replies_ibfk_1` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`))\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 32152
+    content: "INSERT INTO replies (ticket_id, user_id, pesan) VALUES \r\n    -> (2, 1, 'Halo Budi, tim kami sedang mengecek server. Mohon tunggu ya.');"
+  - delay: 1978
+    content: "\r\nERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistem_tiket`.`replies`, CONSTRAINT `replies_ibfk_1` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`))\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 104011
+    content: "INSERT INTO replies (ticket_id, user_id, pesan)\r\n    -> VALUES\r\n    -> (1, 2, 'Terima kasih, tiket Anda sedang kami proses.'),\r\n    -> (1, 3, 'Mohon tunggu, tim kami sedang mengecek masalah tersebut.'),\r\n    -> (2, 2, 'Masalah sudah kami selesaikan, silakan dicek kembali.');\r\nERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sistem_tiket`.`replies`, CONSTRAINT `replies_ibfk_1` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`))\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 32663
+    content: "SELECT id FROM tickets;\r\n\e(B\e[0;1mEmpty set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 13417
+    content: "SELECT id FROM users;\r\n+----+\r\n| id |\r\n+----+\r\n|  1 |\r\n|  2 |\r\n+----+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 60300
+    content: 'INSERT INTO replies (ticket_id, user_id, pesan) VALUES'
+  - delay: 1440
+    content: "\r\n    -> "
+  - delay: 3863
+    content: (
+  - delay: 1006
+    content: ''''
+  - delay: 457
+    content: '2'
+  - delay: 3058
+    content: "\r\e[10G\e[K"
+  - delay: 307
+    content: "\r\e[9G\e[K"
+  - delay: 1680
+    content: "\r\e[8G\e[K"
+  - delay: 24509
+    content: "INSERT INTO replies (ticket_id, user_id, pesan) VALUES \r\n    -> (2, 1, 'Halo Budi, tim kami sedang mengecek server. Mohon tunggu ya.');"
+  - delay: 2087
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO replies (ticket_id, user_id, pesan) VALUES \r\n(2, 1, 'Halo Budi, ti...' at line 2\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 16900
+    content: SELECT * FROM users;
+  - delay: 1108
+    content: "\r\n+----+---------------+----------+\r\n| id | nama          | role     |\r\n+----+---------------+----------+\r\n|  1 | Kayla Admin   | admin    |\r\n|  2 | Budi Customer | customer |\r\n+----+---------------+----------+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [sistem_tiket]> "
+  - delay: 6214
+    content: E
+  - delay: 270
+    content: X
+  - delay: 310
+    content: I
+  - delay: 268
+    content: T
+  - delay: 1154
+    content: ;
+  - delay: 60
+    content: ' '
+  - delay: 941
+    content: "\r\n\e(B\e[0;1mBye\r\n\e(B\e[m\e]0;kayla@kayla:~\e\\\e]7;file://kayla/home/kayla\e\\\e[?2004h\e]0;kayla@kayla: ~\a\e[01;32mkayla@kayla\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 3812
+    content: "\e[?2004l\r\r\nlogout\r\n"
