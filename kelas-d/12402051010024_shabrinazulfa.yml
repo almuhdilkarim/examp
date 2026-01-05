@@ -1,0 +1,1090 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\emihi
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 73
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 34
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 3782
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e[7;1H\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 1445
+    content: 'PS C:\Users\emihi> '
+  - delay: 2040
+    content: "\e[93my"
+  - delay: 17
+    content: "\e[m"
+  - delay: 1014
+    content: "\b \b"
+  - delay: 578
+    content: "\e[93mm"
+  - delay: 15
+    content: "\e[m"
+  - delay: 302
+    content: "\e[93m\bmy"
+  - delay: 16
+    content: "\e[m"
+  - delay: 135
+    content: "\e[?25l\e[93m\e[7;20Hmys\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 282
+    content: "\e[?25l\e[93m\e[7;20Hmysq\e[?25h"
+  - delay: 17
+    content: "\e[m"
+  - delay: 336
+    content: "\e[?25l\e[93m\e[7;20Hmysql\e[?25h"
+  - delay: 23
+    content: "\e[m"
+  - delay: 287
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 434
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[m-\e[?25h"
+  - delay: 395
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 220
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[?25h"
+  - delay: 14
+    content: "\e[m"
+  - delay: 276
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mr\e[?25h"
+  - delay: 221
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mro\e[?25h"
+  - delay: 134
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mroo\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mroot\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mroot \e[?25h"
+  - delay: 526
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mroot -\e[?25h"
+  - delay: 260
+    content: "\e[?25l\e[93m\e[7;20Hmysql \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 942
+    content: "\r\n"
+  - delay: 191
+    content: 'Enter password: '
+  - delay: 831
+    content: '*'
+  - delay: 220
+    content: '*'
+  - delay: 411
+    content: '*'
+  - delay: 350
+    content: '*'
+  - delay: 223
+    content: '*'
+  - delay: 308
+    content: '*'
+  - delay: 366
+    content: "\r\n"
+  - delay: 268
+    content: "Welcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n"
+  - delay: 32
+    content: "\e[?25lYour MariaDB connection id is 7\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[13;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[15;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[18;1HMariaDB [(none)]> \e[?25h"
+  - delay: 18253
+    content: CREATE DATABASE sistem_simpan_pinjam;
+  - delay: 2335
+    content: "\r\n"
+  - delay: 41
+    content: "\e[?25lQuery OK, 1 row affected (0.022 sec)\e[21;1HMariaDB [(none)]> \e[?25h"
+  - delay: 10479
+    content: USE sistem_simpan_pinjam;
+  - delay: 4009
+    content: "\r\n"
+  - delay: 313
+    content: "Database changed\r\nMariaDB [sistem_simpan_pinjam]> "
+  - delay: 16078
+    content: "CREATE TABLE anggota (\r\n    ->     id_anggota INT AUTO_INCREMENT,\r\n    ->     nama_anggota VARCHAR(100) NOT NULL,\r\n    ->     alamat VARCHAR(150) NOT NULL,\r\n    ->     kota VARCHAR(50) NOT NULL,\r\n    ->     PRIMARY KEY (id_anggota)\r\n    -> );"
+  - delay: 6481
+    content: "\r\n"
+  - delay: 94
+    content: "\e[?25lQuery OK, 0 rows affected (0.094 sec)\e[32;1HMariaDB [sistem_simpan_pinjam]> \e[?25h"
+  - delay: 26735
+    content: D
+  - delay: 227
+    content: E
+  - delay: 197
+    content: S
+  - delay: 197
+    content: C
+  - delay: 272
+    content: ' '
+  - delay: 6981
+    content: a
+  - delay: 160
+    content: 'n'
+  - delay: 267
+    content: g
+  - delay: 136
+    content: g
+  - delay: 158
+    content: o
+  - delay: 94
+    content: t
+  - delay: 483
+    content: a
+  - delay: 3660
+    content: ;
+  - delay: 901
+    content: "\r\n"
+  - delay: 83
+    content: "+--------------+--------------+------+-----+---------+----------------+\r\n| Field        | Type         | Null | Key | Default | Extra          |\e[?25l\r\n+--------------+--------------+------+-----+---------+----------------+  \e[34;72H\e[?25h\e[?25l\r\n| id_anggota   | int(11)      | NO   | PRI | NULL    | auto_increment |  \e[34;72H\e[?25h\e[?25l\r\n| nama_anggota | varchar(100) | NO   |     | NULL    |                |  \e[34;72H\e[?25h\r\n| alamat       | varchar(150) | NO   |     | NULL    |                |\e[?25l\r\n| kota         | varchar(50)  | NO   |     | NULL    |                |  \e[34;72H\e[?25h\e[?25l\r\n+--------------+--------------+------+-----+---------+----------------+  \e[34;72H\e[?25h\r\n4 rows in set (0.090 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 14463
+    content: "CREATE TABLE simpanan (\r\n    ->     id_simpanan INT AUTO_INCREMENT,\r\n    ->     id_anggota INT NOT NULL,\r\n    ->     jenis_simpanan VARCHAR(50) NOT NULL,\r\n    ->     jumlah INT NOT NULL,\r\n    ->     tanggal DATE NOT NULL,\r\n    ->     PRIMARY KEY (id_simpanan),\r\n    ->     FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)       \r"
+  - delay: 54
+    content: |2-
+
+          -> );
+  - delay: 1357
+    content: "\r"
+  - delay: 11
+    content: |+
+
+  - delay: 99
+    content: "Query OK, 0 rows affected (0.073 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 1228
+    content: D
+  - delay: 174
+    content: E
+  - delay: 141
+    content: S
+  - delay: 171
+    content: C
+  - delay: 205
+    content: ' '
+  - delay: 2057
+    content: s
+  - delay: 119
+    content: i
+  - delay: 209
+    content: m
+  - delay: 257
+    content: p
+  - delay: 156
+    content: a
+  - delay: 133
+    content: 'n'
+  - delay: 126
+    content: a
+  - delay: 922
+    content: 'n'
+  - delay: 449
+    content: ;
+  - delay: 5236
+    content: "\r"
+  - delay: 22
+    content: |+
+
+  - delay: 50
+    content: "+----------------+-------------+------+-----+---------+----------------+\r\n| Field          | Type        | Null | Key | Default | Extra          | \e[34;73H\r\n+----------------+-------------+------+-----+---------+----------------+ \e[34;73H\r\n| id_simpanan    | int(11)     | NO   | PRI | NULL    | auto_increment | \e[34;73H"
+  - delay: 7
+    content: "\r\n| id_anggota     | int(11)     | NO   | MUL | NULL    |                | \e[34;73H\r\n| jenis_simpanan | varchar(50) | NO   |     | NULL    |\e[1C               |"
+  - delay: 8
+    content: "\r\n| jumlah         | int(11)     | NO   |     | NULL    |                | \e[34;73H\r\n| tanggal        | date        | NO   |     | NULL    |                | \e[34;73H\r\n+----------------+-------------+------+-----+---------+----------------+ \e[34;73H\r\n5 rows in set (0.070 sec)\r\n"
+  - delay: 15
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 13232
+    content: "CREATE TABLE pinjaman (\r\n    ->     id_pinjaman INT AUTO_INCREMENT,\r\n    ->     id_anggota INT NOT NULL,\r\n    ->     jumlah_pinjaman INT NOT NULL,\r\n    ->     tanggal_pinjaman DATE NOT NULL,\r\n    ->     PRIMARY KEY (id_pinjaman),\r\n    ->     FOREIGN KEY (id_anggota) REFERENCES anggota(id_anggota)       \r\n    -> );"
+  - delay: 2218
+    content: "\r"
+  - delay: 8
+    content: |+
+
+  - delay: 72
+    content: "Query OK, 0 rows affected (0.079 sec)\r\n"
+  - delay: 7
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 2765
+    content: D
+  - delay: 173
+    content: E
+  - delay: 174
+    content: S
+  - delay: 154
+    content: C
+  - delay: 190
+    content: ' '
+  - delay: 845
+    content: p
+  - delay: 215
+    content: i
+  - delay: 236
+    content: 'n'
+  - delay: 168
+    content: j
+  - delay: 110
+    content: a
+  - delay: 96
+    content: m
+  - delay: 125
+    content: a
+  - delay: 73
+    content: 'n'
+  - delay: 1104
+    content: ;
+  - delay: 1335
+    content: "\r"
+  - delay: 12
+    content: |+
+
+  - delay: 89
+    content: "+------------------+---------+------+-----+---------+----------------+\e[?25l\r\n| Field            | Type    | Null | Key | Default | Extra          |   \e[34;71H\e[?25h\e[?25l\r\n+------------------+---------+------+-----+---------+----------------+   \e[34;71H\e[?25h\e[?25l\r\n| id_pinjaman      | int(11) | NO   | PRI | NULL    | auto_increment |   \e[34;71H\e[?25h\e[?25l\r\n| id_anggota       | int(11) | NO   | MUL | NULL    |                |   \e[34;71H\e[?25h\e[?25l\r\n| jumlah_pinjaman  | int(11) | NO   |     | NULL    |                |   \e[34;71H\e[?25h\e[?25l\r\n| tanggal_pinjaman | date    | NO   |     | NULL    |                |   \e[34;71H\e[?25h\e[?25l\r\n+------------------+---------+------+-----+---------+----------------+   \e[34;71H\e[?25h\r\n4 rows in set (0.090 sec)\r\n"
+  - delay: 46
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 12752
+    content: "CREATE TABLE angsuran (\r\n    ->     id_angsuran INT AUTO_INCREMENT,\r\n    ->     id_pinjaman INT NOT NULL,\r\n    ->     jumlah_angsuran INT NOT NULL,\r\n    ->     tanggal_bayar DATE NOT NULL,\r\n    ->     PRIMARY KEY (id_angsuran),\r\n    ->     FOREIGN KEY (id_pinjaman) REFERENCES pinjaman(id_pinjaman)    \r\n    -> );\r\n"
+  - delay: 55
+    content: "Query OK, 0 rows affected (0.056 sec)\r\n"
+  - delay: 59
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 4062
+    content: D
+  - delay: 219
+    content: E
+  - delay: 98
+    content: S
+  - delay: 119
+    content: C
+  - delay: 233
+    content: ' '
+  - delay: 1361
+    content: a
+  - delay: 142
+    content: 'n'
+  - delay: 215
+    content: g
+  - delay: 208
+    content: s
+  - delay: 78
+    content: u
+  - delay: 440
+    content: r
+  - delay: 103
+    content: a
+  - delay: 178
+    content: 'n'
+  - delay: 1751
+    content: ;
+  - delay: 647
+    content: "\r"
+  - delay: 16
+    content: |+
+
+  - delay: 49
+    content: "+-----------------+---------+------+-----+---------+----------------+\e[?25l\r\n| Field           | Type    | Null | Key | Default | Extra          |    \e[34;70H\e[?25h\e[?25l\r\n+-----------------+---------+------+-----+---------+----------------+    \e[34;70H\e[?25h\e[?25l\r\n| id_angsuran     | int(11) | NO   | PRI | NULL    | auto_increment |    \e[34;70H\e[?25h\e[?25l\r\n| id_pinjaman     | int(11) | NO   | MUL | NULL    |                |    \e[34;70H\e[?25h\e[?25l\r\n| jumlah_angsuran | int(11) | NO   |     | NULL    |                |    \e[34;70H\e[?25h\e[?25l\r\n| tanggal_bayar   | date    | NO   |     | NULL    |                |    \e[34;70H\e[?25h\e[?25l\r\n+-----------------+---------+------+-----+---------+----------------+    \e[34;70H\e[?25h\r\n4 rows in set (0.070 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 27080
+    content: "INSERT INTO anggota (nama_anggota, alamat\r\n\e[33;73Ht, kota) VALUES\r\n    -> ('Andi', 'Jl. Merdeka', 'Jakarta'),\r\n    -> ('Budi', 'Jl. Sudirman', 'Bandung'),\r\n    -> ('Citra', 'Jl. Malioboro', 'Yogyakarta'),\r\n    -> ('Dewi', 'Jl. Ahmad Yani', 'Surabaya'),\r"
+  - delay: 10
+    content: |2-
+
+          -> ('Eka', 'Jl. Gatot Subroto', 'Medan');
+  - delay: 4536
+    content: "\r"
+  - delay: 10
+    content: |+
+
+  - delay: 25
+    content: "Query OK, 5 rows affected (0.028 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 63
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 9182
+    content: S
+  - delay: 974
+    content: ELE
+  - delay: 1180
+    content: "\e[?25l\e[34;33H    \e[34;33H\e[?25h"
+  - delay: 12832
+    content: "INSERT INTO simpanan (id_anggota, jenis_s\r\n\e[33;73Hsimpanan, jumlah, tanggal) VALUES\r"
+  - delay: 41
+    content: |+
+
+  - delay: 18
+    content: "    -> (1, 'Wajib', 500000, '2025-01-05'),\r\n    -> (2, 'Pokok', 1000000, '2025-01-06'),\r\n    -> (3, 'Sukarela', 300000, '2025-01-07'),\r\n    -> (4, 'Wajib', 500000, '2025-01-08'),\r"
+  - delay: 7
+    content: |2-
+
+          -> (5, 'Sukarela', 200000, '2025-01-09');
+  - delay: 1504
+    content: "\r"
+  - delay: 311
+    content: |+
+
+  - delay: 402
+    content: "Query OK, 5 rows affected (0.160 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 20
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 10744
+    content: "INSERT INTO pinjaman (id_anggota, jumlah_\r\n\e[33;73H_pinjaman, tanggal_pinjaman) VALUES\r"
+  - delay: 33
+    content: |+
+
+  - delay: 1848
+    content: "    -> (1, 2000000, '2025-01-10'),\r\n    -> (2, 1500000, '2025-01-11'),\r\n    -> (3, 3000000, '2025-01-12'),\r\n    -> (4, 1000000, '2025-01-13'),\r\n    -> (5, 2500000, '2025-01-14');\r"
+  - delay: 62
+    content: |+
+
+  - delay: 509
+    content: "Query OK, 5 rows affected (0.571 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0"
+  - delay: 5
+    content: "\r\n"
+  - delay: 37
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 11265
+    content: "INSERT INTO angsuran (id_pinjaman, jumlah\r\n\e[33;73Hh_angsuran, tanggal_bayar) VALUES\r\n    -> (1, 500000, '2025-02-01'),\r\n    -> (1, 500000, '2025-03-01'),\r\n    -> (2, 750000, '2025-02-05'),\r\n    -> (3, 1000000, '2025-02-10'),\r"
+  - delay: 209
+    content: |2-
+
+          -> (4, 500000, '2025-02-15');
+  - delay: 1675
+    content: "\r\nQuery OK, 5 rows affected (0.006 sec)\r\nRecords: 5  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 7
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 4920
+    content: S
+  - delay: 225
+    content: E
+  - delay: 145
+    content: L
+  - delay: 104
+    content: E
+  - delay: 657
+    content: C
+  - delay: 98
+    content: T
+  - delay: 330
+    content: ' '
+  - delay: 692
+    content: '*'
+  - delay: 311
+    content: ' '
+  - delay: 594
+    content: F
+  - delay: 252
+    content: R
+  - delay: 120
+    content: O
+  - delay: 251
+    content: M
+  - delay: 273
+    content: ' '
+  - delay: 633
+    content: a
+  - delay: 125
+    content: 'n'
+  - delay: 256
+    content: g
+  - delay: 103
+    content: g
+  - delay: 330
+    content: o
+  - delay: 95
+    content: t
+  - delay: 421
+    content: a
+  - delay: 535
+    content: ;
+  - delay: 1282
+    content: "\r"
+  - delay: 11
+    content: "\n+------------+--------------+-------------------+------------+\r\n| id_anggota | nama_anggota | alamat            | kota       |\r\n+------------+--------------+-------------------+------------+\r\n|          1 | Andi         | Jl. Merdeka       | Jakarta    |\r\n|          2 | Budi         | Jl. Sudirman      | Bandung    |\r\n|          3 | Citra        | Jl. Malioboro     | Yogyakarta |\r\n|          4 | Dewi         | Jl. Ahmad Yani    | Surabaya   |\r\n|          5 | Eka          | Jl. Gatot Subroto | Medan      |\r\n+------------+--------------+-------------------+------------+\r\n5 rows in set (0.010 sec)\r\n\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 2276
+    content: S
+  - delay: 270
+    content: E
+  - delay: 78
+    content: L
+  - delay: 122
+    content: E
+  - delay: 283
+    content: C
+  - delay: 157
+    content: T
+  - delay: 732
+    content: ' '
+  - delay: 394
+    content: '*'
+  - delay: 386
+    content: ' '
+  - delay: 460
+    content: F
+  - delay: 227
+    content: R
+  - delay: 70
+    content: O
+  - delay: 308
+    content: M
+  - delay: 215
+    content: ' '
+  - delay: 709
+    content: s
+  - delay: 72
+    content: i
+  - delay: 198
+    content: m
+  - delay: 560
+    content: p
+  - delay: 111
+    content: a
+  - delay: 180
+    content: 'n'
+  - delay: 111
+    content: a
+  - delay: 97
+    content: 'n'
+  - delay: 823
+    content: ;
+  - delay: 489
+    content: "\r"
+  - delay: 43
+    content: "\e[?25l\n+-------------+------------+----------------+---------+------------+     \e[34;69H\e[?25h\e[?25l\r\n| id_simpanan | id_anggota | jenis_simpanan | jumlah  | tanggal    |     \e[34;69H\e[?25h\e[?25l\r\n+-------------+------------+----------------+---------+------------+     \e[34;69H\e[?25h\e[?25l\r\n|           1 |          1 | Wajib          |  500000 | 2025-01-05 |     \e[34;69H\e[?25h\r\n|           2 |          2 | Pokok          | 1000000 | 2025-01-06 |\e[?25l\r\n|           3 |          3 | Sukarela       |  300000 | 2025-01-07 |     \e[34;69H\e[?25h\e[?25l\r\n|           4 |          4 | Wajib          |  500000 | 2025-01-08 |     \e[34;69H\e[?25h\e[?25l\r\n|           5 |          5 | Sukarela       |  200000 | 2025-01-09 |     \e[34;69H\e[?25h\e[?25l\r\n+-------------+------------+----------------+---------+------------+     \e[34;69H\e[?25h\r\n5 rows in set (0.003 sec)\r\n\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 4015
+    content: S
+  - delay: 234
+    content: E
+  - delay: 127
+    content: L
+  - delay: 78
+    content: E
+  - delay: 359
+    content: C
+  - delay: 63
+    content: T
+  - delay: 226
+    content: ' '
+  - delay: 936
+    content: '*'
+  - delay: 349
+    content: ' '
+  - delay: 510
+    content: F
+  - delay: 214
+    content: R
+  - delay: 92
+    content: O
+  - delay: 217
+    content: M
+  - delay: 283
+    content: ' '
+  - delay: 931
+    content: p
+  - delay: 256
+    content: i
+  - delay: 197
+    content: 'n'
+  - delay: 166
+    content: j
+  - delay: 95
+    content: a
+  - delay: 169
+    content: m
+  - delay: 56
+    content: a
+  - delay: 122
+    content: 'n'
+  - delay: 1381
+    content: ;
+  - delay: 673
+    content: "\r\e[?25l\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n| id_pinjaman | id_anggota | jumlah_pinjaman | tanggal_pinjaman |        \e[34;66H\e[?25h\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n|           1 |          1 |         2000000 | 2025-01-10       |        \e[34;66H\e[?25h\r\n|           2 |          2 |\e[6C   1500000 | 2025-01-11       |"
+  - delay: 6
+    content: "\e[?25l\r\n|           3 |          3 |         3000000 | 2025-01-12       |        \e[34;66H\e[?25h"
+  - delay: 6
+    content: "\e[?25l\r\n|           4 |          4 |         1000000 | 2025-01-13       |        \e[34;66H\e[?25h\r\n|           5 |\e[5C     5 |         2500000 | 2025-01-14       |\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\r\n5 rows in set (0.001 sec)\r\n"
+  - delay: 8
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 2777
+    content: S
+  - delay: 219
+    content: E
+  - delay: 101
+    content: L
+  - delay: 108
+    content: E
+  - delay: 497
+    content: C
+  - delay: 169
+    content: T
+  - delay: 256
+    content: ' '
+  - delay: 719
+    content: '*'
+  - delay: 329
+    content: ' '
+  - delay: 412
+    content: F
+  - delay: 191
+    content: R
+  - delay: 94
+    content: O
+  - delay: 176
+    content: M
+  - delay: 213
+    content: ' '
+  - delay: 582
+    content: a
+  - delay: 110
+    content: 'n'
+  - delay: 202
+    content: g
+  - delay: 183
+    content: s
+  - delay: 187
+    content: u
+  - delay: 180
+    content: r
+  - delay: 322
+    content: a
+  - delay: 96
+    content: 'n'
+  - delay: 1467
+    content: ;
+  - delay: 1903
+    content: "\r"
+  - delay: 12
+    content: |+
+
+  - delay: 23
+    content: "+-------------+-------------+-----------------+---------------+\r\n| id_angsuran | id_pinjaman | jumlah_angsuran | tanggal_bayar |\r\n+-------------+-------------+-----------------+---------------+\r\n|           1 |           1 |          500000 | 2025-02-01    |\r\n|           2 |           1 |          500000 | 2025-03-01    |\r\n|           3 |           2 |          750000 | 2025-02-05    |\r\n|           4 |           3 |         1000000 | 2025-02-10    |\r\n|           5 |           4 |          500000 | 2025-02-15    |\r\n+-------------+-------------+-----------------+---------------+\r\n5 rows in set (0.037 sec)\r\n\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 19448
+    content: 'SELECT nama_anggota, kota FROM anggota;'
+  - delay: 1233
+    content: "\r"
+  - delay: 50
+    content: |+
+
+  - delay: 70
+    content: "+--------------+------------+\r\n| nama_anggota | kota       |\r\n+--------------+------------+\r\n| Andi         | Jakarta    |\r\n| Budi         | Bandung    |\r\n| Citra        | Yogyakarta |\r\n| Dewi         | Surabaya   |\r\n| Eka          | Medan      |\r\n+--------------+------------+\r\n5 rows in set (0.054 sec)\r\n"
+  - delay: 50
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 16120
+    content: SELECT * FROM simpanan WHERE jumlah > 500
+  - delay: 28
+    content: "\r\n\e[33;73H0000;"
+  - delay: 3305
+    content: "\r"
+  - delay: 11
+    content: |+
+
+  - delay: 40
+    content: "+-------------+------------+----------------+---------+------------+\e[?25l\r\n| id_simpanan | id_anggota | jenis_simpanan | jumlah  | tanggal    |     \e[34;69H\e[?25h\e[?25l\r\n+-------------+------------+----------------+---------+------------+     \e[34;69H\e[?25h"
+  - delay: 9
+    content: "\e[?25l\r\n|           2 |          2 | Pokok          | 1000000 | 2025-01-06 |     \e[34;69H\e[?25h\e[?25l\r\n+-------------+------------+----------------+---------+------------+     \e[34;69H\e[?25h\r\n1 row in set (0.049 sec)\r\n"
+  - delay: 16
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 8503
+    content: SELECT * FROM pinjaman WHERE jumlah_pinja
+  - delay: 12
+    content: "\r\n\e[33;73Haman < 2000000;"
+  - delay: 1018
+    content: "\r\e[?25l\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n| id_pinjaman | id_anggota | jumlah_pinjaman | tanggal_pinjaman |        \e[34;66H\e[?25h\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n|           2 |          2 |         1500000 | 2025-01-11       |        \e[34;66H\e[?25h\e[?25l\r\n|           4 |          4 |         1000000 | 2025-01-13       |        \e[34;66H\e[?25h\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\r\n2 rows in set (0.001 sec)\r\n"
+  - delay: 37
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 9343
+    content: SELECT * FROM anggota WHERE kota = 'Jakar
+  - delay: 17
+    content: "\r\n\e[33;73Hrta';"
+  - delay: 1374
+    content: "\r"
+  - delay: 19
+    content: |+
+
+  - delay: 29
+    content: "+------------+--------------+-------------+---------+\r\n| id_anggota | nama_anggota | alamat      | kota    |\r\n+------------+--------------+-------------+---------+\r\n|          1 | Andi         | Jl. Merdeka | Jakarta |\r\n+------------+--------------+-------------+---------+\r\n1 row in set (0.049 sec)\r\n"
+  - delay: 9
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 13664
+    content: "SELECT * FROM anggota\r"
+  - delay: 24
+    content: |+
+
+  - delay: 389
+    content: '    -> '
+  - delay: 75
+    content: 'WHERE id_anggota IN (1, 3, 5);'
+  - delay: 1222
+    content: "\r"
+  - delay: 21
+    content: |+
+
+  - delay: 22
+    content: "+------------+--------------+-------------------+------------+\r\n| id_anggota | nama_anggota | alamat            | kota       |\r\n+------------+--------------+-------------------+------------+\r\n|          1 | Andi         | Jl. Merdeka       | Jakarta    |"
+  - delay: 5
+    content: "\r\n|          3 | Citra        | Jl. Malioboro     | Yogyakarta |\r\n|          5 | Eka          | Jl. Gatot Subroto | Medan      |\r\n+------------+--------------+-------------------+------------+\r\n3 rows in set (0.043 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 3548
+    content: S
+  - delay: 253
+    content: E
+  - delay: 110
+    content: L
+  - delay: 63
+    content: E
+  - delay: 283
+    content: C
+  - delay: 135
+    content: T
+  - delay: 279
+    content: ' '
+  - delay: 753
+    content: '*'
+  - delay: 297
+    content: ' '
+  - delay: 221
+    content: F
+  - delay: 231
+    content: R
+  - delay: 134
+    content: O
+  - delay: 253
+    content: M
+  - delay: 315
+    content: ' '
+  - delay: 1070
+    content: s
+  - delay: 78
+    content: i
+  - delay: 201
+    content: m
+  - delay: 279
+    content: p
+  - delay: 261
+    content: a
+  - delay: 137
+    content: 'n'
+  - delay: 94
+    content: a
+  - delay: 98
+    content: 'n'
+  - delay: 1304
+    content: "\r"
+  - delay: 12
+    content: "\n    ->\e[1C"
+  - delay: 2128
+    content: W
+  - delay: 275
+    content: H
+  - delay: 80
+    content: E
+  - delay: 256
+    content: R
+  - delay: 172
+    content: E
+  - delay: 180
+    content: ' '
+  - delay: 699
+    content: j
+  - delay: 176
+    content: e
+  - delay: 96
+    content: 'n'
+  - delay: 206
+    content: i
+  - delay: 95
+    content: s
+  - delay: 521
+    content: _
+  - delay: 672
+    content: s
+  - delay: 251
+    content: i
+  - delay: 192
+    content: m
+  - delay: 327
+    content: p
+  - delay: 43
+    content: a
+  - delay: 211
+    content: 'n'
+  - delay: 94
+    content: a
+  - delay: 133
+    content: 'n'
+  - delay: 1461
+    content: ' '
+  - delay: 620
+    content: L
+  - delay: 201
+    content: I
+  - delay: 194
+    content: K
+  - delay: 135
+    content: E
+  - delay: 243
+    content: ' '
+  - delay: 3977
+    content: ''''
+  - delay: 5420
+    content: '%'
+  - delay: 1164
+    content: w
+  - delay: 211
+    content: a
+  - delay: 125
+    content: j
+  - delay: 1364
+    content: i
+  - delay: 259
+    content: b
+  - delay: 2171
+    content: '%'
+  - delay: 945
+    content: "\e[?25l\e[34;34H        \e[34;34H\e[?25h"
+  - delay: 1111
+    content: ''''
+  - delay: 1947
+    content: '%'
+  - delay: 2787
+    content: W
+  - delay: 534
+    content: a
+  - delay: 137
+    content: j
+  - delay: 164
+    content: i
+  - delay: 253
+    content: b
+  - delay: 1380
+    content: '%'
+  - delay: 1189
+    content: ;
+  - delay: 1198
+    content: "\r"
+  - delay: 11
+    content: "\n    '>\e[1C"
+  - delay: 7007
+    content: ;
+  - delay: 796
+    content: "\r"
+  - delay: 13
+    content: "\n    '>\e[1C"
+  - delay: 18291
+    content: Ctrl-C -- exit!
+  - delay: 11
+    content: "\r\nBye"
+  - delay: 20
+    content: "\r\n"
+  - delay: 698
+    content: 'PS C:\Users\emihi> '
+  - delay: 4156
+    content: "\e[93mm"
+  - delay: 16
+    content: "\e[m"
+  - delay: 314
+    content: "\e[93m\bmy"
+  - delay: 16
+    content: "\e[m"
+  - delay: 102
+    content: "\e[?25l\e[93m\e[34;20Hmys\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 283
+    content: "\e[?25l\e[93m\e[34;20Hmysq\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 220
+    content: "\e[?25l\e[93m\e[34;20Hmysql\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 237
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[?25h"
+  - delay: 24
+    content: "\e[m"
+  - delay: 2368
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[m-\e[?25h"
+  - delay: 585
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u\e[?25h"
+  - delay: 16
+    content: "\e[m"
+  - delay: 261
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 240
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mr\e[?25h"
+  - delay: 365
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mro\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mroo\e[?25h"
+  - delay: 110
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mroot\e[?25h"
+  - delay: 264
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mroot \e[?25h"
+  - delay: 786
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mroot -\e[?25h"
+  - delay: 235
+    content: "\e[?25l\e[93m\e[34;20Hmysql \e[90m-u \e[mroot \e[90m-p\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 1647
+    content: "\r\n"
+  - delay: 133
+    content: 'Enter password: '
+  - delay: 879
+    content: '*'
+  - delay: 877
+    content: '*'
+  - delay: 274
+    content: '*'
+  - delay: 426
+    content: '*'
+  - delay: 156
+    content: '*'
+  - delay: 172
+    content: '*'
+  - delay: 568
+    content: "\r\n"
+  - delay: 249
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 7
+    content: "\r\nYour MariaDB connection id is 8\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\r\n\e[?25l\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.     \e[34;69H\e[?25h\r\n\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input state\r\n\e[33;73Hement.\r\n"
+  - delay: 16
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 3127
+    content: U
+  - delay: 111
+    content: S
+  - delay: 312
+    content: E
+  - delay: 142
+    content: ' '
+  - delay: 11352
+    content: s
+  - delay: 187
+    content: i
+  - delay: 101
+    content: s
+  - delay: 328
+    content: t
+  - delay: 333
+    content: e
+  - delay: 100
+    content: m
+  - delay: 534
+    content: _
+  - delay: 517
+    content: s
+  - delay: 151
+    content: i
+  - delay: 218
+    content: m
+  - delay: 271
+    content: p
+  - delay: 157
+    content: a
+  - delay: 215
+    content: 'n'
+  - delay: 1131
+    content: _
+  - delay: 730
+    content: p
+  - delay: 231
+    content: i
+  - delay: 235
+    content: 'n'
+  - delay: 142
+    content: j
+  - delay: 103
+    content: a
+  - delay: 104
+    content: m
+  - delay: 1265
+    content: ;
+  - delay: 989
+    content: "\r"
+  - delay: 8
+    content: |-
+
+      Database changed
+  - delay: 5
+    content: "\r\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 11795
+    content: "SELECT * FROM simpanan\r"
+  - delay: 14
+    content: |2-
+
+          -> WHERE jenis_simpanan LIKE '%Wajib%';
+  - delay: 1145
+    content: "\r"
+  - delay: 20
+    content: "\e[?25l\n+-------------+------------+----------------+--------+------------+      \e[34;68H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\r\n| id_simpanan | id_anggota | jenis_simpanan | jumlah | tanggal    |      \e[34;68H\e[?25h\e[?25l\r\n+-------------+------------+----------------+--------+------------+      \e[34;68H\e[?25h\r\n|           1 |          1 | Wajib          | 500000 | 2025-01-05 |\e[?25l\r\n|           4 |          4 | Wajib          | 500000 | 2025-01-08 |      \e[34;68H\e[?25h\e[?25l\r\n+-------------+------------+----------------+--------+------------+      \e[34;68H\e[?25h\r\n2 rows in set (0.019 sec)\r\n"
+  - delay: 482
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 12184
+    content: "SELECT * FROM pinjaman\r"
+  - delay: 16
+    content: |+
+
+  - delay: 57
+    content: '    -> '
+  - delay: 17
+    content: ORDER BY jumlah_pinjaman DESC;
+  - delay: 1081
+    content: "\r"
+  - delay: 6
+    content: "\e[?25l\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n| id_pinjaman | id_anggota | jumlah_pinjaman | tanggal_pinjaman |        \e[34;66H\e[?25h\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\e[?25l\r\n|           3 |          3 |         3000000 | 2025-01-12       |        \e[34;66H\e[?25h"
+  - delay: 6
+    content: "\r\n|           5 |\e[9C 5 |         2500000 | 2025-01-14       |\e[?25l\r\n|           1 |          1 |         2000000 | 2025-01-10       |        \e[34;66H\e[?25h\e[?25l\r\n|           2 |          2 |         1500000 | 2025-01-11       |        \e[34;66H\e[?25h\e[?25l\r\n|           4 |          4 |         1000000 | 2025-01-13       |        \e[34;66H\e[?25h\e[?25l\r\n+-------------+------------+-----------------+------------------+        \e[34;66H\e[?25h\r\n5 rows in set (0.002 sec)\r\n"
+  - delay: 28
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 18919
+    content: "SELECT id_anggota, COUNT(*) AS total_pinj\r\n\e[33;73Hjaman\r\n    -> FROM pinjaman\r\n    -> GROUP BY id_anggota;\r\n+------------+----------------+\r\n| id_anggota | total_pinjaman |\r\n+------------+----------------+\r\n|          1 |              1 |\r\n|          2 |              1 |\r\n|          3 |              1 |\r\n|          4 |              1 |\r\n|          5 |              1 |\r\n+------------+----------------+\r\n5 rows in set (0.010 sec)\r\n"
+  - delay: 9
+    content: "\nMariaDB [sistem_simpan_pinjam]>\e[1C"
+  - delay: 19218
+    content: e
+  - delay: 546
+    content: x
+  - delay: 729
+    content: i
+  - delay: 25
+    content: t
+  - delay: 1485
+    content: ;
+  - delay: 632
+    content: "\r"
+  - delay: 18
+    content: |-
+
+      Bye
+  - delay: 14
+    content: "\r\n"
+  - delay: 451
+    content: 'PS C:\Users\emihi> '
+  - delay: 2383
+    content: "\e[93mE"
+  - delay: 16
+    content: "\e[m"
+  - delay: 286
+    content: "\e[93m\bEX"
+  - delay: 16
+    content: "\e[m"
+  - delay: 265
+    content: "\e[?25l\e[93m\e[34;20HEXI\e[?25h"
+  - delay: 14
+    content: "\e[m"
+  - delay: 223
+    content: "\e[?25l\e[92m\e[34;20HEXIT\e[?25h"
+  - delay: 15
+    content: "\e[m"
+  - delay: 2641
+    content: "\r\n"
