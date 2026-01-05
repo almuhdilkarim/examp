@@ -1,0 +1,521 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/nasuhah
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 107
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 47
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 961
+    content: "\e]0;nasuhah@nasuhah-Lenovo-B40-80:~\e\\\e]7;file://nasuhah-Lenovo-B40-80/home/nasuhah\e\\\e[?2004h\e]0;nasuhah@nasuhah-Lenovo-B40-80: ~\a\e[01;32mnasuhah@nasuhah-Lenovo-B40-80\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 4385
+    content: s
+  - delay: 173
+    content: u
+  - delay: 568
+    content: d
+  - delay: 556
+    content: o
+  - delay: 272
+    content: ' '
+  - delay: 480
+    content: s
+  - delay: 224
+    content: u
+  - delay: 1125
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r"
+  - delay: 12
+    content: '[sudo] password for nasuhah: '
+  - delay: 1445
+    content: '*'
+  - delay: 407
+    content: '*'
+  - delay: 270
+    content: '*'
+  - delay: 210
+    content: '*'
+  - delay: 352
+    content: '*'
+  - delay: 3833
+    content: "\b \b\b \b\b \b\b \b\b \b\r\n"
+  - delay: 1811
+    content: "Sorry, try again.\r\n[sudo] password for nasuhah: "
+  - delay: 1888
+    content: '*'
+  - delay: 441
+    content: '*'
+  - delay: 328
+    content: '*'
+  - delay: 231
+    content: '*'
+  - delay: 1744
+    content: "\b \b"
+  - delay: 186
+    content: "\b \b"
+  - delay: 161
+    content: "\b \b"
+  - delay: 171
+    content: "\b \b"
+  - delay: 1177
+    content: '*'
+  - delay: 772
+    content: '*'
+  - delay: 477
+    content: '*'
+  - delay: 292
+    content: '*'
+  - delay: 621
+    content: '*'
+  - delay: 486
+    content: '*'
+  - delay: 550
+    content: "\b \b\b \b\b \b\b \b\b \b\b \b\r\n"
+  - delay: 134
+    content: "\e[?2004h\e]0;root@nasuhah-Lenovo-B40-80: /home/nasuhah\aroot@nasuhah-Lenovo-B40-80:/home/nasuhah# "
+  - delay: 2365
+    content: m
+  - delay: 157
+    content: a
+  - delay: 306
+    content: r
+  - delay: 441
+    content: i
+  - delay: 173
+    content: a
+  - delay: 743
+    content: d
+  - delay: 464
+    content: b
+  - delay: 1045
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 45\r\nServer version: 10.11.13-MariaDB-0ubuntu0.24.04.1 Ubuntu 24.04\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 2421
+    content: c
+  - delay: 262
+    content: r
+  - delay: 226
+    content: e
+  - delay: 312
+    content: a
+  - delay: 167
+    content: a
+  - delay: 1018
+    content: "\r\e[23G\e[K"
+  - delay: 186
+    content: "\r\e[22G\e[K"
+  - delay: 178
+    content: "\r\e[21G\e[K"
+  - delay: 176
+    content: "\r\e[20G\e[K"
+  - delay: 189
+    content: "\r\e[19G\e[K"
+  - delay: 13166
+    content: c
+  - delay: 271
+    content: r
+  - delay: 220
+    content: e
+  - delay: 146
+    content: a
+  - delay: 159
+    content: t
+  - delay: 226
+    content: r
+  - delay: 186
+    content: e
+  - delay: 726
+    content: "\r\e[25G\e[K"
+  - delay: 189
+    content: "\r\e[24G\e[K"
+  - delay: 1215
+    content: e
+  - delay: 259
+    content: ' '
+  - delay: 1345
+    content: d
+  - delay: 131
+    content: a
+  - delay: 146
+    content: t
+  - delay: 149
+    content: a
+  - delay: 261
+    content: b
+  - delay: 165
+    content: a
+  - delay: 238
+    content: s
+  - delay: 249
+    content: e
+  - delay: 701
+    content: ' '
+  - delay: 1597
+    content: r
+  - delay: 1111
+    content: u
+  - delay: 214
+    content: m
+  - delay: 149
+    content: a
+  - delay: 655
+    content: g
+  - delay: 1764
+    content: "\r\e[39G\e[K"
+  - delay: 696
+    content: h
+  - delay: 10510
+    content: "\r\e[39G\e[K"
+  - delay: 499
+    content: "\r\e[38G\e[K"
+  - delay: 30
+    content: "\r\e[37G\e[K"
+  - delay: 30
+    content: "\r\e[36G\e[K"
+  - delay: 30
+    content: "\r\e[35G\e[K"
+  - delay: 30
+    content: "\r\e[34G"
+  - delay: 30
+    content: "\r\e[33G\e[K"
+  - delay: 30
+    content: "\r\e[32G\e[K"
+  - delay: 31
+    content: "\r\e[31G\e[K"
+  - delay: 30
+    content: "\r\e[30G\e[K"
+  - delay: 32
+    content: "\r\e[29G\e[K"
+  - delay: 30
+    content: "\r\e[28G\e[K"
+  - delay: 30
+    content: "\r\e[27G\e[K"
+  - delay: 31
+    content: "\r\e[26G\e[K"
+  - delay: 30
+    content: "\r\e[25G"
+  - delay: 31
+    content: "\r\e[24G\e[K"
+  - delay: 30
+    content: "\r\e[23G\e[K"
+  - delay: 30
+    content: "\r\e[22G\e[K"
+  - delay: 30
+    content: "\r\e[21G\e[K"
+  - delay: 31
+    content: "\r\e[20G\e[K"
+  - delay: 31
+    content: "\r\e[19G\e[K"
+  - delay: 30
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 30
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 1567
+    content: "CREATE DATABASE rumah_sakit_sederhana;\r\n\e(B\e[0;1mQuery OK, 1 row affected (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> USE rumah_sakit_sederhana;\r\n"
+  - delay: 6
+    content: "\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 22905
+    content: "CREATE TABLE pasien (\r\n    ->     id_pasien INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_pasien VARCHAR(100) NOT NULL,\r\n    ->     jenis_kelamin ENUM('Laki-laki','Perempuan'),\r\n    ->     alamat TEXT\r\n    -> );\r\n"
+  - delay: 44
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,044 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 147656
+    content: "INSERT INTO pasien VALUES\r\n    -> (1, 'Budi', 'Laki-laki', '2000-05-10', 'Jakarta'),\r\n    -> (2, 'Aisyah', 'Perempuan', '2002-08-15', 'Depok'),\r\n    -> (3, 'Andi', 'Laki-laki', '1999-03-20', 'Bogor'),\r\n    -> (4, 'Siti', 'Perempuan', '2001-12-01', 'Tangerang'),\r\n    -> (5, 'Rizki', 'Laki-laki', '1998-07-25', 'Bekasi');\r\nERROR 1136 (21S01): Column count doesn't match value count at row 1\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 85735
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, alamat) VALUES\r\n    -> ('Budi', 'Laki-laki', 'Jakarta'),\r\n    -> ('Aisyah', 'Perempuan', 'Depok');\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,004 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> \r\nMariaDB [rumah_sakit_sederhana]> INSERT INTO dokter (nama_dokter, spesialis) VALUES\r\n    -> ('Dr. Ahmad', 'Penyakit Dalam'),\r\n    -> ('Dr. Siti', 'Anak');\r\nERROR 1146 (42S02): Table 'rumah_sakit_sederhana.dokter' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> \r\nMariaDB [rumah_sakit_sederhana]> INSERT INTO pemeriksaan (id_pasien, id_dokter, tanggal, diagnosa) VALUES\r\n    -> (1, 1, '2026-01-05', 'Demam'),\r\n    -> (2, 2, '2026-01-05', 'Batuk');\r\nERROR 1146 (42S02): Table 'rumah_sakit_sederhana.pemeriksaan' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 55668
+    content: "USE rumah_sakit_sederhana;\r\n\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 690
+    content: "\r\nMariaDB [rumah_sakit_sederhana]> "
+  - delay: 11498
+    content: "SELECT DATABASE();\r\n+-----------------------+\r\n| DATABASE()            |\r\n+-----------------------+\r\n| rumah_sakit_sederhana |\r\n+-----------------------+\r\n\e(B\e[0;1m1 row in set (0,000 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 65877
+    content: "INSERT INTO pasien (nama_pasien, jenis_kelamin, alamat) VALUES\r\n    -> ('Budi', 'Laki-laki', 'Jakarta'),\r\n    -> ('Aisyah', 'Perempuan', 'Depok');\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,003 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> \r\nMariaDB [rumah_sakit_sederhana]> INSERT INTO dokter (nama_dokter, spesialis) VALUES\r\n    -> ('Dr. Ahmad', 'Penyakit Dalam'),\r\n    -> ('Dr. Siti', 'Anak');\r\nERROR 1146 (42S02): Table 'rumah_sakit_sederhana.dokter' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> \r\nMariaDB [rumah_sakit_sederhana]> INSERT INTO pemeriksaan (id_pasien, id_dokter, tanggal, diagnosa) VALUES\r\n    -> (1, 1, '2026-01-05', 'Demam'),\r\n    -> (2, 2, '2026-01-05', 'Batuk');\r\nERROR 1146 (42S02): Table 'rumah_sakit_sederhana.pemeriksaan' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 35671
+    content: "CREATE TABLE pasien (\r\n    ->     id_pasien INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_pasien VARCHAR(100),\r\n    ->     jenis_kelamin ENUM('Laki-laki','Perempuan'),\r\n    ->     alamat TEXT\r\n    -> );\r\nERROR 1050 (42S01): Table 'pasien' already exists\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 7737
+    content: "CREATE TABLE dokter (\r\n    ->     id_dokter INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_dokter VARCHAR(100),\r\n    ->     spesialis VARCHAR(100)\r\n    -> );\r\n"
+  - delay: 30
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,031 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 17469
+    content: "INSERT INTO dokter (nama_dokter, spesialis) VALUES\r\n    -> ('Dr. Ahmad', 'Penyakit Dalam'),\r\n    -> ('Dr. Siti', 'Anak');\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,003 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 7971
+    content: s
+  - delay: 301
+    content: e
+  - delay: 252
+    content: l
+  - delay: 117
+    content: e
+  - delay: 269
+    content: c
+  - delay: 288
+    content: t
+  - delay: 626
+    content: ' '
+  - delay: 1331
+    content: '*'
+  - delay: 465
+    content: ' '
+  - delay: 572
+    content: f
+  - delay: 232
+    content: r
+  - delay: 216
+    content: o
+  - delay: 246
+    content: m
+  - delay: 249
+    content: ' '
+  - delay: 558
+    content: t
+  - delay: 149
+    content: a
+  - delay: 149
+    content: b
+  - delay: 251
+    content: e
+  - delay: 192
+    content: l
+  - delay: 262
+    content: ' '
+  - delay: 1541
+    content: "\r\e[53G"
+  - delay: 188
+    content: "\r\e[52G\e[K"
+  - delay: 164
+    content: "\r\e[51G\e[K"
+  - delay: 172
+    content: "\r\e[50G\e[K"
+  - delay: 178
+    content: "\r\e[49G\e[K"
+  - delay: 162
+    content: "\r\e[48G\e[K"
+  - delay: 544
+    content: d
+  - delay: 311
+    content: o
+  - delay: 197
+    content: k
+  - delay: 512
+    content: t
+  - delay: 190
+    content: e
+  - delay: 249
+    content: r
+  - delay: 1834
+    content: ;
+  - delay: 745
+    content: "\r\n+-----------+-------------+----------------+\r\n| id_dokter | nama_dokter | spesialis      |\r\n+-----------+-------------+----------------+\r\n|         1 | Dr. Ahmad   | Penyakit Dalam |\r\n|         2 | Dr. Siti    | Anak           |\r\n+-----------+-------------+----------------+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 41788
+    content: "CREATE TABLE pasien (\r\n    ->     id_pasien INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_pasien VARCHAR(100),\r\n    ->     jenis_kelamin ENUM('Laki-laki','Perempuan'),\r\n    ->     alamat TEXT\r\n    -> );\r\nERROR 1050 (42S01): Table 'pasien' already exists\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 50260
+    content: "CREATE TABLE pemeriksaan (\r\n    ->     id_pemeriksaan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_pasien INT,\r\n    ->     id_dokter INT,\r\n    ->     tanggal DATE,\r\n    ->     diagnosa TEXT\r\n    -> );\r\n"
+  - delay: 29
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0,029 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 10008
+    content: "INSERT INTO pemeriksaan (id_pasien, id_dokter, tanggal, diagnosa) VALUES\r\n    -> (1, 1, '2026-01-05', 'Demam'),\r\n    -> (2, 2, '2026-01-05', 'Batuk');\r\n\e(B\e[0;1mQuery OK, 2 rows affected (0,004 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 3160
+    content: s
+  - delay: 219
+    content: e
+  - delay: 267
+    content: l
+  - delay: 97
+    content: e
+  - delay: 237
+    content: c
+  - delay: 452
+    content: t
+  - delay: 635
+    content: ' '
+  - delay: 1216
+    content: '*'
+  - delay: 316
+    content: ' '
+  - delay: 918
+    content: f
+  - delay: 204
+    content: r
+  - delay: 208
+    content: o
+  - delay: 241
+    content: m
+  - delay: 193
+    content: ' '
+  - delay: 3874
+    content: p
+  - delay: 246
+    content: e
+  - delay: 208
+    content: m
+  - delay: 108
+    content: e
+  - delay: 207
+    content: r
+  - delay: 246
+    content: i
+  - delay: 175
+    content: k
+  - delay: 227
+    content: s
+  - delay: 231
+    content: a
+  - delay: 199
+    content: a
+  - delay: 295
+    content: 'n'
+  - delay: 295
+    content: ' '
+  - delay: 687
+    content: "\r\e[59G"
+  - delay: 633
+    content: ;
+  - delay: 696
+    content: "\r\n+----------------+-----------+-----------+------------+----------+\r\n| id_pemeriksaan | id_pasien | id_dokter | tanggal    | diagnosa |\r\n+----------------+-----------+-----------+------------+----------+\r\n|              1 |         1 |         1 | 2026-01-05 | Demam    |\r\n|              2 |         2 |         2 | 2026-01-05 | Batuk    |\r\n+----------------+-----------+-----------+------------+----------+\r\n\e(B\e[0;1m2 rows in set (0,001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [rumah_sakit_sederhana]> "
+  - delay: 6739
+    content: e
+  - delay: 316
+    content: x
+  - delay: 356
+    content: i
+  - delay: 343
+    content: t
+  - delay: 2052
+    content: "\r\n"
+  - delay: 19
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e[?2004h\e]0;root@nasuhah-Lenovo-B40-80: /home/nasuhah\aroot@nasuhah-Lenovo-B40-80:/home/nasuhah# "
+  - delay: 1135
+    content: e
+  - delay: 440
+    content: x
+  - delay: 276
+    content: i
+  - delay: 318
+    content: t
+  - delay: 925
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 6
+    content: "\e]0;nasuhah@nasuhah-Lenovo-B40-80:~\e\\\e]7;file://nasuhah-Lenovo-B40-80/home/nasuhah\e\\\e[?2004h\e]0;nasuhah@nasuhah-Lenovo-B40-80: ~\a\e[01;32mnasuhah@nasuhah-Lenovo-B40-80\e[00m:\e[01;34m~\e[00m$ "
+  - delay: 909
+    content: l
+  - delay: 191
+    content: o
+  - delay: 444
+    content: g
+  - delay: 348
+    content: o
+  - delay: 241
+    content: u
+  - delay: 252
+    content: t
+  - delay: 1743
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r"
