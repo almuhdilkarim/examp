@@ -1,0 +1,5033 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\LENOVO
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 168
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 44
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1414
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 12
+    content: "\e[25l\e[6;1H\e[?25h"
+  - delay: 257
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 476
+    content: "\e[?25l"
+  - delay: 29
+    content: "\e[93mm\e[?25h"
+  - delay: 305
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 272
+    content: "\e[m\e[?25l"
+  - delay: 28
+    content: "\e[93m\e[6;21Hmys\e[?25h"
+  - delay: 381
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;21Hmysq\e[?25h"
+  - delay: 418
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;21Hmysql\e[?25h"
+  - delay: 415
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;21Hmysql\e[m \e[?25h"
+  - delay: 1162
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-\e[?25h"
+  - delay: 1361
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[?25h"
+  - delay: 392
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m \e[?25h"
+  - delay: 319
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m r\e[?25h"
+  - delay: 206
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m ro\e[?25h"
+  - delay: 145
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m roo\e[?25h"
+  - delay: 290
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m root\e[?25h"
+  - delay: 552
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m root \e[?25h"
+  - delay: 491
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m root \e[90m-\e[?25h"
+  - delay: 283
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;21Hmysql\e[m \e[90m-u\e[m root \e[90m-p\e[?25h"
+  - delay: 1565
+    content: "\e[m\r\n"
+  - delay: 86
+    content: 'Enter password: '
+  - delay: 9682
+    content: '*'
+  - delay: 493
+    content: "\r\n"
+  - delay: 76
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 30
+    content: "\r\nYour MariaDB connection id is 11\e[46X\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[16X\r\n\e[78X\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[10X\r\n\e[78X\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\e[78X\r\nMariaDB [(none)]> \e[60X"
+  - delay: 969
+    content: c
+  - delay: 282
+    content: r
+  - delay: 210
+    content: e
+  - delay: 307
+    content: a
+  - delay: 1289
+    content: r
+  - delay: 1176
+    content: "\b \b"
+  - delay: 386
+    content: t
+  - delay: 196
+    content: e
+  - delay: 217
+    content: ' '
+  - delay: 278
+    content: d
+  - delay: 168
+    content: a
+  - delay: 198
+    content: t
+  - delay: 153
+    content: a
+  - delay: 240
+    content: b
+  - delay: 192
+    content: s
+  - delay: 229
+    content: e
+  - delay: 1134
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 448
+    content: s
+  - delay: 380
+    content: e
+  - delay: 1033
+    content: "\b \b"
+  - delay: 198
+    content: "\b \b"
+  - delay: 407
+    content: a
+  - delay: 321
+    content: s
+  - delay: 213
+    content: e
+  - delay: 371
+    content: ' '
+  - delay: 2932
+    content: s
+  - delay: 322
+    content: i
+  - delay: 159
+    content: s
+  - delay: 251
+    content: t
+  - delay: 171
+    content: e
+  - delay: 314
+    content: m
+  - delay: 821
+    content: _
+  - delay: 465
+    content: p
+  - delay: 827
+    content: e
+  - delay: 510
+    content: r
+  - delay: 566
+    content: "\b \b"
+  - delay: 359
+    content: l
+  - delay: 230
+    content: a
+  - delay: 434
+    content: t
+  - delay: 202
+    content: a
+  - delay: 568
+    content: h
+  - delay: 280
+    content: i
+  - delay: 1278
+    content: h
+  - delay: 188
+    content: a
+  - delay: 245
+    content: 'n'
+  - delay: 604
+    content: "\b \b"
+  - delay: 154
+    content: "\b \b"
+  - delay: 164
+    content: "\b \b"
+  - delay: 459
+    content: "\b \b"
+  - delay: 436
+    content: "\b \b"
+  - delay: 401
+    content: "\b \b"
+  - delay: 683
+    content: i
+  - delay: 252
+    content: h
+  - delay: 130
+    content: a
+  - delay: 181
+    content: 'n'
+  - delay: 1699
+    content: ;
+  - delay: 956
+    content: "\r\n"
+  - delay: 8
+    content: "Query OK, 1 row affected (0.002 sec)\r\n\e[36X\r\nMariaDB [(none)]> \e[18X"
+  - delay: 1751
+    content: u
+  - delay: 255
+    content: s
+  - delay: 235
+    content: e
+  - delay: 250
+    content: ' '
+  - delay: 215
+    content: s
+  - delay: 187
+    content: i
+  - delay: 152
+    content: s
+  - delay: 926
+    content: t
+  - delay: 245
+    content: e
+  - delay: 926
+    content: m
+  - delay: 197
+    content: ' '
+  - delay: 368
+    content: p
+  - delay: 174
+    content: e
+  - delay: 216
+    content: l
+  - delay: 255
+    content: a
+  - delay: 224
+    content: t
+  - delay: 267
+    content: i
+  - delay: 254
+    content: h
+  - delay: 146
+    content: a
+  - delay: 297
+    content: m
+  - delay: 906
+    content: "\b \b"
+  - delay: 376
+    content: 'n'
+  - delay: 520
+    content: ;
+  - delay: 6486
+    content: "\r\n"
+  - delay: 23
+    content: "ERROR 1049 (42000): Unknown database 'sistem'\r\nMariaDB [(none)]> \e[27X"
+  - delay: 15100
+    content: u
+  - delay: 319
+    content: s
+  - delay: 352
+    content: e
+  - delay: 2489
+    content: ' '
+  - delay: 431
+    content: s
+  - delay: 181
+    content: i
+  - delay: 150
+    content: s
+  - delay: 228
+    content: t
+  - delay: 229
+    content: e
+  - delay: 300
+    content: m
+  - delay: 214
+    content: ' '
+  - delay: 770
+    content: "\b \b"
+  - delay: 1343
+    content: _
+  - delay: 609
+    content: p
+  - delay: 309
+    content: e
+  - delay: 245
+    content: k
+  - delay: 988
+    content: "\b \b"
+  - delay: 303
+    content: l
+  - delay: 174
+    content: a
+  - delay: 292
+    content: t
+  - delay: 790
+    content: i
+  - delay: 473
+    content: a
+  - delay: 1080
+    content: "\b \b"
+  - delay: 942
+    content: h
+  - delay: 139
+    content: a
+  - delay: 124
+    content: 'n'
+  - delay: 1759
+    content: ;
+  - delay: 452
+    content: "\r\n"
+  - delay: 23
+    content: "Database changed\e[12X\r\nMariaDB [sistem_pelatihan]> "
+  - delay: 3930
+    content: c
+  - delay: 1234
+    content: r
+  - delay: 269
+    content: e
+  - delay: 236
+    content: a
+  - delay: 147
+    content: t
+  - delay: 254
+    content: e
+  - delay: 321
+    content: ' '
+  - delay: 480
+    content: t
+  - delay: 168
+    content: a
+  - delay: 151
+    content: b
+  - delay: 450
+    content: l
+  - delay: 485
+    content: e
+  - delay: 398
+    content: ' '
+  - delay: 1482
+    content: p
+  - delay: 327
+    content: e
+  - delay: 277
+    content: s
+  - delay: 251
+    content: e
+  - delay: 218
+    content: r
+  - delay: 394
+    content: t
+  - delay: 187
+    content: a
+  - delay: 1765
+    content: ' '
+  - delay: 731
+    content: (
+  - delay: 1329
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 973
+    content: i
+  - delay: 263
+    content: d
+  - delay: 1573
+    content: _
+  - delay: 1598
+    content: o
+  - delay: 510
+    content: "\b \b"
+  - delay: 292
+    content: p
+  - delay: 215
+    content: e
+  - delay: 213
+    content: s
+  - delay: 205
+    content: e
+  - delay: 201
+    content: r
+  - delay: 256
+    content: t
+  - delay: 231
+    content: a
+  - delay: 268
+    content: ' '
+  - delay: 1726
+    content: i
+  - delay: 264
+    content: 'n'
+  - delay: 309
+    content: t
+  - delay: 325
+    content: ' '
+  - delay: 376
+    content: a
+  - delay: 284
+    content: u
+  - delay: 272
+    content: t
+  - delay: 315
+    content: o
+  - delay: 382
+    content: ' '
+  - delay: 819
+    content: "\b \b"
+  - delay: 468
+    content: _
+  - delay: 1099
+    content: i
+  - delay: 286
+    content: 'n'
+  - delay: 305
+    content: c
+  - delay: 479
+    content: r
+  - delay: 197
+    content: e
+  - delay: 226
+    content: m
+  - delay: 219
+    content: e
+  - delay: 97
+    content: 'n'
+  - delay: 337
+    content: t
+  - delay: 429
+    content: ' '
+  - delay: 2333
+    content: p
+  - delay: 278
+    content: r
+  - delay: 141
+    content: i
+  - delay: 241
+    content: m
+  - delay: 187
+    content: a
+  - delay: 453
+    content: r
+  - delay: 924
+    content: 'y'
+  - delay: 393
+    content: ' '
+  - delay: 3004
+    content: k
+  - delay: 1033
+    content: e
+  - delay: 224
+    content: 'y'
+  - delay: 861
+    content: ','
+  - delay: 427
+    content: "\r\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 3078
+    content: 'n'
+  - delay: 198
+    content: a
+  - delay: 174
+    content: m
+  - delay: 118
+    content: a
+  - delay: 807
+    content: _
+  - delay: 574
+    content: p
+  - delay: 299
+    content: e
+  - delay: 311
+    content: s
+  - delay: 232
+    content: e
+  - delay: 197
+    content: r
+  - delay: 261
+    content: t
+  - delay: 114
+    content: a
+  - delay: 1741
+    content: ' '
+  - delay: 465
+    content: v
+  - delay: 266
+    content: a
+  - delay: 299
+    content: r
+  - delay: 362
+    content: c
+  - delay: 312
+    content: h
+  - delay: 180
+    content: a
+  - delay: 169
+    content: r
+  - delay: 1299
+    content: '*'
+  - delay: 25
+    content: (
+  - delay: 1479
+    content: "\b \b"
+  - delay: 319
+    content: "\b \b"
+  - delay: 1112
+    content: (
+  - delay: 1514
+    content: '1'
+  - delay: 281
+    content: '0'
+  - delay: 163
+    content: '0'
+  - delay: 856
+    content: )
+  - delay: 1154
+    content: ','
+  - delay: 1050
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 876
+    content: a
+  - delay: 320
+    content: l
+  - delay: 221
+    content: a
+  - delay: 133
+    content: m
+  - delay: 187
+    content: a
+  - delay: 1199
+    content: t
+  - delay: 318
+    content: ' '
+  - delay: 496
+    content: t
+  - delay: 256
+    content: e
+  - delay: 662
+    content: x
+  - delay: 175
+    content: t
+  - delay: 1058
+    content: ','
+  - delay: 1352
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 951
+    content: 'n'
+  - delay: 262
+    content: o
+  - delay: 2384
+    content: _
+  - delay: 498
+    content: t
+  - delay: 280
+    content: e
+  - delay: 332
+    content: l
+  - delay: 243
+    content: p
+  - delay: 1224
+    content: ' '
+  - delay: 719
+    content: v
+  - delay: 314
+    content: a
+  - delay: 251
+    content: r
+  - delay: 321
+    content: c
+  - delay: 260
+    content: h
+  - delay: 189
+    content: a
+  - delay: 165
+    content: r
+  - delay: 1489
+    content: (
+  - delay: 428
+    content: '1'
+  - delay: 487
+    content: '5'
+  - delay: 623
+    content: )
+  - delay: 908
+    content: ','
+  - delay: 966
+    content: "\r\n"
+  - delay: 20
+    content: '    -> '
+  - delay: 838
+    content: e
+  - delay: 302
+    content: m
+  - delay: 128
+    content: a
+  - delay: 233
+    content: i
+  - delay: 240
+    content: l
+  - delay: 525
+    content: ' '
+  - delay: 288
+    content: v
+  - delay: 287
+    content: a
+  - delay: 164
+    content: r
+  - delay: 302
+    content: c
+  - delay: 228
+    content: h
+  - delay: 131
+    content: a
+  - delay: 169
+    content: r
+  - delay: 1273
+    content: (
+  - delay: 1286
+    content: '1'
+  - delay: 282
+    content: '0'
+  - delay: 160
+    content: '0'
+  - delay: 593
+    content: )
+  - delay: 4242
+    content: "\r\n"
+  - delay: 9
+    content: '    -> '
+  - delay: 2688
+    content: )
+  - delay: 819
+    content: ;
+  - delay: 2158
+    content: "\r\n"
+  - delay: 18
+    content: "Query OK, 0 rows affected (0.013 sec)\r\n\e[37X\r\nMariaDB [sistem_pelatihan]> \e[9X"
+  - delay: 6525
+    content: c
+  - delay: 314
+    content: r
+  - delay: 191
+    content: e
+  - delay: 174
+    content: a
+  - delay: 169
+    content: t
+  - delay: 260
+    content: e
+  - delay: 147
+    content: ' '
+  - delay: 291
+    content: t
+  - delay: 139
+    content: a
+  - delay: 173
+    content: b
+  - delay: 400
+    content: l
+  - delay: 193
+    content: e
+  - delay: 213
+    content: ' '
+  - delay: 395
+    content: i
+  - delay: 208
+    content: 'n'
+  - delay: 185
+    content: s
+  - delay: 223
+    content: t
+  - delay: 196
+    content: r
+  - delay: 294
+    content: u
+  - delay: 251
+    content: j
+  - delay: 1771
+    content: "\b \b"
+  - delay: 2105
+    content: k
+  - delay: 872
+    content: t
+  - delay: 251
+    content: u
+  - delay: 207
+    content: r
+  - delay: 2288
+    content: ' '
+  - delay: 10953
+    content: (
+  - delay: 780
+    content: ' '
+  - delay: 4744
+    content: "\b \b"
+  - delay: 509
+    content: "\b \b"
+  - delay: 51
+    content: "\b \b"
+  - delay: 16
+    content: "\b \b"
+  - delay: 29
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 36
+    content: "\b \b"
+  - delay: 29
+    content: "\b \b"
+  - delay: 38
+    content: "\b \b"
+  - delay: 26
+    content: "\b \b"
+  - delay: 41
+    content: "\b \b"
+  - delay: 24
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 11567
+    content: i
+  - delay: 332
+    content: 'n'
+  - delay: 376
+    content: s
+  - delay: 280
+    content: e
+  - delay: 249
+    content: r
+  - delay: 187
+    content: t
+  - delay: 398
+    content: ' '
+  - delay: 815
+    content: i
+  - delay: 312
+    content: 'n'
+  - delay: 305
+    content: t
+  - delay: 390
+    content: o
+  - delay: 346
+    content: ' '
+  - delay: 1378
+    content: p
+  - delay: 287
+    content: e
+  - delay: 231
+    content: s
+  - delay: 206
+    content: e
+  - delay: 185
+    content: r
+  - delay: 281
+    content: t
+  - delay: 96
+    content: a
+  - delay: 718
+    content: ' '
+  - delay: 787
+    content: (
+  - delay: 1051
+    content: 'n'
+  - delay: 147
+    content: a
+  - delay: 136
+    content: m
+  - delay: 468
+    content: a
+  - delay: 2677
+    content: _
+  - delay: 2653
+    content: p
+  - delay: 318
+    content: e
+  - delay: 227
+    content: s
+  - delay: 201
+    content: e
+  - delay: 187
+    content: r
+  - delay: 357
+    content: t
+  - delay: 157
+    content: a
+  - delay: 2335
+    content: ','
+  - delay: 214
+    content: ' '
+  - delay: 178
+    content: a
+  - delay: 141
+    content: l
+  - delay: 106
+    content: a
+  - delay: 145
+    content: m
+  - delay: 59
+    content: a
+  - delay: 323
+    content: t
+  - delay: 3545
+    content: ','
+  - delay: 275
+    content: ' '
+  - delay: 682
+    content: 'n'
+  - delay: 268
+    content: o
+  - delay: 675
+    content: _
+  - delay: 601
+    content: t
+  - delay: 191
+    content: e
+  - delay: 464
+    content: l
+  - delay: 266
+    content: p
+  - delay: 1653
+    content: ','
+  - delay: 216
+    content: ' '
+  - delay: 763
+    content: e
+  - delay: 317
+    content: m
+  - delay: 114
+    content: a
+  - delay: 207
+    content: i
+  - delay: 274
+    content: l
+  - delay: 1734
+    content: )
+  - delay: 463
+    content: ' '
+  - delay: 1103
+    content: "\b \b"
+  - delay: 1531
+    content: ' '
+  - delay: 313
+    content: v
+  - delay: 649
+    content: a
+  - delay: 243
+    content: l
+  - delay: 271
+    content: u
+  - delay: 277
+    content: e
+  - delay: 257
+    content: s
+  - delay: 1565
+    content: "\r\n"
+  - delay: 26
+    content: '    -> '
+  - delay: 3175
+    content: (
+  - delay: 1665
+    content: ''''
+  - delay: 882
+    content: a
+  - delay: 253
+    content: 'n'
+  - delay: 334
+    content: d
+  - delay: 244
+    content: r
+  - delay: 257
+    content: i
+  - delay: 1690
+    content: "\b \b"
+  - delay: 160
+    content: "\b \b"
+  - delay: 1185
+    content: i
+  - delay: 768
+    content: ' '
+  - delay: 3115
+    content: "\b \b"
+  - delay: 970
+    content: ''''
+  - delay: 490
+    content: ' '
+  - delay: 906
+    content: "\b \b"
+  - delay: 394
+    content: ','
+  - delay: 289
+    content: ' '
+  - delay: 642
+    content: j
+  - delay: 184
+    content: a
+  - delay: 123
+    content: k
+  - delay: 978
+    content: "\b \b"
+  - delay: 159
+    content: "\b \b"
+  - delay: 503
+    content: "\b \b"
+  - delay: 242
+    content: "\b \b"
+  - delay: 2075
+    content: ' '
+  - delay: 709
+    content: ''''
+  - delay: 999
+    content: j
+  - delay: 168
+    content: a
+  - delay: 164
+    content: k
+  - delay: 91
+    content: a
+  - delay: 297
+    content: r
+  - delay: 171
+    content: t
+  - delay: 118
+    content: a
+  - delay: 1084
+    content: ''''
+  - delay: 1094
+    content: ','
+  - delay: 203
+    content: ' '
+  - delay: 6393
+    content: ''''
+  - delay: 2463
+    content: '0'
+  - delay: 414
+    content: '8'
+  - delay: 529
+    content: '1'
+  - delay: 275
+    content: '2'
+  - delay: 321
+    content: '3'
+  - delay: 271
+    content: '4'
+  - delay: 297
+    content: '5'
+  - delay: 310
+    content: '6'
+  - delay: 292
+    content: '7'
+  - delay: 282
+    content: '8'
+  - delay: 275
+    content: '9'
+  - delay: 1475
+    content: ''''
+  - delay: 7716
+    content: ''''
+  - delay: 1197
+    content: "\b \b"
+  - delay: 460
+    content: ','
+  - delay: 930
+    content: "\b \b"
+  - delay: 339
+    content: "\b \b"
+  - delay: 930
+    content: ''''
+  - delay: 346
+    content: ','
+  - delay: 258
+    content: ' '
+  - delay: 524
+    content: ''''
+  - delay: 1828
+    content: a
+  - delay: 447
+    content: 'n'
+  - delay: 277
+    content: d
+  - delay: 449
+    content: i
+  - delay: 3895
+    content: '@'
+  - delay: 700
+    content: g
+  - delay: 329
+    content: m
+  - delay: 166
+    content: a
+  - delay: 172
+    content: i
+  - delay: 246
+    content: l
+  - delay: 919
+    content: .
+  - delay: 436
+    content: c
+  - delay: 189
+    content: o
+  - delay: 370
+    content: m
+  - delay: 1152
+    content: ''''
+  - delay: 1760
+    content: )
+  - delay: 1762
+    content: ','
+  - delay: 871
+    content: "\r\n"
+  - delay: 25
+    content: '    -> '
+  - delay: 3634
+    content: '"'
+  - delay: 1169
+    content: s
+  - delay: 513
+    content: i
+  - delay: 304
+    content: t
+  - delay: 301
+    content: i
+  - delay: 456
+    content: ' '
+  - delay: 406
+    content: a
+  - delay: 231
+    content: i
+  - delay: 195
+    content: s
+  - delay: 137
+    content: 'y'
+  - delay: 134
+    content: a
+  - delay: 177
+    content: h
+  - delay: 1863
+    content: ''''
+  - delay: 2592
+    content: "\b"
+  - delay: 164
+    content: "\b"
+  - delay: 129
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 119
+    content: "\b"
+  - delay: 114
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 276
+    content: "\b"
+  - delay: 317
+    content: "\b"
+  - delay: 2189
+    content: "\e[25l\bsiti aisyah'  \e[34;8H\e[?25h"
+  - delay: 2312
+    content: "\e[25l(siti aisyah'\e[34;9H\e[?25h"
+  - delay: 1572
+    content: "\e[25l\b('siti aisyah'\e[34;10H\e[?25h"
+  - delay: 1429
+    content: "\e[1C"
+  - delay: 166
+    content: "\e[1C"
+  - delay: 129
+    content: "\e[1C"
+  - delay: 122
+    content: "\e[1C"
+  - delay: 118
+    content: "\e[1C"
+  - delay: 124
+    content: "\e[1C"
+  - delay: 106
+    content: "\e[1C"
+  - delay: 123
+    content: "\e[1C"
+  - delay: 120
+    content: "\e[1C"
+  - delay: 108
+    content: "\e[1C"
+  - delay: 123
+    content: "\e[1C"
+  - delay: 144
+    content: "\e[1C"
+  - delay: 159
+    content: r
+  - delay: 940
+    content: "\b \b"
+  - delay: 850
+    content: ','
+  - delay: 257
+    content: ' '
+  - delay: 1169
+    content: b
+  - delay: 139
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 933
+    content: "\b \b"
+  - delay: 156
+    content: "\b \b"
+  - delay: 780
+    content: "\b \b"
+  - delay: 769
+    content: ''''
+  - delay: 557
+    content: b
+  - delay: 169
+    content: a
+  - delay: 82
+    content: 'n'
+  - delay: 289
+    content: d
+  - delay: 169
+    content: u
+  - delay: 249
+    content: 'n'
+  - delay: 200
+    content: g
+  - delay: 253
+    content: ' '
+  - delay: 424
+    content: "\b \b"
+  - delay: 759
+    content: .
+  - delay: 522
+    content: "\b \b"
+  - delay: 336
+    content: ''''
+  - delay: 1435
+    content: )
+  - delay: 3143
+    content: "\b \b"
+  - delay: 2207
+    content: ','
+  - delay: 370
+    content: ' '
+  - delay: 2338
+    content: ''''
+  - delay: 1161
+    content: '0'
+  - delay: 550
+    content: '8'
+  - delay: 2703
+    content: '9'
+  - delay: 324
+    content: '8'
+  - delay: 344
+    content: '7'
+  - delay: 322
+    content: '6'
+  - delay: 287
+    content: '5'
+  - delay: 300
+    content: '4'
+  - delay: 301
+    content: '3'
+  - delay: 277
+    content: '2'
+  - delay: 234
+    content: '1'
+  - delay: 3786
+    content: ''''
+  - delay: 954
+    content: ','
+  - delay: 689
+    content: ' '
+  - delay: 4128
+    content: ''''
+  - delay: 1949
+    content: s
+  - delay: 577
+    content: i
+  - delay: 335
+    content: t
+  - delay: 275
+    content: i
+  - delay: 2788
+    content: '2'
+  - delay: 502
+    content: g
+  - delay: 672
+    content: "\b \b"
+  - delay: 321
+    content: "\b \b"
+  - delay: 885
+    content: '@'
+  - delay: 582
+    content: g
+  - delay: 346
+    content: m
+  - delay: 156
+    content: a
+  - delay: 164
+    content: i
+  - delay: 305
+    content: l
+  - delay: 848
+    content: .
+  - delay: 442
+    content: c
+  - delay: 183
+    content: o
+  - delay: 312
+    content: m
+  - delay: 1756
+    content: '0'
+  - delay: 845
+    content: "\b \b"
+  - delay: 873
+    content: )
+  - delay: 2691
+    content: ','
+  - delay: 3426
+    content: "\b \b"
+  - delay: 981
+    content: ;
+  - delay: 1193
+    content: "\r\n"
+  - delay: 21
+    content: '    ''> '
+  - delay: 7475
+    content: ''''
+  - delay: 3726
+    content: )
+  - delay: 911
+    content: "\b \b"
+  - delay: 1220
+    content: ;
+  - delay: 1180
+    content: "\r\n"
+  - delay: 17
+    content: "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 3\r\nMariaDB [sistem_pelatihan]> \e[K"
+  - delay: 13564
+    content: ''';'
+  - delay: 532
+    content: "\e[25l\e[37;29H('siti aisyah', 'bandung', '08987654321', 'siti@gmail.com);\e[?25h"
+  - delay: 355
+    content: "\e[25l\e[37;29H('andi', 'jakarta', '08123456789', 'andi@gmail.com'),       \e[37;82H\e[?25h"
+  - delay: 509
+    content: "\e[25l\e[37;29Hinsert into peserta (nama_peserta, alamat, no_telp, email) values\e[?25h"
+  - delay: 16487
+    content: "\r\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 878
+    content: '(''andi'', ''jakarta'', ''08123456789'', ''andi@gmail.com''),'
+  - delay: 11374
+    content: "\r\n"
+  - delay: 31
+    content: '    -> '
+  - delay: 1377
+    content: '(''siti aisyah'', ''bandung'', ''08987654321'', ''siti@gmail.com);'
+  - delay: 5778
+    content: "\b"
+  - delay: 5027
+    content: "\b"
+  - delay: 1267
+    content: "\e[25l\e[39;8H('siti aisyah', 'bandung', '08987654321', 'siti@gmail.co);  \e[39;64H\e[?25h"
+  - delay: 1123
+    content: "\e[25l\e[39;8H('siti aisyah', 'bandung', '08987654321', 'siti@gmail.com);\e[39;65H\e[?25h"
+  - delay: 784
+    content: "\e[25l\e[39;8H('siti aisyah', 'bandung', '08987654321', 'siti@gmail.com');\e[39;66H\e[?25h"
+  - delay: 3044
+    content: "\e[1C"
+  - delay: 166
+    content: "\e[1C"
+  - delay: 1105
+    content: "\r\n"
+  - delay: 24
+    content: "Query OK, 2 rows affected (0.004 sec) \r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n\e[38X\r\nMariaDB [sistem_pelatihan]> \e[10X"
+  - delay: 10785
+    content: c
+  - delay: 559
+    content: r
+  - delay: 203
+    content: e
+  - delay: 179
+    content: a
+  - delay: 236
+    content: t
+  - delay: 295
+    content: e
+  - delay: 403
+    content: ' '
+  - delay: 467
+    content: t
+  - delay: 139
+    content: a
+  - delay: 173
+    content: b
+  - delay: 400
+    content: l
+  - delay: 233
+    content: w
+  - delay: 47
+    content: e
+  - delay: 992
+    content: "\b \b"
+  - delay: 566
+    content: "\b \b"
+  - delay: 215
+    content: e
+  - delay: 7780
+    content: p
+  - delay: 287
+    content: e
+  - delay: 303
+    content: l
+  - delay: 321
+    content: a
+  - delay: 227
+    content: t
+  - delay: 1038
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 3894
+    content: "\b \b"
+  - delay: 351
+    content: "\b \b"
+  - delay: 569
+    content: "\b \b"
+  - delay: 618
+    content: ' '
+  - delay: 433
+    content: p
+  - delay: 201
+    content: e
+  - delay: 212
+    content: l
+  - delay: 151
+    content: a
+  - delay: 234
+    content: t
+  - delay: 292
+    content: i
+  - delay: 191
+    content: h
+  - delay: 156
+    content: a
+  - delay: 189
+    content: 'n'
+  - delay: 303
+    content: ' '
+  - delay: 2496
+    content: (
+  - delay: 878
+    content: "\r\n"
+  - delay: 27
+    content: '    -> '
+  - delay: 1707
+    content: o
+  - delay: 718
+    content: "\b \b"
+  - delay: 598
+    content: i
+  - delay: 221
+    content: d
+  - delay: 2799
+    content: _
+  - delay: 540
+    content: p
+  - delay: 272
+    content: e
+  - delay: 203
+    content: l
+  - delay: 252
+    content: a
+  - delay: 194
+    content: t
+  - delay: 1403
+    content: o
+  - delay: 956
+    content: "\b \b"
+  - delay: 626
+    content: i
+  - delay: 207
+    content: h
+  - delay: 181
+    content: a
+  - delay: 195
+    content: 'n'
+  - delay: 312
+    content: ' '
+  - delay: 3524
+    content: i
+  - delay: 253
+    content: 'n'
+  - delay: 339
+    content: t
+  - delay: 392
+    content: ' '
+  - delay: 1568
+    content: a
+  - delay: 184
+    content: u
+  - delay: 267
+    content: t
+  - delay: 883
+    content: o
+  - delay: 2471
+    content: _
+  - delay: 1309
+    content: i
+  - delay: 290
+    content: 'n'
+  - delay: 304
+    content: c
+  - delay: 348
+    content: r
+  - delay: 198
+    content: e
+  - delay: 173
+    content: m
+  - delay: 142
+    content: e
+  - delay: 132
+    content: 'n'
+  - delay: 298
+    content: t
+  - delay: 322
+    content: ' '
+  - delay: 1669
+    content: p
+  - delay: 320
+    content: r
+  - delay: 190
+    content: i
+  - delay: 355
+    content: m
+  - delay: 197
+    content: a
+  - delay: 341
+    content: r
+  - delay: 580
+    content: 'y'
+  - delay: 354
+    content: ' '
+  - delay: 241
+    content: k
+  - delay: 160
+    content: e
+  - delay: 216
+    content: 'y'
+  - delay: 3362
+    content: ','
+  - delay: 496
+    content: "\r\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 3703
+    content: 'n'
+  - delay: 297
+    content: a
+  - delay: 200
+    content: m
+  - delay: 193
+    content: a
+  - delay: 1393
+    content: _
+  - delay: 1145
+    content: p
+  - delay: 384
+    content: e
+  - delay: 285
+    content: l
+  - delay: 177
+    content: a
+  - delay: 242
+    content: t
+  - delay: 282
+    content: i
+  - delay: 184
+    content: h
+  - delay: 156
+    content: a
+  - delay: 289
+    content: 'n'
+  - delay: 881
+    content: ' '
+  - delay: 1198
+    content: v
+  - delay: 141
+    content: a
+  - delay: 238
+    content: r
+  - delay: 275
+    content: c
+  - delay: 200
+    content: h
+  - delay: 163
+    content: a
+  - delay: 160
+    content: r
+  - delay: 1180
+    content: (
+  - delay: 1138
+    content: '1'
+  - delay: 231
+    content: '0'
+  - delay: 278
+    content: '0'
+  - delay: 1281
+    content: )
+  - delay: 1138
+    content: ','
+  - delay: 1206
+    content: "\r\n"
+  - delay: 9
+    content: '    -> '
+  - delay: 912
+    content: d
+  - delay: 285
+    content: e
+  - delay: 349
+    content: r
+  - delay: 1276
+    content: k
+  - delay: 1358
+    content: "\b \b"
+  - delay: 161
+    content: "\b \b"
+  - delay: 254
+    content: s
+  - delay: 427
+    content: k
+  - delay: 403
+    content: r
+  - delay: 135
+    content: i
+  - delay: 354
+    content: p
+  - delay: 274
+    content: s
+  - delay: 174
+    content: i
+  - delay: 272
+    content: ' '
+  - delay: 280
+    content: t
+  - delay: 207
+    content: e
+  - delay: 327
+    content: x
+  - delay: 190
+    content: t
+  - delay: 1702
+    content: ','
+  - delay: 5058
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 793
+    content: d
+  - delay: 356
+    content: u
+  - delay: 245
+    content: r
+  - delay: 125
+    content: a
+  - delay: 267
+    content: s
+  - delay: 188
+    content: i
+  - delay: 874
+    content: ' '
+  - delay: 428
+    content: i
+  - delay: 221
+    content: 'n'
+  - delay: 317
+    content: t
+  - delay: 1226
+    content: ','
+  - delay: 1083
+    content: "\r\n"
+  - delay: 10
+    content: '    -> '
+  - delay: 726
+    content: b
+  - delay: 236
+    content: i
+  - delay: 172
+    content: a
+  - delay: 134
+    content: 'y'
+  - delay: 124
+    content: a
+  - delay: 1123
+    content: ' '
+  - delay: 363
+    content: i
+  - delay: 279
+    content: 'n'
+  - delay: 312
+    content: t
+  - delay: 970
+    content: ','
+  - delay: 515
+    content: "\r\n"
+  - delay: 28
+    content: '    -> '
+  - delay: 8546
+    content: )
+  - delay: 569
+    content: ;
+  - delay: 2424
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \b\r\n7"
+  - delay: 19
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 4657
+    content: );
+  - delay: 2441
+    content: "\e[25l\e[44;29Hbiaya int,\e[?25h"
+  - delay: 232
+    content: "\e[25l\e[44;29Hdurasi int,\e[?25h"
+  - delay: 4977
+    content: "\e[25l\e[44;29Hdeskripsi text,\e[?25h"
+  - delay: 762
+    content: "\e[25l\e[44;29Hnama_pelatihan varchar(100),\e[?25h"
+  - delay: 3178
+    content: "\e[25l\e[44;29Hid_pelatihan int auto_increment primary key,\e[?25h"
+  - delay: 1035
+    content: "\e[25l\e[44;29Hcreate table pelatihan (\e[21X\e[?25h"
+  - delay: 5249
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 946
+    content: 'id_pelatihan int auto_increment primary key,'
+  - delay: 2019
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 944
+    content: 'nama_pelatihan varchar(100),'
+  - delay: 991
+    content: "\r\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 877
+    content: 'deskripsi text,'
+  - delay: 1293
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 927
+    content: 'durasi int,'
+  - delay: 977
+    content: "\r\n"
+  - delay: 12
+    content: '    -> '
+  - delay: 1238
+    content: 'biaya int,'
+  - delay: 2971
+    content: "\b \b"
+  - delay: 186
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 1428
+    content: d
+  - delay: 215
+    content: e
+  - delay: 462
+    content: c
+  - delay: 205
+    content: i
+  - delay: 242
+    content: m
+  - delay: 166
+    content: a
+  - delay: 207
+    content: l
+  - delay: 1342
+    content: (
+  - delay: 995
+    content: '1'
+  - delay: 269
+    content: '2'
+  - delay: 727
+    content: ','
+  - delay: 998
+    content: '2'
+  - delay: 999
+    content: )
+  - delay: 2087
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 5478
+    content: )
+  - delay: 779
+    content: ;
+  - delay: 2565
+    content: "\r\n"
+  - delay: 14
+    content: "Query OK, 0 rows affected (0.013 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 14675
+    content: p
+  - delay: 2508
+    content: "\b \b"
+  - delay: 663
+    content: i
+  - delay: 237
+    content: 'n'
+  - delay: 468
+    content: s
+  - delay: 240
+    content: e
+  - delay: 204
+    content: r
+  - delay: 184
+    content: t
+  - delay: 266
+    content: ' '
+  - delay: 296
+    content: i
+  - delay: 220
+    content: 'n'
+  - delay: 348
+    content: t
+  - delay: 173
+    content: o
+  - delay: 421
+    content: ' '
+  - delay: 1607
+    content: p
+  - delay: 214
+    content: e
+  - delay: 208
+    content: l
+  - delay: 198
+    content: a
+  - delay: 228
+    content: t
+  - delay: 412
+    content: o
+  - delay: 827
+    content: "\b \b"
+  - delay: 294
+    content: i
+  - delay: 199
+    content: h
+  - delay: 142
+    content: a
+  - delay: 163
+    content: 'n'
+  - delay: 258
+    content: ' '
+  - delay: 1434
+    content: (
+  - delay: 449
+    content: 'n'
+  - delay: 136
+    content: a
+  - delay: 120
+    content: m
+  - delay: 137
+    content: a
+  - delay: 473
+    content: ' '
+  - delay: 19887
+    content: ','
+  - delay: 1795
+    content: "\b \b"
+  - delay: 750
+    content: _
+  - delay: 892
+    content: p
+  - delay: 238
+    content: e
+  - delay: 251
+    content: l
+  - delay: 223
+    content: a
+  - delay: 305
+    content: t
+  - delay: 698
+    content: i
+  - delay: 216
+    content: h
+  - delay: 122
+    content: a
+  - delay: 235
+    content: 'n'
+  - delay: 2084
+    content: ','
+  - delay: 309
+    content: ' '
+  - delay: 748
+    content: d
+  - delay: 219
+    content: e
+  - delay: 221
+    content: s
+  - delay: 314
+    content: k
+  - delay: 250
+    content: r
+  - delay: 136
+    content: i
+  - delay: 308
+    content: p
+  - delay: 167
+    content: s
+  - delay: 150
+    content: i
+  - delay: 1047
+    content: ','
+  - delay: 673
+    content: ' '
+  - delay: 2226
+    content: d
+  - delay: 195
+    content: u
+  - delay: 320
+    content: r
+  - delay: 152
+    content: a
+  - delay: 220
+    content: s
+  - delay: 677
+    content: i
+  - delay: 1444
+    content: ','
+  - delay: 330
+    content: ' '
+  - delay: 254
+    content: b
+  - delay: 227
+    content: i
+  - delay: 159
+    content: a
+  - delay: 168
+    content: 'y'
+  - delay: 123
+    content: a
+  - delay: 2012
+    content: )
+  - delay: 455
+    content: ' '
+  - delay: 257
+    content: b
+  - delay: 522
+    content: "\b \b"
+  - delay: 327
+    content: v
+  - delay: 114
+    content: a
+  - delay: 250
+    content: l
+  - delay: 293
+    content: u
+  - delay: 428
+    content: e
+  - delay: 284
+    content: s
+  - delay: 2234
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 2890
+    content: (
+  - delay: 559
+    content: p
+  - delay: 607
+    content: "\b \b"
+  - delay: 944
+    content: <
+  - delay: 851
+    content: "\b \b"
+  - delay: 695
+    content: ''''
+  - delay: 557
+    content: p
+  - delay: 359
+    content: e
+  - delay: 562
+    content: l
+  - delay: 167
+    content: a
+  - delay: 271
+    content: t
+  - delay: 269
+    content: i
+  - delay: 220
+    content: h
+  - delay: 147
+    content: a
+  - delay: 235
+    content: 'n'
+  - delay: 446
+    content: ' '
+  - delay: 1208
+    content: w
+  - delay: 225
+    content: e
+  - delay: 231
+    content: b
+  - delay: 195
+    content: ' '
+  - delay: 166
+    content: d
+  - delay: 251
+    content: a
+  - delay: 159
+    content: s
+  - delay: 216
+    content: s
+  - delay: 416
+    content: r
+  - delay: 721
+    content: "\b \b"
+  - delay: 149
+    content: "\b \b"
+  - delay: 150
+    content: a
+  - delay: 533
+    content: e
+  - delay: 2064
+    content: ''''
+  - delay: 1128
+    content: ','
+  - delay: 303
+    content: ' '
+  - delay: 782
+    content: b
+  - delay: 424
+    content: e
+  - delay: 415
+    content: l
+  - delay: 168
+    content: a
+  - delay: 169
+    content: j
+  - delay: 141
+    content: a
+  - delay: 828
+    content: r
+  - delay: 208
+    content: ' '
+  - delay: 2539
+    content: t
+  - delay: 634
+    content: "\b \b"
+  - delay: 402
+    content: h
+  - delay: 293
+    content: t
+  - delay: 831
+    content: m
+  - delay: 334
+    content: l
+  - delay: 2676
+    content: ','
+  - delay: 4861
+    content: ' '
+  - delay: 704
+    content: "\b \b"
+  - delay: 367
+    content: "\b \b"
+  - delay: 802
+    content: ','
+  - delay: 257
+    content: ' '
+  - delay: 293
+    content: '3'
+  - delay: 501
+    content: '0'
+  - delay: 1012
+    content: ','
+  - delay: 298
+    content: ' '
+  - delay: 2133
+    content: '1'
+  - delay: 925
+    content: '5'
+  - delay: 10221
+    content: '0'
+  - delay: 365
+    content: '0'
+  - delay: 376
+    content: '0'
+  - delay: 467
+    content: '0'
+  - delay: 2526
+    content: '0'
+  - delay: 5107
+    content: )
+  - delay: 894
+    content: ','
+  - delay: 428
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 2369
+    content: (
+  - delay: 680
+    content: p
+  - delay: 290
+    content: e
+  - delay: 273
+    content: l
+  - delay: 256
+    content: a
+  - delay: 318
+    content: t
+  - delay: 661
+    content: i
+  - delay: 193
+    content: h
+  - delay: 155
+    content: a
+  - delay: 1445
+    content: "\b \b"
+  - delay: 144
+    content: "\b \b"
+  - delay: 122
+    content: "\b \b"
+  - delay: 117
+    content: "\b \b"
+  - delay: 111
+    content: "\b \b"
+  - delay: 122
+    content: "\b \b"
+  - delay: 271
+    content: "\b \b"
+  - delay: 361
+    content: "\b \b"
+  - delay: 1286
+    content: ''''
+  - delay: 591
+    content: p
+  - delay: 284
+    content: e
+  - delay: 213
+    content: l
+  - delay: 196
+    content: a
+  - delay: 245
+    content: t
+  - delay: 318
+    content: i
+  - delay: 206
+    content: h
+  - delay: 156
+    content: a
+  - delay: 209
+    content: 'n'
+  - delay: 370
+    content: ' '
+  - delay: 2167
+    content: d
+  - delay: 135
+    content: a
+  - delay: 169
+    content: t
+  - delay: 132
+    content: a
+  - delay: 307
+    content: ' '
+  - delay: 297
+    content: a
+  - delay: 304
+    content: 'n'
+  - delay: 164
+    content: a
+  - delay: 279
+    content: l
+  - delay: 217
+    content: i
+  - delay: 96
+    content: s
+  - delay: 155
+    content: i
+  - delay: 106
+    content: s
+  - delay: 8163
+    content: ''''
+  - delay: 746
+    content: ' '
+  - delay: 2345
+    content: ''''
+  - delay: 1165
+    content: "\b \b"
+  - delay: 305
+    content: "\b \b"
+  - delay: 892
+    content: ','
+  - delay: 402
+    content: ''''
+  - delay: 1183
+    content: "\b \b"
+  - delay: 492
+    content: "\b \b"
+  - delay: 889
+    content: ','
+  - delay: 1019
+    content: ' '
+  - delay: 843
+    content: ''''
+  - delay: 1899
+    content: p
+  - delay: 354
+    content: e
+  - delay: 199
+    content: 'n'
+  - delay: 250
+    content: g
+  - delay: 317
+    content: o
+  - delay: 233
+    content: l
+  - delay: 141
+    content: a
+  - delay: 177
+    content: h
+  - delay: 120
+    content: a
+  - delay: 189
+    content: 'n'
+  - delay: 218
+    content: ' '
+  - delay: 443
+    content: d
+  - delay: 124
+    content: a
+  - delay: 113
+    content: t
+  - delay: 121
+    content: a
+  - delay: 4784
+    content: e
+  - delay: 389
+    content: x
+  - delay: 271
+    content: v
+  - delay: 611
+    content: "\b \b"
+  - delay: 385
+    content: c
+  - delay: 190
+    content: e
+  - delay: 718
+    content: "\b \b"
+  - delay: 147
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 250
+    content: "\b \b"
+  - delay: 540
+    content: "\b \b"
+  - delay: 797
+    content: a
+  - delay: 160
+    content: ' '
+  - delay: 277
+    content: e
+  - delay: 160
+    content: c
+  - delay: 560
+    content: "\b \b"
+  - delay: 257
+    content: x
+  - delay: 605
+    content: c
+  - delay: 208
+    content: e
+  - delay: 519
+    content: l
+  - delay: 864
+    content: ''''
+  - delay: 914
+    content: ','
+  - delay: 306
+    content: ' '
+  - delay: 3173
+    content: '4'
+  - delay: 368
+    content: '0'
+  - delay: 1167
+    content: ','
+  - delay: 731
+    content: ' '
+  - delay: 722
+    content: '2'
+  - delay: 393
+    content: '0'
+  - delay: 3787
+    content: '0'
+  - delay: 485
+    content: '0'
+  - delay: 826
+    content: '0'
+  - delay: 738
+    content: '0'
+  - delay: 381
+    content: '0'
+  - delay: 1369
+    content: )
+  - delay: 1954
+    content: ;
+  - delay: 1400
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_pelatihan,\b\r\n deskripsi, durasi, biaya) values\r\n('pelatihan web dasae', belajar ...' at line 1"
+  - delay: 19
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 16523
+    content: '(''pelatihan data analisis'', ''pengolahan data excel'', 40, 2000000);'
+  - delay: 1521
+    content: "\e[25l\e[44;29H('pelatihan web dasae', belajar html, 30, 1500000),\e[16X\e[?25h"
+  - delay: 2806
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 499
+    content: "\e[25l\e[44;29H);\e[71X\e[?25h"
+  - delay: 2282
+    content: "\e[25l\e[44;29Hbiaya decimal(12,2)\e[?25h"
+  - delay: 1248
+    content: "\e[25l\e[44;29Hdurasi int,\e[9X\e[?25h"
+  - delay: 608
+    content: "\e[25l\e[44;29Hbiaya decimal(12,2)\e[?25h"
+  - delay: 322
+    content: "\e[25l\e[44;29H);\e[18X\e[?25h"
+  - delay: 324
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 15376
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 867
+    content: '(''pelatihan web dasae'', belajar html, 30, 1500000),'
+  - delay: 2365
+    content: "\b"
+  - delay: 158
+    content: "\b"
+  - delay: 129
+    content: "\b"
+  - delay: 106
+    content: "\b"
+  - delay: 113
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 106
+    content: "\b"
+  - delay: 119
+    content: "\b"
+  - delay: 116
+    content: "\b"
+  - delay: 113
+    content: "\b"
+  - delay: 132
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 109
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 144
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 135
+    content: "\b"
+  - delay: 112
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 126
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 140
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 142
+    content: "\b"
+  - delay: 157
+    content: "\b"
+  - delay: 964
+    content: "\e[25l\e[44;8H('pelatihan web dasa', belajar html, 30, 1500000),  \e[44;28H\e[?25h"
+  - delay: 1639
+    content: "\e[25l\e[44;8H('pelatihan web dasar', belajar html, 30, 1500000),\e[44;29H\e[?25h"
+  - delay: 1162
+    content: "\e[25l\e[44;8H('pelatihan web dasar', belajar html, 30, 1500000), \r\e[?25h\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 12527
+    content: '3'
+  - delay: 765
+    content: s
+  - delay: 1064
+    content: "\r\n"
+  - delay: 23
+    content: '    -> '
+  - delay: 2823
+    content: '0'
+  - delay: 625
+    content: "\b \b"
+  - delay: 614
+    content: )
+  - delay: 467
+    content: ;
+  - delay: 1012
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_pelatihan,\b\r\n deskripsi, durasi, biaya) values\r\n('pelatihan web dasar', belajar ...' at line 1"
+  - delay: 9
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 8869
+    content: );
+  - delay: 455
+    content: "\e[25l\e[44;29H3s \b\e[?25h"
+  - delay: 884
+    content: "\e[25l\e[44;29H('pelatihan web dasar', belajar html, 30, 1500000),\e[?25h"
+  - delay: 1406
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 1636
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 1664
+    content: '(''pelatihan web dasar'', belajar html, 30, 1500000),'
+  - delay: 8928
+    content: "\b"
+  - delay: 203
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 122
+    content: "\b"
+  - delay: 110
+    content: "\b"
+  - delay: 119
+    content: "\b"
+  - delay: 119
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 125
+    content: "\b"
+  - delay: 122
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 125
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 156
+    content: "\b"
+  - delay: 168
+    content: "\b"
+  - delay: 205
+    content: "\b"
+  - delay: 237
+    content: "\b"
+  - delay: 1591
+    content: "\e[25l\e[44;8H('pelatihan web dasar',belajar html, 30, 1500000),  \e[44;31H\e[?25h"
+  - delay: 2475
+    content: "\e[25l\e[44;8H('pelatihan web dasar', belajar html, 30, 1500000),\e[44;32H\e[?25h"
+  - delay: 384
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, 30, 1500000),\e[44;33H\e[?25h"
+  - delay: 1931
+    content: "\e[1C"
+  - delay: 151
+    content: "\e[1C"
+  - delay: 138
+    content: "\e[1C"
+  - delay: 148
+    content: "\e[1C"
+  - delay: 127
+    content: "\e[1C"
+  - delay: 129
+    content: "\e[1C"
+  - delay: 128
+    content: "\e[1C"
+  - delay: 119
+    content: "\e[1C"
+  - delay: 123
+    content: "\e[1C"
+  - delay: 145
+    content: "\e[1C"
+  - delay: 133
+    content: "\e[1C"
+  - delay: 423
+    content: "\e[1C"
+  - delay: 1800
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html', 30, 1500000),\e[44;46H\e[?25h"
+  - delay: 2648
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html', 30, 1500000), \r\e[?25h\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 3528
+    content: '(''pelatihan web dasar'', ''belajar html'', 30, 1500000),'
+  - delay: 903
+    content: "\e[25l\e[44;8Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 3403
+    content: "\e[25l\e[44;8H);\e[71X\e[?25h"
+  - delay: 881
+    content: "\e[25l\e[44;8H3s \b\e[?25h"
+  - delay: 533
+    content: "\e[25l\e[44;8H('pelatihan web dasar', belajar html, 30, 1500000),\e[?25h"
+  - delay: 965
+    content: "\e[25l\e[44;8Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 762
+    content: "\e[25l\e[44;8H('pelatihan data analisis', 'pengolahan data excel', 40, 2000000);       \e[44;74H\e[?25h"
+  - delay: 5489
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_pelatihan,\b\r\n deskripsi, durasi, biaya) values\r\n('pelatihan web dasar', 'belajar...' at line 1"
+  - delay: 15
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 28331
+    content: 'insert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values'
+  - delay: 1343
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 983
+    content: '(''pelatihan web dasar'', belajar html, 30, 1500000),'
+  - delay: 2260
+    content: "\e[25l\e[44;8H3s\e[50X\e[?25h"
+  - delay: 1314
+    content: "\e[25l\e[44;8H); \b\e[?25h"
+  - delay: 505
+    content: "\e[25l\e[44;8Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 791
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html', 30, 1500000),\e[20X\e[?25h"
+  - delay: 10655
+    content: "\b \b"
+  - delay: 208
+    content: "\b \b"
+  - delay: 193
+    content: "\b \b"
+  - delay: 305
+    content: "\b \b"
+  - delay: 249
+    content: "\b \b"
+  - delay: 507
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 35
+    content: "\b \b"
+  - delay: 30
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 27
+    content: "\b \b"
+  - delay: 41
+    content: "\b \b"
+  - delay: 26
+    content: "\b \b"
+  - delay: 41
+    content: "\b \b"
+  - delay: 24
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 37
+    content: "\b \b"
+  - delay: 27
+    content: "\b \b"
+  - delay: 40
+    content: "\b \b"
+  - delay: 24
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 31
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 12705
+    content: 'n'
+  - delay: 27
+    content: h
+  - delay: 169
+    content: u
+  - delay: 30
+    content: w
+  - delay: 122
+    content: h
+  - delay: 23
+    content: s
+  - delay: 116
+    content: w
+  - delay: 1274
+    content: "\r\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 914
+    content: "\r\n"
+  - delay: 18
+    content: '    -> '
+  - delay: 1407
+    content: h
+  - delay: 523
+    content: i
+  - delay: 50
+    content: s
+  - delay: 781
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 126
+    content: "\b \b"
+  - delay: 1660
+    content: )
+  - delay: 846
+    content: ;
+  - delay: 378
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_pelatihan,\b\r\n deskripsi, durasi, biaya) values\r\nnhuwhsw\r\n\n)' at line 1"
+  - delay: 22
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 3998
+    content: );
+  - delay: 1123
+    content: "\e[25l\e[44;29Hnhuwhsw\e[?25h"
+  - delay: 908
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 499
+    content: "\e[25l\e[44;29H('pelatihan data analisis', 'pengolahan data excel', 40, 2000000);       \e[44;95H\e[?25h"
+  - delay: 608
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama _pelatihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 4574
+    content: "\r\n"
+  - delay: 22
+    content: '    -> '
+  - delay: 1193
+    content: nhuwhsw
+  - delay: 897
+    content: "\e[25l\e[44;8H);      \e[44;10H\e[?25h"
+  - delay: 20895
+    content: e
+  - delay: 422
+    content: x
+  - delay: 248
+    content: i
+  - delay: 290
+    content: t
+  - delay: 1127
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_pelatihan,\b\r\n deskripsi, durasi, biaya) values\r\n)' at line 1"
+  - delay: 11
+    content: "\r\n    ->\e[1C"
+  - delay: 2328
+    content: e
+  - delay: 606
+    content: x
+  - delay: 227
+    content: i
+  - delay: 263
+    content: t
+  - delay: 835
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 2104
+    content: )
+  - delay: 1238
+    content: ;
+  - delay: 371
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'exit\r\nexit\r\n)' at line 1"
+  - delay: 17
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 4125
+    content: e
+  - delay: 443
+    content: x
+  - delay: 269
+    content: i
+  - delay: 311
+    content: t
+  - delay: 1332
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 119
+    content: "\b \b"
+  - delay: 303
+    content: "\b \b"
+  - delay: 7084
+    content: i
+  - delay: 291
+    content: 'n'
+  - delay: 265
+    content: s
+  - delay: 269
+    content: e
+  - delay: 208
+    content: r
+  - delay: 199
+    content: t
+  - delay: 391
+    content: ' '
+  - delay: 368
+    content: i
+  - delay: 267
+    content: 'n'
+  - delay: 344
+    content: t
+  - delay: 163
+    content: o
+  - delay: 22658
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 138
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 160
+    content: "\b \b"
+  - delay: 136
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 134
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 147
+    content: "\b \b"
+  - delay: 144
+    content: "\b \b"
+  - delay: 3232
+    content: s
+  - delay: 256
+    content: e
+  - delay: 234
+    content: l
+  - delay: 174
+    content: e
+  - delay: 396
+    content: c
+  - delay: 363
+    content: t
+  - delay: 451
+    content: ' '
+  - delay: 1292
+    content: '*'
+  - delay: 902
+    content: "\b \b"
+  - delay: 481
+    content: "\b \b"
+  - delay: 1254
+    content: ' '
+  - delay: 576
+    content: '*'
+  - delay: 5983
+    content: f
+  - delay: 302
+    content: r
+  - delay: 391
+    content: o
+  - delay: 575
+    content: "\b \b"
+  - delay: 155
+    content: "\b \b"
+  - delay: 223
+    content: "\b \b"
+  - delay: 419
+    content: ' '
+  - delay: 423
+    content: f
+  - delay: 257
+    content: r
+  - delay: 225
+    content: o
+  - delay: 287
+    content: m
+  - delay: 231
+    content: ' '
+  - delay: 15941
+    content: p
+  - delay: 346
+    content: e
+  - delay: 273
+    content: s
+  - delay: 217
+    content: e
+  - delay: 293
+    content: r
+  - delay: 317
+    content: t
+  - delay: 218
+    content: a
+  - delay: 1629
+    content: ;
+  - delay: 317
+    content: "\r\n+------------+--------------+---------+-------------+----------------+\r\n| id_peserta | nama_peserta | alamat  | no_telp     | email          |\r\n+------------+--------------+---------+-------------+----------------+"
+  - delay: 8
+    content: "\r\n|          1 | andi         | jakarta | 0"
+  - delay: 5
+    content: 8123456789 | andi@gmail.com |
+  - delay: 10
+    content: "\r\n|          2 | siti aisyah  | bandung | 08987654321 | siti@gmail.com |\r\n+------------+--------------+---------+-------------+----------------+\r\n2 rows in set (0.002 sec)\r\n"
+  - delay: 13
+    content: "\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 16817
+    content: i
+  - delay: 290
+    content: 'n'
+  - delay: 246
+    content: s
+  - delay: 232
+    content: e
+  - delay: 222
+    content: r
+  - delay: 203
+    content: t
+  - delay: 374
+    content: ' '
+  - delay: 423
+    content: i
+  - delay: 236
+    content: 'n'
+  - delay: 326
+    content: t
+  - delay: 391
+    content: o
+  - delay: 281
+    content: ' '
+  - delay: 355
+    content: p
+  - delay: 228
+    content: e
+  - delay: 217
+    content: k
+  - delay: 561
+    content: "\b \b"
+  - delay: 873
+    content: l
+  - delay: 225
+    content: a
+  - delay: 229
+    content: t
+  - delay: 332
+    content: i
+  - delay: 204
+    content: h
+  - delay: 196
+    content: a
+  - delay: 316
+    content: 'n'
+  - delay: 358
+    content: ' '
+  - delay: 4679
+    content: ' '
+  - delay: 713
+    content: (
+  - delay: 1715
+    content: "\b \b"
+  - delay: 156
+    content: "\b \b"
+  - delay: 324
+    content: "\b \b"
+  - delay: 1023
+    content: ' '
+  - delay: 1162
+    content: (
+  - delay: 902
+    content: 'n'
+  - delay: 203
+    content: a
+  - delay: 129
+    content: m
+  - delay: 175
+    content: a
+  - delay: 1653
+    content: _
+  - delay: 1589
+    content: p
+  - delay: 439
+    content: e
+  - delay: 155
+    content: l
+  - delay: 425
+    content: t
+  - delay: 294
+    content: i
+  - delay: 208
+    content: h
+  - delay: 136
+    content: a
+  - delay: 192
+    content: 'n'
+  - delay: 464
+    content: ' '
+  - delay: 1275
+    content: "\b \b"
+  - delay: 1659
+    content: ','
+  - delay: 1417
+    content: ' '
+  - delay: 4453
+    content: d
+  - delay: 222
+    content: e
+  - delay: 265
+    content: s
+  - delay: 590
+    content: k
+  - delay: 227
+    content: r
+  - delay: 160
+    content: i
+  - delay: 335
+    content: p
+  - delay: 194
+    content: s
+  - delay: 161
+    content: i
+  - delay: 1772
+    content: ','
+  - delay: 340
+    content: ' '
+  - delay: 10146
+    content: d
+  - delay: 192
+    content: u
+  - delay: 358
+    content: r
+  - delay: 144
+    content: a
+  - delay: 233
+    content: s
+  - delay: 318
+    content: i
+  - delay: 1525
+    content: ','
+  - delay: 339
+    content: ' '
+  - delay: 507
+    content: b
+  - delay: 254
+    content: i
+  - delay: 147
+    content: a
+  - delay: 167
+    content: 'y'
+  - delay: 120
+    content: a
+  - delay: 1545
+    content: )
+  - delay: 3590
+    content: ' '
+  - delay: 239
+    content: v
+  - delay: 183
+    content: a
+  - delay: 353
+    content: l
+  - delay: 316
+    content: u
+  - delay: 353
+    content: e
+  - delay: 283
+    content: s
+  - delay: 1506
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 4762
+    content: (
+  - delay: 3877
+    content: ''''
+  - delay: 885
+    content: p
+  - delay: 350
+    content: e
+  - delay: 263
+    content: l
+  - delay: 457
+    content: t
+  - delay: 483
+    content: "\b \b"
+  - delay: 410
+    content: a
+  - delay: 502
+    content: t
+  - delay: 501
+    content: h
+  - delay: 180
+    content: a
+  - delay: 202
+    content: 'n'
+  - delay: 382
+    content: ' '
+  - delay: 1090
+    content: w
+  - delay: 246
+    content: e
+  - delay: 186
+    content: b
+  - delay: 254
+    content: ' '
+  - delay: 303
+    content: d
+  - delay: 82
+    content: a
+  - delay: 205
+    content: s
+  - delay: 105
+    content: a
+  - delay: 173
+    content: r
+  - delay: 55
+    content: a
+  - delay: 956
+    content: "\b \b"
+  - delay: 2361
+    content: ''''
+  - delay: 1154
+    content: ','
+  - delay: 2069
+    content: ' '
+  - delay: 916
+    content: ''''
+  - delay: 1468
+    content: b
+  - delay: 615
+    content: e
+  - delay: 316
+    content: l
+  - delay: 536
+    content: a
+  - delay: 261
+    content: j
+  - delay: 142
+    content: a
+  - delay: 471
+    content: r
+  - delay: 781
+    content: ' '
+  - delay: 2885
+    content: j
+  - delay: 348
+    content: a
+  - delay: 502
+    content: v
+  - delay: 171
+    content: a
+  - delay: 306
+    content: s
+  - delay: 241
+    content: c
+  - delay: 232
+    content: r
+  - delay: 250
+    content: i
+  - delay: 279
+    content: p
+  - delay: 326
+    content: t
+  - delay: 1531
+    content: ''''
+  - delay: 6565
+    content: ','
+  - delay: 2460
+    content: ' '
+  - delay: 670
+    content: '3'
+  - delay: 307
+    content: '0'
+  - delay: 567
+    content: ','
+  - delay: 719
+    content: ' '
+  - delay: 1568
+    content: '1'
+  - delay: 570
+    content: '5'
+  - delay: 412
+    content: '0'
+  - delay: 5438
+    content: "\b \b"
+  - delay: 395
+    content: '0'
+  - delay: 506
+    content: '0'
+  - delay: 405
+    content: '0'
+  - delay: 707
+    content: '0'
+  - delay: 401
+    content: '0'
+  - delay: 423
+    content: '0'
+  - delay: 1235
+    content: )
+  - delay: 1803
+    content: ','
+  - delay: 912
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 5112
+    content: )
+  - delay: 754
+    content: ;
+  - delay: 491
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \b\r\n3"
+  - delay: 19
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 3741
+    content: );
+  - delay: 441
+    content: "\e[25l\e[44;29H('pelathan web dasar', 'belajar javascript', 30, 15000000),\e[?25h"
+  - delay: 2717
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 4042
+    content: "\r\n"
+  - delay: 28
+    content: '    -> '
+  - delay: 1093
+    content: '(''pelathan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 1477
+    content: "\b"
+  - delay: 153
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 103
+    content: "\b"
+  - delay: 115
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 107
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 108
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 115
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 129
+    content: "\b"
+  - delay: 112
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 131
+    content: "\b"
+  - delay: 139
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 108
+    content: "\b"
+  - delay: 130
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 122
+    content: "\b"
+  - delay: 110
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 111
+    content: "\b"
+  - delay: 131
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 125
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 126
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 151
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 165
+    content: "\b"
+  - delay: 377
+    content: "\b"
+  - delay: 2115
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[44;16H\e[?25h"
+  - delay: 5690
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript', 30, 15000000), \r\e[?25h"
+  - delay: 10
+    content: |2-
+
+          -> 
+  - delay: 9817
+    content: (
+  - delay: 158
+    content: ''''
+  - delay: 127
+    content: p
+  - delay: 507
+    content: e
+  - delay: 34
+    content: l
+  - delay: 27
+    content: a
+  - delay: 38
+    content: t
+  - delay: 29
+    content: i
+  - delay: 40
+    content: h
+  - delay: 24
+    content: a
+  - delay: 33
+    content: 'n'
+  - delay: 32
+    content: ' '
+  - delay: 32
+    content: w
+  - delay: 32
+    content: e
+  - delay: 35
+    content: b
+  - delay: 30
+    content: ' '
+  - delay: 33
+    content: d
+  - delay: 33
+    content: a
+  - delay: 33
+    content: s
+  - delay: 32
+    content: a
+  - delay: 32
+    content: r
+  - delay: 34
+    content: ''''
+  - delay: 31
+    content: ','
+  - delay: 35
+    content: ' '
+  - delay: 30
+    content: ''''
+  - delay: 37
+    content: b
+  - delay: 27
+    content: e
+  - delay: 41
+    content: l
+  - delay: 24
+    content: a
+  - delay: 33
+    content: j
+  - delay: 51
+    content: a
+  - delay: 16
+    content: r
+  - delay: 31
+    content: ' '
+  - delay: 31
+    content: j
+  - delay: 32
+    content: a
+  - delay: 33
+    content: v
+  - delay: 32
+    content: a
+  - delay: 33
+    content: s
+  - delay: 34
+    content: c
+  - delay: 32
+    content: r
+  - delay: 33
+    content: i
+  - delay: 30
+    content: p
+  - delay: 35
+    content: t
+  - delay: 30
+    content: ''''
+  - delay: 38
+    content: ','
+  - delay: 29
+    content: ' '
+  - delay: 38
+    content: '3'
+  - delay: 26
+    content: '0'
+  - delay: 41
+    content: ','
+  - delay: 24
+    content: ' '
+  - delay: 31
+    content: '1'
+  - delay: 33
+    content: '5'
+  - delay: 34
+    content: '0'
+  - delay: 557
+    content: '0'
+  - delay: 407
+    content: '0'
+  - delay: 1003
+    content: '0'
+  - delay: 2616
+    content: "\r\n"
+  - delay: 27
+    content: '    -> '
+  - delay: 3736
+    content: )
+  - delay: 688
+    content: ;
+  - delay: 1466
+    content: "\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'"
+  - delay: 22
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 3525
+    content: );
+  - delay: 627
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 150000\e[?25h"
+  - delay: 693
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[?25h"
+  - delay: 6020
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 3103
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 1044
+    content: '(''pelatihan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 5880
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 2031
+    content: (
+  - delay: 646
+    content: p
+  - delay: 1969
+    content: e
+  - delay: 348
+    content: l
+  - delay: 228
+    content: a
+  - delay: 240
+    content: t
+  - delay: 284
+    content: i
+  - delay: 217
+    content: h
+  - delay: 111
+    content: a
+  - delay: 202
+    content: 'n'
+  - delay: 467
+    content: ' '
+  - delay: 1157
+    content: d
+  - delay: 118
+    content: a
+  - delay: 161
+    content: t
+  - delay: 129
+    content: a
+  - delay: 242
+    content: ' '
+  - delay: 525
+    content: a
+  - delay: 269
+    content: 'n'
+  - delay: 159
+    content: a
+  - delay: 332
+    content: l
+  - delay: 1375
+    content: 'y'
+  - delay: 284
+    content: s
+  - delay: 213
+    content: i
+  - delay: 2241
+    content: "\b \b"
+  - delay: 629
+    content: s
+  - delay: 370
+    content: t
+  - delay: 1607
+    content: "\b \b"
+  - delay: 256
+    content: "\b \b"
+  - delay: 498
+    content: t
+  - delay: 1222
+    content: ''''
+  - delay: 1204
+    content: ','
+  - delay: 492
+    content: ' '
+  - delay: 1841
+    content: "\b \b"
+  - delay: 1194
+    content: ' '
+  - delay: 494
+    content: ''''
+  - delay: 411
+    content: p
+  - delay: 386
+    content: e
+  - delay: 161
+    content: 'n'
+  - delay: 240
+    content: g
+  - delay: 258
+    content: o
+  - delay: 218
+    content: l
+  - delay: 125
+    content: a
+  - delay: 152
+    content: h
+  - delay: 142
+    content: a
+  - delay: 170
+    content: 'n'
+  - delay: 3407
+    content: d
+  - delay: 151
+    content: a
+  - delay: 92
+    content: t
+  - delay: 176
+    content: a
+  - delay: 829
+    content: "\b \b"
+  - delay: 135
+    content: "\b \b"
+  - delay: 126
+    content: "\b \b"
+  - delay: 127
+    content: "\b \b"
+  - delay: 165
+    content: "\b \b"
+  - delay: 772
+    content: 'n'
+  - delay: 188
+    content: ' '
+  - delay: 264
+    content: d
+  - delay: 121
+    content: a
+  - delay: 142
+    content: t
+  - delay: 136
+    content: a
+  - delay: 928
+    content: ' '
+  - delay: 644
+    content: m
+  - delay: 248
+    content: r
+  - delay: 827
+    content: "\b \b"
+  - delay: 364
+    content: e
+  - delay: 272
+    content: 'n'
+  - delay: 242
+    content: g
+  - delay: 148
+    content: g
+  - delay: 195
+    content: u
+  - delay: 211
+    content: 'n'
+  - delay: 138
+    content: a
+  - delay: 244
+    content: k
+  - delay: 183
+    content: a
+  - delay: 384
+    content: 'n'
+  - delay: 245
+    content: ' '
+  - delay: 428
+    content: e
+  - delay: 267
+    content: x
+  - delay: 526
+    content: c
+  - delay: 164
+    content: e
+  - delay: 261
+    content: l
+  - delay: 1536
+    content: ''''
+  - delay: 1902
+    content: ','
+  - delay: 3450
+    content: ' '
+  - delay: 1344
+    content: '4'
+  - delay: 269
+    content: '0'
+  - delay: 931
+    content: ','
+  - delay: 2799
+    content: ' '
+  - delay: 531
+    content: '2'
+  - delay: 369
+    content: '0'
+  - delay: 409
+    content: '0'
+  - delay: 375
+    content: '0'
+  - delay: 379
+    content: '0'
+  - delay: 391
+    content: '0'
+  - delay: 346
+    content: '0'
+  - delay: 1553
+    content: )
+  - delay: 1444
+    content: ;
+  - delay: 5746
+    content: "\r\n"
+  - delay: 13
+    content: '    ''> '
+  - delay: 11857
+    content: )
+  - delay: 2026
+    content: "\b \b"
+  - delay: 1966
+    content: ''''
+  - delay: 4669
+    content: ;
+  - delay: 4131
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'data analys\b\r\nt', 'pengolahan data menggunakan excel', 40, 2000000);\r\n'' at line 3"
+  - delay: 18
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 4006
+    content: ''';'
+  - delay: 752
+    content: "\e[25l\e[44;29H(pelatihan data analyst', 'pengolahan data menggunakan excel', 40, 2000000);\e[?25h"
+  - delay: 2966
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[17X\e[?25h"
+  - delay: 1000
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 2317
+    content: "\r\n"
+  - delay: 16
+    content: '    -> '
+  - delay: 1077
+    content: '(''pelatihan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 3226
+    content: "\r\n"
+  - delay: 12
+    content: '    -> '
+  - delay: 714
+    content: >-
+      (pelatihan data analyst', 'pengolahan data menggunakan excel', 40,
+      2000000);
+  - delay: 1789
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 129
+    content: "\b"
+  - delay: 119
+    content: "\b"
+  - delay: 118
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 113
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 97
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 142
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 136
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 130
+    content: "\b"
+  - delay: 145
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 120
+    content: "\b"
+  - delay: 157
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 152
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 127
+    content: "\b"
+  - delay: 217
+    content: "\b"
+  - delay: 169
+    content: "\b"
+  - delay: 150
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 153
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 139
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 144
+    content: "\b"
+  - delay: 143
+    content: "\b"
+  - delay: 137
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 139
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 156
+    content: "\b"
+  - delay: 152
+    content: "\b"
+  - delay: 142
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 139
+    content: "\b"
+  - delay: 141
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 152
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 144
+    content: "\b"
+  - delay: 156
+    content: "\b"
+  - delay: 312
+    content: "\b"
+  - delay: 1740
+    content: "\e[25l\b('pelatihan data analyst', 'pengolahan data menggunakan excel', 40, 2000000);\e[44;10H\e[?25h"
+  - delay: 4857
+    content: "\e[1C"
+  - delay: 505
+    content: "\e[1C"
+  - delay: 52
+    content: "\e[1C"
+  - delay: 15
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 40
+    content: "\e[1C"
+  - delay: 22
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 30
+    content: "\e[1C"
+  - delay: 36
+    content: "\e[1C"
+  - delay: 29
+    content: "\e[1C"
+  - delay: 40
+    content: "\e[1C"
+  - delay: 24
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 52
+    content: "\e[1C"
+  - delay: 15
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 43
+    content: "\e[1C"
+  - delay: 19
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 28
+    content: "\e[1C"
+  - delay: 38
+    content: "\e[1C"
+  - delay: 28
+    content: "\e[1C"
+  - delay: 40
+    content: "\e[1C"
+  - delay: 24
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 41
+    content: "\e[1C"
+  - delay: 21
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 52
+    content: "\e[1C"
+  - delay: 15
+    content: "\e[1C"
+  - delay: 30
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 30
+    content: "\e[1C"
+  - delay: 36
+    content: "\e[1C"
+  - delay: 29
+    content: "\e[1C"
+  - delay: 39
+    content: "\e[1C"
+  - delay: 26
+    content: "\e[1C"
+  - delay: 41
+    content: "\e[1C"
+  - delay: 25
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 36
+    content: "\e[1C"
+  - delay: 51
+    content: "\e[1C"
+  - delay: 24
+    content: "\e[1C"
+  - delay: 19
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 4737
+    content: "\e[25l\e[44;8H';\e[76X\e[?25h"
+  - delay: 4521
+    content: "\b \b"
+  - delay: 1637
+    content: "\binsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values"
+  - delay: 1981
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[11X\e[?25h"
+  - delay: 2057
+    content: "\r\n"
+  - delay: 13
+    content: '    -> '
+  - delay: 6614
+    content: (
+  - delay: 657
+    content: ''''
+  - delay: 158
+    content: p
+  - delay: 505
+    content: e
+  - delay: 32
+    content: l
+  - delay: 32
+    content: a
+  - delay: 31
+    content: t
+  - delay: 36
+    content: i
+  - delay: 31
+    content: h
+  - delay: 31
+    content: a
+  - delay: 36
+    content: 'n'
+  - delay: 30
+    content: ' '
+  - delay: 38
+    content: w
+  - delay: 26
+    content: e
+  - delay: 40
+    content: b
+  - delay: 25
+    content: ' '
+  - delay: 32
+    content: d
+  - delay: 33
+    content: a
+  - delay: 34
+    content: s
+  - delay: 31
+    content: a
+  - delay: 32
+    content: r
+  - delay: 34
+    content: ''''
+  - delay: 31
+    content: ','
+  - delay: 32
+    content: ' '
+  - delay: 33
+    content: ''''
+  - delay: 34
+    content: b
+  - delay: 31
+    content: e
+  - delay: 31
+    content: l
+  - delay: 35
+    content: a
+  - delay: 31
+    content: j
+  - delay: 37
+    content: a
+  - delay: 27
+    content: r
+  - delay: 40
+    content: ' '
+  - delay: 26
+    content: j
+  - delay: 40
+    content: a
+  - delay: 25
+    content: v
+  - delay: 32
+    content: a
+  - delay: 52
+    content: s
+  - delay: 14
+    content: c
+  - delay: 31
+    content: r
+  - delay: 32
+    content: i
+  - delay: 32
+    content: p
+  - delay: 36
+    content: t
+  - delay: 30
+    content: ''''
+  - delay: 35
+    content: ','
+  - delay: 30
+    content: ' '
+  - delay: 32
+    content: '3'
+  - delay: 34
+    content: '0'
+  - delay: 31
+    content: ','
+  - delay: 35
+    content: ' '
+  - delay: 31
+    content: '1'
+  - delay: 37
+    content: '5'
+  - delay: 26
+    content: '0'
+  - delay: 41
+    content: '0'
+  - delay: 25
+    content: '0'
+  - delay: 32
+    content: '0'
+  - delay: 35
+    content: '0'
+  - delay: 52
+    content: '0'
+  - delay: 23
+    content: )
+  - delay: 20
+    content: ','
+  - delay: 3083
+    content: "\r\n"
+  - delay: 11
+    content: '    -> '
+  - delay: 560
+    content: "\r\n"
+  - delay: 23
+    content: '    -> '
+  - delay: 5155
+    content: )
+  - delay: 1584
+    content: ;
+  - delay: 523
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \b\r\n6"
+  - delay: 18
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 6086
+    content: );
+  - delay: 508
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[?25h"
+  - delay: 4866
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 2779
+    content: "\r\n"
+  - delay: 25
+    content: '    -> '
+  - delay: 1441
+    content: '(''pelatihan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 1900
+    content: "\r\n"
+  - delay: 8
+    content: '    -> '
+  - delay: 665
+    content: );
+  - delay: 516
+    content: "\e[25l\e[44;8Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 2826
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[11X\e[?25h"
+  - delay: 5970
+    content: "\b \b"
+  - delay: 2370
+    content: "\r\n"
+  - delay: 17
+    content: '    -> '
+  - delay: 411
+    content: "\r\n"
+  - delay: 23
+    content: '    -> '
+  - delay: 490
+    content: "\r\n"
+  - delay: 10
+    content: '    -> '
+  - delay: 1932
+    content: )
+  - delay: 567
+    content: ;
+  - delay: 560
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \b\r\n6"
+  - delay: 23
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 12705
+    content: );
+  - delay: 658
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000)\e[?25h"
+  - delay: 2672
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[?25h"
+  - delay: 1932
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 2807
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 4077
+    content: (
+  - delay: 1606
+    content: ''''
+  - delay: 2228
+    content: p
+  - delay: 327
+    content: e
+  - delay: 215
+    content: ;
+  - delay: 480
+    content: "\b \b"
+  - delay: 358
+    content: l
+  - delay: 229
+    content: a
+  - delay: 224
+    content: t
+  - delay: 277
+    content: i
+  - delay: 215
+    content: h
+  - delay: 152
+    content: a
+  - delay: 213
+    content: m
+  - delay: 30
+    content: 'n'
+  - delay: 781
+    content: "\b \b"
+  - delay: 246
+    content: "\b \b"
+  - delay: 784
+    content: 'n'
+  - delay: 195
+    content: ' '
+  - delay: 1300
+    content: w
+  - delay: 202
+    content: e
+  - delay: 238
+    content: b
+  - delay: 357
+    content: ' '
+  - delay: 735
+    content: d
+  - delay: 153
+    content: a
+  - delay: 216
+    content: s
+  - delay: 188
+    content: a
+  - delay: 165
+    content: r
+  - delay: 460
+    content: ' '
+  - delay: 918
+    content: "\b \b"
+  - delay: 553
+    content: ''''
+  - delay: 1322
+    content: ','
+  - delay: 289
+    content: ' '
+  - delay: 704
+    content: b
+  - delay: 288
+    content: e
+  - delay: 298
+    content: l
+  - delay: 288
+    content: a
+  - delay: 182
+    content: j
+  - delay: 161
+    content: a
+  - delay: 206
+    content: r
+  - delay: 922
+    content: ' '
+  - delay: 1343
+    content: j
+  - delay: 260
+    content: a
+  - delay: 169
+    content: v
+  - delay: 169
+    content: a
+  - delay: 373
+    content: s
+  - delay: 1082
+    content: c
+  - delay: 594
+    content: r
+  - delay: 553
+    content: i
+  - delay: 296
+    content: p
+  - delay: 396
+    content: t
+  - delay: 1369
+    content: ''''
+  - delay: 1854
+    content: "\b"
+  - delay: 166
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 112
+    content: "\b"
+  - delay: 123
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 113
+    content: "\b"
+  - delay: 121
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 111
+    content: "\b"
+  - delay: 124
+    content: "\b"
+  - delay: 89
+    content: "\b"
+  - delay: 151
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 132
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 1101
+    content: "\b"
+  - delay: 944
+    content: "\e[1C"
+  - delay: 3180
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript'\e[44;33H\e[?25h"
+  - delay: 1586
+    content: "\e[1C"
+  - delay: 149
+    content: "\e[1C"
+  - delay: 150
+    content: "\e[1C"
+  - delay: 135
+    content: "\e[1C"
+  - delay: 237
+    content: "\e[1C"
+  - delay: 122
+    content: "\e[1C"
+  - delay: 117
+    content: "\e[1C"
+  - delay: 138
+    content: "\e[1C"
+  - delay: 118
+    content: "\e[1C"
+  - delay: 123
+    content: "\e[1C"
+  - delay: 124
+    content: "\e[1C"
+  - delay: 127
+    content: "\e[1C"
+  - delay: 118
+    content: "\e[1C"
+  - delay: 121
+    content: "\e[1C"
+  - delay: 119
+    content: "\e[1C"
+  - delay: 128
+    content: "\e[1C"
+  - delay: 130
+    content: "\e[1C"
+  - delay: 130
+    content: "\e[1C"
+  - delay: 349
+    content: "\e[1C"
+  - delay: 899
+    content: ','
+  - delay: 708
+    content: ' '
+  - delay: 5914
+    content: '3'
+  - delay: 252
+    content: '0'
+  - delay: 932
+    content: ','
+  - delay: 453
+    content: ' '
+  - delay: 862
+    content: '1'
+  - delay: 1919
+    content: '5'
+  - delay: 1105
+    content: '0'
+  - delay: 335
+    content: '0'
+  - delay: 348
+    content: '0'
+  - delay: 361
+    content: '0'
+  - delay: 347
+    content: '0'
+  - delay: 318
+    content: '0'
+  - delay: 1760
+    content: )
+  - delay: 656
+    content: ','
+  - delay: 846
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 1848
+    content: (
+  - delay: 476
+    content: p
+  - delay: 1931
+    content: e
+  - delay: 859
+    content: "\b \b"
+  - delay: 330
+    content: "\b \b"
+  - delay: 747
+    content: ','
+  - delay: 496
+    content: "\b \b"
+  - delay: 405
+    content: ''''
+  - delay: 540
+    content: p
+  - delay: 318
+    content: e
+  - delay: 293
+    content: l
+  - delay: 302
+    content: a
+  - delay: 232
+    content: t
+  - delay: 314
+    content: i
+  - delay: 218
+    content: h
+  - delay: 149
+    content: a
+  - delay: 207
+    content: 'n'
+  - delay: 1275
+    content: ' '
+  - delay: 416
+    content: d
+  - delay: 104
+    content: a
+  - delay: 151
+    content: t
+  - delay: 87
+    content: a
+  - delay: 334
+    content: ' '
+  - delay: 192
+    content: a
+  - delay: 188
+    content: 'n'
+  - delay: 124
+    content: a
+  - delay: 367
+    content: l
+  - delay: 394
+    content: 'y'
+  - delay: 355
+    content: s
+  - delay: 552
+    content: t
+  - delay: 19055
+    content: ','
+  - delay: 1801
+    content: ' '
+  - delay: 643
+    content: ''''
+  - delay: 2508
+    content: p
+  - delay: 299
+    content: e
+  - delay: 185
+    content: 'n'
+  - delay: 244
+    content: g
+  - delay: 361
+    content: o
+  - delay: 218
+    content: l
+  - delay: 178
+    content: a
+  - delay: 133
+    content: h
+  - delay: 161
+    content: a
+  - delay: 163
+    content: 'n'
+  - delay: 132
+    content: a
+  - delay: 640
+    content: "\b \b"
+  - delay: 276
+    content: ' '
+  - delay: 254
+    content: d
+  - delay: 96
+    content: a
+  - delay: 163
+    content: t
+  - delay: 30
+    content: 'y'
+  - delay: 67
+    content: a
+  - delay: 1030
+    content: "\b \b"
+  - delay: 201
+    content: "\b \b"
+  - delay: 427
+    content: a
+  - delay: 805
+    content: ''''
+  - delay: 5676
+    content: ','
+  - delay: 835
+    content: ' '
+  - delay: 5098
+    content: '4'
+  - delay: 326
+    content: '0'
+  - delay: 1211
+    content: ','
+  - delay: 781
+    content: ' '
+  - delay: 488
+    content: '2'
+  - delay: 401
+    content: '0'
+  - delay: 260
+    content: '0'
+  - delay: 473
+    content: '0'
+  - delay: 1565
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 349
+    content: "\b \b"
+  - delay: 610
+    content: '0'
+  - delay: 380
+    content: '0'
+  - delay: 317
+    content: '0'
+  - delay: 364
+    content: '0'
+  - delay: 364
+    content: '0'
+  - delay: 346
+    content: '0'
+  - delay: 1237
+    content: )
+  - delay: 2976
+    content: "\b"
+  - delay: 203
+    content: "\b"
+  - delay: 130
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 508
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 23
+    content: "\b"
+  - delay: 21
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 162
+    content: "\b"
+  - delay: 158
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 125
+    content: "\b"
+  - delay: 112
+    content: "\b"
+  - delay: 139
+    content: "\b"
+  - delay: 100
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 129
+    content: "\b"
+  - delay: 126
+    content: "\b"
+  - delay: 595
+    content: "\b"
+  - delay: 1203
+    content: "\e[1C"
+  - delay: 2965
+    content: "\e[25l\e[44;8H('pelatihan data analyst', 'pengolahan data', 40, 2000000)\e[44;33H\e[?25h"
+  - delay: 1633
+    content: "\e[1C"
+  - delay: 148
+    content: "\e[1C"
+  - delay: 505
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 29
+    content: "\e[1C"
+  - delay: 38
+    content: "\e[1C"
+  - delay: 27
+    content: "\e[1C"
+  - delay: 41
+    content: "\e[1C"
+  - delay: 26
+    content: "\e[1C"
+  - delay: 40
+    content: "\e[1C"
+  - delay: 23
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 33
+    content: "\e[1C"
+  - delay: 32
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 34
+    content: "\e[1C"
+  - delay: 176
+    content: "\e[1C"
+  - delay: 122
+    content: "\e[1C"
+  - delay: 116
+    content: "\e[1C"
+  - delay: 264
+    content: "\e[1C"
+  - delay: 335
+    content: "\e[1C"
+  - delay: 168
+    content: "\e[1C"
+  - delay: 139
+    content: "\e[1C"
+  - delay: 266
+    content: "\e[1C"
+  - delay: 2658
+    content: ;
+  - delay: 887
+    content: "\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'"
+  - delay: 14
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 17115
+    content: '(''pelatihan data analyst'', ''pengolahan data'', 40, 2000000);'
+  - delay: 1348
+    content: "\e[25l\e[44;29H('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[?25h"
+  - delay: 2117
+    content: "\e[25l\e[44;29Hinsert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[?25h"
+  - delay: 5433
+    content: "\r\n"
+  - delay: 15
+    content: '    -> '
+  - delay: 1046
+    content: '(''pelatihan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 17129
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 1359
+    content: '(''pelatihan data analyst'', ''pengolahan data'', 40, 2000000);'
+  - delay: 42420
+    content: "\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'"
+  - delay: 18
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 42464
+    content: 'insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values'
+  - delay: 2262
+    content: "\r\n"
+  - delay: 9
+    content: '    -> '
+  - delay: 1072
+    content: '(''pelatihan web dasar'', ''belajar javascript'', 30, 15000000),'
+  - delay: 2578
+    content: "\b"
+  - delay: 170
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 507
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 24
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 16
+    content: "\b"
+  - delay: 147
+    content: "\b"
+  - delay: 146
+    content: "\b"
+  - delay: 250
+    content: "\b"
+  - delay: 115
+    content: "\b"
+  - delay: 133
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 130
+    content: "\b"
+  - delay: 116
+    content: "\b"
+  - delay: 125
+    content: "\b"
+  - delay: 128
+    content: "\b"
+  - delay: 132
+    content: "\b"
+  - delay: 117
+    content: "\b"
+  - delay: 132
+    content: "\b"
+  - delay: 131
+    content: "\b"
+  - delay: 274
+    content: "\b"
+  - delay: 546
+    content: "\b"
+  - delay: 3684
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajarh javascript', 30, 15000000),\e[44;41H\e[?25h"
+  - delay: 1791
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar javascript', 30, 15000000),  \e[44;40H\e[?25h"
+  - delay: 426
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar  javascript', 30, 15000000),\e[44;41H\e[?25h"
+  - delay: 296
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar h javascript', 30, 15000000),\e[44;42H\e[?25h"
+  - delay: 719
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar ht javascript', 30, 15000000),\e[44;43H\e[?25h"
+  - delay: 684
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar htm javascript', 30, 15000000),\e[44;44H\e[?25h"
+  - delay: 245
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html javascript', 30, 15000000),\e[44;45H\e[?25h"
+  - delay: 1623
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, javascript', 30, 15000000),\e[44;46H\e[?25h"
+  - delay: 3977
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html,c javascript', 30, 15000000),\e[44;47H\e[?25h"
+  - delay: 1093
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, javascript', 30, 15000000),  \e[44;46H\e[?25h"
+  - delay: 357
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html,  javascript', 30, 15000000),\e[44;47H\e[?25h"
+  - delay: 294
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, c javascript', 30, 15000000),\e[44;48H\e[?25h"
+  - delay: 230
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, cs javascript', 30, 15000000),\e[44;49H\e[?25h"
+  - delay: 195
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css javascript', 30, 15000000),\e[44;50H\e[?25h"
+  - delay: 856
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css, javascript', 30, 15000000),\e[44;51H\e[?25h"
+  - delay: 265
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css,  javascript', 30, 15000000),\e[44;52H\e[?25h"
+  - delay: 3050
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css, d javascript', 30, 15000000),\e[44;53H\e[?25h"
+  - delay: 259
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css, da javascript', 30, 15000000),\e[44;54H\e[?25h"
+  - delay: 490
+    content: "\e[25l\e[44;8H('pelatihan web dasar', 'belajar html, css, dan javascript', 30, 15000000),\e[44;55H\e[?25h"
+  - delay: 1411
+    content: "\e[1C"
+  - delay: 174
+    content: "\e[1C"
+  - delay: 153
+    content: "\e[1C"
+  - delay: 144
+    content: "\e[1C"
+  - delay: 128
+    content: "\e[1C"
+  - delay: 130
+    content: "\e[1C"
+  - delay: 134
+    content: "\e[1C"
+  - delay: 118
+    content: "\e[1C"
+  - delay: 129
+    content: "\e[1C"
+  - delay: 146
+    content: "\e[1C"
+  - delay: 157
+    content: "\e[1C"
+  - delay: 148
+    content: "\e[1C"
+  - delay: 161
+    content: "\e[1C"
+  - delay: 161
+    content: "\e[1C"
+  - delay: 193
+    content: "\e[1C"
+  - delay: 190
+    content: "\e[1C"
+  - delay: 157
+    content: "\e[1C"
+  - delay: 158
+    content: "\e[1C"
+  - delay: 164
+    content: "\e[1C"
+  - delay: 168
+    content: "\e[1C"
+  - delay: 163
+    content: "\e[1C"
+  - delay: 153
+    content: "\e[1C"
+  - delay: 161
+    content: "\e[1C"
+  - delay: 152
+    content: "\e[1C"
+  - delay: 153
+    content: "\e[1C"
+  - delay: 165
+    content: "\e[1C"
+  - delay: 161
+    content: "\e[1C"
+  - delay: 155
+    content: "\e[1C"
+  - delay: 9922
+    content: "\r\n"
+  - delay: 19
+    content: '    -> '
+  - delay: 803
+    content: "\r\n"
+  - delay: 14
+    content: '    -> '
+  - delay: 1925
+    content: )
+  - delay: 679
+    content: ;
+  - delay: 643
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \b\r\n4"
+  - delay: 17
+    content: "\r\nMariaDB [sistem_pelatihan]>\e[1C"
+  - delay: 20644
+    content: e
+  - delay: 552
+    content: x
+  - delay: 213
+    content: i
+  - delay: 320
+    content: t
+  - delay: 1573
+    content: "\r\nBye"
+  - delay: 10
+    content: "\r\n"
+  - delay: 21
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 731
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93me\e[?25h"
+  - delay: 448
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\bex\e[?25h"
+  - delay: 275
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[44;21Hexi\e[?25h"
+  - delay: 299
+    content: "\e[m\e[?25l"
+  - delay: 34
+    content: "\e[92m\e[44;21Hexit\e[?25h"
+  - delay: 5939
+    content: "\e[m\e[?25l"
+  - delay: 27
+    content: "\e[93m\e[44;21Hexi\e[m \b\e[?25h"
+  - delay: 993
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[44;21Hex\e[m \b\e[?25h"
+  - delay: 239
+    content: "\e[?25l"
+  - delay: 26
+    content: "\e[93m\e[44;21He\e[m \b\e[?25h"
+  - delay: 187
+    content: "\e[?25l"
+  - delay: 15
+    content: "\b \b\e[?25h"
+  - delay: 17725
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93me\e[?25h"
+  - delay: 613
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\bec\e[?25h"
+  - delay: 482
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[44;21He\e[m \b\e[?25h"
+  - delay: 225
+    content: "\e[?25l"
+  - delay: 25
+    content: "\e[93m\bex\e[?25h"
+  - delay: 117
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[44;21Hexi\e[?25h"
+  - delay: 272
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[44;21Hexit\e[?25h"
+  - delay: 929
+    content: "\e[25l\e[m\e[H    -> ('pelatihan web dasar', 'belajar javascript', 30, 150000\e[K\r\n    -> );\e[K\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> (pelatihan data analyst', 'pengolahan data menggunakan excel', 40, 2000000);\e[K\r\n    '> ';\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'data analys\r\nt', 'pengolahan data menggunakan excel', 40, 2000000);\e[K\r\n'' at line 3\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    ->\e[K\r\n    -> );\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \r\n6\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000)\e[K\r\n    ->\e[K\r\n    ->\e[K\r\n    -> );\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \r\n6\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> ('pelatihan data analyst', 'pengolahan data', 40, 2000000);\e[K\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar javascript', 30, 15000000),\e[K\r\n    -> ('pelatihan data analyst', 'pengolahan data', 40, 2000000);\e[K\r\nERROR 1054 (42S22): Unknown column 'nama_peltihan' in 'INSERT INTO'\e[K\r\nMariaDB [sistem_pelatihan]> insert into pelatihan (nama_peltihan, deskripsi, durasi, biaya) values\e[K\r\n    -> ('pelatihan web dasar', 'belajar html, css, dan javascript', 30, 15000000),\e[K\r\n    ->\e[K\r\n    -> );\e[K\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line \r\n4\e[K\r\nMariaDB [sistem_pelatihan]> exit\e[K\r\nBye\e[K\r\nPS C:\\Users\\LENOVO> \e[92mexit\e[m\e[K\r\n\e[K\e[24C\e[?25h"
+  - delay: 20
+    content: "\r"
