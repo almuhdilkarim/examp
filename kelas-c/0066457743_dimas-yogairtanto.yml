@@ -1,0 +1,2137 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/dimas
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 150
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 33
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 763
+    content: "bash: #: command not found\r\n"
+  - delay: 96
+    content: "\e]3008;start=d4b61092-cefd-44f8-9f47-3b8f67da298a;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=shell;cwd=/home/dimas\e\\\e]3008;end=23b77e38-bd59-421a-8351-537839fa179f;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d4b61092-cefd-44f8-9f47-3b8f67da298a;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=shell;cwd=/home/dimas\e\\\e]0;root@sparow:/home/dimas\a\e[?2004h\e[38;5;196m(1)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m13:56:07\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/dimas\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 2097
+    content: m
+  - delay: 264
+    content: 'y'
+  - delay: 144
+    content: s
+  - delay: 155
+    content: q
+  - delay: 828
+    content: l
+  - delay: 228
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e]3008;start=203e5830-09c8-4a1a-831b-d89c90eea45d;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=command;cwd=/home/dimas\e\\\e]3008;start=203e5830-09c8-4a1a-831b-d89c90eea45d;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=command;cwd=/home/dimas\e\\"
+  - delay: 21
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\n"
+  - delay: 49
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 6\r\nServer version: 12.1.2-MariaDB Arch Linux\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[m\e[?1034hMariaDB [(none)]> "
+  - delay: 1294
+    content: c
+  - delay: 155
+    content: r
+  - delay: 47
+    content: e
+  - delay: 298
+    content: a
+  - delay: 54
+    content: t
+  - delay: 151
+    content: e
+  - delay: 121
+    content: ' '
+  - delay: 211
+    content: d
+  - delay: 190
+    content: a
+  - delay: 117
+    content: t
+  - delay: 111
+    content: a
+  - delay: 152
+    content: b
+  - delay: 105
+    content: a
+  - delay: 177
+    content: s
+  - delay: 158
+    content: e
+  - delay: 12299
+    content: ' '
+  - delay: 641
+    content: l
+  - delay: 173
+    content: o
+  - delay: 493
+    content: g
+  - delay: 80
+    content: i
+  - delay: 247
+    content: 'n'
+  - delay: 857
+    content: ;
+  - delay: 235
+    content: ' '
+  - delay: 990
+    content: u
+  - delay: 130
+    content: s
+  - delay: 184
+    content: e
+  - delay: 167
+    content: ' '
+  - delay: 499
+    content: l
+  - delay: 183
+    content: o
+  - delay: 207
+    content: g
+  - delay: 132
+    content: i
+  - delay: 820
+    content: 'n'
+  - delay: 663
+    content: ;
+  - delay: 879
+    content: "\r\n\e(B\e[0;1mQuery OK, 1 row affected (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[m\e(B\e[0;1mDatabase changed\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 14020
+    content: c
+  - delay: 124
+    content: r
+  - delay: 59
+    content: e
+  - delay: 209
+    content: a
+  - delay: 124
+    content: t
+  - delay: 161
+    content: e
+  - delay: 124
+    content: ' '
+  - delay: 294
+    content: t
+  - delay: 66
+    content: a
+  - delay: 135
+    content: v
+  - delay: 200
+    content: k
+  - delay: 103
+    content: e
+  - delay: 307
+    content: "\b\e[K"
+  - delay: 184
+    content: "\b\e[K"
+  - delay: 106
+    content: "\b\e[K"
+  - delay: 492
+    content: b
+  - delay: 271
+    content: k
+  - delay: 135
+    content: e
+  - delay: 405
+    content: "\b\e[K"
+  - delay: 154
+    content: "\b\e[K"
+  - delay: 683
+    content: l
+  - delay: 140
+    content: e
+  - delay: 884
+    content: r
+  - delay: 78
+    content: o
+  - delay: 230
+    content: l
+  - delay: 610
+    content: "\b\e[K"
+  - delay: 155
+    content: "\b\e[K"
+  - delay: 161
+    content: "\b\e[K"
+  - delay: 244
+    content: ' '
+  - delay: 788
+    content: r
+  - delay: 111
+    content: o
+  - delay: 165
+    content: l
+  - delay: 109
+    content: e
+  - delay: 145
+    content: ' '
+  - delay: 810
+    content: (
+  - delay: 694
+    content: "\r\n    -> "
+  - delay: 3818
+    content: i
+  - delay: 182
+    content: d
+  - delay: 1936
+    content: ' '
+  - delay: 3135
+    content: i
+  - delay: 146
+    content: 'n'
+  - delay: 222
+    content: t
+  - delay: 116
+    content: ' '
+  - delay: 445
+    content: p
+  - delay: 159
+    content: r
+  - delay: 212
+    content: i
+  - delay: 282
+    content: 'n'
+  - delay: 138
+    content: a
+  - delay: 462
+    content: r
+  - delay: 111
+    content: 'y'
+  - delay: 256
+    content: ' '
+  - delay: 293
+    content: "\b\e[K"
+  - delay: 169
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 135
+    content: "\b\e[K"
+  - delay: 566
+    content: m
+  - delay: 161
+    content: a
+  - delay: 307
+    content: r
+  - delay: 131
+    content: 'y'
+  - delay: 168
+    content: ' '
+  - delay: 171
+    content: j
+  - delay: 119
+    content: e
+  - delay: 363
+    content: ' '
+  - delay: 359
+    content: "\b\e[K"
+  - delay: 153
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 456
+    content: k
+  - delay: 141
+    content: e
+  - delay: 267
+    content: 'y'
+  - delay: 253
+    content: ' '
+  - delay: 302
+    content: a
+  - delay: 170
+    content: u
+  - delay: 280
+    content: t
+  - delay: 450
+    content: o
+  - delay: 691
+    content: _
+  - delay: 666
+    content: i
+  - delay: 159
+    content: 'n'
+  - delay: 352
+    content: c
+  - delay: 124
+    content: r
+  - delay: 104
+    content: e
+  - delay: 426
+    content: m
+  - delay: 103
+    content: e
+  - delay: 106
+    content: 'n'
+  - delay: 261
+    content: t
+  - delay: 15236
+    content: ','
+  - delay: 361
+    content: "\r\n    -> "
+  - delay: 3514
+    content: a
+  - delay: 214
+    content: d
+  - delay: 145
+    content: m
+  - delay: 136
+    content: i
+  - delay: 148
+    content: 'n'
+  - delay: 3636
+    content: ' '
+  - delay: 340
+    content: v
+  - delay: 172
+    content: a
+  - delay: 137
+    content: r
+  - delay: 599
+    content: c
+  - delay: 218
+    content: h
+  - delay: 84
+    content: a
+  - delay: 196
+    content: r
+  - delay: 2629
+    content: (
+  - delay: 101
+    content: )
+  - delay: 609
+    content: "\b"
+  - delay: 474
+    content: "2)\b"
+  - delay: 91
+    content: "0)\b"
+  - delay: 267
+    content: " )\b"
+  - delay: 785
+    content: "\b\e[1P)\b"
+  - delay: 303
+    content: "\e[C"
+  - delay: 2389
+    content: ' '
+  - delay: 289
+    content: 'n'
+  - delay: 95
+    content: o
+  - delay: 456
+    content: t
+  - delay: 152
+    content: ' '
+  - delay: 402
+    content: 'n'
+  - delay: 211
+    content: u
+  - delay: 195
+    content: l
+  - delay: 166
+    content: l
+  - delay: 187
+    content: ' '
+  - delay: 246
+    content: u
+  - delay: 186
+    content: 'n'
+  - delay: 161
+    content: i
+  - delay: 868
+    content: q
+  - delay: 180
+    content: u
+  - delay: 853
+    content: e
+  - delay: 652
+    content: ','
+  - delay: 282
+    content: "\r\n    -> "
+  - delay: 4946
+    content: u
+  - delay: 91
+    content: s
+  - delay: 229
+    content: e
+  - delay: 226
+    content: r
+  - delay: 331
+    content: ' '
+  - delay: 754
+    content: v
+  - delay: 113
+    content: a
+  - delay: 169
+    content: r
+  - delay: 174
+    content: c
+  - delay: 803
+    content: h
+  - delay: 134
+    content: a
+  - delay: 155
+    content: r
+  - delay: 1123
+    content: (
+  - delay: 81
+    content: )
+  - delay: 712
+    content: "\b"
+  - delay: 462
+    content: "2)\b"
+  - delay: 112
+    content: "0)\b"
+  - delay: 507
+    content: "\e[C"
+  - delay: 459
+    content: ' '
+  - delay: 535
+    content: 'n'
+  - delay: 129
+    content: o
+  - delay: 183
+    content: t
+  - delay: 173
+    content: ' '
+  - delay: 294
+    content: 'n'
+  - delay: 231
+    content: u
+  - delay: 216
+    content: l
+  - delay: 159
+    content: l
+  - delay: 196
+    content: ' '
+  - delay: 556
+    content: u
+  - delay: 134
+    content: 'n'
+  - delay: 139
+    content: i
+  - delay: 568
+    content: q
+  - delay: 99
+    content: u
+  - delay: 169
+    content: e
+  - delay: 3757
+    content: "\r\n    -> "
+  - delay: 845
+    content: )
+  - delay: 788
+    content: ;
+  - delay: 144
+    content: "\r\n"
+  - delay: 23
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0.022 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 20512
+    content: d
+  - delay: 180
+    content: r
+  - delay: 147
+    content: o
+  - delay: 178
+    content: p
+  - delay: 199
+    content: ' '
+  - delay: 522
+    content: a
+  - delay: 161
+    content: v
+  - delay: 245
+    content: l
+  - delay: 130
+    content: e
+  - delay: 121
+    content: ' '
+  - delay: 267
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 137
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 131
+    content: "\b\e[K"
+  - delay: 555
+    content: t
+  - delay: 139
+    content: a
+  - delay: 83
+    content: b
+  - delay: 206
+    content: l
+  - delay: 114
+    content: e
+  - delay: 128
+    content: ' '
+  - delay: 2589
+    content: r
+  - delay: 87
+    content: o
+  - delay: 185
+    content: l
+  - delay: 70
+    content: e
+  - delay: 1824
+    content: ;
+  - delay: 130
+    content: "\r\n"
+  - delay: 21
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0.022 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 6523
+    content: c
+  - delay: 118
+    content: r
+  - delay: 48
+    content: e
+  - delay: 235
+    content: a
+  - delay: 67
+    content: t
+  - delay: 189
+    content: e
+  - delay: 140
+    content: ' '
+  - delay: 290
+    content: t
+  - delay: 111
+    content: a
+  - delay: 149
+    content: b
+  - delay: 230
+    content: l
+  - delay: 771
+    content: e
+  - delay: 12668
+    content: ' '
+  - delay: 1006
+    content: r
+  - delay: 107
+    content: o
+  - delay: 161
+    content: l
+  - delay: 87
+    content: e
+  - delay: 243
+    content: ' '
+  - delay: 502
+    content: (
+  - delay: 342
+    content: "\r\n    -> "
+  - delay: 919
+    content: " (\r\n    ->     id INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     role_name VARCHAR(20) NOT NULL UNIQUE"
+  - delay: 5785
+    content: "\b"
+  - delay: 498
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 25
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 46
+    content: "\b"
+  - delay: 11
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 26
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 67
+    content: "\b\b"
+  - delay: 26
+    content: "\b"
+  - delay: 260
+    content: "\b"
+  - delay: 155
+    content: "\b"
+  - delay: 605
+    content: "\b\e[1P"
+  - delay: 145
+    content: "\b\e[1P"
+  - delay: 137
+    content: "\b\e[1P"
+  - delay: 175
+    content: "\b\e[1P"
+  - delay: 107
+    content: "\b\e[1P"
+  - delay: 3511
+    content: "\b"
+  - delay: 180
+    content: "\b"
+  - delay: 163
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 43
+    content: "\b"
+  - delay: 15
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 30
+    content: "\a"
+  - delay: 154
+    content: "\a\a"
+  - delay: 150
+    content: "\a"
+  - delay: 188
+    content: "\a"
+  - delay: 162
+    content: "\a"
+  - delay: 259
+    content: "\e[C"
+  - delay: 152
+    content: "\e[C"
+  - delay: 135
+    content: "\e[C"
+  - delay: 164
+    content: "\e[C"
+  - delay: 129
+    content: "\e[C"
+  - delay: 1388
+    content: "\e[C"
+  - delay: 484
+    content: "\e[C"
+  - delay: 22
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 27
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 213
+    content: "\e[C"
+  - delay: 130
+    content: "\e[C"
+  - delay: 146
+    content: "\e[C"
+  - delay: 156
+    content: "\e[C"
+  - delay: 142
+    content: "\e[C"
+  - delay: 135
+    content: "\e[C"
+  - delay: 139
+    content: "\e[C"
+  - delay: 149
+    content: "\e[C"
+  - delay: 132
+    content: "\e[C"
+  - delay: 135
+    content: "\e[C"
+  - delay: 137
+    content: "\e[C"
+  - delay: 151
+    content: "\e[C"
+  - delay: 130
+    content: "\e[C"
+  - delay: 1969
+    content: )
+  - delay: 818
+    content: ;
+  - delay: 133
+    content: "\r\nERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id INT AUTO_INCREMENT PRIMARY KEY,\r\n    role VARCHAR(20) NOT NULL UNIQUE)' at line 3\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 893
+    content: >-
+      create table role (  (     id INT AUTO_INCREMENT PRIMARY KEY,     role
+      VARCHAR(20) NOT NULL UNIQUE);
+  - delay: 366
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[62P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 813
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[62@create table role (  (     id INT AUTO_INCREMENT PRIMARY KEY, \e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1488
+    content: "\b"
+  - delay: 499
+    content: "\b\b"
+  - delay: 34
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 38
+    content: "\b"
+  - delay: 24
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 46
+    content: "\b"
+  - delay: 13
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 23
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 26
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 9
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 300
+    content: "\e[C"
+  - delay: 231
+    content: "\e[C"
+  - delay: 615
+    content: "\e[1P\b"
+  - delay: 166
+    content: "\e[1P\b"
+  - delay: 166
+    content: "\e[1P\b"
+  - delay: 153
+    content: "\e[1P\b"
+  - delay: 155
+    content: "\b\e[1P"
+  - delay: 140
+    content: "\e[1P\b"
+  - delay: 177
+    content: "\e[1P\b"
+  - delay: 821
+    content: "\e[C"
+  - delay: 499
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 27
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 34
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 45
+    content: "\e[C"
+  - delay: 11
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 27
+    content: "\e[C"
+  - delay: 34
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 496
+    content: "\r\n"
+  - delay: 19
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0.020 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 9077
+    content: "CREATE TABLE users (\r\n    ->     id INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     username VARCHAR(50) NOT NULL UNIQUE,\r\n    ->     password VARCHAR(255) NOT NULL,\r\n    ->     role_id INT NOT NULL,\r\n    ->     FOREIGN KEY (role_id) REFERENCES roles(id)\r\n    -> );\r\n"
+  - delay: 27
+    content: "ERROR 1005 (HY000): Can't create table `login`.`users` (errno: 150 \"Foreign key constraint is incorrectly formed\")\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 24294
+    content: "CREATE TABLE users (     id INT AUTO_INCREMENT PRIMARY KEY,     username VARCHAR(50) NOT NULL UNIQUE,     password VARCHAR(255) NOT NU\rULL,     role_id INT NOT NULL,     FOREIGN KEY (role_id) REFERENCES roles(id) );"
+  - delay: 447
+    content: "\b"
+  - delay: 330
+    content: "\b"
+  - delay: 167
+    content: "\b"
+  - delay: 199
+    content: "\b"
+  - delay: 130
+    content: "\b"
+  - delay: 161
+    content: "\b"
+  - delay: 152
+    content: "\b"
+  - delay: 160
+    content: "\b"
+  - delay: 439
+    content: "\e[C"
+  - delay: 512
+    content: "\b\e[1P"
+  - delay: 949
+    content: "\e[C"
+  - delay: 131
+    content: "\e[C"
+  - delay: 149
+    content: "\e[C"
+  - delay: 3116
+    content: "\r\n"
+  - delay: 28
+    content: "\e(B\e[0;1mQuery OK, 0 rows affected (0.027 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 6772
+    content: "INSERT INTO roles (role_name) VALUES\r\n    -> ('admin'),\r\n    -> ('user');\r\n"
+  - delay: 9
+    content: "ERROR 1146 (42S02): Table 'login.roles' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 3795
+    content: 'INSERT INTO roles (role_name) VALUES (''admin''), (''user'');'
+  - delay: 1827
+    content: "\b"
+  - delay: 231
+    content: "\b"
+  - delay: 270
+    content: "\b"
+  - delay: 210
+    content: "\b"
+  - delay: 506
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 25
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 25
+    content: "\b"
+  - delay: 58
+    content: "\b"
+  - delay: 6
+    content: "\b"
+  - delay: 1658
+    content: "\b"
+  - delay: 162
+    content: "\b"
+  - delay: 500
+    content: "\b\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 19
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 1951
+    content: "\b"
+  - delay: 192
+    content: "\b"
+  - delay: 170
+    content: "\b"
+  - delay: 179
+    content: "\b"
+  - delay: 692
+    content: "\b\e[1P"
+  - delay: 158
+    content: "\b\e[1P"
+  - delay: 140
+    content: "\b\e[1P"
+  - delay: 134
+    content: "\b\e[1P"
+  - delay: 169
+    content: "\b\e[1P"
+  - delay: 2028
+    content: "\r\nERROR 1146 (42S02): Table 'login.roles' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 5684
+    content: 'INSERT INTO roles (role) VALUES (''admin''), (''user'');'
+  - delay: 334
+    content: "\b"
+  - delay: 498
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 43
+    content: "\b"
+  - delay: 16
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 25
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 24
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 243
+    content: "\b"
+  - delay: 166
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 174
+    content: "\b"
+  - delay: 170
+    content: "\b"
+  - delay: 1639
+    content: "\b\e[1P"
+  - delay: 2804
+    content: "\r\n"
+  - delay: 12
+    content: "\e(B\e[0;1mQuery OK, 2 rows affected (0.012 sec)\r\n\e(B\e[m\e(B\e[0;1mRecords: 2  Duplicates: 0  Warnings: 0\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 29749
+    content: "INSERT INTO users (username, password, role_id)\r\n    -> VALUES ('admin', 'hash_password_di_sini', 1);\r\n"
+  - delay: 11
+    content: "\e(B\e[0;1mQuery OK, 1 row affected (0.010 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 27720
+    content: s
+  - delay: 120
+    content: h
+  - delay: 101
+    content: o
+  - delay: 741
+    content: w
+  - delay: 87
+    content: ' '
+  - delay: 1363
+    content: t
+  - delay: 75
+    content: a
+  - delay: 161
+    content: b
+  - delay: 238
+    content: l
+  - delay: 95
+    content: e
+  - delay: 154
+    content: s
+  - delay: 462
+    content: ;
+  - delay: 117
+    content: "\r\n+-----------------+\r\n| Tables_in_login |\r\n+-----------------+\r\n| role            |\r\n| users           |\r\n+-----------------+\r\n\e(B\e[0;1m2 rows in set (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 1953
+    content: s
+  - delay: 160
+    content: e
+  - delay: 139
+    content: l
+  - delay: 73
+    content: e
+  - delay: 228
+    content: c
+  - delay: 172
+    content: t
+  - delay: 224
+    content: ' '
+  - delay: 727
+    content: '*'
+  - delay: 192
+    content: ' '
+  - delay: 438
+    content: f
+  - delay: 132
+    content: r
+  - delay: 70
+    content: o
+  - delay: 194
+    content: m
+  - delay: 208
+    content: ' '
+  - delay: 652
+    content: r
+  - delay: 119
+    content: o
+  - delay: 167
+    content: l
+  - delay: 79
+    content: e
+  - delay: 197
+    content: "\r\n    -> "
+  - delay: 773
+    content: ;
+  - delay: 111
+    content: "\r\n+----+-------+\r\n| id | role  |\r\n+----+-------+\r\n|  1 | admin |\r\n|  2 | user  |\r\n+----+-------+\r\n\e(B\e[0;1m2 rows in set (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 793
+    content: ;
+  - delay: 4443
+    content: "\bselect * from role"
+  - delay: 617
+    content: "\b\e[K"
+  - delay: 194
+    content: "\b\e[K"
+  - delay: 137
+    content: "\b\e[K"
+  - delay: 134
+    content: "\b\e[K"
+  - delay: 393
+    content: s
+  - delay: 672
+    content: "\b\e[K"
+  - delay: 318
+    content: u
+  - delay: 105
+    content: s
+  - delay: 144
+    content: e
+  - delay: 473
+    content: r
+  - delay: 1308
+    content: ;
+  - delay: 125
+    content: "\r\nERROR 1146 (42S02): Table 'login.user' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 2634
+    content: select * from user;
+  - delay: 271
+    content: "\b"
+  - delay: 783
+    content: "s;\b"
+  - delay: 181
+    content: "\r\n+----+----------+-----------------------+---------+\r\n| id | username | password              | role_id |\r\n+----+----------+-----------------------+---------+\r\n|  1 | admin    | hash_password_di_sini |       1 |\r\n+----+----------+-----------------------+---------+\r\n\e(B\e[0;1m1 row in set (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 25380
+    content: i
+  - delay: 130
+    content: 'n'
+  - delay: 113
+    content: s
+  - delay: 148
+    content: e
+  - delay: 222
+    content: r
+  - delay: 276
+    content: t
+  - delay: 145
+    content: ' '
+  - delay: 205
+    content: u
+  - delay: 551
+    content: "\b\e[K"
+  - delay: 159
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 126
+    content: "\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 140
+    content: "\b\e[K"
+  - delay: 126
+    content: "\b\e[K"
+  - delay: 121
+    content: "\b\e[K"
+  - delay: 100
+    content: "\a"
+  - delay: 663
+    content: select * from users;
+  - delay: 189
+    content: "\b\b\e[1P;"
+  - delay: 204
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C;\e[K"
+  - delay: 192
+    content: "\bselect * from role"
+  - delay: 264
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[6Phow tables;"
+  - delay: 237
+    content: "\b\b\b\b\b\b\b\b\b\b\b\bINSERT INTO users (username, password, role_id) VALUES ('admin', 'hash_password_di_sini', 1);"
+  - delay: 188
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[48P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 18
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[CINSERT INTO users (username, password, role_id)"
+  - delay: 368
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[2PVALUES ('admin', 'hash_password_di_sini', 1);"
+  - delay: 1497
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[CINSERT INTO users (username, password, role_id)"
+  - delay: 6618
+    content: "\r\n    -> "
+  - delay: 1660
+    content: 'INSERT INTO users (username, password, role_id)'
+  - delay: 281
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[27Pselect * from users;"
+  - delay: 273
+    content: "\b\b\e[1P;"
+  - delay: 659
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C;\e[K"
+  - delay: 356
+    content: "\bselect * from role"
+  - delay: 1509
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[6Phow tables;"
+  - delay: 472
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[CINSERT INTO users (username, password, role_id) VALUES ('admin', 'hash_password_di_sini', 1);"
+  - delay: 3006
+    content: "\b"
+  - delay: 501
+    content: "\b\b"
+  - delay: 26
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 64
+    content: "\b\b"
+  - delay: 22
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 34
+    content: "\b"
+  - delay: 50
+    content: "\b\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 70
+    content: "\b\b"
+  - delay: 18
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 257
+    content: "\b"
+  - delay: 194
+    content: "\b"
+  - delay: 388
+    content: "\b"
+  - delay: 766
+    content: "\b\e[1P"
+  - delay: 499
+    content: "\b\e[1P\b\e[1P"
+  - delay: 25
+    content: "\b\e[1P"
+  - delay: 35
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 29
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 29
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 28
+    content: "\b\e[1P"
+  - delay: 27
+    content: "\b\e[1P"
+  - delay: 35
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 27
+    content: "\b\e[1P"
+  - delay: 34
+    content: "\b\e[1P"
+  - delay: 29
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 27
+    content: "\b\e[1P"
+  - delay: 34
+    content: "\b\e[1P"
+  - delay: 28
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 55
+    content: "\b\e[1P\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 35
+    content: "\b\e[1P"
+  - delay: 26
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 27
+    content: "\b\e[1P"
+  - delay: 33
+    content: "\b\e[1P"
+  - delay: 29
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 27
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 34
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 44
+    content: "\b\e[1P"
+  - delay: 12
+    content: "\b\e[1P"
+  - delay: 34
+    content: "\a"
+  - delay: 36
+    content: "\a"
+  - delay: 784
+    content: "\e[C"
+  - delay: 164
+    content: "\e[C"
+  - delay: 133
+    content: "\e[C"
+  - delay: 501
+    content: "\e[C\e[C"
+  - delay: 27
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 160
+    content: "\e[C"
+  - delay: 150
+    content: "\e[C"
+  - delay: 143
+    content: "\e[C"
+  - delay: 150
+    content: "\e[C"
+  - delay: 134
+    content: "\e[C"
+  - delay: 140
+    content: "\e[C"
+  - delay: 152
+    content: "\e[C"
+  - delay: 415
+    content: "\b"
+  - delay: 751
+    content: "\b\e[1P"
+  - delay: 153
+    content: "\b\e[1P"
+  - delay: 141
+    content: "\b\e[1P"
+  - delay: 137
+    content: "\b\e[1P"
+  - delay: 130
+    content: "\b\e[1P"
+  - delay: 517
+    content: "\e[1@u"
+  - delay: 119
+    content: "\e[1@s"
+  - delay: 252
+    content: "\e[1@e"
+  - delay: 303
+    content: "\e[1@r"
+  - delay: 737
+    content: "\e[C"
+  - delay: 500
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 16
+    content: "\e[C"
+  - delay: 34
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 47
+    content: "\e[C"
+  - delay: 8
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 628
+    content: "\e[C"
+  - delay: 1030
+    content: "\b\e[1P"
+  - delay: 500
+    content: "\b\e[1P"
+  - delay: 32
+    content: "\b\e[1P"
+  - delay: 31
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 28
+    content: "\b\e[1P"
+  - delay: 38
+    content: "\b\e[1P"
+  - delay: 24
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 228
+    content: "\b\e[1P"
+  - delay: 150
+    content: "\b\e[1P"
+  - delay: 138
+    content: "\b\e[1P"
+  - delay: 150
+    content: "\b\e[1P"
+  - delay: 141
+    content: "\b\e[1P"
+  - delay: 136
+    content: "\b\e[1P"
+  - delay: 136
+    content: "\b\e[1P"
+  - delay: 141
+    content: "\b\e[1P"
+  - delay: 143
+    content: "\b\e[1P"
+  - delay: 157
+    content: "\b\e[1P"
+  - delay: 1837
+    content: "\e[1@p"
+  - delay: 116
+    content: "\e[1@a"
+  - delay: 180
+    content: "\e[1@s"
+  - delay: 161
+    content: "\e[1@s"
+  - delay: 183
+    content: "\e[1@w"
+  - delay: 74
+    content: "\e[1@o"
+  - delay: 236
+    content: "\e[1@r"
+  - delay: 337
+    content: "\e[1@d"
+  - delay: 819
+    content: "\e[1@u"
+  - delay: 116
+    content: "\e[1@s"
+  - delay: 228
+    content: "\e[1@e"
+  - delay: 222
+    content: "\e[1@r"
+  - delay: 481
+    content: "\e[C"
+  - delay: 159
+    content: "\e[C"
+  - delay: 144
+    content: "\e[C"
+  - delay: 160
+    content: "\e[C"
+  - delay: 582
+    content: "\b\e[1P);\b\b"
+  - delay: 353
+    content: "2);\b\b"
+  - delay: 893
+    content: "\r\n"
+  - delay: 11
+    content: "\e(B\e[0;1mQuery OK, 1 row affected (0.011 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 37884
+    content: "SELECT users.id, users.username, roles.role_name\r\n    -> FROM users\r\n    -> JOIN roles ON users.role_id = roles.id\r\n    -> WHERE users.username = 'admin';\r\nERROR 1146 (42S02): Table 'login.roles' doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [login]> "
+  - delay: 1907
+    content: >-
+      SELECT users.id, users.username, roles.role_name FROM users JOIN roles ON
+      users.role_id = roles.id WHERE users.username = 'admin';
+  - delay: 860
+    content: "\b"
+  - delay: 499
+    content: "\b\b"
+  - delay: 32
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 28
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 35
+    content: "\b"
+  - delay: 25
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 29
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 2058
+    content: "\e[C"
+  - delay: 344
+    content: "\b"
+  - delay: 202
+    content: "\b"
+  - delay: 191
+    content: "\b"
+  - delay: 223
+    content: "\b"
+  - delay: 1305
+    content: "\b\e[1P"
+  - delay: 500
+    content: "\b\e[1P\b\e[1P"
+  - delay: 28
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 30
+    content: "\b\e[1P"
+  - delay: 162
+    content: "\b\e[1P"
+  - delay: 136
+    content: "\b\e[1P"
+  - delay: 143
+    content: "\b\e[1P"
+  - delay: 141
+    content: "\b\e[1P"
+  - delay: 149
+    content: "\b\e[1P"
+  - delay: 857
+    content: "\e[1@e"
+  - delay: 652
+    content: "\b\e[1P"
+  - delay: 1183
+    content: "\e[1@."
+  - delay: 700
+    content: "\e[1@r"
+  - delay: 67
+    content: "\e[1@o"
+  - delay: 205
+    content: "\e[1@l"
+  - delay: 117
+    content: "\e[1@e"
+  - delay: 688
+    content: "\e[C"
+  - delay: 497
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 62
+    content: "\e[C\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 180
+    content: "\e[C"
+  - delay: 186
+    content: "\e[C"
+  - delay: 407
+    content: "\e[C"
+  - delay: 658
+    content: "\b\e[1P"
+  - delay: 515
+    content: "\e[C"
+  - delay: 501
+    content: "\e[C\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 58
+    content: "\e[C\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 29
+    content: "\e[C"
+  - delay: 30
+    content: "\e[C"
+  - delay: 33
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 358
+    content: "\e[C"
+  - delay: 656
+    content: "\b\e[1P"
+  - delay: 220
+    content: "\b\e[1P"
+  - delay: 140
+    content: "\b\e[1P"
+  - delay: 148
+    content: "\b\e[1P"
+  - delay: 165
+    content: "\b\e[1P"
+  - delay: 1233
+    content: "\b\e[1P"
+  - delay: 154
+    content: "\b\e[1P"
+  - delay: 143
+    content: "\b\e[1P"
+  - delay: 142
+    content: "\b\e[1P"
+  - delay: 141
+    content: "\b\e[1P"
+  - delay: 1013
+    content: "\e[1@r"
+  - delay: 90
+    content: "\e[1@i"
+  - delay: 237
+    content: "\e[1@l"
+  - delay: 85
+    content: "\e[1@e"
+  - delay: 409
+    content: "\b\e[1P"
+  - delay: 126
+    content: "\b\e[1P"
+  - delay: 125
+    content: "\b\e[1P"
+  - delay: 414
+    content: "\e[1@o"
+  - delay: 157
+    content: "\e[1@l"
+  - delay: 79
+    content: "\e[1@e"
+  - delay: 1531
+    content: "\e[C"
+  - delay: 500
+    content: "\e[C"
+  - delay: 49
+    content: "\e[C"
+  - delay: 9
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 27
+    content: "\e[C"
+  - delay: 31
+    content: "\e[C"
+  - delay: 32
+    content: "\e[C"
+  - delay: 28
+    content: "\e[C"
+  - delay: 35
+    content: "\e[C"
+  - delay: 665
+    content: "\b\e[1P"
+  - delay: 2168
+    content: "\r\n+----+----------+-------+\r\n| id | username | role  |\r\n+----+----------+-------+\r\n|  1 | admin    | admin |\r\n+----+----------+-------+\r\n\e(B\e[0;1m1 row in set (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [login]> "
+  - delay: 8527
+    content: "\e(B\e[0;1mBye\r\n\e(B\e[m\e]3008;end=203e5830-09c8-4a1a-831b-d89c90eea45d;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=d4b61092-cefd-44f8-9f47-3b8f67da298a;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=shell;cwd=/home/dimas\e\\\e]3008;end=bf1f7e17-d4aa-4e5b-8098-bd12639c7669;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=d4b61092-cefd-44f8-9f47-3b8f67da298a;machineid=ae04622d2bb442ccb0748d1ea9a6f664;user=root;hostname=sparow;bootid=d414ac65-6568-4732-98e0-be59936be18e;pid=13551;type=shell;cwd=/home/dimas\e\\\e]0;root@sparow:/home/dimas\a\e[?2004h\e[38;5;196m(2)\e[0m \e[38;5;196mroot\e[0m \e[38;5;196m(\e[0m \e[38;5;196m14:04:50\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/dimas\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 944
+    content: "\e[?2004l\r\r\nlogout\r\n"
