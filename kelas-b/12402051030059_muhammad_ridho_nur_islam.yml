@@ -1,0 +1,2235 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/kiruya
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 83
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 43
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 176
+    content: "bash: #: command not found\r\n"
+  - delay: 44
+    content: "\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=da8a140f-3501-450c-b722-9804f7960bc4;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 1893
+    content: "\r\n\e[?2004l\r\e]3008;end=894c5afb-85cd-4efa-bc16-b916858bdc5e;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=baa5fe55-1003-43ee-8628-abb9f23c2ac0;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 682
+    content: sudo mysql
+  - delay: 1651
+    content: "\b\b\b\b\b\b\b\b\b\b\e[2P./test1 "
+  - delay: 770
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e]3008;start=8ff754b9-03c0-4ca1-ae4a-6cac778658d3;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\\e]3008;start=8ff754b9-03c0-4ca1-ae4a-6cac778658d3;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\"
+  - delay: 7
+    content: 'Masukkan nama database: '
+  - delay: 2829
+    content: s
+  - delay: 120
+    content: i
+  - delay: 89
+    content: s
+  - delay: 175
+    content: t
+  - delay: 170
+    content: e
+  - delay: 149
+    content: m
+  - delay: 414
+    content: _
+  - delay: 475
+    content: p
+  - delay: 123
+    content: e
+  - delay: 151
+    content: m
+  - delay: 77
+    content: e
+  - delay: 1180
+    content: 'n'
+  - delay: 339
+    content: "\b \b"
+  - delay: 133
+    content: s
+  - delay: 167
+    content: a
+  - delay: 197
+    content: 'n'
+  - delay: 469
+    content: a
+  - delay: 192
+    content: 'n'
+  - delay: 620
+    content: _
+  - delay: 249
+    content: m
+  - delay: 116
+    content: a
+  - delay: 154
+    content: k
+  - delay: 74
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 126
+    content: a
+  - delay: 655
+    content: 'n'
+  - delay: 2681
+    content: "\r\nMasukkan nama tabel (pisahkan spasi jika lebih dari 1): "
+  - delay: 3278
+    content: p
+  - delay: 116
+    content: e
+  - delay: 76
+    content: l
+  - delay: 116
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 200
+    content: g
+  - delay: 137
+    content: g
+  - delay: 88
+    content: a
+  - delay: 126
+    content: 'n'
+  - delay: 3851
+    content: ' '
+  - delay: 1496
+    content: m
+  - delay: 115
+    content: e
+  - delay: 117
+    content: 'n'
+  - delay: 125
+    content: u
+  - delay: 326
+    content: ' '
+  - delay: 1926
+    content: p
+  - delay: 114
+    content: e
+  - delay: 359
+    content: s
+  - delay: 154
+    content: 'n'
+  - delay: 76
+    content: a
+  - delay: 122
+    content: 'n'
+  - delay: 118
+    content: a
+  - delay: 1423
+    content: "\b \b"
+  - delay: 177
+    content: "\b \b"
+  - delay: 137
+    content: "\b \b"
+  - delay: 319
+    content: "\b \b"
+  - delay: 529
+    content: a
+  - delay: 157
+    content: 'n'
+  - delay: 151
+    content: a
+  - delay: 156
+    content: 'n'
+  - delay: 2853
+    content: "\r\n"
+  - delay: 35
+    content: '[sudo] password for kiruya: '
+  - delay: 1804
+    content: "\r\n"
+  - delay: 27
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 14
+    content: "Database sistem_pemesanan_makanan berhasil dibuat!\r\n=== Membuat tabel pelanggan ===\r\nNama kolom: "
+  - delay: 2399
+    content: i
+  - delay: 115
+    content: d
+  - delay: 599
+    content: _
+  - delay: 294
+    content: m
+  - delay: 115
+    content: e
+  - delay: 120
+    content: 'n'
+  - delay: 185
+    content: u
+  - delay: 1039
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 644
+    content: i
+  - delay: 158
+    content: 'n'
+  - delay: 194
+    content: t
+  - delay: 1533
+    content: "\r\nConstraints (opsional): "
+  - delay: 525
+    content: a
+  - delay: 249
+    content: u
+  - delay: 213
+    content: t
+  - delay: 798
+    content: "\b \b"
+  - delay: 185
+    content: "\b \b"
+  - delay: 172
+    content: "\b \b"
+  - delay: 1216
+    content: p
+  - delay: 160
+    content: r
+  - delay: 194
+    content: i
+  - delay: 154
+    content: m
+  - delay: 118
+    content: a
+  - delay: 683
+    content: r
+  - delay: 200
+    content: 'y'
+  - delay: 821
+    content: ' '
+  - delay: 126
+    content: k
+  - delay: 137
+    content: e
+  - delay: 219
+    content: 'y'
+  - delay: 1183
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1395
+    content: 'y'
+  - delay: 600
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 2024
+    content: 'n'
+  - delay: 362
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1737
+    content: 'y'
+  - delay: 1299
+    content: "\r\nNama kolom: "
+  - delay: 1873
+    content: 'n'
+  - delay: 126
+    content: a
+  - delay: 66
+    content: m
+  - delay: 117
+    content: a
+  - delay: 585
+    content: _
+  - delay: 278
+    content: m
+  - delay: 117
+    content: e
+  - delay: 156
+    content: 'n'
+  - delay: 176
+    content: u
+  - delay: 2057
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 917
+    content: v
+  - delay: 117
+    content: a
+  - delay: 201
+    content: r
+  - delay: 169
+    content: c
+  - delay: 152
+    content: h
+  - delay: 116
+    content: a
+  - delay: 175
+    content: r
+  - delay: 368
+    content: (
+  - delay: 392
+    content: '1'
+  - delay: 206
+    content: '0'
+  - delay: 177
+    content: '0'
+  - delay: 595
+    content: )
+  - delay: 8053
+    content: "^C\r\n\e]3008;end=8ff754b9-03c0-4ca1-ae4a-6cac778658d3;exit=interrupt;signal=3\e\\"
+  - delay: 10
+    content: "\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=2884b3f8-014f-4012-846f-aca06598e3f4;exit=interrupt;signal=3\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 1072
+    content: './test1 '
+  - delay: 5984
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e]3008;start=41938524-d753-43f5-af7f-bfaa190e650d;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\\e]3008;start=41938524-d753-43f5-af7f-bfaa190e650d;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\"
+  - delay: 6
+    content: 'Masukkan nama database: '
+  - delay: 2992
+    content: "^C\r\n\e]3008;end=41938524-d753-43f5-af7f-bfaa190e650d;exit=interrupt;signal=3\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=73f05849-ed86-46f9-9ab5-e8dbe5a5f83a;exit=interrupt;signal=3\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 393
+    content: './test1 '
+  - delay: 579
+    content: "\b\b\b\b\b\b\b\bsudo mysql"
+  - delay: 162
+    content: "\b\b\b\b\b\b\b\b\b\b\e[2P./test1 "
+  - delay: 1110
+    content: "\b\b\b\b\b\b\b\bsudo mysql"
+  - delay: 301
+    content: "\b\b\b\b\b\b\b\b\b\b\e[2P./test1 "
+  - delay: 1165
+    content: "\b\b\b\b\b\b\b\bsudo mysql"
+  - delay: 415
+    content: "\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e]3008;start=536cfc6d-e3ce-421b-b9a2-dfa9160e6cdf;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\\e]3008;start=536cfc6d-e3ce-421b-b9a2-dfa9160e6cdf;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\"
+  - delay: 18
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\n"
+  - delay: 13
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 214\r\nServer version: 12.1.2-MariaDB Arch Linux\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[m\e[?1034hMariaDB [(none)]> "
+  - delay: 422
+    content: drop database sistem_pemesanan_makana
+  - delay: 1870
+    content: ;
+  - delay: 212
+    content: "\r\nERROR 1008 (HY000): Can't drop database 'sistem_pemesanan_makana'; database doesn't exist\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 4379
+    content: "^C\r\nMariaDB [(none)]> "
+  - delay: 680
+    content: e
+  - delay: 227
+    content: x
+  - delay: 144
+    content: i
+  - delay: 240
+    content: t
+  - delay: 115
+    content: "\r\n\e(B\e[0;1mBye\r\n\e(B\e[m\e]3008;end=536cfc6d-e3ce-421b-b9a2-dfa9160e6cdf;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=1870683a-55be-41d2-b1a6-4b8851c991d6;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 445
+    content: sudo mysql
+  - delay: 789
+    content: "\b\b\b\b\b\b\b\b\b\b\e[2P./test1 "
+  - delay: 743
+    content: "\r\n\e[?2004l\r"
+  - delay: 7
+    content: "\e]3008;start=36696ee6-be6d-43af-8c05-fa72afd4e24e;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\\e]3008;start=36696ee6-be6d-43af-8c05-fa72afd4e24e;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\Masukkan nama database: "
+  - delay: 1732
+    content: s
+  - delay: 157
+    content: i
+  - delay: 176
+    content: s
+  - delay: 206
+    content: t
+  - delay: 136
+    content: e
+  - delay: 180
+    content: m
+  - delay: 465
+    content: _
+  - delay: 773
+    content: p
+  - delay: 115
+    content: e
+  - delay: 116
+    content: m
+  - delay: 120
+    content: e
+  - delay: 223
+    content: s
+  - delay: 142
+    content: a
+  - delay: 118
+    content: 'n'
+  - delay: 111
+    content: a
+  - delay: 77
+    content: 'n'
+  - delay: 899
+    content: _
+  - delay: 224
+    content: m
+  - delay: 126
+    content: a
+  - delay: 118
+    content: k
+  - delay: 115
+    content: a
+  - delay: 76
+    content: 'n'
+  - delay: 567
+    content: a
+  - delay: 131
+    content: 'n'
+  - delay: 604
+    content: "\r\nMasukkan nama tabel (pisahkan spasi jika lebih dari 1): "
+  - delay: 1440
+    content: p
+  - delay: 76
+    content: e
+  - delay: 117
+    content: m
+  - delay: 538
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 159
+    content: "\b \b"
+  - delay: 1453
+    content: p
+  - delay: 115
+    content: e
+  - delay: 116
+    content: l
+  - delay: 77
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 209
+    content: g
+  - delay: 146
+    content: g
+  - delay: 125
+    content: a
+  - delay: 149
+    content: 'n'
+  - delay: 1342
+    content: ' '
+  - delay: 247
+    content: m
+  - delay: 116
+    content: e
+  - delay: 76
+    content: 'n'
+  - delay: 201
+    content: u
+  - delay: 284
+    content: ' '
+  - delay: 1535
+    content: p
+  - delay: 118
+    content: e
+  - delay: 215
+    content: s
+  - delay: 411
+    content: 'n'
+  - delay: 77
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 892
+    content: "\b \b"
+  - delay: 176
+    content: "\b \b"
+  - delay: 171
+    content: "\b \b"
+  - delay: 927
+    content: a
+  - delay: 155
+    content: 'n'
+  - delay: 159
+    content: a
+  - delay: 126
+    content: 'n'
+  - delay: 891
+    content: "\r\n"
+  - delay: 19
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 15
+    content: "Database sistem_pemesanan_makanan berhasil dibuat!\r\n=== Membuat tabel pelanggan ===\r\nNama kolom: "
+  - delay: 4189
+    content: i
+  - delay: 116
+    content: d
+  - delay: 599
+    content: _
+  - delay: 231
+    content: p
+  - delay: 116
+    content: e
+  - delay: 321
+    content: l
+  - delay: 139
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 205
+    content: g
+  - delay: 139
+    content: g
+  - delay: 115
+    content: a
+  - delay: 137
+    content: 'n'
+  - delay: 1389
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 884
+    content: i
+  - delay: 132
+    content: 'n'
+  - delay: 155
+    content: t
+  - delay: 435
+    content: "\r\nConstraints (opsional): "
+  - delay: 3831
+    content: p
+  - delay: 119
+    content: r
+  - delay: 156
+    content: i
+  - delay: 148
+    content: m
+  - delay: 116
+    content: a
+  - delay: 227
+    content: r
+  - delay: 306
+    content: 'y'
+  - delay: 1616
+    content: ' '
+  - delay: 156
+    content: k
+  - delay: 82
+    content: e
+  - delay: 538
+    content: 'y'
+  - delay: 194
+    content: ' '
+  - delay: 387
+    content: a
+  - delay: 126
+    content: u
+  - delay: 245
+    content: t
+  - delay: 151
+    content: o
+  - delay: 367
+    content: "\b \b"
+  - delay: 159
+    content: "\b \b"
+  - delay: 165
+    content: "\b \b"
+  - delay: 127
+    content: "\b \b"
+  - delay: 3240
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1138
+    content: 'y'
+  - delay: 133
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 2111
+    content: 'n'
+  - delay: 151
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1787
+    content: 'y'
+  - delay: 144
+    content: "\r\nNama kolom: "
+  - delay: 2975
+    content: 'n'
+  - delay: 145
+    content: a
+  - delay: 117
+    content: m
+  - delay: 76
+    content: a
+  - delay: 536
+    content: _
+  - delay: 383
+    content: p
+  - delay: 97
+    content: e
+  - delay: 115
+    content: l
+  - delay: 116
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 236
+    content: g
+  - delay: 154
+    content: g
+  - delay: 121
+    content: a
+  - delay: 123
+    content: 'n'
+  - delay: 1656
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 870
+    content: v
+  - delay: 78
+    content: a
+  - delay: 207
+    content: r
+  - delay: 186
+    content: c
+  - delay: 123
+    content: h
+  - delay: 119
+    content: a
+  - delay: 142
+    content: r
+  - delay: 383
+    content: (
+  - delay: 361
+    content: '1'
+  - delay: 155
+    content: '0'
+  - delay: 156
+    content: '0'
+  - delay: 308
+    content: )
+  - delay: 643
+    content: "\r\nConstraints (opsional): "
+  - delay: 7215
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 2287
+    content: 'n'
+  - delay: 145
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1403
+    content: 'n'
+  - delay: 135
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 889
+    content: 'y'
+  - delay: 113
+    content: "\r\nNama kolom: "
+  - delay: 3196
+    content: 'n'
+  - delay: 405
+    content: o
+  - delay: 1017
+    content: _
+  - delay: 508
+    content: h
+  - delay: 166
+    content: o
+  - delay: 713
+    content: "\b \b"
+  - delay: 457
+    content: p
+  - delay: 2194
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 680
+    content: v
+  - delay: 81
+    content: a
+  - delay: 194
+    content: r
+  - delay: 166
+    content: c
+  - delay: 117
+    content: h
+  - delay: 79
+    content: a
+  - delay: 176
+    content: r
+  - delay: 585
+    content: (
+  - delay: 209
+    content: '1'
+  - delay: 155
+    content: '0'
+  - delay: 145
+    content: '0'
+  - delay: 342
+    content: )
+  - delay: 532
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 147
+    content: "\b \b"
+  - delay: 237
+    content: "\b \b"
+  - delay: 554
+    content: '1'
+  - delay: 340
+    content: '5'
+  - delay: 597
+    content: )
+  - delay: 888
+    content: "\r\nConstraints (opsional): "
+  - delay: 4893
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1331
+    content: 'n'
+  - delay: 135
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1084
+    content: 'n'
+  - delay: 372
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 834
+    content: 'y'
+  - delay: 482
+    content: "\r\nNama kolom: "
+  - delay: 738
+    content: a
+  - delay: 162
+    content: l
+  - delay: 123
+    content: a
+  - delay: 38
+    content: m
+  - delay: 897
+    content: a
+  - delay: 211
+    content: t
+  - delay: 1485
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 857
+    content: v
+  - delay: 104
+    content: a
+  - delay: 203
+    content: r
+  - delay: 169
+    content: c
+  - delay: 129
+    content: h
+  - delay: 117
+    content: a
+  - delay: 155
+    content: r
+  - delay: 397
+    content: (
+  - delay: 243
+    content: '1'
+  - delay: 156
+    content: '0'
+  - delay: 146
+    content: '0'
+  - delay: 1608
+    content: )
+  - delay: 1146
+    content: "\r\nConstraints (opsional): "
+  - delay: 2474
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1320
+    content: 'n'
+  - delay: 347
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1681
+    content: 'n'
+  - delay: 500
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1400
+    content: 'n'
+  - delay: 302
+    content: "\r\n"
+  - delay: 20
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 52
+    content: "Tabel pelanggan berhasil dibuat!\r\nApakah ingin langsung mengisi data ke tabel pelanggan? (y/n): "
+  - delay: 2492
+    content: 'y'
+  - delay: 381
+    content: "\r\n"
+  - delay: 21
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 22
+    content: 'Masukkan nilai untuk nama_pelanggan (varchar(100)): '
+  - delay: 7442
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 117
+    content: d
+  - delay: 124
+    content: i
+  - delay: 2527
+    content: "\b \b"
+  - delay: 168
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 153
+    content: "\b \b"
+  - delay: 465
+    content: A
+  - delay: 405
+    content: 'n'
+  - delay: 152
+    content: d
+  - delay: 189
+    content: i
+  - delay: 1149
+    content: "\r\n"
+  - delay: 11
+    content: 'Masukkan nilai untuk no_hp (varchar(15)): '
+  - delay: 2060
+    content: '0'
+  - delay: 213
+    content: '8'
+  - delay: 615
+    content: '1'
+  - delay: 116
+    content: '2'
+  - delay: 155
+    content: '8'
+  - delay: 115
+    content: '1'
+  - delay: 155
+    content: '8'
+  - delay: 11
+    content: '2'
+  - delay: 143
+    content: '1'
+  - delay: 135
+    content: '7'
+  - delay: 4431
+    content: '7'
+  - delay: 359
+    content: '2'
+  - delay: 687
+    content: '6'
+  - delay: 426
+    content: "\b \b"
+  - delay: 2748
+    content: "\r\n"
+  - delay: 11
+    content: 'Masukkan nilai untuk alamat (varchar(100)): '
+  - delay: 1121
+    content: J
+  - delay: 385
+    content: l
+  - delay: 639
+    content: .
+  - delay: 1029
+    content: m
+  - delay: 77
+    content: e
+  - delay: 133
+    content: r
+  - delay: 137
+    content: a
+  - delay: 201
+    content: k
+  - delay: 450
+    content: "\b \b"
+  - delay: 161
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 147
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 282
+    content: M
+  - delay: 475
+    content: e
+  - delay: 192
+    content: r
+  - delay: 117
+    content: a
+  - delay: 159
+    content: k
+  - delay: 1674
+    content: "\r\n"
+  - delay: 17
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 17
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel pelanggan? (y/n): "
+  - delay: 2244
+    content: 'y'
+  - delay: 147
+    content: "\r\n"
+  - delay: 10
+    content: 'Masukkan nilai untuk nama_pelanggan (varchar(100)): '
+  - delay: 1153
+    content: R
+  - delay: 367
+    content: d
+  - delay: 116
+    content: i
+  - delay: 187
+    content: h
+  - delay: 342
+    content: "\b \b"
+  - delay: 166
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 407
+    content: i
+  - delay: 399
+    content: d
+  - delay: 155
+    content: h
+  - delay: 116
+    content: o
+  - delay: 3439
+    content: "\r\n"
+  - delay: 10
+    content: 'Masukkan nilai untuk no_hp (varchar(15)): '
+  - delay: 1894
+    content: '1'
+  - delay: 1110
+    content: "\b \b"
+  - delay: 350
+    content: '0'
+  - delay: 249
+    content: '8'
+  - delay: 593
+    content: '1'
+  - delay: 116
+    content: '7'
+  - delay: 164
+    content: '1'
+  - delay: 556
+    content: '6'
+  - delay: 115
+    content: '2'
+  - delay: 161
+    content: '5'
+  - delay: 144
+    content: '1'
+  - delay: 503
+    content: '4'
+  - delay: 342
+    content: '5'
+  - delay: 869
+    content: "\r\n"
+  - delay: 10
+    content: 'Masukkan nilai untuk alamat (varchar(100)): '
+  - delay: 2340
+    content: J
+  - delay: 527
+    content: l
+  - delay: 782
+    content: .
+  - delay: 1422
+    content: P
+  - delay: 305
+    content: u
+  - delay: 187
+    content: 'n'
+  - delay: 117
+    content: c
+  - delay: 155
+    content: a
+  - delay: 121
+    content: k
+  - delay: 6648
+    content: "\r\n"
+  - delay: 21
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 23
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel pelanggan? (y/n): "
+  - delay: 1384
+    content: 'y'
+  - delay: 560
+    content: "\r\n"
+  - delay: 15
+    content: 'Masukkan nilai untuk nama_pelanggan (varchar(100)): '
+  - delay: 2381
+    content: F
+  - delay: 123
+    content: A
+  - delay: 401
+    content: "\b \b"
+  - delay: 513
+    content: a
+  - delay: 207
+    content: z
+  - delay: 185
+    content: i
+  - delay: 184
+    content: l
+  - delay: 1479
+    content: "\r\n"
+  - delay: 10
+    content: 'Masukkan nilai untuk no_hp (varchar(15)): '
+  - delay: 1900
+    content: '0'
+  - delay: 249
+    content: '8'
+  - delay: 550
+    content: '7'
+  - delay: 118
+    content: '1'
+  - delay: 124
+    content: '6'
+  - delay: 155
+    content: '1'
+  - delay: 40
+    content: '2'
+  - delay: 184
+    content: '5'
+  - delay: 437
+    content: '4'
+  - delay: 126
+    content: '1'
+  - delay: 343
+    content: '3'
+  - delay: 259
+    content: '4'
+  - delay: 2526
+    content: "\r\n"
+  - delay: 10
+    content: 'Masukkan nilai untuk alamat (varchar(100)): '
+  - delay: 5500
+    content: J
+  - delay: 233
+    content: l
+  - delay: 526
+    content: .
+  - delay: 1041
+    content: M
+  - delay: 271
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 493
+    content: d
+  - delay: 117
+    content: o
+  - delay: 167
+    content: r
+  - delay: 140
+    content: a
+  - delay: 118
+    content: 'n'
+  - delay: 839
+    content: "\r\n"
+  - delay: 24
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 19
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel pelanggan? (y/n): "
+  - delay: 1170
+    content: 'n'
+  - delay: 868
+    content: "\r\n=== Membuat tabel menu ===\r\nNama kolom: "
+  - delay: 5718
+    content: i
+  - delay: 604
+    content: d
+  - delay: 809
+    content: _
+  - delay: 281
+    content: m
+  - delay: 115
+    content: e
+  - delay: 115
+    content: 'n'
+  - delay: 137
+    content: u
+  - delay: 914
+    content: ' '
+  - delay: 535
+    content: "\b \b"
+  - delay: 456
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 1023
+    content: i
+  - delay: 144
+    content: 'n'
+  - delay: 139
+    content: t
+  - delay: 631
+    content: "\r\nConstraints (opsional): "
+  - delay: 1626
+    content: a
+  - delay: 524
+    content: "\b \b"
+  - delay: 612
+    content: p
+  - delay: 201
+    content: r
+  - delay: 163
+    content: i
+  - delay: 656
+    content: m
+  - delay: 129
+    content: a
+  - delay: 283
+    content: r
+  - delay: 208
+    content: 'y'
+  - delay: 439
+    content: ' '
+  - delay: 140
+    content: k
+  - delay: 127
+    content: e
+  - delay: 223
+    content: 'y'
+  - delay: 1511
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1091
+    content: 'y'
+  - delay: 400
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1236
+    content: 'n'
+  - delay: 226
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 2560
+    content: 'y'
+  - delay: 202
+    content: "\r\nNama kolom: "
+  - delay: 2077
+    content: 'n'
+  - delay: 93
+    content: a
+  - delay: 122
+    content: m
+  - delay: 131
+    content: a
+  - delay: 438
+    content: )
+  - delay: 579
+    content: "\b \b"
+  - delay: 573
+    content: _
+  - delay: 461
+    content: m
+  - delay: 118
+    content: e
+  - delay: 173
+    content: 'n'
+  - delay: 148
+    content: u
+  - delay: 1244
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 1180
+    content: v
+  - delay: 83
+    content: a
+  - delay: 196
+    content: r
+  - delay: 174
+    content: c
+  - delay: 155
+    content: h
+  - delay: 87
+    content: a
+  - delay: 141
+    content: r
+  - delay: 443
+    content: (
+  - delay: 958
+    content: '1'
+  - delay: 124
+    content: '0'
+  - delay: 164
+    content: '0'
+  - delay: 269
+    content: )
+  - delay: 2617
+    content: "\r\nConstraints (opsional): "
+  - delay: 2946
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 2116
+    content: 'n'
+  - delay: 1250
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 876
+    content: 'n'
+  - delay: 176
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1502
+    content: 'y'
+  - delay: 161
+    content: "\r\nNama kolom: "
+  - delay: 1939
+    content: h
+  - delay: 84
+    content: a
+  - delay: 152
+    content: r
+  - delay: 155
+    content: g
+  - delay: 101
+    content: a
+  - delay: 1391
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 747
+    content: d
+  - delay: 142
+    content: e
+  - delay: 358
+    content: c
+  - delay: 357
+    content: i
+  - delay: 141
+    content: m
+  - delay: 118
+    content: a
+  - delay: 140
+    content: l
+  - delay: 1708
+    content: (
+  - delay: 1036
+    content: '1'
+  - delay: 166
+    content: '0'
+  - delay: 903
+    content: ','
+  - delay: 275
+    content: '2'
+  - delay: 436
+    content: )
+  - delay: 3636
+    content: "\r\nConstraints (opsional): "
+  - delay: 3435
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1357
+    content: 'n'
+  - delay: 546
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1324
+    content: 'n'
+  - delay: 874
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 868
+    content: 'y'
+  - delay: 516
+    content: "\r\nNama kolom: "
+  - delay: 2186
+    content: k
+  - delay: 140
+    content: a
+  - delay: 161
+    content: t
+  - delay: 139
+    content: e
+  - delay: 678
+    content: g
+  - delay: 120
+    content: o
+  - delay: 169
+    content: t
+  - delay: 200
+    content: i
+  - delay: 276
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 128
+    content: r
+  - delay: 170
+    content: i
+  - delay: 176
+    content: ' '
+  - delay: 2250
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 944
+    content: v
+  - delay: 93
+    content: a
+  - delay: 212
+    content: r
+  - delay: 194
+    content: c
+  - delay: 144
+    content: h
+  - delay: 117
+    content: a
+  - delay: 155
+    content: r
+  - delay: 756
+    content: (
+  - delay: 1658
+    content: '5'
+  - delay: 114
+    content: '0'
+  - delay: 757
+    content: )
+  - delay: 2983
+    content: "\r\nConstraints (opsional): "
+  - delay: 1303
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1599
+    content: 'n'
+  - delay: 427
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1475
+    content: 'n'
+  - delay: 161
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1486
+    content: 'n'
+  - delay: 754
+    content: "\r\n"
+  - delay: 21
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 28
+    content: "Tabel menu berhasil dibuat!\r\nApakah ingin langsung mengisi data ke tabel menu? (y/n): "
+  - delay: 1933
+    content: 'y'
+  - delay: 141
+    content: "\r\n"
+  - delay: 18
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 25
+    content: 'Masukkan nilai untuk nama_menu (varchar(100)): '
+  - delay: 7287
+    content: 'n'
+  - delay: 564
+    content: "\b \b"
+  - delay: 665
+    content: 'N'
+  - delay: 344
+    content: a
+  - delay: 440
+    content: s
+  - delay: 161
+    content: i
+  - delay: 653
+    content: ' '
+  - delay: 1187
+    content: G
+  - delay: 481
+    content: o
+  - delay: 233
+    content: r
+  - delay: 339
+    content: e
+  - delay: 178
+    content: 'n'
+  - delay: 188
+    content: g
+  - delay: 3207
+    content: "\r\n"
+  - delay: 15
+    content: 'Masukkan nilai untuk harga (decimal(10,2)): '
+  - delay: 2150
+    content: '2'
+  - delay: 166
+    content: '0'
+  - delay: 145
+    content: '0'
+  - delay: 141
+    content: '0'
+  - delay: 3012
+    content: '0'
+  - delay: 2700
+    content: .
+  - delay: 372
+    content: '0'
+  - delay: 143
+    content: '0'
+  - delay: 1533
+    content: "\r\n"
+  - delay: 11
+    content: 'Masukkan nilai untuk kategori (varchar(50)): '
+  - delay: 2122
+    content: M
+  - delay: 443
+    content: a
+  - delay: 177
+    content: k
+  - delay: 77
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 115
+    content: a
+  - delay: 96
+    content: 'n'
+  - delay: 2617
+    content: "\r\n"
+  - delay: 11
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 19
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel menu? (y/n): "
+  - delay: 3224
+    content: 'y'
+  - delay: 289
+    content: "\r\n"
+  - delay: 15
+    content: 'Masukkan nilai untuk nama_menu (varchar(100)): '
+  - delay: 1310
+    content: M
+  - delay: 235
+    content: i
+  - delay: 126
+    content: e
+  - delay: 171
+    content: ' '
+  - delay: 648
+    content: A
+  - delay: 395
+    content: 'y'
+  - delay: 167
+    content: a
+  - delay: 742
+    content: m
+  - delay: 710
+    content: "\r\n"
+  - delay: 11
+    content: 'Masukkan nilai untuk harga (decimal(10,2)): '
+  - delay: 997
+    content: '1'
+  - delay: 154
+    content: '5'
+  - delay: 1198
+    content: '0'
+  - delay: 157
+    content: '0'
+  - delay: 2658
+    content: '0'
+  - delay: 565
+    content: .
+  - delay: 302
+    content: '0'
+  - delay: 136
+    content: '0'
+  - delay: 1424
+    content: "\r\n"
+  - delay: 15
+    content: 'Masukkan nilai untuk kategori (varchar(50)): '
+  - delay: 1696
+    content: M
+  - delay: 275
+    content: a
+  - delay: 116
+    content: k
+  - delay: 115
+    content: a
+  - delay: 78
+    content: 'n'
+  - delay: 105
+    content: a
+  - delay: 86
+    content: 'n'
+  - delay: 2291
+    content: "\r\n"
+  - delay: 21
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 19
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel menu? (y/n): "
+  - delay: 1576
+    content: 'y'
+  - delay: 544
+    content: "\r\n"
+  - delay: 11
+    content: 'Masukkan nilai untuk nama_menu (varchar(100)): '
+  - delay: 1981
+    content: R
+  - delay: 356
+    content: "\b \b"
+  - delay: 399
+    content: E
+  - delay: 550
+    content: s
+  - delay: 731
+    content: ' '
+  - delay: 262
+    content: T
+  - delay: 295
+    content: e
+  - delay: 116
+    content: h
+  - delay: 2202
+    content: '5'
+  - delay: 485
+    content: "\b \b"
+  - delay: 1128
+    content: "\r\n"
+  - delay: 12
+    content: 'Masukkan nilai untuk harga (decimal(10,2)): '
+  - delay: 1206
+    content: '5'
+  - delay: 955
+    content: '0'
+  - delay: 152
+    content: '0'
+  - delay: 142
+    content: '0'
+  - delay: 2831
+    content: .
+  - delay: 723
+    content: '0'
+  - delay: 147
+    content: '0'
+  - delay: 5004
+    content: "\r\n"
+  - delay: 12
+    content: 'Masukkan nilai untuk kategori (varchar(50)): '
+  - delay: 1049
+    content: M
+  - delay: 239
+    content: i
+  - delay: 173
+    content: 'n'
+  - delay: 170
+    content: u
+  - delay: 201
+    content: m
+  - delay: 116
+    content: a
+  - delay: 123
+    content: 'n'
+  - delay: 2672
+    content: "\r\n"
+  - delay: 22
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 20
+    content: "Data berhasil dimasukkan!\r\nTambah data lagi di tabel menu? (y/n): "
+  - delay: 1398
+    content: 'n'
+  - delay: 1560
+    content: "\r\n=== Membuat tabel pesanan ===\r\nNama kolom: "
+  - delay: 7342
+    content: i
+  - delay: 79
+    content: d
+  - delay: 679
+    content: _
+  - delay: 854
+    content: d
+  - delay: 158
+    content: e
+  - delay: 351
+    content: t
+  - delay: 114
+    content: a
+  - delay: 192
+    content: i
+  - delay: 199
+    content: l
+  - delay: 1439
+    content: ' '
+  - delay: 375
+    content: i
+  - delay: 138
+    content: 'n'
+  - delay: 116
+    content: t
+  - delay: 134
+    content: ' '
+  - delay: 1070
+    content: a
+  - delay: 258
+    content: u
+  - delay: 198
+    content: t
+  - delay: 145
+    content: o
+  - delay: 504
+    content: _
+  - delay: 1591
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 143
+    content: "\b \b"
+  - delay: 152
+    content: "\b \b"
+  - delay: 152
+    content: "\b \b"
+  - delay: 139
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 305
+    content: "\b \b"
+  - delay: 2468
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 1265
+    content: i
+  - delay: 137
+    content: 'n'
+  - delay: 130
+    content: t
+  - delay: 2505
+    content: "\r\nConstraints (opsional): "
+  - delay: 805
+    content: a
+  - delay: 259
+    content: u
+  - delay: 230
+    content: t
+  - delay: 193
+    content: o
+  - delay: 350
+    content: _
+  - delay: 761
+    content: i
+  - delay: 148
+    content: 'n'
+  - delay: 196
+    content: c
+  - delay: 607
+    content: "\b \b"
+  - delay: 159
+    content: "\b \b"
+  - delay: 165
+    content: "\b \b"
+  - delay: 145
+    content: "\b \b"
+  - delay: 407
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 146
+    content: "\b \b"
+  - delay: 158
+    content: "\b \b"
+  - delay: 2174
+    content: p
+  - delay: 128
+    content: r
+  - delay: 154
+    content: i
+  - delay: 197
+    content: m
+  - delay: 117
+    content: a
+  - delay: 249
+    content: r
+  - delay: 170
+    content: 'y'
+  - delay: 310
+    content: ' '
+  - delay: 140
+    content: k
+  - delay: 134
+    content: e
+  - delay: 160
+    content: 'y'
+  - delay: 517
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 789
+    content: 'y'
+  - delay: 116
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 3001
+    content: 'n'
+  - delay: 1931
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1587
+    content: 'y'
+  - delay: 127
+    content: "\r\nNama kolom: "
+  - delay: 1556
+    content: i
+  - delay: 116
+    content: d
+  - delay: 184
+    content: '-'
+  - delay: 392
+    content: "\b \b"
+  - delay: 619
+    content: _
+  - delay: 541
+    content: p
+  - delay: 85
+    content: e
+  - delay: 115
+    content: m
+  - delay: 116
+    content: e
+  - delay: 194
+    content: s
+  - delay: 153
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 77
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 1212
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 707
+    content: i
+  - delay: 140
+    content: 'n'
+  - delay: 175
+    content: t
+  - delay: 3892
+    content: "\r\nConstraints (opsional): "
+  - delay: 19513
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1733
+    content: 'y'
+  - delay: 1766
+    content: "\b \b"
+  - delay: 418
+    content: 'n'
+  - delay: 468
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 5161
+    content: 'y'
+  - delay: 987
+    content: "\r\nTabel referensi: "
+  - delay: 6011
+    content: p
+  - delay: 116
+    content: e
+  - delay: 1136
+    content: s
+  - delay: 150
+    content: a
+  - delay: 115
+    content: 'n'
+  - delay: 99
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 1013
+    content: "\r\nKolom referensi: "
+  - delay: 2070
+    content: i
+  - delay: 86
+    content: d
+  - delay: 402
+    content: _
+  - delay: 606
+    content: p
+  - delay: 750
+    content: e
+  - delay: 394
+    content: s
+  - delay: 165
+    content: a
+  - delay: 39
+    content: 'n'
+  - delay: 147
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 2633
+    content: "\r\nTambahkan ON DELETE CASCADE? (y/n): "
+  - delay: 1876
+    content: 'n'
+  - delay: 134
+    content: "\r\nTambahkan ON UPDATE CASCADE? (y/n): "
+  - delay: 534
+    content: 'n'
+  - delay: 394
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1289
+    content: 'y'
+  - delay: 417
+    content: "\r\nNama kolom: "
+  - delay: 2738
+    content: i
+  - delay: 121
+    content: d
+  - delay: 311
+    content: _
+  - delay: 491
+    content: m
+  - delay: 87
+    content: e
+  - delay: 154
+    content: 'n'
+  - delay: 456
+    content: u
+  - delay: 813
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 643
+    content: i
+  - delay: 140
+    content: 'n'
+  - delay: 121
+    content: t
+  - delay: 171
+    content: "\r\nConstraints (opsional): "
+  - delay: 4372
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 2019
+    content: 'n'
+  - delay: 115
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 3676
+    content: 'y'
+  - delay: 121
+    content: "\r\nTabel referensi: "
+  - delay: 10436
+    content: m
+  - delay: 116
+    content: e
+  - delay: 116
+    content: 'n'
+  - delay: 153
+    content: u
+  - delay: 513
+    content: "\r\nKolom referensi: "
+  - delay: 1254
+    content: _
+  - delay: 403
+    content: "\b \b"
+  - delay: 510
+    content: i
+  - delay: 115
+    content: d
+  - delay: 268
+    content: _
+  - delay: 287
+    content: m
+  - delay: 115
+    content: e
+  - delay: 122
+    content: 'n'
+  - delay: 166
+    content: u
+  - delay: 1284
+    content: "\r\nTambahkan ON DELETE CASCADE? (y/n): "
+  - delay: 1888
+    content: 'n'
+  - delay: 143
+    content: "\r\nTambahkan ON UPDATE CASCADE? (y/n): "
+  - delay: 492
+    content: 'n'
+  - delay: 281
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1619
+    content: 'n'
+  - delay: 2221
+    content: "\b \b"
+  - delay: 672
+    content: 'y'
+  - delay: 1817
+    content: "\r\nNama kolom: "
+  - delay: 1879
+    content: j
+  - delay: 162
+    content: u
+  - delay: 176
+    content: m
+  - delay: 503
+    content: l
+  - delay: 111
+    content: a
+  - delay: 133
+    content: h
+  - delay: 983
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 737
+    content: i
+  - delay: 127
+    content: 'n'
+  - delay: 137
+    content: t
+  - delay: 514
+    content: "\r\nConstraints (opsional): "
+  - delay: 1954
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1419
+    content: 'n'
+  - delay: 128
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 753
+    content: 'n'
+  - delay: 312
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 3850
+    content: 'y'
+  - delay: 503
+    content: "\r\nNama kolom: "
+  - delay: 1372
+    content: j
+  - delay: 178
+    content: u
+  - delay: 167
+    content: m
+  - delay: 182
+    content: l
+  - delay: 180
+    content: a
+  - delay: 137
+    content: h
+  - delay: 1232
+    content: "\r\nTipe data (INT, VARCHAR(50), DATE, YEAR, dll): "
+  - delay: 2272
+    content: v
+  - delay: 76
+    content: a
+  - delay: 190
+    content: r
+  - delay: 184
+    content: c
+  - delay: 114
+    content: h
+  - delay: 76
+    content: a
+  - delay: 150
+    content: r
+  - delay: 1104
+    content: (
+  - delay: 247
+    content: '1'
+  - delay: 125
+    content: '0'
+  - delay: 145
+    content: '0'
+  - delay: 296
+    content: )
+  - delay: 2443
+    content: "\r\nConstraints (opsional): "
+  - delay: 1088
+    content: "\r\nAuto Increment? (y/n): "
+  - delay: 1720
+    content: 'n'
+  - delay: 130
+    content: "\r\nApakah kolom ini foreign key? (y/n): "
+  - delay: 1389
+    content: 'n'
+  - delay: 128
+    content: "\r\nTambah kolom lagi? (y/n): "
+  - delay: 1119
+    content: 'n'
+  - delay: 344
+    content: "\r\n"
+  - delay: 17
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\r\n"
+  - delay: 18
+    content: "--------------\r\r\nCREATE TABLE IF NOT EXISTS pesanan (id_detail int PRIMARY KEY AUTO_INCREMENT, id_pemesanan int , id_menu int , jumlah int , jumlah varchar(100) , FOREIGN KEY (id_pemesanan) REFERENCES pesanan(id_pesanan), FOREIGN KEY (id_menu) REFERENCES menu(id_menu))\r\r\n--------------\r\r\n\r\r\nERROR 1060 (42S21) at line 2: Duplicate column name 'jumlah'\r\r\nTabel pesanan berhasil dibuat!\r\nApakah ingin langsung mengisi data ke tabel pesanan? (y/n): "
+  - delay: 7283
+    content: 'n'
+  - delay: 144
+    content: "\r\n=== Semua selesai! ===\r\n\e]3008;end=36696ee6-be6d-43af-8c05-fa72afd4e24e;exit=success\e\\"
+  - delay: 10
+    content: "\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=fb214e9b-da09-445a-ba44-31e99d09b67e;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 1917
+    content: './test1 '
+  - delay: 702
+    content: "\b\b\b\b\b\b\b\bsudo mysql"
+  - delay: 1868
+    content: "\r\n\e[?2004l\r"
+  - delay: 8
+    content: "\e]3008;start=d60cd582-f7b6-4663-bd4c-3b43ddc49541;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\\e]3008;start=d60cd582-f7b6-4663-bd4c-3b43ddc49541;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=command;cwd=/home/kiruya\e\\"
+  - delay: 9
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\n"
+  - delay: 12
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 227\r\nServer version: 12.1.2-MariaDB Arch Linux\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[m\e[?1034hMariaDB [(none)]> "
+  - delay: 1042
+    content: drop database sistem_pemesanan_makana;
+  - delay: 711
+    content: "\b\e[K"
+  - delay: 424
+    content: ;
+  - delay: 145
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K"
+  - delay: 143
+    content: "\a"
+  - delay: 615
+    content: s
+  - delay: 116
+    content: h
+  - delay: 170
+    content: w
+  - delay: 437
+    content: "\b\e[K"
+  - delay: 155
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 435
+    content: u
+  - delay: 78
+    content: s
+  - delay: 171
+    content: e
+  - delay: 114
+    content: ' '
+  - delay: 337
+    content: d
+  - delay: 118
+    content: a
+  - delay: 154
+    content: t
+  - delay: 93
+    content: a
+  - delay: 116
+    content: b
+  - delay: 336
+    content: "\b\e[K"
+  - delay: 195
+    content: "\b\e[K"
+  - delay: 154
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 143
+    content: "\b\e[K"
+  - delay: 950
+    content: p
+  - delay: 117
+    content: e
+  - delay: 116
+    content: m
+  - delay: 76
+    content: e
+  - delay: 473
+    content: s
+  - delay: 177
+    content: a
+  - delay: 116
+    content: 'n'
+  - delay: 136
+    content: a
+  - delay: 144
+    content: "\b\e[K"
+  - delay: 146
+    content: "\b\e[K"
+  - delay: 139
+    content: "\b\e[K"
+  - delay: 142
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 143
+    content: "\b\e[K"
+  - delay: 149
+    content: "\b\e[K"
+  - delay: 133
+    content: "\b\e[K"
+  - delay: 197
+    content: s
+  - delay: 155
+    content: i
+  - delay: 77
+    content: s
+  - delay: 152
+    content: t
+  - delay: 149
+    content: e
+  - delay: 156
+    content: m
+  - delay: 539
+    content: _
+  - delay: 284
+    content: p
+  - delay: 122
+    content: e
+  - delay: 157
+    content: m
+  - delay: 194
+    content: e
+  - delay: 241
+    content: s
+  - delay: 231
+    content: a
+  - delay: 407
+    content: b
+  - delay: 118
+    content: a
+  - delay: 75
+    content: b
+  - delay: 390
+    content: "\b\e[K"
+  - delay: 155
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 401
+    content: 'n'
+  - delay: 88
+    content: a
+  - delay: 117
+    content: 'n'
+  - delay: 503
+    content: "\r\nERROR 1049 (42000): Unknown database 'sistem_pemesanan'\r\n\a\e(B\e[0;7m\e(B\e[mMariaDB [(none)]> "
+  - delay: 1612
+    content: use sistem_pemesanan
+  - delay: 445
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cdrop database sistem_pemesanan_makana;"
+  - delay: 687
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[18Puse sistem_pemesanan"
+  - delay: 157
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K"
+  - delay: 377
+    content: use sistem_pemesanan
+  - delay: 180
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cdrop database sistem_pemesanan_makana;"
+  - delay: 148
+    content: "\b\e[K"
+  - delay: 302
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[22Pshow databases;"
+  - delay: 161
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bdrop database sistem pemesanan makanan;"
+  - delay: 411
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[24Pshow databases;"
+  - delay: 949
+    content: "\r\n+--------------------------+\r\n| Database                 |\r\n+--------------------------+\r\n| coba                     |\r\n| coba10                   |\r\n| coba4                    |\r\n| demo                     |\r\n| dodo                     |\r\n| emas                     |\r\n| information_schema       |\r\n| mysql                    |\r\n| performance_schema       |\r\n| sembako                  |\r\n| sistem_pemesanan_makanan |\r\n| sys                      |\r\n| test                     |\r\n| test2                    |\r\n| toko                     |\r\n| uas                      |\r\n+--------------------------+\r\n\e(B\e[0;1m16 rows in set (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [(none)]> "
+  - delay: 5101
+    content: ^C
+  - delay: 660
+    content: "\b\bshow databases;"
+  - delay: 3010
+    content: "\a"
+  - delay: 371
+    content: "\b\e[K"
+  - delay: 172
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 111
+    content: "\b\e[K"
+  - delay: 631
+    content: "\b\e[K"
+  - delay: 39
+    content: "\b\e[K"
+  - delay: 39
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 39
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 39
+    content: "\b\e[K"
+  - delay: 41
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 40
+    content: "\b\e[K"
+  - delay: 39
+    content: "\a"
+  - delay: 41
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 50
+    content: e
+  - delay: 265
+    content: x
+  - delay: 211
+    content: i
+  - delay: 188
+    content: t
+  - delay: 179
+    content: "\r\n\e(B\e[0;1mBye\r\n\e(B\e[m\e]3008;end=d60cd582-f7b6-4663-bd4c-3b43ddc49541;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]3008;end=5c76147b-f0e1-44b7-9989-7114b7b66e0c;exit=success\e\\\e]3008;start=5b2dcc31-62cc-4ca0-ab6e-25bbc829fc3a;machineid=9c3e3992d8274389b303b22e13fdb996;user=kiruya;hostname=eyerise;bootid=0dc9fb86-c5c3-4a91-85bf-f051c78e8d05;pid=131492;type=shell;cwd=/home/kiruya\e\\\e]0;kiruya@eyerise:~\a\e[?2004h[kiruya@eyerise ~]$ "
+  - delay: 1319
+    content: sudo mysql
+  - delay: 576
+    content: "\b\b\b\b\b\b\b\b\b\b\e[K"
+  - delay: 907
+    content: "\e[?2004l\r\r\nlogout\r\n"
